@@ -20,6 +20,10 @@ Use [START-HERE.md](START-HERE.md) first.
 | [quality-gates.md](quality-gates.md) | reviewers and agents | quality, confidentiality, and anti-drift checks |
 | [implementation-sprint-plan.md](implementation-sprint-plan.md) | operators | 90-day pilot operating plan |
 | [flowcharts/](flowcharts/) | everyone | Mermaid visual library explaining the Module 1 operating system |
+| [calibration-pack/](calibration-pack/) | reviewers and facilitators | weak, repairable, and field-ready scoring examples |
+| [cohort-ops/](cohort-ops/) | facilitators and academy owners | pilot test protocol, feedback log, and certification board |
+| [release-pack/](release-pack/) | academy owners | release checklist and version log |
+| [qa/](qa/) | academy operators | validation reports and release evidence |
 | [template-pack/](template-pack/) | learners and facilitators | blank worksheets |
 | [example-pack/](example-pack/) | learners and facilitators | anonymized composite completed examples |
 | [exports/](exports/) | academy operations | PDF, Docs, Notion, and slide export notes |
@@ -52,3 +56,14 @@ If someone is new to the module, use this sequence:
 4. [START-HERE.md](START-HERE.md)
 5. [module-field-guide.md](module-field-guide.md)
 6. [workbook-print-edition.md](workbook-print-edition.md)
+
+## Operating System Path
+
+Use this sequence when validating or releasing the module:
+
+1. [../../../ACADEMY-OS.md](../../../ACADEMY-OS.md)
+2. [../../../docs/quality-assurance-system.md](../../../docs/quality-assurance-system.md)
+3. [calibration-pack/README.md](calibration-pack/README.md)
+4. [cohort-ops/pilot-test-protocol.md](cohort-ops/pilot-test-protocol.md)
+5. [flowcharts/visual-render-qa.md](flowcharts/visual-render-qa.md)
+6. [release-pack/module-release-checklist.md](release-pack/module-release-checklist.md)

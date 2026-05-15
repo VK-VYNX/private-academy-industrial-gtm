@@ -22,20 +22,34 @@ Start here:
 
 [modules/module-01-industrial-demand-generation/delivery-pack/START-HERE.md](modules/module-01-industrial-demand-generation/delivery-pack/START-HERE.md)
 
+Operating system:
+
+[ACADEMY-OS.md](ACADEMY-OS.md)
+
 Visual orientation:
 
 [modules/module-01-industrial-demand-generation/delivery-pack/flowcharts/README.md](modules/module-01-industrial-demand-generation/delivery-pack/flowcharts/README.md)
+
+Validation:
+
+[scripts/README.md](scripts/README.md)
 
 ## Repository Structure
 
 ```text
 private-academy-industrial-gtm/
 |-- README.md
+|-- ACADEMY-OS.md
+|-- .academy/
+|   `-- restricted-names.example.txt
 |-- docs/
 |   |-- academy-operating-rules.md
+|   |-- quality-assurance-system.md
+|   |-- release-system.md
 |   `-- source-lineage.md
 |-- modules/
 |   `-- module-01-industrial-demand-generation/
+|-- scripts/
 |-- templates/
 `-- .gitignore
 ```
@@ -69,3 +83,16 @@ This academy repo was split out from the private master intelligence repository:
 `VK-VYNX/master-industrial-gtm-intelligence`
 
 The master repository remains the upstream source-of-truth intelligence system. This repo is the dedicated delivery and training layer.
+
+## Academy-Grade Operating Layer
+
+Module 1 now includes the operating controls needed to run it as a private academy system:
+
+- automated validation scripts;
+- visual render QA process for Mermaid diagrams;
+- scorer calibration examples;
+- cohort pilot protocol;
+- certification board format;
+- release checklist and version log.
+
+Start with [ACADEMY-OS.md](ACADEMY-OS.md) when operating, validating, or releasing the academy.

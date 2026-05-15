@@ -13,6 +13,10 @@ This folder documents how to turn the delivery pack into non-GitHub formats.
 | capstone packet PDF | `../artifact-submission-pack.md`, `../template-pack/review-scorecard.md` |
 | implementation sprint PDF | `../implementation-sprint-plan.md` |
 | visual guide PDF | `../flowcharts/README.md`, `../flowcharts/concept-coverage-matrix.md`, `../flowcharts/*.md` |
+| rendered flowchart QA | `rendered-flowcharts/render-report.md`, `rendered-flowcharts/contact-sheet.md`, `rendered-flowcharts/*.svg` |
+| calibration PDF | `../calibration-pack/README.md`, `../calibration-pack/*.md` |
+| cohort operations PDF | `../cohort-ops/README.md`, `../cohort-ops/*.md` |
+| release governance PDF | `../release-pack/README.md`, `../release-pack/*.md` |
 
 ## Google Docs Or Notion
 
@@ -73,3 +77,5 @@ If this becomes a web experience later, use this page order:
 - Examples remain clearly labeled as anonymized composites.
 - No named-company references are introduced during formatting.
 - AI prompts remain separated from final human decisions.
+- Calibration examples remain separate from field-ready client deliverables.
+- Release checklist evidence links are current.

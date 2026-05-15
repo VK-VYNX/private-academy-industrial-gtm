@@ -62,6 +62,19 @@ By the end of the module, learners can:
 | [implementation-checklist.md](implementation-checklist.md) | operator checklist for deploying the pilot |
 | [source-map.md](source-map.md) | repo source references by unit |
 
+## Academy Operating Controls
+
+Module 1 is now managed with an operating layer:
+
+| Control | Use |
+|---|---|
+| [delivery-pack/qa/](delivery-pack/qa/) | validation evidence and QA report location |
+| [delivery-pack/calibration-pack/](delivery-pack/calibration-pack/) | weak, repairable, and field-ready scoring examples |
+| [delivery-pack/cohort-ops/](delivery-pack/cohort-ops/) | pilot cohort protocol, feedback log, and certification board |
+| [delivery-pack/release-pack/](delivery-pack/release-pack/) | release checklist and version log |
+| [delivery-pack/flowcharts/visual-render-qa.md](delivery-pack/flowcharts/visual-render-qa.md) | rendered Mermaid review standard |
+| [../../scripts/README.md](../../scripts/README.md) | repo validation and Mermaid render scripts |
+
 ## Unit Sequence
 
 | Unit | Lesson | Required Artifact |
@@ -122,6 +135,10 @@ The delivery pack includes:
 - 90-day implementation sprint plan;
 - blank templates and anonymized examples;
 - export notes for PDF, Docs, Notion, slides, and static academy pages.
+- calibration pack for reviewer alignment;
+- cohort operations pack for pilot testing;
+- release pack for version and release governance;
+- QA evidence folder for validation reports.
 
 ## Confidentiality Boundary
 

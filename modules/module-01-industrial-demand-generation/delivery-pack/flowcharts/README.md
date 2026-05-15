@@ -8,6 +8,8 @@ Use it when a learner, client team, facilitator, or AI agent needs to see how in
 
 Coverage proof: [concept-coverage-matrix.md](concept-coverage-matrix.md)
 
+Visual render QA: [visual-render-qa.md](visual-render-qa.md)
+
 | Flowchart | Use When |
 |---|---|
 | [00-module-visual-map.md](00-module-visual-map.md) | orienting to the whole module |
@@ -52,6 +54,7 @@ Coverage proof: [concept-coverage-matrix.md](concept-coverage-matrix.md)
 - Operating artifacts should be rectangles.
 - Failure loops should route back to repair, not forward to scale.
 - No named-company examples.
+- Rendered diagrams must be visually reviewed before release-grade use.
 
 ## Recommended Viewing Sequence
 

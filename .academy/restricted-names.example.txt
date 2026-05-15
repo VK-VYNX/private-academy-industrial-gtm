@@ -1,0 +1,4 @@
+# Copy this file to .academy/restricted-names.local.txt for local scans.
+# Do not commit the local file.
+# Add one restricted real company, client, person, or inspiration name per line.
+# Lines starting with # are ignored.

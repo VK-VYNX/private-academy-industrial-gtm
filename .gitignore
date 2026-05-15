@@ -5,3 +5,6 @@ Thumbs.db
 node_modules/
 .env
 .env.*
+.academy/*.local.txt
+.academy/npm-cache/
+modules/module-01-industrial-demand-generation/delivery-pack/exports/rendered-flowcharts/tmp/
