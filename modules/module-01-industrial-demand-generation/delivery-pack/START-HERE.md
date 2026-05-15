@@ -51,6 +51,7 @@ Before going deep, open the visual map:
 - [flowcharts/00-module-visual-map.md](flowcharts/00-module-visual-map.md)
 - [flowcharts/01-industrial-demand-generation-operating-system.md](flowcharts/01-industrial-demand-generation-operating-system.md)
 - [flowcharts/02-demand-states-and-routing.md](flowcharts/02-demand-states-and-routing.md)
+- [flowcharts/concept-coverage-matrix.md](flowcharts/concept-coverage-matrix.md)
 
 ## The Eight Units
 

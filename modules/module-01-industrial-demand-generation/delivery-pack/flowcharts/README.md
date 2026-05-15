@@ -6,6 +6,8 @@ Use it when a learner, client team, facilitator, or AI agent needs to see how in
 
 ## Flowchart Index
 
+Coverage proof: [concept-coverage-matrix.md](concept-coverage-matrix.md)
+
 | Flowchart | Use When |
 |---|---|
 | [00-module-visual-map.md](00-module-visual-map.md) | orienting to the whole module |
@@ -23,6 +25,24 @@ Use it when a learner, client team, facilitator, or AI agent needs to see how in
 | [12-capstone-assembly-map.md](12-capstone-assembly-map.md) | assembling the 90-day pilot capstone |
 | [13-quality-gates-and-failure-modes.md](13-quality-gates-and-failure-modes.md) | reviewing artifacts before field use |
 | [14-90-day-implementation-sprint.md](14-90-day-implementation-sprint.md) | moving from academy artifact to live pilot |
+| [15-learning-rhythm-and-critique-loop.md](15-learning-rhythm-and-critique-loop.md) | running every unit as an implementation cycle |
+| [16-role-operating-model.md](16-role-operating-model.md) | clarifying owner responsibilities across the pilot |
+| [17-source-lineage-and-academy-governance.md](17-source-lineage-and-academy-governance.md) | keeping academy outputs grounded in upstream intelligence |
+| [18-delivery-modes-and-user-paths.md](18-delivery-modes-and-user-paths.md) | routing learners, facilitators, AI operators, sponsors, and RevOps users |
+| [19-artifact-lifecycle.md](19-artifact-lifecycle.md) | moving a worksheet from draft to field-ready operating asset |
+| [20-content-audit-and-gap-prioritization.md](20-content-audit-and-gap-prioritization.md) | deciding what to keep, repair, retire, or build |
+| [21-channel-selection-by-trust-and-stage.md](21-channel-selection-by-trust-and-stage.md) | choosing distribution channels by trust path and demand state |
+| [22-event-and-trade-show-demand-motion.md](22-event-and-trade-show-demand-motion.md) | turning events into account progression systems |
+| [23-distributor-and-partner-signal-motion.md](23-distributor-and-partner-signal-motion.md) | operationalizing distributor, consultant, and partner signals |
+| [24-revops-signal-object-and-data-model.md](24-revops-signal-object-and-data-model.md) | defining the minimum RevOps data model for signal routing |
+| [25-metrics-and-pipeline-quality.md](25-metrics-and-pipeline-quality.md) | separating account-movement metrics from vanity reporting |
+| [26-anti-pattern-correction-system.md](26-anti-pattern-correction-system.md) | diagnosing and repairing recurring failure modes |
+| [27-executive-sponsor-decision-loop.md](27-executive-sponsor-decision-loop.md) | helping leadership approve, repair, or reject a pilot |
+| [28-capstone-scoring-and-certification.md](28-capstone-scoring-and-certification.md) | reviewing capstone quality and certification readiness |
+| [29-confidentiality-and-example-boundary.md](29-confidentiality-and-example-boundary.md) | protecting anonymized composite boundaries |
+| [30-template-system-map.md](30-template-system-map.md) | showing how templates support module delivery and pilot operations |
+| [31-sales-marketing-revops-alignment-loop.md](31-sales-marketing-revops-alignment-loop.md) | aligning sales, marketing, and RevOps around shared definitions and decisions |
+| [32-ai-output-contract-and-rejection-rules.md](32-ai-output-contract-and-rejection-rules.md) | evaluating AI-generated work before human use |
 
 ## Visual Design Rules
 
@@ -32,3 +52,15 @@ Use it when a learner, client team, facilitator, or AI agent needs to see how in
 - Operating artifacts should be rectangles.
 - Failure loops should route back to repair, not forward to scale.
 - No named-company examples.
+
+## Recommended Viewing Sequence
+
+For a serious first pass, use this order:
+
+1. `00` to understand the module.
+2. `01` to understand the whole operating system.
+3. `02` through `10` to understand the industrial demand engine.
+4. `11`, `15`, `19`, and `32` to understand AI-assisted learning and artifact production.
+5. `12`, `13`, `27`, and `28` to understand capstone review and quality.
+6. `14`, `16`, `24`, `25`, and `31` to understand field implementation.
+7. `17`, `29`, and `30` to understand governance, confidentiality, and reusable assets.

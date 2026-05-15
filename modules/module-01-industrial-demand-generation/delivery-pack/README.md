@@ -48,6 +48,7 @@ If someone is new to the module, use this sequence:
 
 1. [flowcharts/00-module-visual-map.md](flowcharts/00-module-visual-map.md)
 2. [flowcharts/01-industrial-demand-generation-operating-system.md](flowcharts/01-industrial-demand-generation-operating-system.md)
-3. [START-HERE.md](START-HERE.md)
-4. [module-field-guide.md](module-field-guide.md)
-5. [workbook-print-edition.md](workbook-print-edition.md)
+3. [flowcharts/concept-coverage-matrix.md](flowcharts/concept-coverage-matrix.md)
+4. [START-HERE.md](START-HERE.md)
+5. [module-field-guide.md](module-field-guide.md)
+6. [workbook-print-edition.md](workbook-print-edition.md)

@@ -12,7 +12,7 @@ This folder documents how to turn the delivery pack into non-GitHub formats.
 | AI operator PDF | `../ai-agent-prompt-library.md`, `../quality-gates.md` |
 | capstone packet PDF | `../artifact-submission-pack.md`, `../template-pack/review-scorecard.md` |
 | implementation sprint PDF | `../implementation-sprint-plan.md` |
-| visual guide PDF | `../flowcharts/README.md`, `../flowcharts/*.md` |
+| visual guide PDF | `../flowcharts/README.md`, `../flowcharts/concept-coverage-matrix.md`, `../flowcharts/*.md` |
 
 ## Google Docs Or Notion
 

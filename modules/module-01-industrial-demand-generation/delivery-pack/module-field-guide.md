@@ -31,6 +31,7 @@ Visual companion:
 
 - [flowcharts/01-industrial-demand-generation-operating-system.md](flowcharts/01-industrial-demand-generation-operating-system.md)
 - [flowcharts/02-demand-states-and-routing.md](flowcharts/02-demand-states-and-routing.md)
+- [flowcharts/concept-coverage-matrix.md](flowcharts/concept-coverage-matrix.md)
 
 ## Core Language
 
@@ -52,6 +53,8 @@ Visual companion:
 Learn to see demand generation as an operating system instead of a lead collection activity.
 
 Visual companion: [flowcharts/01-industrial-demand-generation-operating-system.md](flowcharts/01-industrial-demand-generation-operating-system.md)
+
+Learning loop companion: [flowcharts/15-learning-rhythm-and-critique-loop.md](flowcharts/15-learning-rhythm-and-critique-loop.md)
 
 Produce:
 
@@ -125,6 +128,8 @@ Learn to build buyer-useful content that creates trust, signal, and sales utilit
 
 Visual companion: [flowcharts/06-content-engine-to-signal.md](flowcharts/06-content-engine-to-signal.md)
 
+Audit companion: [flowcharts/20-content-audit-and-gap-prioritization.md](flowcharts/20-content-audit-and-gap-prioritization.md)
+
 Produce:
 
 - content plan by demand state;
@@ -143,6 +148,8 @@ Learn to move beyond publishing into trusted circulation.
 
 Visual companion: [flowcharts/07-distribution-ecosystem.md](flowcharts/07-distribution-ecosystem.md)
 
+Channel companion: [flowcharts/21-channel-selection-by-trust-and-stage.md](flowcharts/21-channel-selection-by-trust-and-stage.md)
+
 Produce:
 
 - distribution plan;
@@ -160,6 +167,8 @@ Where does this insight need to circulate for the buyer to trust it?
 Learn to separate learning intent, solution interest, and vendor intent.
 
 Visual companion: [flowcharts/08-signal-routing-and-account-progression.md](flowcharts/08-signal-routing-and-account-progression.md)
+
+RevOps companion: [flowcharts/24-revops-signal-object-and-data-model.md](flowcharts/24-revops-signal-object-and-data-model.md)
 
 Produce:
 
@@ -182,6 +191,7 @@ Visual companion:
 - [flowcharts/10-weekly-revenue-cadence.md](flowcharts/10-weekly-revenue-cadence.md)
 - [flowcharts/12-capstone-assembly-map.md](flowcharts/12-capstone-assembly-map.md)
 - [flowcharts/14-90-day-implementation-sprint.md](flowcharts/14-90-day-implementation-sprint.md)
+- [flowcharts/25-metrics-and-pipeline-quality.md](flowcharts/25-metrics-and-pipeline-quality.md)
 
 Produce:
 
