@@ -29,6 +29,14 @@ Ask participants to bring:
 - available CRM fields, dashboard screenshots, or weekly meeting notes;
 - known objections from sales, buyers, distributors, or leadership.
 
+Instructor pre-work:
+
+- read [../../docs/academy-content-standard.md](../../docs/academy-content-standard.md);
+- review all eight lesson files before facilitation;
+- choose one anonymized industrial category example to use consistently;
+- prepare one weak artifact and one strong artifact for live critique;
+- confirm that participants understand GitHub is the source of truth and Notion is the review and delivery layer.
+
 ## Facilitation Principles
 
 - Force focus before ideation.

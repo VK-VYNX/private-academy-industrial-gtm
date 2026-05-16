@@ -10,11 +10,13 @@ For Module 1 work inside this dedicated academy repo, read or reference:
 
 1. `../../README.md`
 2. `../../docs/source-lineage.md`
-3. `delivery-pack/START-HERE.md`
-4. `delivery-pack/module-field-guide.md`
-5. `delivery-pack/quality-gates.md`
-6. `delivery-pack/flowcharts/README.md`
-7. `source-map.md`
+3. `../../docs/academy-content-standard.md`
+4. `delivery-pack/START-HERE.md`
+5. `delivery-pack/module-field-guide.md`
+6. the relevant `lessons/*.md` file
+7. `delivery-pack/quality-gates.md`
+8. `delivery-pack/flowcharts/README.md`
+9. `source-map.md`
 
 For deeper source verification, use the upstream private source-of-truth repo:
 

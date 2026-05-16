@@ -41,3 +41,7 @@ Upstream source-of-truth repo:
 ## Confidentiality Rule
 
 Use category-level composites only. Do not include restricted named-company inspiration, private client facts, or invented company case studies.
+
+## Publication Rule
+
+Use [notion-publication-map.md](notion-publication-map.md) to keep GitHub and Notion aligned. The GitHub source is canonical. Notion pages must be updated from this repo after content changes are validated, committed, and pushed.

@@ -47,6 +47,7 @@ private-academy-industrial-gtm/
 |-- .academy/
 |   `-- restricted-names.example.txt
 |-- docs/
+|   |-- academy-content-standard.md
 |   |-- academy-operating-rules.md
 |   |-- quality-assurance-system.md
 |   |-- release-system.md
@@ -100,3 +101,7 @@ Module 1 now includes the operating controls needed to run it as a private acade
 - release checklist and version log.
 
 Start with [ACADEMY-OS.md](ACADEMY-OS.md) when operating, validating, or releasing the academy.
+
+## Content Standard
+
+The academy content standard is defined in [docs/academy-content-standard.md](docs/academy-content-standard.md). It is the rule that prevents Module 1 from becoming a thin curriculum map. Every lesson and delivery page must teach the industrial GTM operating system deeply enough for humans and AI agents to produce field-ready artifacts.

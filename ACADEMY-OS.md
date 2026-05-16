@@ -10,6 +10,7 @@ The upstream intelligence repo remains the source-of-truth research and framewor
 |---|---|---|
 | Source boundary | keeps the academy grounded in master intelligence and confidentiality rules | [docs/source-lineage.md](docs/source-lineage.md) |
 | Academy rules | defines what every module must protect and produce | [docs/academy-operating-rules.md](docs/academy-operating-rules.md) |
+| Content standard | defines the minimum depth required for academy-grade lesson and page content | [docs/academy-content-standard.md](docs/academy-content-standard.md) |
 | Module body | teaches the operating system and produces artifacts | [modules/module-01-industrial-demand-generation/](modules/module-01-industrial-demand-generation/) |
 | Delivery pack | gives learners, facilitators, AI operators, sponsors, and RevOps teams a usable module | [modules/module-01-industrial-demand-generation/delivery-pack/](modules/module-01-industrial-demand-generation/delivery-pack/) |
 | Visual atlas | converts the Module 1 concepts into Mermaid diagrams | [modules/module-01-industrial-demand-generation/delivery-pack/flowcharts/](modules/module-01-industrial-demand-generation/delivery-pack/flowcharts/) |

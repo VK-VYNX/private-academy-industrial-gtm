@@ -24,6 +24,8 @@ The module treats demand generation as an operating system:
 
 Start with the module source map in [source-map.md](source-map.md).
 
+This module must also satisfy the academy content standard in [../../docs/academy-content-standard.md](../../docs/academy-content-standard.md). A page is not academy-grade just because it has the right structure. It must teach the industrial GTM intelligence deeply enough for an operator to make decisions, build artifacts, critique weak work, and run the system.
+
 This dedicated academy repo is the delivery layer. The upstream source-of-truth intelligence repo is:
 
 `https://github.com/VK-VYNX/master-industrial-gtm-intelligence`
@@ -61,6 +63,7 @@ By the end of the module, learners can:
 | [assessment-rubric.md](assessment-rubric.md) | scoring standards for artifacts and capstone |
 | [implementation-checklist.md](implementation-checklist.md) | operator checklist for deploying the pilot |
 | [source-map.md](source-map.md) | repo source references by unit |
+| [notion-publication-map.md](notion-publication-map.md) | GitHub-to-Notion publication map and sync rules |
 
 ## Academy Operating Controls
 

@@ -27,6 +27,16 @@ The system has seven linked jobs:
 
 If one job is missing, the system weakens. If all seven work together, demand generation becomes an operating rhythm rather than a campaign calendar.
 
+The operating system is deliberately strict. In industrial markets, vague activity looks productive for months before it fails. A trade show can create a full contact list and still create no account movement. A content calendar can publish weekly and still miss the buying committee. A CRM dashboard can show leads and still hide whether any high-fit account moved from awareness to real need.
+
+This module therefore asks the same question from several angles:
+
+```text
+What changed in a high-fit account because of the system we operated?
+```
+
+The answer must include evidence: a role engaged, a committee gap closed, a proof asset used, a signal routed, a sales action assigned, a stalled account repaired, or an opportunity created with real context.
+
 Visual companion:
 
 - [flowcharts/01-industrial-demand-generation-operating-system.md](flowcharts/01-industrial-demand-generation-operating-system.md)
@@ -45,6 +55,20 @@ Visual companion:
 | Active Focus | high-fit account with evidence of need, timing, stakeholder, or relationship path |
 | Buyer enablement | proof assets that help the champion and committee buy internally |
 | Signal routing | interpreting evidence before deciding nurture, research, activation, opportunity review, or disqualification |
+
+## The Hard Distinctions
+
+Use these distinctions throughout the module.
+
+| Distinction | Why It Matters |
+|---|---|
+| Demand generation vs lead generation | demand generation creates trust and movement; lead generation often only captures names |
+| Content demand vs solution demand vs vendor demand | each state requires a different asset, action, and sales posture |
+| Publishing vs distribution | publishing creates an asset; distribution gets it into trusted circulation |
+| Engagement vs buying intent | industrial buyers learn long before they buy; signal routing prevents premature sales action |
+| Sales enablement vs buyer enablement | sales needs talking points, but the buyer needs proof to move the committee |
+| Activity metrics vs account movement | activity can rise while the pipeline stays weak; movement must be inspected by account |
+| AI drafting vs human judgment | AI can structure work, but humans must validate industrial reality, proof, and risk |
 
 ## Learning Flow
 

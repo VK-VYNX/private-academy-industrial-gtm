@@ -44,6 +44,8 @@ Industrial demand generation is not lead generation.
 
 It is the operating system that helps the right buyers understand problems, evaluate approaches, reduce risk, involve the buying committee, and move accounts toward qualified pipeline.
 
+Do not skim this module like a passive course. The real work is in the eight lesson pages and the workbook artifacts. Each lesson teaches an operating decision, then forces the learner to build a field artifact, critique it, run an AI-assisted attempt, and correct the output with human judgment.
+
 ## Visual Orientation
 
 Before going deep, open the visual map:
@@ -57,14 +59,14 @@ Before going deep, open the visual map:
 
 | Unit | What You Learn | What You Produce |
 |---|---|---|
-| 1 | Demand generation as an operating system | demand system diagnostic |
-| 2 | Industrial buyer reality | buying committee map |
-| 3 | ICP, segments, and demand focus | ICP and disqualification rules |
-| 4 | MOIN | buyer question grid |
-| 5 | Content engine | content plan by demand state |
-| 6 | Distribution | trust-based distribution system |
-| 7 | Signal routing | routing rules, owners, and SLAs |
-| 8 | Cadence and pilot | 90-day pilot plan |
+| 1 | Demand generation as an operating system, not lead collection | demand system diagnostic |
+| 2 | Industrial buying committee reality and proof needs | buying committee and buyer enablement map |
+| 3 | ICP focus, triggers, access paths, and disqualification | ICP and disqualification rules |
+| 4 | MOIN as buyer uncertainty mapped by role and demand state | buyer question and proof grid |
+| 5 | Content engine design by demand state, sales use, and signal | content plan by demand state |
+| 6 | Distribution through trust networks, not publishing alone | trust-based distribution system |
+| 7 | Signal interpretation by fit, state, role, and strength | routing rules, owners, and SLAs |
+| 8 | Weekly cadence and 90-day pilot governance | 90-day pilot plan |
 
 ## How To Use AI
 
