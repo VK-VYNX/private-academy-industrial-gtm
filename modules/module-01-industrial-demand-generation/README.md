@@ -63,6 +63,7 @@ By the end of the module, learners can:
 | [assessment-rubric.md](assessment-rubric.md) | scoring standards for artifacts and capstone |
 | [implementation-checklist.md](implementation-checklist.md) | operator checklist for deploying the pilot |
 | [source-map.md](source-map.md) | repo source references by unit |
+| [source-coverage-audit.md](source-coverage-audit.md) | concept-by-concept coverage audit against the upstream master index |
 | [notion-publication-map.md](notion-publication-map.md) | GitHub-to-Notion publication map and sync rules |
 
 ## Academy Operating Controls

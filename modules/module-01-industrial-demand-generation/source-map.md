@@ -26,6 +26,8 @@ Upstream source-of-truth repo:
 
 ## Source Concepts Used In Module 1
 
+For concept-by-concept coverage against the full upstream master concept index, use [source-coverage-audit.md](source-coverage-audit.md).
+
 | Concept | Module Translation |
 |---|---|
 | Demand generation is not lead generation | learners diagnose trust, education, and account movement, not lead volume |
