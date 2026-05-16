@@ -56,6 +56,7 @@ GitHub is the source of truth. Notion is the review, navigation, and teaching su
 | `delivery-pack/release-pack/` | [19 Release Decision](https://www.notion.so/3623dd29567d8110a297dc30d3605488) |
 | `source-map.md` | [20 Source File Index](https://www.notion.so/3623dd29567d81428dcbfde764866ca1) |
 | this file and sync notes | [21 Notion Import Notes](https://www.notion.so/3623dd29567d813ba1e2e168b7064a34) |
+| `source-coverage-audit.md` | [22 Source Coverage Audit](https://www.notion.so/3623dd29567d81f4a5a4da94bf0fd635) |
 
 ## Sync Checklist
 
