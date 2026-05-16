@@ -93,6 +93,7 @@ $RequiredPaths = @(
     "$ModuleRoot/exercises/07-signal-routing-simulation.md",
     "$ModuleRoot/exercises/08-weekly-cadence-and-pilot-plan.md",
     "$DeliveryRoot/START-HERE.md",
+    "$DeliveryRoot/module-1-review-hub.html",
     "$DeliveryRoot/module-field-guide.md",
     "$DeliveryRoot/workbook-print-edition.md",
     "$DeliveryRoot/facilitator-runbook.md",

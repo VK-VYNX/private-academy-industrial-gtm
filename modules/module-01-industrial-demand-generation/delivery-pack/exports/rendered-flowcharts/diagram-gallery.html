@@ -6,152 +6,344 @@
   <title>Module 1 Flowchart Gallery</title>
   <style>
     body { margin: 0; font-family: Arial, sans-serif; color: #111827; background: #f8fafc; }
-    header { position: sticky; top: 0; z-index: 1; padding: 18px 28px; background: #111827; color: #fff; }
+    header { position: sticky; top: 0; z-index: 2; padding: 18px 28px; background: #111827; color: #fff; }
     h1 { margin: 0 0 6px; font-size: 24px; }
     p { margin: 0; line-height: 1.5; }
+    .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 14px; }
+    button { border: 1px solid #64748b; border-radius: 6px; background: #fff; color: #111827; padding: 8px 12px; font-size: 14px; cursor: pointer; }
+    button:hover { background: #e5e7eb; }
+    .hint { color: #cbd5e1; font-size: 14px; }
     main { padding: 24px; display: grid; gap: 24px; }
     section { background: #fff; border: 1px solid #d1d5db; border-radius: 8px; padding: 18px; box-shadow: 0 1px 2px rgba(15, 23, 42, .08); }
-    h2 { margin: 0 0 14px; font-size: 18px; }
-    img { width: 100%; height: auto; border: 1px solid #e5e7eb; border-radius: 6px; background: #fff; }
+    .section-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; align-items: baseline; margin-bottom: 14px; }
+    h2 { margin: 0; font-size: 18px; }
+    a { color: #0f766e; font-weight: 700; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .diagram-frame { overflow-x: auto; overflow-y: hidden; border: 1px solid #e5e7eb; border-radius: 6px; background: #fff; padding: 12px; }
+    img { width: calc(1500px * var(--zoom, 1)); max-width: none; height: auto; display: block; }
+    body.fit-width img { width: 100%; }
   </style>
+  <script>
+    let zoom = 1;
+    function setZoom(next) {
+      zoom = Math.max(0.6, Math.min(2.5, next));
+      document.documentElement.style.setProperty('--zoom', zoom.toFixed(2));
+      document.getElementById('zoom-value').textContent = Math.round(zoom * 100) + '%';
+    }
+    function toggleFit() {
+      document.body.classList.toggle('fit-width');
+    }
+  </script>
 </head>
 <body>
   <header>
     <h1>Module 1 Flowchart Gallery</h1>
-    <p>Rendered SVG diagrams for visual review. Open this file in a browser for the clearest view.</p>
+    <p>Rendered SVG diagrams for visual review. Wide diagrams scroll horizontally so labels stay readable.</p>
+    <div class="toolbar">
+      <button type="button" onclick="setZoom(zoom - 0.15)">Zoom out</button>
+      <button type="button" onclick="setZoom(zoom + 0.15)">Zoom in</button>
+      <button type="button" onclick="setZoom(1)">Reset</button>
+      <button type="button" onclick="toggleFit()">Toggle fit width</button>
+      <span class="hint">Current diagram scale: <strong id="zoom-value">100%</strong>. Use the horizontal scrollbar inside each diagram.</span>
+    </div>
   </header>
   <main>
     <section>
-      <h2>00-module-visual-map.md</h2>
-      <img src="00-module-visual-map.svg" alt="00-module-visual-map.md">
+      <div class="section-head">
+        <h2>00-module-visual-map.md</h2>
+        <a href="00-module-visual-map.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="00-module-visual-map.svg" alt="00-module-visual-map.md">
+      </div>
     </section>
     <section>
-      <h2>01-industrial-demand-generation-operating-system.md</h2>
-      <img src="01-industrial-demand-generation-operating-system.svg" alt="01-industrial-demand-generation-operating-system.md">
+      <div class="section-head">
+        <h2>01-industrial-demand-generation-operating-system.md</h2>
+        <a href="01-industrial-demand-generation-operating-system.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="01-industrial-demand-generation-operating-system.svg" alt="01-industrial-demand-generation-operating-system.md">
+      </div>
     </section>
     <section>
-      <h2>02-demand-states-and-routing.md</h2>
-      <img src="02-demand-states-and-routing.svg" alt="02-demand-states-and-routing.md">
+      <div class="section-head">
+        <h2>02-demand-states-and-routing.md</h2>
+        <a href="02-demand-states-and-routing.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="02-demand-states-and-routing.svg" alt="02-demand-states-and-routing.md">
+      </div>
     </section>
     <section>
-      <h2>03-industrial-buyer-committee-map.md</h2>
-      <img src="03-industrial-buyer-committee-map.svg" alt="03-industrial-buyer-committee-map.md">
+      <div class="section-head">
+        <h2>03-industrial-buyer-committee-map.md</h2>
+        <a href="03-industrial-buyer-committee-map.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="03-industrial-buyer-committee-map.svg" alt="03-industrial-buyer-committee-map.md">
+      </div>
     </section>
     <section>
-      <h2>04-icp-focus-and-disqualification.md</h2>
-      <img src="04-icp-focus-and-disqualification.svg" alt="04-icp-focus-and-disqualification.md">
+      <div class="section-head">
+        <h2>04-icp-focus-and-disqualification.md</h2>
+        <a href="04-icp-focus-and-disqualification.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="04-icp-focus-and-disqualification.svg" alt="04-icp-focus-and-disqualification.md">
+      </div>
     </section>
     <section>
-      <h2>05-moin-to-content-roadmap.md</h2>
-      <img src="05-moin-to-content-roadmap.svg" alt="05-moin-to-content-roadmap.md">
+      <div class="section-head">
+        <h2>05-moin-to-content-roadmap.md</h2>
+        <a href="05-moin-to-content-roadmap.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="05-moin-to-content-roadmap.svg" alt="05-moin-to-content-roadmap.md">
+      </div>
     </section>
     <section>
-      <h2>06-content-engine-to-signal.md</h2>
-      <img src="06-content-engine-to-signal.svg" alt="06-content-engine-to-signal.md">
+      <div class="section-head">
+        <h2>06-content-engine-to-signal.md</h2>
+        <a href="06-content-engine-to-signal.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="06-content-engine-to-signal.svg" alt="06-content-engine-to-signal.md">
+      </div>
     </section>
     <section>
-      <h2>07-distribution-ecosystem.md</h2>
-      <img src="07-distribution-ecosystem.svg" alt="07-distribution-ecosystem.md">
+      <div class="section-head">
+        <h2>07-distribution-ecosystem.md</h2>
+        <a href="07-distribution-ecosystem.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="07-distribution-ecosystem.svg" alt="07-distribution-ecosystem.md">
+      </div>
     </section>
     <section>
-      <h2>08-signal-routing-and-account-progression.md</h2>
-      <img src="08-signal-routing-and-account-progression.svg" alt="08-signal-routing-and-account-progression.md">
+      <div class="section-head">
+        <h2>08-signal-routing-and-account-progression.md</h2>
+        <a href="08-signal-routing-and-account-progression.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="08-signal-routing-and-account-progression.svg" alt="08-signal-routing-and-account-progression.md">
+      </div>
     </section>
     <section>
-      <h2>09-buyer-enablement-loop.md</h2>
-      <img src="09-buyer-enablement-loop.svg" alt="09-buyer-enablement-loop.md">
+      <div class="section-head">
+        <h2>09-buyer-enablement-loop.md</h2>
+        <a href="09-buyer-enablement-loop.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="09-buyer-enablement-loop.svg" alt="09-buyer-enablement-loop.md">
+      </div>
     </section>
     <section>
-      <h2>10-weekly-revenue-cadence.md</h2>
-      <img src="10-weekly-revenue-cadence.svg" alt="10-weekly-revenue-cadence.md">
+      <div class="section-head">
+        <h2>10-weekly-revenue-cadence.md</h2>
+        <a href="10-weekly-revenue-cadence.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="10-weekly-revenue-cadence.svg" alt="10-weekly-revenue-cadence.md">
+      </div>
     </section>
     <section>
-      <h2>11-ai-assisted-learning-loop.md</h2>
-      <img src="11-ai-assisted-learning-loop.svg" alt="11-ai-assisted-learning-loop.md">
+      <div class="section-head">
+        <h2>11-ai-assisted-learning-loop.md</h2>
+        <a href="11-ai-assisted-learning-loop.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="11-ai-assisted-learning-loop.svg" alt="11-ai-assisted-learning-loop.md">
+      </div>
     </section>
     <section>
-      <h2>12-capstone-assembly-map.md</h2>
-      <img src="12-capstone-assembly-map.svg" alt="12-capstone-assembly-map.md">
+      <div class="section-head">
+        <h2>12-capstone-assembly-map.md</h2>
+        <a href="12-capstone-assembly-map.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="12-capstone-assembly-map.svg" alt="12-capstone-assembly-map.md">
+      </div>
     </section>
     <section>
-      <h2>13-quality-gates-and-failure-modes.md</h2>
-      <img src="13-quality-gates-and-failure-modes.svg" alt="13-quality-gates-and-failure-modes.md">
+      <div class="section-head">
+        <h2>13-quality-gates-and-failure-modes.md</h2>
+        <a href="13-quality-gates-and-failure-modes.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="13-quality-gates-and-failure-modes.svg" alt="13-quality-gates-and-failure-modes.md">
+      </div>
     </section>
     <section>
-      <h2>14-90-day-implementation-sprint.md</h2>
-      <img src="14-90-day-implementation-sprint.svg" alt="14-90-day-implementation-sprint.md">
+      <div class="section-head">
+        <h2>14-90-day-implementation-sprint.md</h2>
+        <a href="14-90-day-implementation-sprint.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="14-90-day-implementation-sprint.svg" alt="14-90-day-implementation-sprint.md">
+      </div>
     </section>
     <section>
-      <h2>15-learning-rhythm-and-critique-loop.md</h2>
-      <img src="15-learning-rhythm-and-critique-loop.svg" alt="15-learning-rhythm-and-critique-loop.md">
+      <div class="section-head">
+        <h2>15-learning-rhythm-and-critique-loop.md</h2>
+        <a href="15-learning-rhythm-and-critique-loop.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="15-learning-rhythm-and-critique-loop.svg" alt="15-learning-rhythm-and-critique-loop.md">
+      </div>
     </section>
     <section>
-      <h2>16-role-operating-model.md</h2>
-      <img src="16-role-operating-model.svg" alt="16-role-operating-model.md">
+      <div class="section-head">
+        <h2>16-role-operating-model.md</h2>
+        <a href="16-role-operating-model.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="16-role-operating-model.svg" alt="16-role-operating-model.md">
+      </div>
     </section>
     <section>
-      <h2>17-source-lineage-and-academy-governance.md</h2>
-      <img src="17-source-lineage-and-academy-governance.svg" alt="17-source-lineage-and-academy-governance.md">
+      <div class="section-head">
+        <h2>17-source-lineage-and-academy-governance.md</h2>
+        <a href="17-source-lineage-and-academy-governance.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="17-source-lineage-and-academy-governance.svg" alt="17-source-lineage-and-academy-governance.md">
+      </div>
     </section>
     <section>
-      <h2>18-delivery-modes-and-user-paths.md</h2>
-      <img src="18-delivery-modes-and-user-paths.svg" alt="18-delivery-modes-and-user-paths.md">
+      <div class="section-head">
+        <h2>18-delivery-modes-and-user-paths.md</h2>
+        <a href="18-delivery-modes-and-user-paths.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="18-delivery-modes-and-user-paths.svg" alt="18-delivery-modes-and-user-paths.md">
+      </div>
     </section>
     <section>
-      <h2>19-artifact-lifecycle.md</h2>
-      <img src="19-artifact-lifecycle.svg" alt="19-artifact-lifecycle.md">
+      <div class="section-head">
+        <h2>19-artifact-lifecycle.md</h2>
+        <a href="19-artifact-lifecycle.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="19-artifact-lifecycle.svg" alt="19-artifact-lifecycle.md">
+      </div>
     </section>
     <section>
-      <h2>20-content-audit-and-gap-prioritization.md</h2>
-      <img src="20-content-audit-and-gap-prioritization.svg" alt="20-content-audit-and-gap-prioritization.md">
+      <div class="section-head">
+        <h2>20-content-audit-and-gap-prioritization.md</h2>
+        <a href="20-content-audit-and-gap-prioritization.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="20-content-audit-and-gap-prioritization.svg" alt="20-content-audit-and-gap-prioritization.md">
+      </div>
     </section>
     <section>
-      <h2>21-channel-selection-by-trust-and-stage.md</h2>
-      <img src="21-channel-selection-by-trust-and-stage.svg" alt="21-channel-selection-by-trust-and-stage.md">
+      <div class="section-head">
+        <h2>21-channel-selection-by-trust-and-stage.md</h2>
+        <a href="21-channel-selection-by-trust-and-stage.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="21-channel-selection-by-trust-and-stage.svg" alt="21-channel-selection-by-trust-and-stage.md">
+      </div>
     </section>
     <section>
-      <h2>22-event-and-trade-show-demand-motion.md</h2>
-      <img src="22-event-and-trade-show-demand-motion.svg" alt="22-event-and-trade-show-demand-motion.md">
+      <div class="section-head">
+        <h2>22-event-and-trade-show-demand-motion.md</h2>
+        <a href="22-event-and-trade-show-demand-motion.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="22-event-and-trade-show-demand-motion.svg" alt="22-event-and-trade-show-demand-motion.md">
+      </div>
     </section>
     <section>
-      <h2>23-distributor-and-partner-signal-motion.md</h2>
-      <img src="23-distributor-and-partner-signal-motion.svg" alt="23-distributor-and-partner-signal-motion.md">
+      <div class="section-head">
+        <h2>23-distributor-and-partner-signal-motion.md</h2>
+        <a href="23-distributor-and-partner-signal-motion.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="23-distributor-and-partner-signal-motion.svg" alt="23-distributor-and-partner-signal-motion.md">
+      </div>
     </section>
     <section>
-      <h2>24-revops-signal-object-and-data-model.md</h2>
-      <img src="24-revops-signal-object-and-data-model.svg" alt="24-revops-signal-object-and-data-model.md">
+      <div class="section-head">
+        <h2>24-revops-signal-object-and-data-model.md</h2>
+        <a href="24-revops-signal-object-and-data-model.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="24-revops-signal-object-and-data-model.svg" alt="24-revops-signal-object-and-data-model.md">
+      </div>
     </section>
     <section>
-      <h2>25-metrics-and-pipeline-quality.md</h2>
-      <img src="25-metrics-and-pipeline-quality.svg" alt="25-metrics-and-pipeline-quality.md">
+      <div class="section-head">
+        <h2>25-metrics-and-pipeline-quality.md</h2>
+        <a href="25-metrics-and-pipeline-quality.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="25-metrics-and-pipeline-quality.svg" alt="25-metrics-and-pipeline-quality.md">
+      </div>
     </section>
     <section>
-      <h2>26-anti-pattern-correction-system.md</h2>
-      <img src="26-anti-pattern-correction-system.svg" alt="26-anti-pattern-correction-system.md">
+      <div class="section-head">
+        <h2>26-anti-pattern-correction-system.md</h2>
+        <a href="26-anti-pattern-correction-system.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="26-anti-pattern-correction-system.svg" alt="26-anti-pattern-correction-system.md">
+      </div>
     </section>
     <section>
-      <h2>27-executive-sponsor-decision-loop.md</h2>
-      <img src="27-executive-sponsor-decision-loop.svg" alt="27-executive-sponsor-decision-loop.md">
+      <div class="section-head">
+        <h2>27-executive-sponsor-decision-loop.md</h2>
+        <a href="27-executive-sponsor-decision-loop.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="27-executive-sponsor-decision-loop.svg" alt="27-executive-sponsor-decision-loop.md">
+      </div>
     </section>
     <section>
-      <h2>28-capstone-scoring-and-certification.md</h2>
-      <img src="28-capstone-scoring-and-certification.svg" alt="28-capstone-scoring-and-certification.md">
+      <div class="section-head">
+        <h2>28-capstone-scoring-and-certification.md</h2>
+        <a href="28-capstone-scoring-and-certification.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="28-capstone-scoring-and-certification.svg" alt="28-capstone-scoring-and-certification.md">
+      </div>
     </section>
     <section>
-      <h2>29-confidentiality-and-example-boundary.md</h2>
-      <img src="29-confidentiality-and-example-boundary.svg" alt="29-confidentiality-and-example-boundary.md">
+      <div class="section-head">
+        <h2>29-confidentiality-and-example-boundary.md</h2>
+        <a href="29-confidentiality-and-example-boundary.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="29-confidentiality-and-example-boundary.svg" alt="29-confidentiality-and-example-boundary.md">
+      </div>
     </section>
     <section>
-      <h2>30-template-system-map.md</h2>
-      <img src="30-template-system-map.svg" alt="30-template-system-map.md">
+      <div class="section-head">
+        <h2>30-template-system-map.md</h2>
+        <a href="30-template-system-map.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="30-template-system-map.svg" alt="30-template-system-map.md">
+      </div>
     </section>
     <section>
-      <h2>31-sales-marketing-revops-alignment-loop.md</h2>
-      <img src="31-sales-marketing-revops-alignment-loop.svg" alt="31-sales-marketing-revops-alignment-loop.md">
+      <div class="section-head">
+        <h2>31-sales-marketing-revops-alignment-loop.md</h2>
+        <a href="31-sales-marketing-revops-alignment-loop.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="31-sales-marketing-revops-alignment-loop.svg" alt="31-sales-marketing-revops-alignment-loop.md">
+      </div>
     </section>
     <section>
-      <h2>32-ai-output-contract-and-rejection-rules.md</h2>
-      <img src="32-ai-output-contract-and-rejection-rules.svg" alt="32-ai-output-contract-and-rejection-rules.md">
+      <div class="section-head">
+        <h2>32-ai-output-contract-and-rejection-rules.md</h2>
+        <a href="32-ai-output-contract-and-rejection-rules.svg" target="_blank">Open SVG directly</a>
+      </div>
+      <div class="diagram-frame">
+        <img src="32-ai-output-contract-and-rejection-rules.svg" alt="32-ai-output-contract-and-rejection-rules.md">
+      </div>
     </section>
   </main>
 </body>

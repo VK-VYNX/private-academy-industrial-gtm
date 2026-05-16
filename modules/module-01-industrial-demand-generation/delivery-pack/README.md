@@ -10,6 +10,7 @@ Use [START-HERE.md](START-HERE.md) first.
 
 | Asset | Audience | Use |
 |---|---|---|
+| [module-1-review-hub.html](module-1-review-hub.html) | reviewers and academy owners | browser-friendly review entry point |
 | [START-HERE.md](START-HERE.md) | everyone | route yourself into the right mode |
 | [module-field-guide.md](module-field-guide.md) | learners and client teams | polished learner-facing guide |
 | [workbook-print-edition.md](workbook-print-edition.md) | learners | printable workbook and artifact spine |

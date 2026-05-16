@@ -1,11 +1,11 @@
 ﻿# Last Academy Validation Report
 
-Generated: 2026-05-16 16:25:22 +05:30
+Generated: 2026-05-16 17:08:45 +05:30
 
 | Gate | Status | Detail |
 |---|---|---|
-| Required assets | PASS | 52 required paths found. |
-| Markdown links | PASS | 309 local links checked. |
+| Required assets | PASS | 53 required paths found. |
+| Markdown links | PASS | 311 local links checked. |
 | Mermaid fences | PASS | 34 Mermaid blocks checked. |
 | Flowchart coverage | PASS | 33 numbered Mermaid flowchart files found. |
 | Rendered flowcharts | PASS | 33 rendered SVG files found and nonblank. |

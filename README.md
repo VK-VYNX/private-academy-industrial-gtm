@@ -22,6 +22,10 @@ Start here:
 
 [modules/module-01-industrial-demand-generation/delivery-pack/START-HERE.md](modules/module-01-industrial-demand-generation/delivery-pack/START-HERE.md)
 
+Reviewer entry point:
+
+[modules/module-01-industrial-demand-generation/delivery-pack/module-1-review-hub.html](modules/module-01-industrial-demand-generation/delivery-pack/module-1-review-hub.html)
+
 Operating system:
 
 [ACADEMY-OS.md](ACADEMY-OS.md)
