@@ -16,6 +16,7 @@ Use [START-HERE.md](START-HERE.md) first.
 | [workbook-print-edition.md](workbook-print-edition.md) | learners | printable workbook and artifact spine |
 | [facilitator-runbook.md](facilitator-runbook.md) | instructors | session-by-session facilitation guide |
 | [workshop-agenda.md](workshop-agenda.md) | instructors and sponsors | 1-day, 2-day, 4-half-day, and 8-week formats |
+| [slide-decks/](slide-decks/) | instructors | eight PowerPoint projection decks for the 3-hour live workshop |
 | [ai-agent-prompt-library.md](ai-agent-prompt-library.md) | AI operators | governed prompts by unit and artifact |
 | [artifact-submission-pack.md](artifact-submission-pack.md) | learners and reviewers | capstone assembly and submission format |
 | [quality-gates.md](quality-gates.md) | reviewers and agents | quality, confidentiality, and anti-drift checks |
@@ -57,6 +58,7 @@ If someone is new to the module, use this sequence:
 4. [START-HERE.md](START-HERE.md)
 5. [module-field-guide.md](module-field-guide.md)
 6. [workbook-print-edition.md](workbook-print-edition.md)
+7. [slide-decks/README.md](slide-decks/README.md)
 
 ## Operating System Path
 

@@ -33,7 +33,7 @@ By the end, you will produce a 90-day Industrial Demand Generation Pilot with:
 |---|---|---|
 | self-paced learner | [module-field-guide.md](module-field-guide.md) | [workbook-print-edition.md](workbook-print-edition.md) |
 | live workshop participant | [workbook-print-edition.md](workbook-print-edition.md) | [artifact-submission-pack.md](artifact-submission-pack.md) |
-| facilitator | [facilitator-runbook.md](facilitator-runbook.md) | [workshop-agenda.md](workshop-agenda.md) |
+| facilitator | [facilitator-runbook.md](facilitator-runbook.md) | [slide-decks/README.md](slide-decks/README.md) and [workshop-agenda.md](workshop-agenda.md) |
 | AI operator | [ai-agent-prompt-library.md](ai-agent-prompt-library.md) | [quality-gates.md](quality-gates.md) |
 | executive sponsor | [artifact-submission-pack.md](artifact-submission-pack.md) | [implementation-sprint-plan.md](implementation-sprint-plan.md) |
 | RevOps operator | [implementation-sprint-plan.md](implementation-sprint-plan.md) | [quality-gates.md](quality-gates.md) |
@@ -67,6 +67,10 @@ Before going deep, open the visual map:
 | 6 | Distribution through trust networks, not publishing alone | trust-based distribution system |
 | 7 | Signal interpretation by fit, state, role, and strength | routing rules, owners, and SLAs |
 | 8 | Weekly cadence and 90-day pilot governance | 90-day pilot plan |
+
+## Live Workshop Projection Decks
+
+For the 3-hour instructor-led workshop, use the eight editable PowerPoint decks in [slide-decks/](slide-decks/). Each deck maps to one lesson and includes a speaker-note guide for instructor talking points, diagnostics, exercises, AI-assisted attempts, human correction, RevOps translation, failure modes, final artifact, and transition.
 
 ## How To Use AI
 

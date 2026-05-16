@@ -9,6 +9,7 @@ This folder documents how to turn the delivery pack into non-GitHub formats.
 | learner guide PDF | `../START-HERE.md`, `../module-field-guide.md` |
 | workbook PDF | `../workbook-print-edition.md` |
 | facilitator PDF | `../facilitator-runbook.md`, `../workshop-agenda.md` |
+| instructor slide decks | `../slide-decks/exports/*.pptx`, `../slide-decks/decks/*/speaker-notes.md` |
 | AI operator PDF | `../ai-agent-prompt-library.md`, `../quality-gates.md` |
 | capstone packet PDF | `../artifact-submission-pack.md`, `../template-pack/review-scorecard.md` |
 | implementation sprint PDF | `../implementation-sprint-plan.md` |
@@ -36,7 +37,7 @@ For facilitators, add:
 
 ## Slide Deck Outline
 
-Use this sequence for a live delivery deck:
+For the 3-hour instructor-led workshop, use the eight-deck package at `../slide-decks/`. If a single consolidated deck is needed later, use this sequence:
 
 1. Why industrial demand generation is not lead generation
 2. Module visual map

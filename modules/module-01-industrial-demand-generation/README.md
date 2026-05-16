@@ -132,6 +132,7 @@ The delivery pack includes:
 - print-ready workbook;
 - facilitator runbook;
 - workshop agendas;
+- instructor slide decks for the 3-hour live workshop;
 - AI prompt library;
 - Mermaid flowchart library;
 - capstone submission pack;
