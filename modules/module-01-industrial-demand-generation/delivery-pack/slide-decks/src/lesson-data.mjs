@@ -16,7 +16,7 @@ export const commonIntegrativeQuestions = [
   "What signal would prove this is working?",
   "What would RevOps need to track?",
   "What content would help the buyer move forward?",
-  "What would an AI agent likely get wrong here?",
+  "What assumption would a human reviewer challenge here?",
   "What would make this fail in an industrial company?",
 ];
 
@@ -30,7 +30,7 @@ export const lessons = [
     timebox: "20 min",
     lessonFile: `${sourceBase}/lessons/01-industrial-demand-generation-foundations.md`,
     diagram: "01-industrial-demand-generation-operating-system.svg",
-    supportingDiagrams: ["02-demand-states-and-routing.svg", "15-learning-rhythm-and-critique-loop.svg"],
+    supportingDiagrams: ["02-demand-states-and-routing.svg"],
     artifact: "Demand system diagnostic with three priority repairs",
     nextLesson: "Lesson 02 - Industrial Buyer Reality",
     promise:
@@ -89,15 +89,15 @@ export const lessons = [
       "What would sales need before acting?",
       "What would RevOps need to capture?",
     ],
-    aiPrompt:
-      "Given the selected category, current assets, current channels, sales feedback, and CRM fields, classify the current demand motion as demand creation, demand capture, lead collection, or mixed. Identify the weakest operating layer, one practical repair that can start within two weeks, one account-level signal to track, and the human questions that require sales, RevOps, SME, or leadership input.",
-    aiOutputStandards: [
+    draftingBrief:
+      "Using the selected category, current assets, current channels, sales feedback, and CRM fields, classify the current demand motion as demand creation, demand capture, lead collection, or mixed. Identify the weakest operating layer, one practical repair that can start within two weeks, one account-level signal to track, and the validation questions that require sales, RevOps, SME, or leadership input.",
+    draftingStandards: [
       "Names the missing layer",
       "Explains the anti-pattern and commercial risk",
       "Defines signal, owner, and cadence",
-      "Lists human validation questions",
+      "Lists field-validation questions",
     ],
-    humanCorrection: [
+    qualityControl: [
       "Reject more-content recommendations with no distribution path.",
       "Reject lead magnets before buyer trust exists.",
       "Reject impressions, traffic, likes, and MQLs as primary success.",
@@ -199,15 +199,15 @@ export const lessons = [
       "Does it include procurement and finance before late-stage negotiation?",
       "Does it account for consultants, distributors, or project advisors where relevant?",
     ],
-    aiPrompt:
-      "For the selected industrial category, generate buying committee roles, role concerns, proof needs, likely blocker hypotheses, buyer-circulatable enablement assets, and unknowns that require sales or SME validation. Do not invent a named-company case.",
-    aiOutputStandards: [
+    draftingBrief:
+      "For the selected industrial category, map buying committee roles, role concerns, proof needs, likely blocker hypotheses, buyer-circulatable enablement assets, and unknowns that require sales or SME validation. Do not invent a named-company case.",
+    draftingStandards: [
       "Includes operational, technical, commercial, quality, finance, procurement, leadership, and ecosystem roles where relevant",
       "States real decision risk, not generic persona pain",
       "Names specific proof or evidence",
       "Separates fact, assumption, and unknown",
     ],
-    humanCorrection: [
+    qualityControl: [
       "Reject neat personas that do not match the category.",
       "Reject maps that ignore quality, maintenance, procurement, finance, or leadership.",
       "Reject generic concerns like cost without the underlying risk.",
@@ -311,15 +311,15 @@ export const lessons = [
       "What content becomes specific because the ICP is narrow?",
       "What will leadership be tempted to broaden too early?",
     ],
-    aiPrompt:
-      "Score three candidate industrial segments by fit, trigger, access, commercial value, committee feasibility, proof availability, and pilot feasibility. Recommend one 90-day ICP, explain why it is narrow enough, define explicit disqualification rules, and list risks or assumptions humans must validate.",
-    aiOutputStandards: [
+    draftingBrief:
+      "Compare three candidate industrial segments by fit, trigger, access, commercial value, committee feasibility, proof availability, and pilot feasibility. Recommend one 90-day ICP, explain why it is narrow enough, define explicit disqualification rules, and list risks or assumptions the team must validate.",
+    draftingStandards: [
       "Ranks by fit, trigger, access, value, and feasibility",
       "Explains why the chosen segment is narrow enough",
       "Includes explicit rejection rules",
       "Names likely committee roles and demand signals",
     ],
-    humanCorrection: [
+    qualityControl: [
       "Reject market size as the main reason.",
       "Reject broad categories without triggers.",
       "Reject segments with no commercial value threshold.",
@@ -425,16 +425,16 @@ export const lessons = [
       "Ask what proof makes the answer credible.",
       "Ask how sales would use the answer.",
     ],
-    aiPrompt:
-      "Create or repair a MOIN grid for the selected ICP. Separate buyer questions by role and demand state. Recommend assets, sales use, RevOps signal meaning, assumptions, and human validation questions. Avoid generic content topics and vendor-demand claims before buyer belief exists.",
-    aiOutputStandards: [
+    draftingBrief:
+      "Draft or repair a MOIN grid for the selected ICP. Separate buyer questions by role and demand state. Recommend assets, sales use, RevOps signal meaning, assumptions, and field-validation questions. Avoid generic content topics and vendor-demand claims before buyer belief exists.",
+    draftingStandards: [
       "Questions separated by role and demand state",
       "One asset per critical question or proof gap",
       "Sales use without pitching too early",
       "Signal meaning and routing implication",
-      "Assumptions and human questions",
+      "Assumptions and validation questions",
     ],
-    humanCorrection: [
+    qualityControl: [
       "Reject generic topics and content pillars.",
       "Reject output that ignores committee roles.",
       "Reject vendor-demand assets placed too early.",
@@ -520,7 +520,7 @@ export const lessons = [
       "What objection appears repeatedly in sales calls?",
       "What proof does the champion need internally?",
       "Which committee role is under-served?",
-      "Which asset requires SME insight before AI can draft it?",
+      "Which asset requires SME insight before any draft is credible?",
       "Which existing asset should be repaired instead of replaced?",
     ],
     exerciseTitle: "Build the first-five content plan",
@@ -538,22 +538,22 @@ export const lessons = [
       "Can it be distributed through a trusted channel?",
       "Would a serious industrial buyer respect it?",
     ],
-    aiPrompt:
+    draftingBrief:
       "Turn the MOIN grid into a content plan. For each asset, name the buyer question, demand state, format, SME input, sales use, distribution path, signal design, and quality risk. Flag where human technical or field validation is required before drafting.",
-    aiOutputStandards: [
+    draftingStandards: [
       "Assets tied to role, question, and demand state",
       "Specific SME input required",
       "Sales use and account context",
       "Signal design and routing implication",
       "Distribution path and quality risk",
     ],
-    humanCorrection: [
+    qualityControl: [
       "Remove generic blog ideas.",
       "Remove product brochures disguised as education.",
       "Reject claims unsupported by proof.",
       "Reject assets without a distribution path.",
       "Reject assets sales cannot use.",
-      "Reject AI-generated technical claims without SME validation.",
+      "Reject technical claims without SME validation.",
     ],
     revopsTitle: "Content must connect to account movement.",
     revops: [
@@ -569,7 +569,7 @@ export const lessons = [
     failureModes: [
       ["Content volume strategy", "Many posts, little movement", "Prioritize by buyer uncertainty and signal value"],
       ["Product-first content", "Features before problem belief", "Build problem and solution education first"],
-      ["AI filler", "Polished generic language", "Require SME input and proof"],
+      ["Generic filler", "Polished generic language", "Require SME input and proof"],
       ["No distribution path", "Content sits on website", "Assign channel, owner, cadence, and sales motion"],
     ],
     finalArtifact: [
@@ -655,16 +655,16 @@ export const lessons = [
       "Are partners given proof and routing rules?",
       "Does every channel create observable account evidence?",
     ],
-    aiPrompt:
-      "Recommend a channel mix for the selected ICP and first-five assets. Tie every channel to buyer trust, demand state, owner, realistic cadence, account-level signal, routing implication, and failure risk. Do not recommend more channels than the team can operate.",
-    aiOutputStandards: [
+    draftingBrief:
+      "Draft a channel mix for the selected ICP and first-five assets. Tie every channel to buyer trust, demand state, owner, realistic cadence, account-level signal, routing implication, and failure risk. Do not recommend more channels than the team can operate.",
+    draftingStandards: [
       "Channel tied to buyer trust and demand state",
       "Owner named: sales, marketing, SME, distributor, partner, or leadership",
       "Realistic cadence",
       "Account-level signal",
       "Routing implication and risk",
     ],
-    humanCorrection: [
+    qualityControl: [
       "Repair channel lists that are too large to operate.",
       "Reject paid ads as a substitute for trust.",
       "Reject plans that ignore sales and partner distribution.",
@@ -768,9 +768,9 @@ export const lessons = [
       "Name one signal that should be disqualified or low-touch nurtured.",
       "Name one missing field that would make routing unreliable.",
     ],
-    aiPrompt:
+    draftingBrief:
       "Classify the signal table. For each signal, assign demand state, strength, progression state, owner, SLA, next action, false-positive concern, and missing evidence. Explain why the signal is or is not buying intent. Do not route weak engagement as an opportunity.",
-    aiOutputStandards: [
+    draftingStandards: [
       "Demand state with rationale",
       "Signal strength and progression state",
       "Owner and SLA",
@@ -778,7 +778,7 @@ export const lessons = [
       "False-positive concern",
       "Missing evidence before escalation",
     ],
-    humanCorrection: [
+    qualityControl: [
       "Reject engagement equals intent.",
       "Reject skipped ICP fit checks.",
       "Reject routing that ignores buying role.",
@@ -887,16 +887,16 @@ export const lessons = [
       "Does the cadence create decisions or only reporting?",
       "Does the pilot connect content, distribution, routing, sales action, and buyer enablement?",
     ],
-    aiPrompt:
-      "Assemble the 90-day pilot from prior artifacts. Include executive summary, phase plan, weekly cadence, success metrics, anti-pattern risks, stop-repair-scale criteria, and unresolved assumptions requiring human validation. Keep metrics focused on account movement and quality, not vanity activity.",
-    aiOutputStandards: [
+    draftingBrief:
+      "Assemble the 90-day pilot from prior artifacts. Include executive summary, phase plan, weekly cadence, success metrics, anti-pattern risks, stop-repair-scale criteria, and unresolved assumptions requiring field validation. Keep metrics focused on account movement and quality, not vanity activity.",
+    draftingStandards: [
       "Clear revenue problem, focus, pilot logic, and decision request",
       "90-day sequence with owners and outputs",
       "Cadence with evidence and decisions",
       "Success metrics for movement, coverage, signal quality, sales use, and opportunity quality",
       "Stop, repair, scale criteria tied to evidence",
     ],
-    humanCorrection: [
+    qualityControl: [
       "Reject vanity metrics.",
       "Reject scale recommendations without proof.",
       "Reject plans with no RevOps fields or owner model.",

@@ -83,24 +83,24 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 
 ## Slide 09: Group Critique
 
-- Use the critique loop: learner presents, peers name strength, peers identify one false assumption or missing owner, AI revises, humans accept or repair.
+- Use the critique loop: learner presents, peers name strength, peers identify one false assumption or missing owner, then the group repairs the artifact.
 - Does the map separate roles instead of compressing them into one persona?
 - Does it include blockers, not only supporters?
 - Does each critical role have a circulatable proof asset?
 - Does it include procurement and finance before late-stage negotiation?
 - Does it account for consultants, distributors, or project advisors where relevant?
 
-## Slide 10: AI-Assisted Exercise Prompt
+## Slide 10: Structured Drafting Drill
 
-- Use this as the AI prompt skeleton.
-- For the selected industrial category, generate buying committee roles, role concerns, proof needs, likely blocker hypotheses, buyer-circulatable enablement assets, and unknowns that require sales or SME validation. Do not invent a named-company case.
-- Require the AI to list assumptions and unknowns before learners accept any recommendation.
+- Use this as the structured drafting brief.
+- For the selected industrial category, map buying committee roles, role concerns, proof needs, likely blocker hypotheses, buyer-circulatable enablement assets, and unknowns that require sales or SME validation. Do not invent a named-company case.
+- Require the draft to list assumptions and unknowns before learners accept any recommendation.
 - Includes operational, technical, commercial, quality, finance, procurement, leadership, and ecosystem roles where relevant
 - States real decision risk, not generic persona pain
 - Names specific proof or evidence
 - Separates fact, assumption, and unknown
 
-## Slide 11: Human Correction / Quality Control
+## Slide 11: Human Quality Control
 
 - The correction standard is operational judgment, not cosmetic polish.
 - Reject neat personas that do not match the category.
@@ -108,7 +108,7 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 - Reject generic concerns like cost without the underlying risk.
 - Reject sales decks when the buyer needs role-specific proof.
 - Reject named-company examples presented as evidence.
-- Instructor move: ask what field evidence, SME proof, or sales reality the AI could not know.
+- Instructor move: ask what field evidence, SME proof, or sales reality is missing.
 
 ## Slide 12: RevOps Translation
 

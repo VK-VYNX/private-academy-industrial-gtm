@@ -69,7 +69,7 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 - What objection appears repeatedly in sales calls?
 - What proof does the champion need internally?
 - Which committee role is under-served?
-- Which asset requires SME insight before AI can draft it?
+- Which asset requires SME insight before any draft is credible?
 - Which existing asset should be repaired instead of replaced?
 - Use the prompts as a rapid room diagnostic before the artifact exercise.
 
@@ -83,7 +83,7 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 
 ## Slide 09: Group Critique
 
-- Use the critique loop: learner presents, peers name strength, peers identify one false assumption or missing owner, AI revises, humans accept or repair.
+- Use the critique loop: learner presents, peers name strength, peers identify one false assumption or missing owner, then the group repairs the artifact.
 - Is the asset useful before the buyer is ready to talk to sales?
 - Does it include field insight, technical proof, or SME judgment?
 - Can sales use it without rewriting?
@@ -91,18 +91,18 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 - Can it be distributed through a trusted channel?
 - Would a serious industrial buyer respect it?
 
-## Slide 10: AI-Assisted Exercise Prompt
+## Slide 10: Structured Drafting Drill
 
-- Use this as the AI prompt skeleton.
+- Use this as the structured drafting brief.
 - Turn the MOIN grid into a content plan. For each asset, name the buyer question, demand state, format, SME input, sales use, distribution path, signal design, and quality risk. Flag where human technical or field validation is required before drafting.
-- Require the AI to list assumptions and unknowns before learners accept any recommendation.
+- Require the draft to list assumptions and unknowns before learners accept any recommendation.
 - Assets tied to role, question, and demand state
 - Specific SME input required
 - Sales use and account context
 - Signal design and routing implication
 - Distribution path and quality risk
 
-## Slide 11: Human Correction / Quality Control
+## Slide 11: Human Quality Control
 
 - The correction standard is operational judgment, not cosmetic polish.
 - Remove generic blog ideas.
@@ -110,8 +110,8 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 - Reject claims unsupported by proof.
 - Reject assets without a distribution path.
 - Reject assets sales cannot use.
-- Reject AI-generated technical claims without SME validation.
-- Instructor move: ask what field evidence, SME proof, or sales reality the AI could not know.
+- Reject technical claims without SME validation.
+- Instructor move: ask what field evidence, SME proof, or sales reality is missing.
 
 ## Slide 12: RevOps Translation
 
@@ -131,7 +131,7 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 - Use these anti-patterns to normalize rejection of weak work.
 - Content volume strategy: Many posts, little movement -> Prioritize by buyer uncertainty and signal value
 - Product-first content: Features before problem belief -> Build problem and solution education first
-- AI filler: Polished generic language -> Require SME input and proof
+- Generic filler: Polished generic language -> Require SME input and proof
 - No distribution path: Content sits on website -> Assign channel, owner, cadence, and sales motion
 
 ## Slide 14: Final Artifact

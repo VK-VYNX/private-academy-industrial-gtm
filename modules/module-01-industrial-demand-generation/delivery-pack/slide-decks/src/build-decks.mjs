@@ -227,8 +227,8 @@ function slideNote(type, lesson) {
     diagnostic: "Diagnostic Questions",
     exercise: "Exercise Setup",
     critique: "Group Critique",
-    ai: "AI-Assisted Exercise Prompt",
-    "human-correction": "Human Correction / Quality Control",
+    "drafting-drill": "Structured Drafting Drill",
+    "quality-control": "Human Quality Control",
     revops: "RevOps Translation",
     "failure-modes": "Failure Modes / Anti-Patterns",
     "final-artifact": "Final Artifact",
@@ -276,19 +276,19 @@ function slideNote(type, lesson) {
       `Expected artifact: ${lesson.artifact}.`,
     ],
     critique: [
-      "Use the critique loop: learner presents, peers name strength, peers identify one false assumption or missing owner, AI revises, humans accept or repair.",
+      "Use the critique loop: learner presents, peers name strength, peers identify one false assumption or missing owner, then the group repairs the artifact.",
       ...lesson.critique,
     ],
-    ai: [
-      "Use this as the AI prompt skeleton.",
-      lesson.aiPrompt,
-      "Require the AI to list assumptions and unknowns before learners accept any recommendation.",
-      ...lesson.aiOutputStandards,
+    "drafting-drill": [
+      "Use this as the structured drafting brief.",
+      lesson.draftingBrief,
+      "Require the draft to list assumptions and unknowns before learners accept any recommendation.",
+      ...lesson.draftingStandards,
     ],
-    "human-correction": [
+    "quality-control": [
       "The correction standard is operational judgment, not cosmetic polish.",
-      ...lesson.humanCorrection,
-      "Instructor move: ask what field evidence, SME proof, or sales reality the AI could not know.",
+      ...lesson.qualityControl,
+      "Instructor move: ask what field evidence, SME proof, or sales reality is missing.",
     ],
     revops: [
       lesson.revopsTitle,

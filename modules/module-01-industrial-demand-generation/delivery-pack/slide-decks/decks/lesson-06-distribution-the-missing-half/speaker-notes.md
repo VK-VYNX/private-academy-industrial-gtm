@@ -84,7 +84,7 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 
 ## Slide 09: Group Critique
 
-- Use the critique loop: learner presents, peers name strength, peers identify one false assumption or missing owner, AI revises, humans accept or repair.
+- Use the critique loop: learner presents, peers name strength, peers identify one false assumption or missing owner, then the group repairs the artifact.
 - Does the plan rely too heavily on owned publishing?
 - Are expert profiles used where trust matters?
 - Is sales distributing insight, not just asking for meetings?
@@ -92,18 +92,18 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 - Are partners given proof and routing rules?
 - Does every channel create observable account evidence?
 
-## Slide 10: AI-Assisted Exercise Prompt
+## Slide 10: Structured Drafting Drill
 
-- Use this as the AI prompt skeleton.
-- Recommend a channel mix for the selected ICP and first-five assets. Tie every channel to buyer trust, demand state, owner, realistic cadence, account-level signal, routing implication, and failure risk. Do not recommend more channels than the team can operate.
-- Require the AI to list assumptions and unknowns before learners accept any recommendation.
+- Use this as the structured drafting brief.
+- Draft a channel mix for the selected ICP and first-five assets. Tie every channel to buyer trust, demand state, owner, realistic cadence, account-level signal, routing implication, and failure risk. Do not recommend more channels than the team can operate.
+- Require the draft to list assumptions and unknowns before learners accept any recommendation.
 - Channel tied to buyer trust and demand state
 - Owner named: sales, marketing, SME, distributor, partner, or leadership
 - Realistic cadence
 - Account-level signal
 - Routing implication and risk
 
-## Slide 11: Human Correction / Quality Control
+## Slide 11: Human Quality Control
 
 - The correction standard is operational judgment, not cosmetic polish.
 - Repair channel lists that are too large to operate.
@@ -112,7 +112,7 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 - Reject event plans without 72-hour routing.
 - Reject company-page posting as the main motion.
 - Reject distribution with no owner or cadence.
-- Instructor move: ask what field evidence, SME proof, or sales reality the AI could not know.
+- Instructor move: ask what field evidence, SME proof, or sales reality is missing.
 
 ## Slide 12: RevOps Translation
 

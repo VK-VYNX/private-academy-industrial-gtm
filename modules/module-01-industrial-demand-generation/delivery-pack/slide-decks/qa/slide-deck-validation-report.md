@@ -1,6 +1,6 @@
 # Slide Deck Validation Report
 
-Generated: 2026-05-16T17:18:51.807Z
+Generated: 2026-05-16T17:40:14.057Z
 
 Source commit: `9e28222`
 
@@ -11,6 +11,7 @@ Status: PASS
 - Lesson records: 8
 - Slide types per deck: 15
 - Workshop time: 178/180 minutes
+- Coverage rule set: promise, why, framework, mental model, example, diagnostic, exercise, critique, drafting drill, quality control, RevOps, failure modes, artifact, transition
 - 8 PPTX exports present and non-empty
 - 15 editable slide modules per lesson deck
 - Speaker-note guide per deck
@@ -18,6 +19,8 @@ Status: PASS
 - Rendered PNG previews present for every slide
 - Source lesson links present
 - Restricted-name scan completed
+- Human-only instructor deck scan completed
+- Lesson concept coverage scan completed
 - Readability rule scan completed
 
 ## Warnings

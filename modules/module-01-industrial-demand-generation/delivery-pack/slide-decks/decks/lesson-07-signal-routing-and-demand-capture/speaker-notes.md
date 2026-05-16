@@ -81,18 +81,18 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 
 ## Slide 09: Group Critique
 
-- Use the critique loop: learner presents, peers name strength, peers identify one false assumption or missing owner, AI revises, humans accept or repair.
+- Use the critique loop: learner presents, peers name strength, peers identify one false assumption or missing owner, then the group repairs the artifact.
 - Name one signal being over-routed to sales.
 - Name one signal that deserves faster action.
 - Name one signal that requires committee mapping.
 - Name one signal that should be disqualified or low-touch nurtured.
 - Name one missing field that would make routing unreliable.
 
-## Slide 10: AI-Assisted Exercise Prompt
+## Slide 10: Structured Drafting Drill
 
-- Use this as the AI prompt skeleton.
+- Use this as the structured drafting brief.
 - Classify the signal table. For each signal, assign demand state, strength, progression state, owner, SLA, next action, false-positive concern, and missing evidence. Explain why the signal is or is not buying intent. Do not route weak engagement as an opportunity.
-- Require the AI to list assumptions and unknowns before learners accept any recommendation.
+- Require the draft to list assumptions and unknowns before learners accept any recommendation.
 - Demand state with rationale
 - Signal strength and progression state
 - Owner and SLA
@@ -100,7 +100,7 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 - False-positive concern
 - Missing evidence before escalation
 
-## Slide 11: Human Correction / Quality Control
+## Slide 11: Human Quality Control
 
 - The correction standard is operational judgment, not cosmetic polish.
 - Reject engagement equals intent.
@@ -109,7 +109,7 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 - Reject outreach without relevance.
 - Reject weak signals escalated as opportunities.
 - Reject strong vendor-demand signals left in nurture.
-- Instructor move: ask what field evidence, SME proof, or sales reality the AI could not know.
+- Instructor move: ask what field evidence, SME proof, or sales reality is missing.
 
 ## Slide 12: RevOps Translation
 

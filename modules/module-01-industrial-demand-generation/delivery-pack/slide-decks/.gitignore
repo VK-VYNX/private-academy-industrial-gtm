@@ -4,3 +4,4 @@ qa/layout/
 qa/manifests/
 qa/last-build-summary.json
 node_modules/
+exports/~$*.pptx

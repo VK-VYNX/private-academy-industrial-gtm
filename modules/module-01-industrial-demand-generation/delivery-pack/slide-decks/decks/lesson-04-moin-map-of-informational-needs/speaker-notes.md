@@ -84,7 +84,7 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 
 ## Slide 09: Group Critique
 
-- Use the critique loop: learner presents, peers name strength, peers identify one false assumption or missing owner, AI revises, humans accept or repair.
+- Use the critique loop: learner presents, peers name strength, peers identify one false assumption or missing owner, then the group repairs the artifact.
 - Mark each question green, yellow, or red.
 - Ask which role would ask it.
 - Ask which demand state it belongs to.
@@ -92,18 +92,18 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 - Ask what proof makes the answer credible.
 - Ask how sales would use the answer.
 
-## Slide 10: AI-Assisted Exercise Prompt
+## Slide 10: Structured Drafting Drill
 
-- Use this as the AI prompt skeleton.
-- Create or repair a MOIN grid for the selected ICP. Separate buyer questions by role and demand state. Recommend assets, sales use, RevOps signal meaning, assumptions, and human validation questions. Avoid generic content topics and vendor-demand claims before buyer belief exists.
-- Require the AI to list assumptions and unknowns before learners accept any recommendation.
+- Use this as the structured drafting brief.
+- Draft or repair a MOIN grid for the selected ICP. Separate buyer questions by role and demand state. Recommend assets, sales use, RevOps signal meaning, assumptions, and field-validation questions. Avoid generic content topics and vendor-demand claims before buyer belief exists.
+- Require the draft to list assumptions and unknowns before learners accept any recommendation.
 - Questions separated by role and demand state
 - One asset per critical question or proof gap
 - Sales use without pitching too early
 - Signal meaning and routing implication
-- Assumptions and human questions
+- Assumptions and validation questions
 
-## Slide 11: Human Correction / Quality Control
+## Slide 11: Human Quality Control
 
 - The correction standard is operational judgment, not cosmetic polish.
 - Reject generic topics and content pillars.
@@ -111,7 +111,7 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 - Reject vendor-demand assets placed too early.
 - Reject missing compliance, procurement, implementation, or finance concerns.
 - Reject polished language with no industrial specificity.
-- Instructor move: ask what field evidence, SME proof, or sales reality the AI could not know.
+- Instructor move: ask what field evidence, SME proof, or sales reality is missing.
 
 ## Slide 12: RevOps Translation
 

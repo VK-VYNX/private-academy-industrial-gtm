@@ -70,7 +70,7 @@ Before going deep, open the visual map:
 
 ## Live Workshop Projection Decks
 
-For the 3-hour instructor-led workshop, use the eight editable PowerPoint decks in [slide-decks/](slide-decks/). Each deck maps to one lesson and includes a speaker-note guide for instructor talking points, diagnostics, exercises, AI-assisted attempts, human correction, RevOps translation, failure modes, final artifact, and transition.
+For the 3-hour instructor-led workshop, use the eight editable PowerPoint decks in [slide-decks/](slide-decks/). Each deck maps to one lesson and includes a speaker-note guide for instructor talking points, diagnostics, exercises, structured drafting drills, human quality control, RevOps translation, failure modes, final artifact, and transition.
 
 ## How To Use AI
 

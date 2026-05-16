@@ -84,7 +84,7 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 
 ## Slide 09: Group Critique
 
-- Use the critique loop: learner presents, peers name strength, peers identify one false assumption or missing owner, AI revises, humans accept or repair.
+- Use the critique loop: learner presents, peers name strength, peers identify one false assumption or missing owner, then the group repairs the artifact.
 - Is the ICP narrow enough for 90 days?
 - What accounts should be excluded immediately?
 - What signal would prove the segment is moving?
@@ -92,17 +92,17 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 - What content becomes specific because the ICP is narrow?
 - What will leadership be tempted to broaden too early?
 
-## Slide 10: AI-Assisted Exercise Prompt
+## Slide 10: Structured Drafting Drill
 
-- Use this as the AI prompt skeleton.
-- Score three candidate industrial segments by fit, trigger, access, commercial value, committee feasibility, proof availability, and pilot feasibility. Recommend one 90-day ICP, explain why it is narrow enough, define explicit disqualification rules, and list risks or assumptions humans must validate.
-- Require the AI to list assumptions and unknowns before learners accept any recommendation.
+- Use this as the structured drafting brief.
+- Compare three candidate industrial segments by fit, trigger, access, commercial value, committee feasibility, proof availability, and pilot feasibility. Recommend one 90-day ICP, explain why it is narrow enough, define explicit disqualification rules, and list risks or assumptions the team must validate.
+- Require the draft to list assumptions and unknowns before learners accept any recommendation.
 - Ranks by fit, trigger, access, value, and feasibility
 - Explains why the chosen segment is narrow enough
 - Includes explicit rejection rules
 - Names likely committee roles and demand signals
 
-## Slide 11: Human Correction / Quality Control
+## Slide 11: Human Quality Control
 
 - The correction standard is operational judgment, not cosmetic polish.
 - Reject market size as the main reason.
@@ -110,7 +110,7 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 - Reject segments with no commercial value threshold.
 - Reject digital-access assumptions where relationship channels dominate.
 - Reject any pilot without disqualification.
-- Instructor move: ask what field evidence, SME proof, or sales reality the AI could not know.
+- Instructor move: ask what field evidence, SME proof, or sales reality is missing.
 
 ## Slide 12: RevOps Translation
 

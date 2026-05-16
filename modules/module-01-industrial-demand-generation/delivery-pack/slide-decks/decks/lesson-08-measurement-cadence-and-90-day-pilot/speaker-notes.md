@@ -84,7 +84,7 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 
 ## Slide 09: Group Critique
 
-- Use the critique loop: learner presents, peers name strength, peers identify one false assumption or missing owner, AI revises, humans accept or repair.
+- Use the critique loop: learner presents, peers name strength, peers identify one false assumption or missing owner, then the group repairs the artifact.
 - Are the metrics mostly leading indicators?
 - Can RevOps capture the evidence?
 - Are owners named?
@@ -92,18 +92,18 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 - Does the cadence create decisions or only reporting?
 - Does the pilot connect content, distribution, routing, sales action, and buyer enablement?
 
-## Slide 10: AI-Assisted Exercise Prompt
+## Slide 10: Structured Drafting Drill
 
-- Use this as the AI prompt skeleton.
-- Assemble the 90-day pilot from prior artifacts. Include executive summary, phase plan, weekly cadence, success metrics, anti-pattern risks, stop-repair-scale criteria, and unresolved assumptions requiring human validation. Keep metrics focused on account movement and quality, not vanity activity.
-- Require the AI to list assumptions and unknowns before learners accept any recommendation.
+- Use this as the structured drafting brief.
+- Assemble the 90-day pilot from prior artifacts. Include executive summary, phase plan, weekly cadence, success metrics, anti-pattern risks, stop-repair-scale criteria, and unresolved assumptions requiring field validation. Keep metrics focused on account movement and quality, not vanity activity.
+- Require the draft to list assumptions and unknowns before learners accept any recommendation.
 - Clear revenue problem, focus, pilot logic, and decision request
 - 90-day sequence with owners and outputs
 - Cadence with evidence and decisions
 - Success metrics for movement, coverage, signal quality, sales use, and opportunity quality
 - Stop, repair, scale criteria tied to evidence
 
-## Slide 11: Human Correction / Quality Control
+## Slide 11: Human Quality Control
 
 - The correction standard is operational judgment, not cosmetic polish.
 - Reject vanity metrics.
@@ -112,7 +112,7 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 - Reject campaign framing.
 - Reject broad plans with no disqualification.
 - Reject confident summaries that hide assumptions.
-- Instructor move: ask what field evidence, SME proof, or sales reality the AI could not know.
+- Instructor move: ask what field evidence, SME proof, or sales reality is missing.
 
 ## Slide 12: RevOps Translation
 

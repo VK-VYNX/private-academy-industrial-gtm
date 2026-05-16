@@ -8,8 +8,8 @@ export const SLIDE_TYPES = [
   "diagnostic",
   "exercise",
   "critique",
-  "ai",
-  "human-correction",
+  "drafting-drill",
+  "quality-control",
   "revops",
   "failure-modes",
   "final-artifact",
@@ -268,7 +268,7 @@ async function renderTitle(presentation, ctx, lesson, slideNo) {
   sectionHeader(slide, ctx, "Lesson output", 878, 126, theme.rust);
   t(slide, ctx, lesson.artifact, 878, 158, 286, 76, { size: 22, color: theme.ink, bold: true, display: true });
   sectionHeader(slide, ctx, "Workshop rule", 878, 270, theme.steel);
-  t(slide, ctx, "Teach the operating decision, run the diagnostic, then force a usable artifact. The slide is a prompt, not the handout.", 878, 302, 274, 92, {
+  t(slide, ctx, "Teach the operating decision, run the diagnostic, then force a usable artifact. The slide is a teaching cue, not the handout.", 878, 302, 274, 92, {
     size: 15,
     color: theme.muted,
   });
@@ -290,7 +290,7 @@ async function renderPromise(presentation, ctx, lesson, slideNo) {
   bullet(slide, ctx, [
     "Ask for evidence before opinion.",
     "Use the workbook for capture.",
-    "Keep AI useful but subordinate to human correction.",
+    "Keep first drafts subordinate to human correction.",
     "Do not accept generic SaaS or lead-gen answers.",
   ], 788, 282, 346, { size: 15, color: "#FFFFFF", dot: theme.gold, gap: 42 });
   footer(slide, ctx, lesson, slideNo);
@@ -365,7 +365,7 @@ async function renderDiagnostic(presentation, ctx, lesson, slideNo) {
   slideTitle(slide, ctx, lesson, "diagnostic", "Run the room on one hard operating question.", "This slide is the short live diagnostic before the exercise.", slideNo);
   panel(slide, ctx, 54, 206, 1146, 128, { fill: theme.dark, line: theme.dark });
   t(slide, ctx, lesson.diagnosticLead, 90, 230, 1056, 70, { size: 31, color: "#FFFFFF", bold: true, display: true, valign: "middle" });
-  sectionHeader(slide, ctx, "Prompt stack", 74, 382, theme.steel);
+  sectionHeader(slide, ctx, "Question stack", 74, 382, theme.steel);
   const cols = [lesson.diagnosticPrompts.slice(0, 3), lesson.diagnosticPrompts.slice(3, 6)];
   cols.forEach((list, i) => bullet(slide, ctx, list, 92 + i * 548, 424, 460, { size: 16, gap: 52, max: 3, dot: i ? theme.rust : theme.steel }));
   footer(slide, ctx, lesson, slideNo);
@@ -405,41 +405,41 @@ async function renderCritique(presentation, ctx, lesson, slideNo) {
   return slide;
 }
 
-async function renderAi(presentation, ctx, lesson, slideNo) {
+async function renderDraftingDrill(presentation, ctx, lesson, slideNo) {
   const slide = presentation.slides.add();
-  const title = "Use AI to structure the attempt, then make humans responsible for judgment.";
-  const subtitle = "The prompt is constrained by source, assumptions, output standard, and human validation.";
-  slideTitle(slide, ctx, lesson, "ai-assisted exercise", title, subtitle, slideNo);
-  mainBand(slide, ctx);
-  panel(slide, ctx, 24, 190, 640, 482, { fill: theme.dark, line: theme.dark });
-  sectionHeader(slide, ctx, "Prompt to give AI", 64, 230, theme.gold);
-  t(slide, ctx, compact(lesson.aiPrompt, 420), 64, 278, 530, 230, { size: 15, color: "#FFFFFF" });
-  panel(slide, ctx, 664, 190, 616, 482, { fill: "#FFFFFF" });
-  sectionHeader(slide, ctx, "Required output standard", 704, 230, theme.steel);
-  bullet(slide, ctx, lesson.aiOutputStandards, 704, 278, 460, { size: 15, gap: 50, max: 6, dot: theme.steel });
+  const title = "Structure the first draft before the room critiques it.";
+  const subtitle = "The brief is constrained by source evidence, assumptions, output standard, and validation.";
+  slideTitle(slide, ctx, lesson, "structured drafting drill", title, subtitle, slideNo);
+  r(slide, ctx, 0, 190, ctx.W, 482, theme.bg, { line: ctx.line(theme.bg, 1) });
+  panel(slide, ctx, 54, 214, 590, 334, { fill: "#FFFFFF" });
+  sectionHeader(slide, ctx, "Drafting brief", 86, 246, theme.rust);
+  t(slide, ctx, compact(lesson.draftingBrief, 390), 86, 290, 484, 184, { size: 16, color: theme.ink });
+  panel(slide, ctx, 682, 214, 518, 334, { fill: "#F9FAF7" });
+  sectionHeader(slide, ctx, "Required output standard", 716, 246, theme.steel);
+  bullet(slide, ctx, lesson.draftingStandards, 716, 292, 398, { size: 15, gap: 50, max: 6, dot: theme.steel });
   footer(slide, ctx, lesson, slideNo);
-  headerOverlay(slide, ctx, lesson, "ai-assisted exercise", title, subtitle, slideNo);
+  headerOverlay(slide, ctx, lesson, "structured drafting drill", title, subtitle, slideNo);
   return slide;
 }
 
-async function renderHuman(presentation, ctx, lesson, slideNo) {
+async function renderQualityControl(presentation, ctx, lesson, slideNo) {
   const slide = presentation.slides.add();
-  const title = "AI can draft structure. Humans must repair industrial reality.";
+  const title = "Reject weak artifacts before they become operating practice.";
   const subtitle = "This slide gives the instructor a rejection standard.";
-  slideTitle(slide, ctx, lesson, "human correction", title, subtitle, slideNo);
+  slideTitle(slide, ctx, lesson, "quality control", title, subtitle, slideNo);
   mainBand(slide, ctx);
   panel(slide, ctx, 24, 190, 806, 482, { fill: "#FFFFFF" });
-  sectionHeader(slide, ctx, "Reject or repair when AI output...", 64, 230, theme.red);
-  bullet(slide, ctx, lesson.humanCorrection, 64, 278, 640, { size: 16, gap: 48, max: 6, dot: theme.red });
+  sectionHeader(slide, ctx, "Reject or repair when the artifact...", 64, 230, theme.red);
+  bullet(slide, ctx, lesson.qualityControl, 64, 278, 640, { size: 16, gap: 48, max: 6, dot: theme.red });
   panel(slide, ctx, 830, 190, 450, 482, { fill: "#F9FAF7" });
   sectionHeader(slide, ctx, "Quality control", 870, 230, theme.olive);
   t(slide, ctx, "The correction standard is not nicer wording. It is better industrial judgment: category specificity, proof, owner, field, SLA, cadence, and disqualification where needed.", 870, 278, 300, 150, {
     size: 17,
     color: theme.ink,
   });
-  notesCue(slide, ctx, "Ask what the AI is guessing.");
+  notesCue(slide, ctx, "Ask what the artifact assumes.");
   footer(slide, ctx, lesson, slideNo);
-  headerOverlay(slide, ctx, lesson, "human correction", title, subtitle, slideNo);
+  headerOverlay(slide, ctx, lesson, "quality control", title, subtitle, slideNo);
   return slide;
 }
 
@@ -508,7 +508,7 @@ async function renderArtifact(presentation, ctx, lesson, slideNo) {
   bullet(slide, ctx, right, 386, 278, 280, { size: 15, gap: 48, max: 6, dot: theme.rust });
   panel(slide, ctx, 740, 190, 540, 482, { fill: theme.dark, line: theme.dark });
   sectionHeader(slide, ctx, "Completion standard", 782, 238, theme.gold);
-  t(slide, ctx, "The artifact passes only if sales, marketing, RevOps, leadership, and an AI agent could inspect it and know what to do next.", 782, 292, 360, 140, { size: 21, color: "#FFFFFF", bold: true, display: true });
+  t(slide, ctx, "The artifact passes only if sales, marketing, RevOps, and leadership can inspect it and know what to do next.", 782, 292, 360, 140, { size: 21, color: "#FFFFFF", bold: true, display: true });
   t(slide, ctx, "If it could be used unchanged by a generic SaaS company, it fails.", 782, 494, 340, 52, { size: 15, color: "#D6E3E5" });
   footer(slide, ctx, lesson, slideNo);
   headerOverlay(slide, ctx, lesson, "final artifact", title, subtitle, slideNo);
@@ -533,7 +533,7 @@ async function renderTransition(presentation, ctx, lesson, slideNo) {
 }
 
 function commonQuestionLine() {
-  return "Recurring instructor check: sales impact / signal / RevOps field / buyer content / AI risk / industrial failure mode";
+  return "Recurring instructor check: sales impact / signal / RevOps field / buyer content / review risk / industrial failure mode";
 }
 
 export async function renderSlide(presentation, ctx, lesson, slideNo) {
@@ -557,10 +557,10 @@ export async function renderSlide(presentation, ctx, lesson, slideNo) {
       return renderExercise(presentation, ctx, lesson, slideNo);
     case "critique":
       return renderCritique(presentation, ctx, lesson, slideNo);
-    case "ai":
-      return renderAi(presentation, ctx, lesson, slideNo);
-    case "human-correction":
-      return renderHuman(presentation, ctx, lesson, slideNo);
+    case "drafting-drill":
+      return renderDraftingDrill(presentation, ctx, lesson, slideNo);
+    case "quality-control":
+      return renderQualityControl(presentation, ctx, lesson, slideNo);
     case "revops":
       return renderRevops(presentation, ctx, lesson, slideNo);
     case "failure-modes":

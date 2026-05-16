@@ -14,7 +14,6 @@ These SVG files are copied from `../exports/rendered-flowcharts/` by `src/build-
 - 10-weekly-revenue-cadence.svg
 - 12-capstone-assembly-map.svg
 - 14-90-day-implementation-sprint.svg
-- 15-learning-rhythm-and-critique-loop.svg
 - 20-content-audit-and-gap-prioritization.svg
 - 21-channel-selection-by-trust-and-stage.svg
 - 22-event-and-trade-show-demand-motion.svg

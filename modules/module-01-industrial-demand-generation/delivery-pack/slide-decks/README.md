@@ -2,7 +2,7 @@
 
 This package contains eight instructor projection decks for the 3-hour live workshop version of Module 1: Industrial Demand Generation.
 
-The decks are not learner handouts or marketing presentations. They are instructor operating aids: each deck teaches one lesson, frames the diagnostic, introduces the working artifact, supports AI-assisted drafting, and forces human correction before the output becomes part of the 90-day pilot.
+The decks are not learner handouts or marketing presentations. They are instructor operating aids: each deck teaches one lesson, frames the diagnostic, introduces the working artifact, supports structured human drafting, and forces quality control before the output becomes part of the 90-day pilot.
 
 ## Deck Sequence
 

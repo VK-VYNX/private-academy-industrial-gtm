@@ -35,6 +35,21 @@ const bannedCompanyNames = [
   "Toyota",
 ];
 
+const aiTerm = ["A", "I"].join("");
+const agentTerm = ["ag", "ent"].join("");
+const forbiddenHumanDeckPhrases = [
+  [aiTerm, agentTerm].join(" "),
+  [aiTerm, `${agentTerm}s`].join(" "),
+  ["agen", "tic"].join(""),
+  ["autonomous", agentTerm].join(" "),
+  ["machine", "readable"].join("-"),
+  [aiTerm, "assisted"].join("-"),
+  [aiTerm, "prompt"].join(" "),
+  ["prompt", "skeleton"].join(" "),
+  ["Prompt", "to", "give", aiTerm].join(" "),
+  ["L", "LM"].join(""),
+];
+
 function pad(value) {
   return String(value).padStart(2, "0");
 }
@@ -69,6 +84,45 @@ async function collectTextFiles(dir) {
   return out;
 }
 
+function requireText(value, label, errors) {
+  if (!String(value || "").trim()) errors.push(`Missing ${label}`);
+}
+
+function requireArray(value, label, min, errors) {
+  if (!Array.isArray(value) || value.length < min) {
+    errors.push(`Expected at least ${min} items for ${label}`);
+  }
+}
+
+function validateLessonCoverage(lesson, errors) {
+  requireText(lesson.promise, `lesson ${lesson.id} promise`, errors);
+  requireText(lesson.output, `lesson ${lesson.id} output`, errors);
+  requireText(lesson.artifact, `lesson ${lesson.id} artifact`, errors);
+  requireText(lesson.frameworkTitle, `lesson ${lesson.id} framework title`, errors);
+  requireText(lesson.mentalModelTitle, `lesson ${lesson.id} mental model title`, errors);
+  requireText(lesson.exampleTitle, `lesson ${lesson.id} example title`, errors);
+  requireText(lesson.diagnosticLead, `lesson ${lesson.id} diagnostic lead`, errors);
+  requireText(lesson.exerciseTitle, `lesson ${lesson.id} exercise title`, errors);
+  requireText(lesson.exerciseTime, `lesson ${lesson.id} exercise time`, errors);
+  requireText(lesson.draftingBrief, `lesson ${lesson.id} drafting brief`, errors);
+  requireText(lesson.revopsTitle, `lesson ${lesson.id} RevOps title`, errors);
+  requireText(lesson.transition, `lesson ${lesson.id} transition`, errors);
+  requireText(lesson.nextLesson, `lesson ${lesson.id} next lesson`, errors);
+
+  requireArray(lesson.why, `lesson ${lesson.id} why points`, 3, errors);
+  requireArray(lesson.framework, `lesson ${lesson.id} framework points`, 5, errors);
+  requireArray(lesson.mentalModel, `lesson ${lesson.id} mental model blocks`, 4, errors);
+  requireArray(lesson.example, `lesson ${lesson.id} example points`, 3, errors);
+  requireArray(lesson.diagnosticPrompts, `lesson ${lesson.id} diagnostic questions`, 5, errors);
+  requireArray(lesson.exerciseSteps, `lesson ${lesson.id} exercise steps`, 3, errors);
+  requireArray(lesson.critique, `lesson ${lesson.id} critique prompts`, 5, errors);
+  requireArray(lesson.draftingStandards, `lesson ${lesson.id} drafting standards`, 4, errors);
+  requireArray(lesson.qualityControl, `lesson ${lesson.id} quality-control checks`, 5, errors);
+  requireArray(lesson.revops, `lesson ${lesson.id} RevOps fields`, 6, errors);
+  requireArray(lesson.failureModes, `lesson ${lesson.id} failure modes`, 4, errors);
+  requireArray(lesson.finalArtifact, `lesson ${lesson.id} final artifact checklist`, 6, errors);
+}
+
 async function main() {
   const errors = [];
   const warnings = [];
@@ -78,8 +132,11 @@ async function main() {
   checks.push(`Lesson records: ${lessons.length}`);
   checks.push(`Slide types per deck: ${SLIDE_TYPES.length}`);
   checks.push(`Workshop time: ${workshopPlan.teachingMinutes}/${workshopPlan.totalMinutes} minutes`);
+  checks.push("Coverage rule set: promise, why, framework, mental model, example, diagnostic, exercise, critique, drafting drill, quality control, RevOps, failure modes, artifact, transition");
 
   for (const lesson of lessons) {
+    validateLessonCoverage(lesson, errors);
+
     const sourceFile = path.join(REPO_ROOT, lesson.lessonFile);
     await statNonEmpty(sourceFile, `Source lesson for ${lesson.id}`, errors);
 
@@ -112,7 +169,7 @@ async function main() {
     }
 
     if (lesson.finalArtifact.length > 10) warnings.push(`Final artifact list is dense in lesson ${lesson.id}`);
-    if (lesson.aiPrompt.length > 780) warnings.push(`AI prompt may be long for projection in lesson ${lesson.id}`);
+    if (lesson.draftingBrief.length > 780) warnings.push(`Drafting brief may be long for projection in lesson ${lesson.id}`);
     if (lesson.diagnosticPrompts.length > 7) warnings.push(`Diagnostic prompt stack may be long in lesson ${lesson.id}`);
   }
 
@@ -144,6 +201,25 @@ async function main() {
     errors.push(`Restricted-name scan found unexpected real company references: ${restrictedHits.join("; ")}`);
   }
 
+  const visibleInstructorFiles = [
+    path.join(PACKAGE_ROOT, "README.md"),
+    path.join(PACKAGE_ROOT, "source-index.md"),
+    path.join(PACKAGE_ROOT, "src", "lesson-data.mjs"),
+    path.join(PACKAGE_ROOT, "src", "deck-runtime.mjs"),
+    ...lessons.map((lesson) => path.join(PACKAGE_ROOT, "decks", lesson.slug, "speaker-notes.md")),
+  ];
+  const humanDeckHits = [];
+  for (const filePath of visibleInstructorFiles) {
+    const text = await readIfExists(filePath);
+    for (const phrase of forbiddenHumanDeckPhrases) {
+      const pattern = new RegExp(`\\b${phrase.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i");
+      if (pattern.test(text)) humanDeckHits.push(`${phrase} in ${path.relative(PACKAGE_ROOT, filePath)}`);
+    }
+  }
+  if (humanDeckHits.length) {
+    errors.push(`Human-only deck scan found non-human instructor language: ${humanDeckHits.join("; ")}`);
+  }
+
   const reportLines = [
     "# Slide Deck Validation Report",
     "",
@@ -163,6 +239,8 @@ async function main() {
     "- Rendered PNG previews present for every slide",
     "- Source lesson links present",
     "- Restricted-name scan completed",
+    "- Human-only instructor deck scan completed",
+    "- Lesson concept coverage scan completed",
     "- Readability rule scan completed",
     "",
     "## Warnings",

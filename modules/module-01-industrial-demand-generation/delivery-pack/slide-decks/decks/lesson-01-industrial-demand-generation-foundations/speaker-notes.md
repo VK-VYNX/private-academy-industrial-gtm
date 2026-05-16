@@ -82,24 +82,24 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 
 ## Slide 09: Group Critique
 
-- Use the critique loop: learner presents, peers name strength, peers identify one false assumption or missing owner, AI revises, humans accept or repair.
+- Use the critique loop: learner presents, peers name strength, peers identify one false assumption or missing owner, then the group repairs the artifact.
 - Is the weakness a focus, content, distribution, routing, enablement, or cadence problem?
 - What is the commercial consequence?
 - Which buying role is affected?
 - What would sales need before acting?
 - What would RevOps need to capture?
 
-## Slide 10: AI-Assisted Exercise Prompt
+## Slide 10: Structured Drafting Drill
 
-- Use this as the AI prompt skeleton.
-- Given the selected category, current assets, current channels, sales feedback, and CRM fields, classify the current demand motion as demand creation, demand capture, lead collection, or mixed. Identify the weakest operating layer, one practical repair that can start within two weeks, one account-level signal to track, and the human questions that require sales, RevOps, SME, or leadership input.
-- Require the AI to list assumptions and unknowns before learners accept any recommendation.
+- Use this as the structured drafting brief.
+- Using the selected category, current assets, current channels, sales feedback, and CRM fields, classify the current demand motion as demand creation, demand capture, lead collection, or mixed. Identify the weakest operating layer, one practical repair that can start within two weeks, one account-level signal to track, and the validation questions that require sales, RevOps, SME, or leadership input.
+- Require the draft to list assumptions and unknowns before learners accept any recommendation.
 - Names the missing layer
 - Explains the anti-pattern and commercial risk
 - Defines signal, owner, and cadence
-- Lists human validation questions
+- Lists field-validation questions
 
-## Slide 11: Human Correction / Quality Control
+## Slide 11: Human Quality Control
 
 - The correction standard is operational judgment, not cosmetic polish.
 - Reject more-content recommendations with no distribution path.
@@ -107,7 +107,7 @@ Use these notes as the instructor depth layer. The projected slides are intentio
 - Reject impressions, traffic, likes, and MQLs as primary success.
 - Reject activation before state and signal strength are known.
 - Reject invented named-company examples.
-- Instructor move: ask what field evidence, SME proof, or sales reality the AI could not know.
+- Instructor move: ask what field evidence, SME proof, or sales reality is missing.
 
 ## Slide 12: RevOps Translation
 
