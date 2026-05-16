@@ -105,6 +105,7 @@ $RequiredPaths = @(
     "$DeliveryRoot/flowcharts/concept-coverage-matrix.md",
     "$DeliveryRoot/flowcharts/visual-render-qa.md",
     "$DeliveryRoot/exports/rendered-flowcharts/render-report.md",
+    "$DeliveryRoot/exports/rendered-flowcharts/diagram-gallery.html",
     "$DeliveryRoot/exports/rendered-flowcharts/contact-sheet.md",
     "$DeliveryRoot/calibration-pack/README.md",
     "$DeliveryRoot/cohort-ops/README.md",

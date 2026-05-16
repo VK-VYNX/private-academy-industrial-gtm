@@ -23,6 +23,7 @@ modules/module-01-industrial-demand-generation/delivery-pack/exports/rendered-fl
 | SVG render report | generated at `../exports/rendered-flowcharts/render-report.md` |
 | rendered SVG count | 33 numbered diagrams |
 | machine nonblank check | passed: every SVG file is present and contains an `<svg` root |
+| browser gallery | generated at `../exports/rendered-flowcharts/diagram-gallery.html` |
 | contact sheet | generated at `../exports/rendered-flowcharts/contact-sheet.md` |
 | human visual inspection | pending reviewer initials and notes below |
 

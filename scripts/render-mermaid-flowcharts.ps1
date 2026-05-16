@@ -137,6 +137,7 @@ foreach ($File in $MarkdownFiles) {
 
 $ReportPath = Join-Path $OutputDir "render-report.md"
 $ContactSheetPath = Join-Path $OutputDir "contact-sheet.md"
+$GalleryPath = Join-Path $OutputDir "diagram-gallery.html"
 $Now = Get-Date -Format "yyyy-MM-dd HH:mm:ss zzz"
 $Report = @()
 $Report += "# Mermaid Render Report"
@@ -175,12 +176,54 @@ foreach ($Item in $Rendered) {
     $ContactSheet += "![Rendered diagram](./$Leaf)"
     $ContactSheet += ""
 }
+if ($ContactSheet.Count -gt 0 -and $ContactSheet[$ContactSheet.Count - 1] -eq "") {
+    $ContactSheet = $ContactSheet[0..($ContactSheet.Count - 2)]
+}
 
 Set-Content -LiteralPath $ContactSheetPath -Value ($ContactSheet -join [Environment]::NewLine) -Encoding UTF8
+
+$Gallery = @()
+$Gallery += "<!doctype html>"
+$Gallery += "<html lang=""en"">"
+$Gallery += "<head>"
+$Gallery += "  <meta charset=""utf-8"">"
+$Gallery += "  <meta name=""viewport"" content=""width=device-width, initial-scale=1"">"
+$Gallery += "  <title>Module 1 Flowchart Gallery</title>"
+$Gallery += "  <style>"
+$Gallery += "    body { margin: 0; font-family: Arial, sans-serif; color: #111827; background: #f8fafc; }"
+$Gallery += "    header { position: sticky; top: 0; z-index: 1; padding: 18px 28px; background: #111827; color: #fff; }"
+$Gallery += "    h1 { margin: 0 0 6px; font-size: 24px; }"
+$Gallery += "    p { margin: 0; line-height: 1.5; }"
+$Gallery += "    main { padding: 24px; display: grid; gap: 24px; }"
+$Gallery += "    section { background: #fff; border: 1px solid #d1d5db; border-radius: 8px; padding: 18px; box-shadow: 0 1px 2px rgba(15, 23, 42, .08); }"
+$Gallery += "    h2 { margin: 0 0 14px; font-size: 18px; }"
+$Gallery += "    img { width: 100%; height: auto; border: 1px solid #e5e7eb; border-radius: 6px; background: #fff; }"
+$Gallery += "  </style>"
+$Gallery += "</head>"
+$Gallery += "<body>"
+$Gallery += "  <header>"
+$Gallery += "    <h1>Module 1 Flowchart Gallery</h1>"
+$Gallery += "    <p>Rendered SVG diagrams for visual review. Open this file in a browser for the clearest view.</p>"
+$Gallery += "  </header>"
+$Gallery += "  <main>"
+foreach ($Item in $Rendered) {
+    $Leaf = Split-Path -Leaf $Item.Output
+    $Title = [System.Net.WebUtility]::HtmlEncode($Item.Source)
+    $Gallery += "    <section>"
+    $Gallery += "      <h2>$Title</h2>"
+    $Gallery += "      <img src=""$Leaf"" alt=""$Title"">"
+    $Gallery += "    </section>"
+}
+$Gallery += "  </main>"
+$Gallery += "</body>"
+$Gallery += "</html>"
+
+Set-Content -LiteralPath $GalleryPath -Value ($Gallery -join [Environment]::NewLine) -Encoding UTF8
 
 Write-Host "Rendered $($Rendered.Count) Mermaid diagram(s)."
 Write-Host "Render report written to $(Get-RepoRelativePath $ReportPath)"
 Write-Host "Contact sheet written to $(Get-RepoRelativePath $ContactSheetPath)"
+Write-Host "HTML gallery written to $(Get-RepoRelativePath $GalleryPath)"
 
 if ($Failures.Count -gt 0) {
     exit 1
