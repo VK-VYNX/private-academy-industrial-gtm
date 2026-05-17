@@ -23,10 +23,12 @@ Total planned teaching time: 178 minutes, leaving 2 minutes of instructor buffer
 
 | Folder Or File | Use |
 |---|---|
+| [instructor-slide-content.md](instructor-slide-content.md) | comprehensive human-review Markdown for all eight decks, slide by slide |
 | [exports/](exports/) | exported editable PowerPoint decks |
 | [decks/](decks/) | generated per-lesson slide modules and speaker notes |
 | [assets/flowcharts/](assets/flowcharts/) | copied rendered Module 1 flowchart SVGs used in the decks |
 | [src/lesson-data.mjs](src/lesson-data.mjs) | editable source intelligence for every slide |
+| [src/build-slide-content-md.mjs](src/build-slide-content-md.mjs) | regenerates only the Markdown content review file |
 | [src/deck-runtime.mjs](src/deck-runtime.mjs) | shared artifact-tool slide layouts |
 | [src/build-decks.mjs](src/build-decks.mjs) | regenerates slide modules, speaker notes, previews, manifests, and PPTX exports |
 | [src/validate-decks.mjs](src/validate-decks.mjs) | checks package completeness, source links, restricted-name scan, assets, and readability rules |
@@ -36,6 +38,14 @@ Total planned teaching time: 178 minutes, leaving 2 minutes of instructor buffer
 ## Build
 
 From the repo root:
+
+To regenerate only the comprehensive Markdown content file:
+
+```powershell
+& "$env:USERPROFILE\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe" modules/module-01-industrial-demand-generation/delivery-pack/slide-decks/src/build-slide-content-md.mjs
+```
+
+To regenerate deck exports:
 
 ```powershell
 & "$env:USERPROFILE\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe" modules/module-01-industrial-demand-generation/delivery-pack/slide-decks/src/build-decks.mjs

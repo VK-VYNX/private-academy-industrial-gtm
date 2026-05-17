@@ -175,7 +175,9 @@ async function main() {
 
   const packageFiles = [
     path.join(PACKAGE_ROOT, "README.md"),
+    path.join(PACKAGE_ROOT, "instructor-slide-content.md"),
     path.join(PACKAGE_ROOT, "source-index.md"),
+    path.join(PACKAGE_ROOT, "src", "build-slide-content-md.mjs"),
     path.join(PACKAGE_ROOT, "src", "lesson-data.mjs"),
     path.join(PACKAGE_ROOT, "src", "deck-runtime.mjs"),
     path.join(PACKAGE_ROOT, "src", "build-decks.mjs"),
@@ -203,6 +205,7 @@ async function main() {
 
   const visibleInstructorFiles = [
     path.join(PACKAGE_ROOT, "README.md"),
+    path.join(PACKAGE_ROOT, "instructor-slide-content.md"),
     path.join(PACKAGE_ROOT, "source-index.md"),
     path.join(PACKAGE_ROOT, "src", "lesson-data.mjs"),
     path.join(PACKAGE_ROOT, "src", "deck-runtime.mjs"),
