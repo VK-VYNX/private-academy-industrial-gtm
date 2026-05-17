@@ -8,9 +8,9 @@ Build the operating system that creates trust, account movement, and qualified p
 - Demand often exists before a form, RFQ, or sales call.
 - The system must connect focus, buyer reality, proof, distribution, signals, routing, and cadence.
 
-Diagram text:
+Diagram Text:
 
-- Account movement
+- Account Movement
 - Focus
 - Buyer
 - MOIN
@@ -23,20 +23,20 @@ Diagram text:
 
 Every participant leaves with an executive-ready strategy for one chosen product or product category.
 
-Final strategy package:
+Final Strategy Package:
 
-- Demand system diagnostic
-- Buying committee and proof map
-- ICP and disqualification scorecard
-- MOIN grid
-- First-five content asset plan
-- Distribution and ecosystem plan
-- Signal-routing table
-- RevOps field and cadence plan
-- 90-day Industrial Demand Generation pilot
-- Executive summary with stop, repair, scale criteria
+- Demand System Diagnostic
+- Buying Committee and Proof Map
+- ICP and Disqualification Scorecard
+- MOIN Grid
+- First-Five Content Asset Plan
+- Distribution and Ecosystem Plan
+- Signal-Routing Table
+- RevOps Field and Cadence Plan
+- 90-Day Industrial Demand Generation Pilot
+- Executive Summary with Stop, Repair, Scale Criteria
 
-Decision standard:
+Decision Standard:
 
 - Stop
 - Repair
@@ -46,43 +46,43 @@ Decision standard:
 
 The workshop is a build sequence. Each exercise becomes one section of the final strategy.
 
-Build sequence:
+Build Sequence:
 
-1. Diagnose the demand system.
-2. Map the buying committee.
-3. Select the 90-day ICP focus.
-4. Build the MOIN grid.
-5. Create the first-five asset plan.
-6. Design trusted distribution.
-7. Route signals by fit, state, role, and strength.
-8. Assemble the 90-day pilot.
+1. Diagnose the Demand System
+2. Map the Buying Committee
+3. Select the 90-Day ICP Focus
+4. Build the MOIN Grid
+5. Create the First-Five Asset Plan
+6. Design Trusted Distribution
+7. Route Signals by Fit, State, Role, and Strength
+8. Assemble the 90-Day Pilot
 
-Final artifact:
+Final Artifact:
 
-- Executive-ready Industrial Demand Generation strategy
-- Evidence-based stop, repair, scale decision
+- Executive-Ready Industrial Demand Generation Strategy
+- Evidence-Based Stop, Repair, Scale Decision
 
 ## Slide 04 - Why Lead Generation Fails Industrial Markets
 
 Lead volume can rise while high-fit account movement stays flat.
 
-Lead capture motion:
+Lead Capture Motion:
 
 - Forms
 - RFQs
-- Campaign sends
-- Inquiry count
-- Generic follow-up
+- Campaign Sends
+- Inquiry Count
+- Generic Follow-Up
 
-Industrial demand generation motion:
+Industrial Demand Generation Motion:
 
-- Trusted circulation
-- Role-specific proof
-- Account-level signals
-- Routed next actions
-- Weekly learning cadence
+- Trusted Circulation
+- Role-Specific Proof
+- Account-Level Signals
+- Routed Next Actions
+- Weekly Learning Cadence
 
-Operating point:
+Operating Point:
 
 - Lead capture is one layer.
 - It fails when treated as the whole system.
@@ -91,39 +91,39 @@ Operating point:
 
 The engine only works when focus, buyer reality, proof, circulation, signals, routing, and cadence connect.
 
-Operating loop:
+Operating Loop:
 
-1. Revenue goal and market focus
-2. ICP and buying committee
-3. MOIN and proof assets
-4. Trusted distribution
-5. Account-level signals
-6. Signal routing and buyer enablement
-7. Weekly learning loop
+1. Revenue Goal and Market Focus
+2. ICP and Buying Committee
+3. MOIN and Proof Assets
+4. Trusted Distribution
+5. Account-Level Signals
+6. Signal Routing and Buyer Enablement
+7. Weekly Learning Loop
 
-Failure warnings:
+Failure Warnings:
 
-- Generic focus
-- Invisible committee
-- Unsupported proof
-- Untrusted distribution
-- Misread signals
-- Unrouted next actions
-- No weekly learning
+- Generic Focus
+- Invisible Committee
+- Unsupported Proof
+- Untrusted Distribution
+- Misread Signals
+- Unrouted Next Actions
+- No Weekly Learning
 
-## Slide 06 - Demand States And Account Movement
+## Slide 06 - Demand States and Account Movement
 
 Do not treat all engagement as intent. Interpret learning, comparison, and supplier evaluation differently.
 
-Demand states:
+Demand States:
 
 | Demand State | Buyer Is Asking | Asset Job | Signal Meaning |
 |---|---|---|---|
-| Content demand | What problem, risk, or opportunity matters? | Educate and frame urgency | Early learning |
-| Solution demand | What approach, requirement, or implementation path fits? | Compare options and clarify criteria | Active evaluation |
-| Vendor demand | Which supplier can reduce risk and prove value? | Validate proof, TCO, support, and procurement confidence | Supplier consideration |
+| Content Demand | What problem, risk, or opportunity matters? | Educate and Frame Urgency | Early Learning |
+| Solution Demand | What approach, requirement, or implementation path fits? | Compare Options and Clarify Criteria | Active Evaluation |
+| Vendor Demand | Which supplier can reduce risk and prove value? | Validate Proof, TCO, Support, and Procurement Confidence | Supplier Consideration |
 
-Routing rule:
+Routing Rule:
 
 - Interpret fit, state, role, and strength before action.
 
@@ -131,40 +131,40 @@ Routing rule:
 
 Score the current system, name the weakest operating layer, and choose three priority repairs.
 
-Diagnostic canvas:
+Diagnostic Canvas:
 
 | Layer | Current Evidence | Weakness | Commercial Consequence | Repair | Owner |
 |---|---|---|---|---|---|
-| Market focus |  |  |  |  |  |
+| Market Focus |  |  |  |  |  |
 | ICP |  |  |  |  |  |
-| Demand creation |  |  |  |  |  |
+| Demand Creation |  |  |  |  |  |
 | Distribution |  |  |  |  |  |
-| Signal routing |  |  |  |  |  |
+| Signal Routing |  |  |  |  |  |
 | Cadence |  |  |  |  |  |
 
-Required output:
+Required Output:
 
-- One focus repair
-- One content or distribution repair
-- One signal, owner, or cadence repair
+- One Focus Repair
+- One Content or Distribution Repair
+- One Signal, Owner, or Cadence Repair
 
 ## Slide 08 - Industrial Buyer Reality
 
 The visible contact may like the solution while the real committee remains unconvinced.
 
-Buying committee roles:
+Buying Committee Roles:
 
-- Visible champion
-- Technical evaluator
+- Visible Champion
+- Technical Evaluator
 - Operations
-- Quality or compliance
-- Maintenance or service
+- Quality or Compliance
+- Maintenance or Service
 - Procurement
 - Finance
 - Leadership
-- External advisor, consultant, distributor, or project partner
+- External Advisor, Consultant, Distributor, or Project Partner
 
-Operating point:
+Operating Point:
 
 - The buyer is a role network, not a single persona.
 - Each role carries a different fear, proof need, and decision influence.
@@ -173,22 +173,22 @@ Operating point:
 
 The champion must sell internally when the supplier is not in the room.
 
-Sales enablement helps the seller:
+Sales Enablement Helps the Seller:
 
-- Talk track
-- Objection handling
+- Talk Track
+- Objection Handling
 - Qualification
-- Follow-up sequence
+- Follow-Up Sequence
 
-Buyer enablement helps the buyer:
+Buyer Enablement Helps the Buyer:
 
-- Share proof internally
-- Compare technical requirements
-- Explain risk reduction
-- Build internal confidence
-- Defend the business case
+- Share Proof Internally
+- Compare Technical Requirements
+- Explain Risk Reduction
+- Build Internal Confidence
+- Defend the Business Case
 
-Core question:
+Core Question:
 
 - What would the champion forward to operations, finance, procurement, or leadership?
 
@@ -196,9 +196,9 @@ Core question:
 
 Each critical role needs a current belief, required belief, proof asset, and owner.
 
-Proof matrix:
+Proof Matrix:
 
-| Role | Current Belief | Required Belief | Fear Or Blocker | Proof Needed | Asset | Owner |
+| Role | Current Belief | Required Belief | Fear or Blocker | Proof Needed | Asset | Owner |
 |---|---|---|---|---|---|---|
 | Operations |  |  |  |  |  |  |
 | Quality |  |  |  |  |  |  |
@@ -206,7 +206,7 @@ Proof matrix:
 | Finance |  |  |  |  |  |  |
 | Procurement |  |  |  |  |  |  |
 
-Coverage status:
+Coverage Status:
 
 - Missing
 - Partial
@@ -216,7 +216,7 @@ Coverage status:
 
 Map at least five roles, their fears, proof needs, circulatable assets, and owners.
 
-Working matrix:
+Working Matrix:
 
 | Role | Current Belief | Required Belief | Blocker | Proof Needed | Circulatable Asset | Owner |
 |---|---|---|---|---|---|---|
@@ -226,28 +226,28 @@ Working matrix:
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
 
-Required output:
+Required Output:
 
-- Hidden blocker
-- Missing proof asset
-- RevOps field to track
+- Hidden Blocker
+- Missing Proof Asset
+- RevOps Field to Track
 
 ## Slide 12 - ICP Focus
 
 Broad markets make content generic, signals noisy, and sales effort expensive.
 
-90-day focus requires:
+90-Day Focus Requires:
 
-- Fit evidence
-- Trigger evidence
-- Access path
-- Commercial value
-- Committee feasibility
-- Proof availability
-- Pilot feasibility
-- Disqualification clarity
+- Fit Evidence
+- Trigger Evidence
+- Access Path
+- Commercial Value
+- Committee Feasibility
+- Proof Availability
+- Pilot Feasibility
+- Disqualification Clarity
 
-Operating point:
+Operating Point:
 
 - Focus is a resource decision.
 - It determines what not to build, not only what to pursue.
@@ -256,7 +256,7 @@ Operating point:
 
 A 90-day pilot needs fit, trigger, access, value, proof, and feasibility.
 
-Segment scorecard:
+Segment Scorecard:
 
 | Candidate Segment | Fit | Trigger | Access | Value | Proof | Feasibility | Decision |
 |---|---:|---:|---:|---:|---:|---:|---|
@@ -264,27 +264,27 @@ Segment scorecard:
 | Segment B |  |  |  |  |  |  |  |
 | Segment C |  |  |  |  |  |  |  |
 
-Decision output:
+Decision Output:
 
-- Recommended 90-day ICP focus
-- Validation assumptions
-- Rejection logic
+- Recommended 90-Day ICP Focus
+- Validation Assumptions
+- Rejection Logic
 
 ## Slide 14 - Disqualification Gates
 
 Weak-fit demand must be downgraded or rejected before it consumes sales and SME effort.
 
-Disqualification gates:
+Disqualification Gates:
 
-1. Technical fit
-2. Trigger evidence
-3. Role access
-4. Budget reality
-5. Proof feasibility
+1. Technical Fit
+2. Trigger Evidence
+3. Role Access
+4. Budget Reality
+5. Proof Feasibility
 6. Timing
-7. Service feasibility
+7. Service Feasibility
 
-Routing outcomes:
+Routing Outcomes:
 
 - Route
 - Nurture
@@ -292,33 +292,33 @@ Routing outcomes:
 - Downgrade
 - Reject
 
-## Slide 15 - Exercise 3: ICP And Focus Statement
+## Slide 15 - Exercise 3: ICP and Focus Statement
 
 Choose the 90-day segment and write explicit disqualification rules.
 
-Focus statement:
+Focus Statement:
 
-- Target segment:
+- Target Segment:
 - Trigger:
-- Technical fit:
-- Commercial fit:
-- Access path:
-- Buying committee:
-- Proof available:
-- Pilot feasibility:
+- Technical Fit:
+- Commercial Fit:
+- Access Path:
+- Buying Committee:
+- Proof Available:
+- Pilot Feasibility:
 
-Disqualification rules:
+Disqualification Rules:
 
-- Reject when:
-- Downgrade when:
-- Nurture when:
-- Research when:
+- Reject When:
+- Downgrade When:
+- Nurture When:
+- Research When:
 
-## Slide 16 - MOIN: Map Of Informational Needs
+## Slide 16 - MOIN: Map of Informational Needs
 
 Turn buyer uncertainty into a role-specific content and proof roadmap.
 
-MOIN grid:
+MOIN Grid:
 
 | Role | Content Demand | Solution Demand | Vendor Demand |
 |---|---|---|---|
@@ -328,49 +328,49 @@ MOIN grid:
 | Finance |  |  |  |
 | Procurement |  |  |  |
 
-Core unit:
+Core Unit:
 
-- Buyer question
-- Decision risk
-- Proof required
-- Asset idea
-- Signal created
+- Buyer Question
+- Decision Risk
+- Proof Required
+- Asset Idea
+- Signal Created
 
-## Slide 17 - Buyer Questions By Demand State
+## Slide 17 - Buyer Questions by Demand State
 
 Separate problem learning, solution comparison, and supplier evaluation before building assets.
 
-Content demand questions:
+Content Demand Questions:
 
 - What problem, risk, opportunity, or cost of inaction matters?
 
-Solution demand questions:
+Solution Demand Questions:
 
 - Which approach, requirement, implementation path, or tradeoff fits?
 
-Vendor demand questions:
+Vendor Demand Questions:
 
 - Which supplier can prove value, reduce risk, support adoption, and satisfy procurement confidence?
 
-Operating point:
+Operating Point:
 
 - Demand state determines the asset job.
 
-## Slide 18 - Question-To-Proof Pipeline
+## Slide 18 - Question-to-Proof Pipeline
 
 Every serious question becomes an asset, sales use case, signal, and proof requirement.
 
 Pipeline:
 
-1. Buyer question
-2. Decision risk
-3. Proof source
+1. Buyer Question
+2. Decision Risk
+3. Proof Source
 4. Asset
-5. Sales use
-6. Distribution path
+5. Sales Use
+6. Distribution Path
 7. Signal
 
-Priority rule:
+Priority Rule:
 
 - Prioritize questions that reduce committee risk or reveal account movement.
 
@@ -378,7 +378,7 @@ Priority rule:
 
 Build the role-by-demand-state question map for the chosen ICP.
 
-Working grid:
+Working Grid:
 
 | Role | Demand State | Buyer Question | Decision Risk | Proof Required | Asset Idea | Sales Use | Signal Created |
 |---|---|---|---|---|---|---|---|
@@ -388,27 +388,27 @@ Working grid:
 |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |
 
-Required output:
+Required Output:
 
-- Top five buyer questions for the next 90 days
+- Top Five Buyer Questions for the Next 90 Days
 
-## Slide 20 - Content Engine For Industrial Demand
+## Slide 20 - Content Engine for Industrial Demand
 
 Industrial content is not a publishing calendar. Every asset needs a job.
 
-Asset job card:
+Asset Job Card:
 
-- Demand state
-- Buyer role
-- Buyer question
-- Proof source
-- Asset format
-- Sales use
-- Distribution path
+- Demand State
+- Buyer Role
+- Buyer Question
+- Proof Source
+- Asset Format
+- Sales Use
+- Distribution Path
 - Signal
 - Owner
 
-Operating rule:
+Operating Rule:
 
 - No asset without a buyer movement job.
 
@@ -416,20 +416,20 @@ Operating rule:
 
 Build the minimum asset system that supports buyers, sales, distribution, and signal interpretation.
 
-First-five assets:
+First-Five Assets:
 
-1. Problem-risk asset
-2. Selection criteria guide
-3. Proof or application asset
-4. Champion internal pack
-5. Vendor validation asset
+1. Problem-Risk Asset
+2. Selection Criteria Guide
+3. Proof or Application Asset
+4. Champion Internal Pack
+5. Vendor Validation Asset
 
-Asset planning fields:
+Asset Planning Fields:
 
-- Demand state
-- Buyer role
-- Proof source
-- Sales use
+- Demand State
+- Buyer Role
+- Proof Source
+- Sales Use
 - Channel
 - Signal
 
@@ -437,7 +437,7 @@ Asset planning fields:
 
 Create the first-five asset roadmap by demand state, SME input, sales use, channel, and signal.
 
-Asset roadmap:
+Asset Roadmap:
 
 | Asset | Demand State | Buyer Role | Proof Source | SME Input | Sales Use | Channel | Signal | Owner |
 |---|---|---|---|---|---|---|---|---|
@@ -447,31 +447,31 @@ Asset roadmap:
 | Asset 4 |  |  |  |  |  |  |  |  |
 | Asset 5 |  |  |  |  |  |  |  |  |
 
-Quality rule:
+Quality Rule:
 
 - Reject assets that do not support buyer movement or signal interpretation.
 
-## Slide 23 - Distribution Is The Missing Half
+## Slide 23 - Distribution Is the Missing Half
 
 Publishing is not distribution. Industrial insight must circulate through trusted paths.
 
-Publishing-only path:
+Publishing-Only Path:
 
-- Company page
-- Website post
-- Campaign send
-- Low observable trust
+- Company Page
+- Website Post
+- Campaign Send
+- Low Observable Trust
 
-Trusted-circulation path:
+Trusted-Circulation Path:
 
-- Sales conversation
-- SME explanation
-- Association or event
-- Distributor or partner
-- Target-account follow-up
-- Captured signal
+- Sales Conversation
+- SME Explanation
+- Association or Event
+- Distributor or Partner
+- Target-Account Follow-Up
+- Captured Signal
 
-Operating point:
+Operating Point:
 
 - A content asset without a distribution path is unfinished.
 
@@ -479,38 +479,38 @@ Operating point:
 
 Choose channels by buyer trust, decision stage, operational capacity, and observable account evidence.
 
-Channel ecosystem:
+Channel Ecosystem:
 
-- Owned channel
-- Sales channel
-- SME channel
-- Partner channel
-- Event channel
-- Distributor channel
-- Association channel
+- Owned Channel
+- Sales Channel
+- SME Channel
+- Partner Channel
+- Event Channel
+- Distributor Channel
+- Association Channel
 
-Channel selection fields:
+Channel Selection Fields:
 
-- Trust reason
-- Demand state
-- Buyer role
-- Asset fit
-- Signal captured
+- Trust Reason
+- Demand State
+- Buyer Role
+- Asset Fit
+- Signal Captured
 - Owner
 
-## Slide 25 - Event, Partner, And Distributor Motions
+## Slide 25 - Event, Partner, and Distributor Motions
 
 Offline and partner activity becomes demand generation only when signals are captured and routed.
 
-Motion flow:
+Motion Flow:
 
 | Stage | Operating Focus | Evidence Captured |
 |---|---|---|
-| Pre-event | Target accounts, proof assets, role hypotheses | Account list, role assumptions, asset plan |
-| During event | Questions, roles, objections, competitor context, urgency | Buyer questions, proof gaps, active accounts |
-| Post-event | Route, enable, nurture, disqualify, learn | Owner, SLA, next action, cadence decision |
+| Pre-Event | Target Accounts, Proof Assets, Role Hypotheses | Account List, Role Assumptions, Asset Plan |
+| During Event | Questions, Roles, Objections, Competitor Context, Urgency | Buyer Questions, Proof Gaps, Active Accounts |
+| Post-Event | Route, Enable, Nurture, Disqualify, Learn | Owner, SLA, Next Action, Cadence Decision |
 
-Operating point:
+Operating Point:
 
 - Field signals must not stay trapped in field logs, calls, or memory.
 
@@ -518,7 +518,7 @@ Operating point:
 
 Map channels, trust reasons, owners, cadence, account signals, and follow-up rules.
 
-Distribution planning board:
+Distribution Planning Board:
 
 | Channel | Trust Reason | Asset | Owner | Cadence | Signal | Capture Method | Follow-Up Rule |
 |---|---|---|---|---|---|---|---|
@@ -528,41 +528,41 @@ Distribution planning board:
 |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |
 
-Required output:
+Required Output:
 
-- At least one sales or SME-led path
-- At least one ecosystem path where relevant
+- At Least One Sales or SME-Led Path
+- At Least One Ecosystem Path Where Relevant
 
 ## Slide 27 - Signal Interpretation
 
 The expensive error is treating every signal as buying intent.
 
-Signal filters:
+Signal Filters:
 
-- Account fit
-- Demand state
-- Buyer role
-- Signal strength
-- Source trust
+- Account Fit
+- Demand State
+- Buyer Role
+- Signal Strength
+- Source Trust
 - Recency
-- Pattern over time
-- False-positive risk
+- Pattern over Time
+- False-Positive Risk
 
-Possible actions:
+Possible Actions:
 
 - Educate
 - Research
-- Map committee
-- Enable champion
-- Activate sales
-- Review opportunity
+- Map Committee
+- Enable Champion
+- Activate Sales
+- Review Opportunity
 - Disqualify
 
 ## Slide 28 - Routing Decision Tree
 
 Route by fit, state, role, and strength before choosing action.
 
-Decision gates:
+Decision Gates:
 
 1. Is the account in the chosen ICP?
 2. Which demand state does the signal represent?
@@ -570,37 +570,37 @@ Decision gates:
 4. How strong and recent is the signal?
 5. What is the false-positive risk?
 
-Routing outcomes:
+Routing Outcomes:
 
 - Educate
 - Nurture
 - Research
-- Map committee
-- Enable champion
-- Activate sales
+- Map Committee
+- Enable Champion
+- Activate Sales
 - Disqualify
 
 ## Slide 29 - RevOps Signal Object
 
 Signals become operational only when owner, SLA, next action, and false-positive risk are visible.
 
-Minimum signal fields:
+Minimum Signal Fields:
 
 - Account
 - Segment
 - Role
-- Demand state
+- Demand State
 - Source
 - Asset
 - Strength
 - Owner
 - SLA
-- Next action
+- Next Action
 - Evidence
 - Hypothesis
-- False-positive risk
+- False-Positive Risk
 
-Operating point:
+Operating Point:
 
 - If a signal lives only in chat, memory, event records, or inboxes, the operating system cannot learn.
 
@@ -608,7 +608,7 @@ Operating point:
 
 Classify five signals and assign owner, SLA, next action, and escalation risk.
 
-Signal routing table:
+Signal Routing Table:
 
 | Signal | Fit | Role | Demand State | Strength | Owner | SLA | Next Action | Risk |
 |---|---|---|---|---|---|---|---|---|
@@ -618,7 +618,7 @@ Signal routing table:
 | 4 |  |  |  |  |  |  |  |  |
 | 5 |  |  |  |  |  |  |  |  |
 
-Routing discipline:
+Routing Discipline:
 
 - Separate sales activation from education, research, committee mapping, nurture, and disqualification.
 
@@ -626,18 +626,18 @@ Routing discipline:
 
 Measure movement, committee coverage, signal quality, sales use, and opportunity quality.
 
-Metric hierarchy:
+Metric Hierarchy:
 
-| Level | What To Measure |
+| Level | What to Measure |
 |---|---|
-| Business outcome | Qualified pipeline and opportunity quality |
-| Account movement | Target-account progression by demand state |
-| Committee coverage | Roles reached, proof gaps closed, champion enablement |
-| Signal quality | Fit, role, state, strength, source, false-positive rate |
-| Sales use | Assets used, routed actions accepted, follow-up completed |
-| Execution base | Content completion, distribution cadence, signal capture |
+| Business Outcome | Qualified Pipeline and Opportunity Quality |
+| Account Movement | Target-Account Progression by Demand State |
+| Committee Coverage | Roles Reached, Proof Gaps Closed, Champion Enablement |
+| Signal Quality | Fit, Role, State, Strength, Source, False-Positive Rate |
+| Sales Use | Assets Used, Routed Actions Accepted, Follow-Up Completed |
+| Execution Base | Content Completion, Distribution Cadence, Signal Capture |
 
-Measurement rule:
+Measurement Rule:
 
 - Do not use vanity metrics as primary proof.
 
@@ -645,18 +645,18 @@ Measurement rule:
 
 Cadence is not reporting. It is a decision rhythm.
 
-Weekly cadence board:
+Weekly Cadence Board:
 
 | Review Area | Evidence | Decision | Owner | This Week |
 |---|---|---|---|---|
-| Account progression |  |  |  |  |
+| Account Progression |  |  |  |  |
 | Routing |  |  |  |  |
-| Proof gaps |  |  |  |  |
+| Proof Gaps |  |  |  |  |
 | Distribution |  |  |  |  |
-| Sales feedback |  |  |  |  |
-| Pilot risks |  |  |  |  |
+| Sales Feedback |  |  |  |  |
+| Pilot Risks |  |  |  |  |
 
-Decision options:
+Decision Options:
 
 - Build
 - Route
@@ -668,16 +668,16 @@ Decision options:
 
 A narrow pilot proves learning, movement, signal quality, sales use, and quality pipeline before scale.
 
-90-day roadmap:
+90-Day Roadmap:
 
 | Phase | Days | Focus | Output |
 |---|---:|---|---|
-| Setup | 1-15 | Focus, committee, MOIN, baseline fields, cadence setup | Operating baseline |
-| Build and distribute | 16-45 | First-five assets, trusted paths, capture rules | Asset and channel system |
-| Route and learn | 46-75 | Signal routing, sales use, proof repair, account movement review | Evidence loop |
-| Decide | 76-90 | Sponsor evidence review | Stop, repair, or scale |
+| Setup | 1-15 | Focus, Committee, MOIN, Baseline Fields, Cadence Setup | Operating Baseline |
+| Build and Distribute | 16-45 | First-Five Assets, Trusted Paths, Capture Rules | Asset and Channel System |
+| Route and Learn | 46-75 | Signal Routing, Sales Use, Proof Repair, Account Movement Review | Evidence Loop |
+| Decide | 76-90 | Sponsor Evidence Review | Stop, Repair, or Scale |
 
-Pilot rule:
+Pilot Rule:
 
 - Prove learning quality before scale.
 
@@ -685,48 +685,48 @@ Pilot rule:
 
 Assemble prior artifacts into an executive-ready pilot with stop, repair, and scale criteria.
 
-Pilot assembly canvas:
+Pilot Assembly Canvas:
 
 | Field | Decision |
 |---|---|
 | Scope |  |
-| ICP focus |  |
-| First-five assets |  |
-| Distribution paths |  |
-| Signal routing |  |
-| RevOps fields |  |
-| Weekly cadence |  |
+| ICP Focus |  |
+| First-Five Assets |  |
+| Distribution Paths |  |
+| Signal Routing |  |
+| RevOps Fields |  |
+| Weekly Cadence |  |
 | Metrics |  |
 | Risks |  |
 | Owners |  |
-| Stop criteria |  |
-| Repair criteria |  |
-| Scale criteria |  |
+| Stop Criteria |  |
+| Repair Criteria |  |
+| Scale Criteria |  |
 
-Required output:
+Required Output:
 
-- 90-day Industrial Demand Generation pilot plan
+- 90-Day Industrial Demand Generation Pilot Plan
 
 ## Slide 35 - Sponsor Decision: Stop, Repair, Scale
 
 The final strategy gives leadership a decision from evidence, not campaign optimism.
 
-Sponsor decision matrix:
+Sponsor Decision Matrix:
 
 | Sponsor Question | Stop | Repair | Scale |
 |---|---|---|---|
-| Strategy complete? |  |  |  |
-| Evidence visible? |  |  |  |
-| Cadence owned? |  |  |  |
-| Quality gates passed? |  |  |  |
+| Strategy Complete? |  |  |  |
+| Evidence Visible? |  |  |  |
+| Cadence Owned? |  |  |  |
+| Quality Gates Passed? |  |  |  |
 
-Decision rules:
+Decision Rules:
 
 - Stop if the ICP, proof, access path, or cadence cannot support credible movement.
 - Repair if the system shows promise but one operating layer is weak.
 - Scale only when account movement, signal quality, sales use, proof coverage, and cadence evidence are visible.
 
-Final output:
+Final Output:
 
-- Leadership decision
-- Next 30-day commitment
+- Leadership Decision
+- Next 30-Day Commitment
