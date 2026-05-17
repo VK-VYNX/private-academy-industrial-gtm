@@ -1,8 +1,10 @@
 # Module 1 Slide Deck Package
 
-This package contains eight instructor projection decks for the 3-hour live workshop version of Module 1: Industrial Demand Generation.
+This package contains the instructor projection decks for the 3-hour live workshop version of Module 1: Industrial Demand Generation.
 
 The decks are not learner handouts or marketing presentations. They are instructor operating aids: each deck teaches one lesson, frames the diagnostic, introduces the working artifact, supports structured human drafting, and forces quality control before the output becomes part of the 90-day pilot.
+
+For the current full-workshop delivery, use the consolidated 35-slide deck first: [consolidated-workshop-deck/](consolidated-workshop-deck/). It keeps the full Module 1 operating system in one projection flow and positions exercises immediately after the concepts they depend on.
 
 ## Deck Sequence
 
@@ -23,6 +25,8 @@ Total planned teaching time: 178 minutes, leaving 2 minutes of instructor buffer
 
 | Folder Or File | Use |
 |---|---|
+| [consolidated-workshop-deck/](consolidated-workshop-deck/) | single 35-slide full-workshop projection deck package |
+| [../industrial-demand-generation-participant-prompts.md](../industrial-demand-generation-participant-prompts.md) | participant prompt templates aligned to the consolidated deck exercises |
 | [instructor-slide-content.md](instructor-slide-content.md) | comprehensive human-review Markdown for all eight decks, slide by slide |
 | [exports/](exports/) | exported editable PowerPoint decks |
 | [decks/](decks/) | generated per-lesson slide modules and speaker notes |
@@ -58,3 +62,17 @@ Then validate:
 ```
 
 The build uses bundled Codex artifact-tool presentation export. It does not use named-company examples, stock claims, or generic SaaS assumptions.
+
+To regenerate and validate the consolidated workshop deck:
+
+```powershell
+& "$env:USERPROFILE\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe" modules/module-01-industrial-demand-generation/delivery-pack/slide-decks/consolidated-workshop-deck/src/build-participant-prompts.mjs
+```
+
+```powershell
+& "$env:USERPROFILE\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe" modules/module-01-industrial-demand-generation/delivery-pack/slide-decks/consolidated-workshop-deck/src/build-consolidated-workshop-deck.mjs
+```
+
+```powershell
+& "$env:USERPROFILE\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe" modules/module-01-industrial-demand-generation/delivery-pack/slide-decks/consolidated-workshop-deck/src/validate-consolidated-workshop.mjs
+```

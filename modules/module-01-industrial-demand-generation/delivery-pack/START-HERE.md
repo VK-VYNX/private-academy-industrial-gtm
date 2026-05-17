@@ -70,7 +70,9 @@ Before going deep, open the visual map:
 
 ## Live Workshop Projection Decks
 
-For the 3-hour instructor-led workshop, use the eight editable PowerPoint decks in [slide-decks/](slide-decks/). Each deck maps to one lesson and includes a speaker-note guide for instructor talking points, diagnostics, exercises, structured drafting drills, human quality control, RevOps translation, failure modes, final artifact, and transition.
+For the 3-hour instructor-led workshop, use the consolidated 35-slide PowerPoint deck in [slide-decks/consolidated-workshop-deck/](slide-decks/consolidated-workshop-deck/). It keeps the full Module 1 operating system in one projection flow and places exercises directly after the concepts participants need to use.
+
+The eight lesson-by-lesson editable PowerPoint decks remain available in [slide-decks/](slide-decks/) when a facilitator wants to teach one lesson at a time.
 
 ## How To Use AI
 
