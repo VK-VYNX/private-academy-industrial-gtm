@@ -4,7 +4,6 @@ import fs from "node:fs/promises";
 import fsSync from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import zlib from "node:zlib";
 
 import {
   deckMeta,
@@ -20,9 +19,8 @@ const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
 const PACKAGE_ROOT = path.resolve(SCRIPT_DIR, "..");
 const REPO_ROOT = path.resolve(PACKAGE_ROOT, "..", "..", "..", "..", "..");
 const QA_ROOT = path.join(PACKAGE_ROOT, "qa");
-const EXPORT_PATH = path.join(PACKAGE_ROOT, "exports", deckMeta.outputFile);
+const CONTENT_PATH = path.join(PACKAGE_ROOT, deckMeta.contentFile);
 const PROMPT_PATH = path.resolve(PACKAGE_ROOT, deckMeta.participantPromptFile);
-const SUMMARY_PATH = path.join(QA_ROOT, "last-build-summary.json");
 const REPORT_PATH = path.join(QA_ROOT, "consolidated-workshop-validation-report.md");
 
 const bannedCompanyNames = [
@@ -107,128 +105,39 @@ function scanTerms(text, terms) {
   return hits;
 }
 
-function flattenText(value, out = []) {
-  if (value == null) return out;
-  if (typeof value === "string" || typeof value === "number") {
-    out.push(String(value));
-    return out;
+function validateNoPptArtifacts(errors, checks) {
+  const exportDir = path.join(PACKAGE_ROOT, "exports");
+  const pptxFiles = fsSync.existsSync(exportDir)
+    ? fsSync.readdirSync(exportDir).filter((name) => /\.pptx$/i.test(name))
+    : [];
+
+  if (pptxFiles.length) {
+    errors.push(`PPTX export exists before content approval: ${pptxFiles.join(", ")}`);
   }
-  if (Array.isArray(value)) {
-    for (const item of value) flattenText(item, out);
-    return out;
+
+  const pptBuilder = path.join(PACKAGE_ROOT, "src", "build-consolidated-workshop-deck.mjs");
+  if (fsSync.existsSync(pptBuilder)) {
+    errors.push("PPTX build script exists before content approval. Keep the consolidated package Markdown-first until approved.");
   }
-  if (typeof value === "object") {
-    for (const item of Object.values(value)) flattenText(item, out);
-  }
-  return out;
+
+  checks.push("Approval-first guardrail: no PPTX export present");
 }
 
-function collectVisibleLayoutText(value, out = []) {
-  if (value == null) return out;
-  if (Array.isArray(value)) {
-    for (const item of value) collectVisibleLayoutText(item, out);
-    return out;
-  }
-  if (typeof value === "object") {
-    for (const [key, item] of Object.entries(value)) {
-      if ((key === "text" || key === "textPreview") && typeof item === "string") {
-        out.push(item);
-      } else {
-        collectVisibleLayoutText(item, out);
-      }
-    }
-  }
-  return out;
-}
-
-function decodeXmlText(value) {
-  return String(value)
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&quot;/g, '"')
-    .replace(/&apos;/g, "'")
-    .replace(/&amp;/g, "&")
-    .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)))
-    .replace(/&#x([0-9a-f]+);/gi, (_, code) => String.fromCharCode(Number.parseInt(code, 16)));
-}
-
-function findEndOfCentralDirectory(buffer) {
-  const signature = 0x06054b50;
-  const minOffset = Math.max(0, buffer.length - 65_557);
-  for (let offset = buffer.length - 22; offset >= minOffset; offset -= 1) {
-    if (buffer.readUInt32LE(offset) === signature) return offset;
-  }
-  throw new Error("Could not locate ZIP end of central directory");
-}
-
-function extractZipEntries(buffer, filter) {
-  const entries = [];
-  const eocd = findEndOfCentralDirectory(buffer);
-  const centralDirectorySize = buffer.readUInt32LE(eocd + 12);
-  const centralDirectoryOffset = buffer.readUInt32LE(eocd + 16);
-  let offset = centralDirectoryOffset;
-  const end = centralDirectoryOffset + centralDirectorySize;
-
-  while (offset < end) {
-    if (buffer.readUInt32LE(offset) !== 0x02014b50) break;
-
-    const compressionMethod = buffer.readUInt16LE(offset + 10);
-    const compressedSize = buffer.readUInt32LE(offset + 20);
-    const fileNameLength = buffer.readUInt16LE(offset + 28);
-    const extraLength = buffer.readUInt16LE(offset + 30);
-    const commentLength = buffer.readUInt16LE(offset + 32);
-    const localHeaderOffset = buffer.readUInt32LE(offset + 42);
-    const fileName = buffer.toString("utf8", offset + 46, offset + 46 + fileNameLength);
-
-    if (filter(fileName)) {
-      if (buffer.readUInt32LE(localHeaderOffset) !== 0x04034b50) {
-        throw new Error(`Invalid local ZIP header for ${fileName}`);
-      }
-      const localNameLength = buffer.readUInt16LE(localHeaderOffset + 26);
-      const localExtraLength = buffer.readUInt16LE(localHeaderOffset + 28);
-      const dataStart = localHeaderOffset + 30 + localNameLength + localExtraLength;
-      const compressed = buffer.subarray(dataStart, dataStart + compressedSize);
-      let data;
-      if (compressionMethod === 0) data = compressed;
-      else if (compressionMethod === 8) data = zlib.inflateRawSync(compressed);
-      else throw new Error(`Unsupported ZIP compression method ${compressionMethod} for ${fileName}`);
-      entries.push({ fileName, data });
-    }
-
-    offset += 46 + fileNameLength + extraLength + commentLength;
-  }
-
-  return entries;
-}
-
-async function extractPptxVisibleText(pptxPath) {
-  const buffer = await fs.readFile(pptxPath);
-  const entries = extractZipEntries(buffer, (name) => /^ppt\/slides\/slide\d+\.xml$/i.test(name));
-  return entries
-    .map((entry) => {
-      const xml = entry.data.toString("utf8");
-      return Array.from(xml.matchAll(/<a:t>([\s\S]*?)<\/a:t>/g))
-        .map((match) => decodeXmlText(match[1]))
-        .join("\n");
-    })
-    .join("\n");
-}
-
-function validateSlidePlan(errors, warnings, checks) {
+function validateSlidePlan(errors, checks) {
   if (slidePlan.length !== deckMeta.slideCount) {
     errors.push(`Expected ${deckMeta.slideCount} slides, found ${slidePlan.length}`);
   }
 
   const seen = new Set();
-  for (let index = 1; index <= deckMeta.slideCount; index += 1) {
-    const slide = slidePlan.find((entry) => entry.no === index);
-    if (!slide) errors.push(`Missing slide ${index}`);
-  }
-
   const lessonIds = new Set(lessons.map((lesson) => lesson.id));
   const coveredLessons = new Set();
   const coveredConcepts = new Set();
   const exerciseSlides = new Map();
+
+  for (let index = 1; index <= deckMeta.slideCount; index += 1) {
+    const slide = slidePlan.find((entry) => entry.no === index);
+    if (!slide) errors.push(`Missing slide ${index}`);
+  }
 
   for (const slide of slidePlan) {
     if (seen.has(slide.no)) errors.push(`Duplicate slide number ${slide.no}`);
@@ -244,11 +153,6 @@ function validateSlidePlan(errors, warnings, checks) {
     }
     for (const conceptKey of slide.conceptKeys || []) coveredConcepts.add(conceptKey);
     if (slide.exerciseId) exerciseSlides.set(slide.exerciseId, slide);
-
-    const longProjectionText = flattenText(slide).filter((text) => text.length > 155);
-    if (longProjectionText.length) {
-      warnings.push(`Slide ${pad(slide.no)} has ${longProjectionText.length} long text field(s) that should stay in instructor narration`);
-    }
   }
 
   for (const lesson of lessons) {
@@ -256,9 +160,7 @@ function validateSlidePlan(errors, warnings, checks) {
   }
 
   const missingConcepts = requiredConcepts.filter((concept) => !coveredConcepts.has(concept));
-  if (missingConcepts.length) {
-    errors.push(`Required concepts missing from slide plan: ${missingConcepts.join(", ")}`);
-  }
+  if (missingConcepts.length) errors.push(`Required concepts missing from slide plan: ${missingConcepts.join(", ")}`);
 
   for (const exercise of exercisePlan) {
     const slide = exerciseSlides.get(exercise.id);
@@ -274,50 +176,65 @@ function validateSlidePlan(errors, warnings, checks) {
   checks.push(`Interleaved exercises placed: ${exerciseSlides.size}/${exercisePlan.length}`);
 }
 
-async function validateGeneratedFiles(errors, warnings, checks) {
-  const pptxBytes = await statNonEmpty(EXPORT_PATH, "PPTX export", errors, 50_000);
-  await statNonEmpty(PROMPT_PATH, "Participant prompt document", errors, 5_000);
-  await statNonEmpty(SUMMARY_PATH, "Build summary", errors, 500);
-
-  const previewDir = path.join(QA_ROOT, "previews");
-  const layoutDir = path.join(QA_ROOT, "layout");
-  const previews = fsSync.existsSync(previewDir)
-    ? fsSync.readdirSync(previewDir).filter((name) => /^slide-\d+\.png$/i.test(name)).sort()
-    : [];
-  const layouts = fsSync.existsSync(layoutDir)
-    ? fsSync.readdirSync(layoutDir).filter((name) => /^slide-\d+\.layout\.json$/i.test(name)).sort()
-    : [];
-
-  if (previews.length !== deckMeta.slideCount) errors.push(`Expected ${deckMeta.slideCount} preview PNGs, found ${previews.length}`);
-  if (layouts.length !== deckMeta.slideCount) errors.push(`Expected ${deckMeta.slideCount} layout JSON files, found ${layouts.length}`);
-
-  for (let index = 1; index <= deckMeta.slideCount; index += 1) {
-    await statNonEmpty(path.join(previewDir, `slide-${pad(index)}.png`), `Preview slide ${pad(index)}`, errors, 2_000);
-    await statNonEmpty(path.join(layoutDir, `slide-${pad(index)}.layout.json`), `Layout slide ${pad(index)}`, errors, 2_000);
+async function validateMarkdownContent(errors, checks) {
+  const contentText = await readIfExists(CONTENT_PATH);
+  if (!contentText) {
+    errors.push(`Markdown slide content is missing: ${rel(CONTENT_PATH)}`);
+    return;
   }
 
-  const summaryText = await readIfExists(SUMMARY_PATH);
-  if (summaryText) {
-    const summary = JSON.parse(summaryText);
-    if (summary.slideCount !== deckMeta.slideCount) {
-      errors.push(`Build summary slide count is ${summary.slideCount}, expected ${deckMeta.slideCount}`);
-    }
-    if (summary.sourceCommit !== sourceCommit) {
-      errors.push(`Build summary source commit is ${summary.sourceCommit}, expected ${sourceCommit}`);
-    }
-    if (summary.outputBytes !== pptxBytes) {
-      warnings.push(`Build summary output size ${summary.outputBytes} differs from current PPTX size ${pptxBytes}`);
+  const contentBytes = await statNonEmpty(CONTENT_PATH, "Markdown slide content", errors, 25_000);
+
+  for (const slide of slidePlan) {
+    const heading = `## Slide ${pad(slide.no)} - ${slide.title}`;
+    if (!contentText.includes(heading)) errors.push(`Markdown content missing slide heading: ${heading}`);
+  }
+
+  const requiredSections = [
+    "### Slide Promise",
+    "### On-Slide Content",
+    "### Infographic Direction",
+    "### Instructor Talking Points",
+    "### RevOps Translation",
+    "### Transition",
+  ];
+  for (const section of requiredSections) {
+    if (!contentText.includes(section)) errors.push(`Markdown content missing required section: ${section}`);
+  }
+
+  for (const concept of requiredConcepts) {
+    if (!contentText.includes(concept)) errors.push(`Markdown content missing concept key: ${concept}`);
+  }
+
+  for (const exercise of exercisePlan) {
+    if (!contentText.includes(`${exercise.id} ${exercise.title}`)) {
+      errors.push(`Markdown content missing exercise placement: ${exercise.id} ${exercise.title}`);
     }
   }
 
-  checks.push(`PPTX export bytes: ${pptxBytes}`);
-  checks.push(`Preview PNGs: ${previews.length}/${deckMeta.slideCount}`);
-  checks.push(`Layout JSON files: ${layouts.length}/${deckMeta.slideCount}`);
+  const deckHits = scanTerms(contentText, forbiddenDeckPhrases);
+  if (deckHits.length) {
+    errors.push(`Markdown deck content contains non-human deck/tool language: ${deckHits.join(", ")}`);
+  }
+
+  const restrictedHits = scanTerms(contentText, bannedCompanyNames);
+  if (restrictedHits.length) {
+    errors.push(`Markdown deck content contains restricted real-company references: ${restrictedHits.join(", ")}`);
+  }
+
+  checks.push(`Markdown slide content bytes: ${contentBytes}`);
+  checks.push("Markdown content includes all 35 slide headings and required sections");
+  checks.push("Markdown content has no tool-specific or restricted-name deck language");
 }
 
 async function validatePromptDocument(errors, checks) {
   const promptText = await readIfExists(PROMPT_PATH);
-  if (!promptText) return;
+  if (!promptText) {
+    errors.push(`Participant prompt document is missing: ${rel(PROMPT_PATH)}`);
+    return;
+  }
+
+  await statNonEmpty(PROMPT_PATH, "Participant prompt document", errors, 5_000);
 
   const requiredPhrases = [
     "ChatGPT",
@@ -345,6 +262,11 @@ async function validatePromptDocument(errors, checks) {
     }
   }
 
+  const restrictedHits = scanTerms(promptText, bannedCompanyNames);
+  if (restrictedHits.length) {
+    errors.push(`Participant prompt document contains restricted real-company references: ${restrictedHits.join(", ")}`);
+  }
+
   checks.push(`Participant prompts present: ${exercisePlan.length} exercises plus final synthesis`);
   checks.push(`Final strategy outputs present: ${finalStrategyOutputs.length}/${finalStrategyOutputs.length}`);
 }
@@ -370,59 +292,7 @@ async function validateModuleSource(errors, checks) {
   checks.push(`Module source files checked: ${sourceFiles.length}`);
 }
 
-async function validateRestrictedLanguage(errors, checks) {
-  const promptText = await readIfExists(PROMPT_PATH);
-  const deckDataText = flattenText(slidePlan).join("\n");
-  let pptxVisibleText = "";
-  try {
-    pptxVisibleText = await extractPptxVisibleText(EXPORT_PATH);
-  } catch (error) {
-    errors.push(`Could not scan PPTX visible text: ${error.message}`);
-  }
-  const layoutDir = path.join(QA_ROOT, "layout");
-  let layoutText = "";
-  if (fsSync.existsSync(layoutDir)) {
-    const layoutFiles = fsSync.readdirSync(layoutDir).filter((name) => name.endsWith(".json"));
-    for (const file of layoutFiles) {
-      const raw = await readIfExists(path.join(layoutDir, file));
-      if (!raw) continue;
-      layoutText += `\n${collectVisibleLayoutText(JSON.parse(raw)).join("\n")}`;
-    }
-  }
-
-  const restrictedHits = [];
-  const restrictedScanItems = [
-    ["slide plan", deckDataText],
-    ["rendered layouts", layoutText],
-    ["PPTX visible slide text", pptxVisibleText],
-    ["participant prompts", promptText],
-  ];
-
-  for (const [label, text] of restrictedScanItems) {
-    for (const hit of scanTerms(text, bannedCompanyNames)) restrictedHits.push(`${hit} in ${label}`);
-  }
-  if (restrictedHits.length) {
-    errors.push(`Restricted-name scan found unexpected real company references: ${restrictedHits.join("; ")}`);
-  }
-
-  const deckToolHits = [];
-  for (const [label, text] of [
-    ["slide plan", deckDataText],
-    ["rendered layouts", layoutText],
-    ["PPTX visible slide text", pptxVisibleText],
-  ]) {
-    for (const hit of scanTerms(text, forbiddenDeckPhrases)) deckToolHits.push(`${hit} in ${label}`);
-  }
-  if (deckToolHits.length) {
-    errors.push(`Human-led deck scan found tool-prompt language inside the deck: ${deckToolHits.join("; ")}`);
-  }
-
-  checks.push("Restricted-name scan completed across deck layouts, PPTX visible text, and prompt document");
-  checks.push("PPTX visible slide text scan completed");
-  checks.push("Human-led deck scan completed across slide plan, rendered layouts, and PPTX visible text");
-}
-
-async function writeReport(errors, warnings, checks) {
+async function writeReport(errors, checks) {
   await fs.mkdir(QA_ROOT, { recursive: true });
 
   const conceptRows = requiredConcepts.map((concept) => {
@@ -440,14 +310,14 @@ async function writeReport(errors, warnings, checks) {
   });
 
   const reportLines = [
-    "# Consolidated Workshop Deck Validation Report",
+    "# Consolidated Workshop Markdown Validation Report",
     "",
     `Generated: ${new Date().toISOString()}`,
     "",
     `Status: ${errors.length ? "FAIL" : "PASS"}`,
     "",
     `Source commit: \`${sourceCommit}\``,
-    `Deck: \`${rel(EXPORT_PATH)}\``,
+    `Slide content: \`${rel(CONTENT_PATH)}\``,
     `Participant prompts: \`${rel(PROMPT_PATH)}\``,
     "",
     "## Checks",
@@ -456,8 +326,7 @@ async function writeReport(errors, warnings, checks) {
     "- Slide plan mapped to all eight Module 1 lessons",
     "- Exercises are interleaved after relevant concepts",
     "- Participant prompt document supports full final strategy assembly",
-    "- Restricted-name scan completed",
-    "- Human-led deck scan completed",
+    "- PPTX generation is blocked until content approval",
     "",
     "## Required Concept Coverage",
     "",
@@ -475,10 +344,6 @@ async function writeReport(errors, warnings, checks) {
     "",
     ...finalStrategyOutputs.map((output) => `- ${output}`),
     "",
-    "## Warnings",
-    "",
-    ...(warnings.length ? warnings.map((warning) => `- ${warning}`) : ["- None"]),
-    "",
     "## Errors",
     "",
     ...(errors.length ? errors.map((error) => `- ${error}`) : ["- None"]),
@@ -489,15 +354,14 @@ async function writeReport(errors, warnings, checks) {
 
 async function main() {
   const errors = [];
-  const warnings = [];
   const checks = [];
 
-  validateSlidePlan(errors, warnings, checks);
-  await validateGeneratedFiles(errors, warnings, checks);
+  validateNoPptArtifacts(errors, checks);
+  validateSlidePlan(errors, checks);
+  await validateMarkdownContent(errors, checks);
   await validatePromptDocument(errors, checks);
   await validateModuleSource(errors, checks);
-  await validateRestrictedLanguage(errors, checks);
-  await writeReport(errors, warnings, checks);
+  await writeReport(errors, checks);
 
   if (errors.length) {
     console.error(`Validation failed with ${errors.length} error(s). Report: ${rel(REPORT_PATH)}`);

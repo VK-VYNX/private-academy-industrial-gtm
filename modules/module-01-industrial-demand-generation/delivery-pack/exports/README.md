@@ -9,7 +9,7 @@ This folder documents how to turn the delivery pack into non-GitHub formats.
 | learner guide PDF | `../START-HERE.md`, `../module-field-guide.md` |
 | workbook PDF | `../workbook-print-edition.md` |
 | facilitator PDF | `../facilitator-runbook.md`, `../workshop-agenda.md` |
-| consolidated workshop deck | `../slide-decks/consolidated-workshop-deck/exports/module-1-industrial-demand-generation-workshop.pptx`, `../industrial-demand-generation-participant-prompts.md` |
+| consolidated workshop content | `../slide-decks/consolidated-workshop-deck/full-scale-35-slide-content.md`, `../industrial-demand-generation-participant-prompts.md` |
 | instructor slide decks | `../slide-decks/exports/*.pptx`, `../slide-decks/decks/*/speaker-notes.md` |
 | AI operator PDF | `../ai-agent-prompt-library.md`, `../quality-gates.md` |
 | capstone packet PDF | `../artifact-submission-pack.md`, `../template-pack/review-scorecard.md` |
@@ -38,7 +38,7 @@ For facilitators, add:
 
 ## Slide Deck Outline
 
-For the 3-hour instructor-led workshop, use the consolidated deck at `../slide-decks/consolidated-workshop-deck/exports/module-1-industrial-demand-generation-workshop.pptx` with `../industrial-demand-generation-participant-prompts.md`.
+For the 3-hour instructor-led workshop, review the consolidated Markdown content at `../slide-decks/consolidated-workshop-deck/full-scale-35-slide-content.md` with `../industrial-demand-generation-participant-prompts.md`. Export to PPTX only after the Markdown content is approved.
 
 The consolidated deck uses this sequence:
 

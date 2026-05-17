@@ -1,33 +1,30 @@
-# Consolidated Workshop Deck Validation Report
+# Consolidated Workshop Markdown Validation Report
 
-Generated: 2026-05-17T15:50:57.205Z
+Generated: 2026-05-17T16:30:53.001Z
 
 Status: PASS
 
 Source commit: `9e28222`
-Deck: `modules/module-01-industrial-demand-generation/delivery-pack/slide-decks/consolidated-workshop-deck/exports/module-1-industrial-demand-generation-workshop.pptx`
+Slide content: `modules/module-01-industrial-demand-generation/delivery-pack/slide-decks/consolidated-workshop-deck/full-scale-35-slide-content.md`
 Participant prompts: `modules/module-01-industrial-demand-generation/delivery-pack/industrial-demand-generation-participant-prompts.md`
 
 ## Checks
 
+- Approval-first guardrail: no PPTX export present
 - Slide count: 35/35
 - Source lessons covered: 8/8
 - Required concepts covered: 25/25
 - Interleaved exercises placed: 8/8
-- PPTX export bytes: 210647
-- Preview PNGs: 35/35
-- Layout JSON files: 35/35
+- Markdown slide content bytes: 73435
+- Markdown content includes all 35 slide headings and required sections
+- Markdown content has no tool-specific or restricted-name deck language
 - Participant prompts present: 8 exercises plus final synthesis
 - Final strategy outputs present: 10/10
 - Module source files checked: 16
-- Restricted-name scan completed across deck layouts, PPTX visible text, and prompt document
-- PPTX visible slide text scan completed
-- Human-led deck scan completed across slide plan, rendered layouts, and PPTX visible text
 - Slide plan mapped to all eight Module 1 lessons
 - Exercises are interleaved after relevant concepts
 - Participant prompt document supports full final strategy assembly
-- Restricted-name scan completed
-- Human-led deck scan completed
+- PPTX generation is blocked until content approval
 
 ## Required Concept Coverage
 
@@ -84,10 +81,6 @@ Participant prompts: `modules/module-01-industrial-demand-generation/delivery-pa
 - RevOps field and cadence plan
 - 90-day Industrial Demand Generation pilot
 - Executive summary with stop, repair, scale criteria
-
-## Warnings
-
-- None
 
 ## Errors
 

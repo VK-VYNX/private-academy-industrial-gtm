@@ -1,5 +1,5 @@
+exports/
 qa/previews/
 qa/layout/
 qa/manifests/
 qa/last-build-summary.json
-exports/~$*.pptx

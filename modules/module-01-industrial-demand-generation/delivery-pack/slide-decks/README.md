@@ -4,7 +4,7 @@ This package contains the instructor projection decks for the 3-hour live worksh
 
 The decks are not learner handouts or marketing presentations. They are instructor operating aids: each deck teaches one lesson, frames the diagnostic, introduces the working artifact, supports structured human drafting, and forces quality control before the output becomes part of the 90-day pilot.
 
-For the current full-workshop delivery, use the consolidated 35-slide deck first: [consolidated-workshop-deck/](consolidated-workshop-deck/). It keeps the full Module 1 operating system in one projection flow and positions exercises immediately after the concepts they depend on.
+For the current full-workshop delivery, review the consolidated 35-slide Markdown content first: [consolidated-workshop-deck/full-scale-35-slide-content.md](consolidated-workshop-deck/full-scale-35-slide-content.md). It keeps the full Module 1 operating system in one flow and positions exercises immediately after the concepts they depend on. No PPTX should be created until that Markdown content is approved.
 
 ## Deck Sequence
 
@@ -25,7 +25,7 @@ Total planned teaching time: 178 minutes, leaving 2 minutes of instructor buffer
 
 | Folder Or File | Use |
 |---|---|
-| [consolidated-workshop-deck/](consolidated-workshop-deck/) | single 35-slide full-workshop projection deck package |
+| [consolidated-workshop-deck/](consolidated-workshop-deck/) | single 35-slide full-workshop Markdown content package |
 | [../industrial-demand-generation-participant-prompts.md](../industrial-demand-generation-participant-prompts.md) | participant prompt templates aligned to the consolidated deck exercises |
 | [instructor-slide-content.md](instructor-slide-content.md) | comprehensive human-review Markdown for all eight decks, slide by slide |
 | [exports/](exports/) | exported editable PowerPoint decks |
@@ -63,14 +63,14 @@ Then validate:
 
 The build uses bundled Codex artifact-tool presentation export. It does not use named-company examples, stock claims, or generic SaaS assumptions.
 
-To regenerate and validate the consolidated workshop deck:
+To regenerate and validate the consolidated workshop content:
 
 ```powershell
 & "$env:USERPROFILE\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe" modules/module-01-industrial-demand-generation/delivery-pack/slide-decks/consolidated-workshop-deck/src/build-participant-prompts.mjs
 ```
 
 ```powershell
-& "$env:USERPROFILE\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe" modules/module-01-industrial-demand-generation/delivery-pack/slide-decks/consolidated-workshop-deck/src/build-consolidated-workshop-deck.mjs
+& "$env:USERPROFILE\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe" modules/module-01-industrial-demand-generation/delivery-pack/slide-decks/consolidated-workshop-deck/src/build-slide-content-md.mjs
 ```
 
 ```powershell

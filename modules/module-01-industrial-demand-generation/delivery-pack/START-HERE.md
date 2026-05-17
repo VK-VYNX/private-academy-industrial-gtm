@@ -70,7 +70,7 @@ Before going deep, open the visual map:
 
 ## Live Workshop Projection Decks
 
-For the 3-hour instructor-led workshop, use the consolidated 35-slide PowerPoint deck in [slide-decks/consolidated-workshop-deck/](slide-decks/consolidated-workshop-deck/). It keeps the full Module 1 operating system in one projection flow and places exercises directly after the concepts participants need to use.
+For the 3-hour instructor-led workshop, review the consolidated 35-slide Markdown content in [slide-decks/consolidated-workshop-deck/full-scale-35-slide-content.md](slide-decks/consolidated-workshop-deck/full-scale-35-slide-content.md). It keeps the full Module 1 operating system in one flow and places exercises directly after the concepts participants need to use. Create a PPTX only after the Markdown content is approved.
 
 The eight lesson-by-lesson editable PowerPoint decks remain available in [slide-decks/](slide-decks/) when a facilitator wants to teach one lesson at a time.
 

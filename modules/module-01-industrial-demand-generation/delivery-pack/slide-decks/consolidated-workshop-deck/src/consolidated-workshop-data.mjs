@@ -4,10 +4,10 @@ export { commonIntegrativeQuestions, lessons, sourceCommit };
 
 export const deckMeta = {
   title: "Industrial Demand Generation",
-  subtitle: "Full-Scale Instructor Workshop Deck",
+  subtitle: "Full-Scale 35-Slide Instructor Deck Content",
   slideCount: 35,
   sourceCommit,
-  outputFile: "module-1-industrial-demand-generation-workshop.pptx",
+  contentFile: "full-scale-35-slide-content.md",
   participantPromptFile: "../../industrial-demand-generation-participant-prompts.md",
   promise:
     "Participants leave with a full-scale Industrial Demand Generation strategy for their chosen product or product category.",

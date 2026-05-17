@@ -1,19 +1,21 @@
 # Consolidated Workshop Deck
 
-This package contains the single 35-slide instructor projection deck for the Module 1 live workshop: Industrial Demand Generation.
+This package contains the single 35-slide instructor deck content plan for the Module 1 live workshop: Industrial Demand Generation.
 
 The deck is designed for a 3-hour instructor-led session. It is not a passive learner handout, not a marketing deck, and not an eight-deck substitute. It is the full Module 1 operating system compressed into one teachable workshop flow with exercises embedded immediately after the relevant concept blocks.
+
+Approval rule: the Markdown content file is the canonical review artifact. No PPTX should be created from this consolidated package until the content is explicitly approved.
 
 ## Core Files
 
 | File | Use |
 |---|---|
-| [exports/module-1-industrial-demand-generation-workshop.pptx](exports/module-1-industrial-demand-generation-workshop.pptx) | Editable PowerPoint deck for live projection |
+| [full-scale-35-slide-content.md](full-scale-35-slide-content.md) | canonical 35-slide content review file |
 | [../../industrial-demand-generation-participant-prompts.md](../../industrial-demand-generation-participant-prompts.md) | Participant prompt templates for the interleaved workshop exercises |
 | [src/consolidated-workshop-data.mjs](src/consolidated-workshop-data.mjs) | Canonical slide plan, concept coverage, exercises, and final strategy outputs |
-| [src/build-consolidated-workshop-deck.mjs](src/build-consolidated-workshop-deck.mjs) | Regenerates the PPTX, previews, layout QA, and build summary |
+| [src/build-slide-content-md.mjs](src/build-slide-content-md.mjs) | Regenerates the Markdown slide content review file |
 | [src/build-participant-prompts.mjs](src/build-participant-prompts.mjs) | Regenerates the participant prompt document |
-| [src/validate-consolidated-workshop.mjs](src/validate-consolidated-workshop.mjs) | Validates coverage, exercises, prompt linkage, restricted names, and deck readability |
+| [src/validate-consolidated-workshop.mjs](src/validate-consolidated-workshop.mjs) | Validates coverage, exercises, prompt linkage, restricted names, and the no-PPT approval guardrail |
 | [qa/consolidated-workshop-validation-report.md](qa/consolidated-workshop-validation-report.md) | Latest validation report |
 
 ## Workshop Flow
@@ -47,7 +49,7 @@ Exercises are intentionally interleaved, so participants build the strategy as t
 
 ## Instructor Use
 
-Project the PPTX and use the slide visuals as teaching structure. The participant prompt document is separate on purpose: it supports participant drafting in free ChatGPT, Claude, or Perplexity accounts while the deck remains a human-led instructional system.
+Review and approve [full-scale-35-slide-content.md](full-scale-35-slide-content.md) before any presentation export is created. The participant prompt document is separate on purpose: it supports participant drafting in free ChatGPT, Claude, or Perplexity accounts while the slide content remains a human-led instructional system.
 
 Every exercise should end with human correction before the output is treated as workshop evidence. The instructor should push participants to mark facts, assumptions, and unknowns separately; reject generic SaaS defaults; and translate every useful output into sales, RevOps, and weekly cadence decisions.
 
@@ -60,11 +62,11 @@ From the repo root:
 ```
 
 ```powershell
-& "$env:USERPROFILE\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe" modules/module-01-industrial-demand-generation/delivery-pack/slide-decks/consolidated-workshop-deck/src/build-consolidated-workshop-deck.mjs
+& "$env:USERPROFILE\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe" modules/module-01-industrial-demand-generation/delivery-pack/slide-decks/consolidated-workshop-deck/src/build-slide-content-md.mjs
 ```
 
 ```powershell
 & "$env:USERPROFILE\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe" modules/module-01-industrial-demand-generation/delivery-pack/slide-decks/consolidated-workshop-deck/src/validate-consolidated-workshop.mjs
 ```
 
-The validation script checks the generated deck and prompt document against the source lesson coverage from Module 1 commit `9e28222`.
+The validation script checks the Markdown slide content and prompt document against the source lesson coverage from Module 1 commit `9e28222`. It also fails if a PPTX export exists before approval.
