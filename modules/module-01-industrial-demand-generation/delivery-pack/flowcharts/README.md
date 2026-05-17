@@ -12,6 +12,7 @@ Visual render QA: [visual-render-qa.md](visual-render-qa.md)
 
 | Flowchart | Use When |
 |---|---|
+| [master-industrial-demand-generation-operating-system.md](master-industrial-demand-generation-operating-system.md) | explaining the full industrial demand generation process in one master operating-system map |
 | [00-module-visual-map.md](00-module-visual-map.md) | orienting to the whole module |
 | [01-industrial-demand-generation-operating-system.md](01-industrial-demand-generation-operating-system.md) | explaining the complete demand system |
 | [02-demand-states-and-routing.md](02-demand-states-and-routing.md) | preventing confusion between learning intent and buying intent |
