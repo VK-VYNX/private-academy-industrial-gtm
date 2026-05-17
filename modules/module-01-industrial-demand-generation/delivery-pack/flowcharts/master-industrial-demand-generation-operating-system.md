@@ -6,29 +6,32 @@ The diagram shows how industrial demand generation moves from market focus to bu
 
 ## How to Read This Flowchart
 
-Read the flow from left to right.
+Read the flow from top to bottom.
+
+The main operating spine follows Stage 1 through Stage 7 in sequence. Repair loops are shown as local corrections inside the relevant stage. The final learning loop is represented as an output that feeds the next operating cycle, so the visual order remains fixed from Stage 1 to Stage 7.
 
 Each color represents one operating stage.
 
 | Stage | Color Role | Operating Meaning |
 |---|---|---|
-| Strategic Focus | Green | Decide where demand matters and what to exclude |
-| Buyer Intelligence | Blue | Map the committee, proof needs, and MOIN |
-| Content and Proof Engine | Teal | Turn buyer questions into useful proof assets |
-| Trusted Distribution | Orange | Move insight through trusted industrial paths |
-| Signal Capture | Gold | Convert activity into account-level evidence |
-| Routing and Enablement | Rust | Choose the right next action by fit, state, role, and strength |
-| Cadence and Governance | Purple | Review movement, repair the system, and decide whether to stop, repair, or scale |
+| Strategic Focus | Green | Decide Where Demand Matters and What to Exclude |
+| Buyer Intelligence | Blue | Map the Committee, Proof Needs, and MOIN |
+| Content and Proof Engine | Teal | Turn Buyer Questions into Useful Proof Assets |
+| Trusted Distribution | Orange | Move Insight through Trusted Industrial Paths |
+| Signal Capture | Gold | Convert Activity into Account-Level Evidence |
+| Routing and Buyer Enablement | Rust | Choose the Right Next Action by Fit, State, Role, and Strength |
+| Cadence and Governance | Purple | Review Movement, Repair the System, and Decide Whether to Stop, Repair, or Scale |
 
 Icon labels use Mermaid Font Awesome syntax. If a renderer does not support Font Awesome icons, the diagram should remain readable from the node text alone.
 
 ## Master Mermaid Flowchart
 
 ```mermaid
-flowchart LR
+flowchart TD
     START["fa:fa-chart-line Revenue Problem<br/>Pipeline, Account Movement, Qualified Opportunities"]
 
     subgraph S1["1. Strategic Focus"]
+        direction TB
         FOCUS["fa:fa-bullseye Market Focus<br/>Category, Geography, Trigger, Exclusions"]
         ICP["fa:fa-crosshairs ICP Focus<br/>Fit, Segment, Access Path"]
         DISQ{"fa:fa-filter Disqualification Rules<br/>Clear Enough?"}
@@ -36,12 +39,14 @@ flowchart LR
     end
 
     subgraph S2["2. Buyer Intelligence"]
+        direction TB
         COMMITTEE["fa:fa-users Buying Committee Map<br/>Champion, Technical, Operations, Finance, Procurement"]
         PROOF_NEEDS["fa:fa-shield-halved Role-Specific Proof Needs<br/>Beliefs, Fears, Blockers, Required Proof"]
         MOIN["fa:fa-map MOIN Grid<br/>Questions by Role and Demand State"]
     end
 
     subgraph S3["3. Content and Proof Engine"]
+        direction TB
         QUESTION_PROOF["fa:fa-link Question-to-Proof Pipeline<br/>Question, Risk, Proof, Asset, Signal"]
         ASSETS["fa:fa-file-lines First-Five Asset Plan<br/>Problem, Criteria, Proof, Champion Pack, Validation"]
         QUALITY{"fa:fa-circle-check Proof and Sales Use<br/>Ready?"}
@@ -49,6 +54,7 @@ flowchart LR
     end
 
     subgraph S4["4. Trusted Distribution"]
+        direction TB
         DISTRIBUTION["fa:fa-share-nodes Trusted Distribution Plan<br/>Asset, Channel, Owner, Cadence"]
         CHANNELS["fa:fa-network-wired Trust Paths<br/>Sales, SME, Event, Partner, Association, Owned, Search"]
         CAPTURE_CHECK{"fa:fa-clipboard-check Account Evidence<br/>Captured?"}
@@ -56,26 +62,31 @@ flowchart LR
     end
 
     subgraph S5["5. Signal Capture"]
+        direction TB
         SIGNAL_OBJECT["fa:fa-database RevOps Signal Object<br/>Account, Role, State, Source, Strength"]
         ROUTE{"fa:fa-route Route by Fit, State,<br/>Role, and Strength"}
     end
 
     subgraph S6["6. Routing and Buyer Enablement"]
+        direction TB
         EDUCATE["fa:fa-book-open Educate and Nurture<br/>Content Demand"]
         RESEARCH["fa:fa-magnifying-glass-chart Research Account<br/>Solution Demand"]
         ACTIVATE["fa:fa-handshake Activate Sales<br/>Vendor Demand"]
         DOWNGRADE["fa:fa-ban Downgrade or Reject<br/>Low Fit or Weak Evidence"]
         ENABLE["fa:fa-people-arrows Buyer Enablement<br/>Proof for Internal Consensus"]
         PIPELINE["fa:fa-chart-simple Qualified Pipeline Review<br/>Champion, Need, Value, Next Step"]
+        ROUTING_OUTPUT["fa:fa-clipboard-list Routed Action Record<br/>Owner, SLA, Evidence, Next Step"]
     end
 
     subgraph S7["7. Cadence and Governance"]
+        direction TB
         CADENCE["fa:fa-calendar-check Weekly Revenue Cadence<br/>Movement, Signals, Proof Gaps, Commitments"]
         PILOT["fa:fa-rocket 90-Day Pilot Evidence<br/>Learning Quality Before Scale"]
         DECISION{"fa:fa-scale-balanced Sponsor Decision<br/>Stop, Repair, or Scale?"}
         STOP["fa:fa-circle-xmark Stop or Rescope<br/>Weak Fit, Proof, Access, or Cadence"]
         SYSTEM_REPAIR["fa:fa-screwdriver-wrench Repair System<br/>ICP, MOIN, Content, Distribution, Routing, RevOps"]
-        LEARNING["fa:fa-rotate Learning Loop<br/>Update Focus and Operating Assumptions"]
+        LEARNING["fa:fa-rotate Learning Loop<br/>Feed Next Operating Cycle"]
+        NEXT_CYCLE["fa:fa-arrow-up-long Return Inputs<br/>Focus, ICP, MOIN, Content, Distribution, Routing"]
         SCALE["fa:fa-arrow-trend-up Scale Operating Motion<br/>Account Movement and Quality Pipeline"]
     end
 
@@ -108,12 +119,13 @@ flowchart LR
     ROUTE -->|Vendor Demand| ACTIVATE
     ROUTE -->|Low Fit or Weak Evidence| DOWNGRADE
 
-    EDUCATE --> CADENCE
     RESEARCH --> ENABLE
     ACTIVATE --> ENABLE
     ENABLE --> PIPELINE
-    DOWNGRADE --> CADENCE
-    PIPELINE --> CADENCE
+    EDUCATE --> ROUTING_OUTPUT
+    DOWNGRADE --> ROUTING_OUTPUT
+    PIPELINE --> ROUTING_OUTPUT
+    ROUTING_OUTPUT --> CADENCE
 
     CADENCE --> PILOT
     PILOT --> DECISION
@@ -121,7 +133,7 @@ flowchart LR
     DECISION -->|Repair| SYSTEM_REPAIR
     DECISION -->|Scale| SCALE
     SYSTEM_REPAIR --> LEARNING
-    LEARNING --> FOCUS
+    LEARNING --> NEXT_CYCLE
 
     classDef start fill:#111827,color:#ffffff,stroke:#374151,stroke-width:1px;
     classDef strategy fill:#ecfdf5,color:#064e3b,stroke:#059669,stroke-width:1px;
@@ -139,8 +151,8 @@ flowchart LR
     class QUESTION_PROOF,ASSETS,REPAIR_CONTENT content;
     class DISTRIBUTION,CHANNELS,CAPTURE_REPAIR distribution;
     class SIGNAL_OBJECT signal;
-    class EDUCATE,RESEARCH,ACTIVATE,DOWNGRADE,ENABLE,PIPELINE routing;
-    class CADENCE,PILOT,STOP,SYSTEM_REPAIR,LEARNING,SCALE governance;
+    class EDUCATE,RESEARCH,ACTIVATE,DOWNGRADE,ENABLE,PIPELINE,ROUTING_OUTPUT routing;
+    class CADENCE,PILOT,STOP,SYSTEM_REPAIR,LEARNING,NEXT_CYCLE,SCALE governance;
     class DISQ,QUALITY,CAPTURE_CHECK,ROUTE,DECISION decision;
 
     style S1 fill:#f0fdf4,stroke:#059669,stroke-width:1px,color:#064e3b
@@ -161,7 +173,7 @@ flowchart LR
 | Content and Proof Engine | What questions must be answered with credible proof? | First-Five Asset Plan |
 | Trusted Distribution | How will useful insight reach the right roles through trusted paths? | Distribution Plan with Owners and Cadence |
 | Signal Capture | What evidence proves account movement rather than activity volume? | RevOps Signal Object |
-| Routing and Enablement | What should happen next based on fit, demand state, role, and strength? | Routed Action and Buyer Enablement Asset |
+| Routing and Buyer Enablement | What should happen next based on fit, demand state, role, and strength? | Routed Action and Buyer Enablement Asset |
 | Cadence and Governance | What did the system learn, and should leadership stop, repair, or scale? | 90-Day Pilot Decision |
 
 ## Decision Rules
