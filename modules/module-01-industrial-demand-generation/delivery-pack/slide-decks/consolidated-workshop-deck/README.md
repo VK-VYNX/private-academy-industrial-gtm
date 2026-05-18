@@ -13,6 +13,7 @@ Approval rule: the Markdown content file is the canonical review artifact. No PP
 | [full-scale-35-slide-content.md](full-scale-35-slide-content.md) | canonical 35-slide content review file |
 | [publish-ready-35-slide-content.md](publish-ready-35-slide-content.md) | user-facing slide content with no instructor notes |
 | [exercise-01-demand-system-diagnostic.md](exercise-01-demand-system-diagnostic.md) | guided participant worksheet for Exercise 1 |
+| [exercise-02-icp-and-focus-statement.md](exercise-02-icp-and-focus-statement.md) | guided participant worksheet for Exercise 2 |
 | [../../industrial-demand-generation-participant-prompts.md](../../industrial-demand-generation-participant-prompts.md) | Participant prompt templates for the interleaved workshop exercises |
 | [src/consolidated-workshop-data.mjs](src/consolidated-workshop-data.mjs) | Canonical slide plan, concept coverage, exercises, and final strategy outputs |
 | [src/build-slide-content-md.mjs](src/build-slide-content-md.mjs) | Regenerates the Markdown slide content review file |
@@ -20,14 +21,21 @@ Approval rule: the Markdown content file is the canonical review artifact. No PP
 | [src/validate-consolidated-workshop.mjs](src/validate-consolidated-workshop.mjs) | Validates coverage, exercises, prompt linkage, restricted names, and the no-PPT approval guardrail |
 | [qa/consolidated-workshop-validation-report.md](qa/consolidated-workshop-validation-report.md) | Latest validation report |
 
+## Dedicated Exercise Documents
+
+| Exercise | Slide | File |
+|---|---:|---|
+| Exercise 01 - Demand System Diagnostic | 7 | [exercise-01-demand-system-diagnostic.md](exercise-01-demand-system-diagnostic.md) |
+| Exercise 02 - ICP And Focus Statement | 11 | [exercise-02-icp-and-focus-statement.md](exercise-02-icp-and-focus-statement.md) |
+
 ## Workshop Flow
 
 | Slides | Segment | Participant Output |
 |---:|---|---|
 | 1-3 | Workshop promise and artifact chain | Shared understanding of the final strategy package |
 | 4-7 | Foundations and demand system diagnostic | Six operating-layer scores and current weakness map |
-| 8-11 | Industrial buyer reality | Buying committee and proof map |
-| 12-15 | ICP, segments, and demand focus | 90-day ICP focus and disqualification rules |
+| 8-11 | ICP, segments, and demand focus | 90-day ICP focus and disqualification rules |
+| 12-15 | Industrial buyer reality | Buying committee and proof map |
 | 16-19 | MOIN: Map of Informational Needs | Buyer question, risk, proof, and asset grid |
 | 20-22 | Content engine for industrial demand | First-five asset plan by demand state |
 | 23-26 | Distribution: the missing half | Channel, partner, event, and sales distribution plan |
@@ -38,11 +46,11 @@ Approval rule: the Markdown content file is the canonical review artifact. No PP
 
 Exercises are intentionally interleaved, so participants build the strategy as the deck progresses:
 
-| Exercise | Slide | Prompt Document Section |
+| Exercise | Slide | Participant Resource |
 |---|---:|---|
 | E1 Demand System Diagnostic | 7 | Exercise 01 worksheet and Prompt 1 |
-| E2 Buying Committee Map | 11 | Prompt 2 |
-| E3 ICP And Disqualification Scorecard | 15 | Prompt 3 |
+| E2 ICP And Focus Statement | 11 | Exercise 02 worksheet |
+| E3 Buying Committee Map | 15 | Prompt 2 |
 | E4 MOIN Grid | 19 | Prompt 4 |
 | E5 Content Plan By Demand State | 22 | Prompt 5 |
 | E6 Distribution And Ecosystem Plan | 26 | Prompt 6 |

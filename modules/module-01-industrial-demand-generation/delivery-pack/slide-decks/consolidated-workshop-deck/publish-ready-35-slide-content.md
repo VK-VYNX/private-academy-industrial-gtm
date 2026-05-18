@@ -205,25 +205,23 @@ Routing Outcomes:
 
 ## Slide 11 - Exercise 2: ICP and Focus Statement
 
-Choose the 90-day segment and write explicit disqualification rules.
+Choose one practical 90-day ICP focus for your selected product or product category.
 
-Focus Statement:
+Use the participant worksheet:
 
-- Target Segment:
-- Trigger:
-- Technical Fit:
-- Commercial Fit:
-- Access Path:
-- Buying Committee:
-- Proof Available:
-- Pilot Feasibility:
+- Exercise 02 - ICP And Focus Statement Worksheet
 
-Disqualification Rules:
+Participant Task:
 
-- Reject When:
-- Downgrade When:
-- Nurture When:
-- Research When:
+- Compare two or three candidate segments.
+- Score each segment using the guided ICP parameter options.
+- Select the strongest 90-day ICP focus.
+- Multi-select the disqualification rules that apply.
+
+Exercise Output:
+
+- Selected 90-Day ICP Focus Statement
+- Multi-Select Disqualification Logic
 
 ## Slide 12 - Industrial Buyer Reality
 
