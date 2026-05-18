@@ -2,7 +2,7 @@
 
 ## Slide 01 - Industrial Demand Generation
 
-Build the operating system that creates trust, account movement, and qualified pipeline in industrial markets.
+Build the operating system that creates trust, account progression, and qualified pipeline in industrial markets.
 
 - Industrial demand generation creates trust and account movement before buyers become visible as leads.
 - Demand often exists before a form, RFQ, or sales call.
@@ -10,29 +10,29 @@ Build the operating system that creates trust, account movement, and qualified p
 
 Diagram Text:
 
-- Account Movement
-- Focus
-- Buyer
-- MOIN
-- Content
-- Distribution
-- Signals
-- Cadence
+- Account Progression
+- Market Focus
+- Buyer Reality
+- Map of Informational Needs
+- Technical Content & Proof Assets
+- Content Distribution
+- Routing & Signals
+- Sales Follow-Up Cadence
 
 ## Slide 02 - Workshop Outcome
 
-Every participant leaves with an executive-ready strategy for one chosen product or product category.
+Everyone in this workshop leaves with an executive-ready strategy for one chosen product or product category.
 
 Final Strategy Package:
 
 - Demand System Diagnostic
-- Buying Committee and Proof Map
 - ICP and Disqualification Scorecard
-- MOIN Grid
+- Buying Committee and Proof Map
+- Map of Informational Needs
 - First-Five Content Asset Plan
 - Distribution and Ecosystem Plan
 - Signal-Routing Table
-- RevOps Field and Cadence Plan
+- Field Sales and Sales Follow-Up Plan
 - 90-Day Industrial Demand Generation Pilot
 - Executive Summary with Stop, Repair, Scale Criteria
 
@@ -42,20 +42,20 @@ Decision Standard:
 - Repair
 - Scale
 
-## Slide 03 - Artifact Chain
+## Slide 03 - Strategy Components
 
-The workshop is a build sequence. Each exercise becomes one section of the final strategy.
+The workshop is a build sequence. Each exercise becomes one component of the final strategy.
 
 Build Sequence:
 
-1. Diagnose the Demand System
-2. Map the Buying Committee
-3. Select the 90-Day ICP Focus
-4. Build the MOIN Grid
+1. Diagnose your existing Demand System
+2. Select the 90-Day ICP Focus
+3. Map the Buying Committee
+4. Build the Map of Informational Needs
 5. Create the First-Five Asset Plan
 6. Design Trusted Distribution
-7. Route Signals by Fit, State, Role, and Strength
-8. Assemble the 90-Day Pilot
+7. Route Signals by Fit, Demand State, Role, and Strength
+8. Assemble the 90-Day Pilot Strategy
 
 Final Artifact:
 
@@ -64,7 +64,7 @@ Final Artifact:
 
 ## Slide 04 - Why Lead Generation Fails Industrial Markets
 
-Lead volume can rise while high-fit account movement stays flat.
+Lead volume can rise while high-fit account progression stays flat.
 
 Lead Capture Motion:
 
@@ -76,7 +76,7 @@ Lead Capture Motion:
 
 Industrial Demand Generation Motion:
 
-- Trusted Circulation
+- Trusted Content Distribution
 - Role-Specific Proof
 - Account-Level Signals
 - Routed Next Actions
@@ -87,29 +87,29 @@ Operating Point:
 - Lead capture is one layer.
 - It fails when treated as the whole system.
 
-## Slide 05 - The Industrial Demand Engine
+## Slide 05 - The Industrial DemandGen Engine
 
-The engine only works when focus, buyer reality, proof, circulation, signals, routing, and cadence connect.
+The engine only works when focus, buyer reality, proof, distribution, signals, routing, and cadence connect.
 
-Operating Loop:
+**Operating Loop:**
 
 1. Revenue Goal and Market Focus
 2. ICP and Buying Committee
-3. MOIN and Proof Assets
-4. Trusted Distribution
+3. Map of Informational Needs and Proof Assets
+4. Trusted Content Distribution
 5. Account-Level Signals
 6. Signal Routing and Buyer Enablement
-7. Weekly Learning Loop
+7. Weekly Feedback / Learning Loop
 
-Failure Warnings:
+**Failure Warnings:**
 
-- Generic Focus
-- Invisible Committee
-- Unsupported Proof
-- Untrusted Distribution
-- Misread Signals
-- Unrouted Next Actions
-- No Weekly Learning
+1. Generic Focus
+2. Invisible Committee
+3. Unsupported Proof
+4. Untrusted Distribution
+5. Misread Signals
+6. Unrouted Next Actions
+7. No Weekly Learning
 
 ## Slide 06 - Demand States and Account Movement
 
@@ -117,34 +117,31 @@ Do not treat all engagement as intent. Interpret learning, comparison, and suppl
 
 Demand States:
 
-| Demand State | Buyer Is Asking | Asset Job | Signal Meaning |
-|---|---|---|---|
+| Demand State | Buyer Is Asking | Our Job | Signal Meaning |
+| --- | --- | --- | --- |
 | Content Demand | What problem, risk, or opportunity matters? | Educate and Frame Urgency | Early Learning |
 | Solution Demand | What approach, requirement, or implementation path fits? | Compare Options and Clarify Criteria | Active Evaluation |
 | Vendor Demand | Which supplier can reduce risk and prove value? | Validate Proof, TCO, Support, and Procurement Confidence | Supplier Consideration |
 
 Routing Rule:
 
-- Interpret fit, state, role, and strength before action.
+- Interpret Fit, Demand State, Role, and Strength before action.
 
 ## Slide 07 - Exercise 1: Demand System Diagnostic
 
-Diagnose the current demand system for one chosen product or product category.
+Choose one product or product category.
 
-Use the participant worksheet:
+For each operating layer, select the statement that best matches your current reality.
 
-- Exercise 01 - Demand System Diagnostic Worksheet
-
-Participant Task:
-
-- Choose the closest current-reality statement for each operating layer.
-- Record one score per layer.
-- Mark the layers that need attention.
+You are not writing expert answers. You are choosing the closest match.
 
 Exercise Output:
 
-- Six Operating-Layer Scores
-- Current Weakness Map
+- Six Layer Scores
+- Three Weakest Layers
+- Three Repair Priorities
+
+**Use:** Exercise 01 - Demand System Diagnostic Worksheet
 
 ## Slide 08 - Industrial Buyer Reality
 
