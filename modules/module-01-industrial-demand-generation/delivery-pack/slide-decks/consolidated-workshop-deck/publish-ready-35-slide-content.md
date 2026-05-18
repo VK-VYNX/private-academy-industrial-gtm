@@ -496,7 +496,7 @@ Motion Flow:
 |---|---|---|
 | Pre-Event or Pre-Motion | Target Accounts, Proof Assets, Role Hypotheses | Account List, Role Assumptions, Asset Plan |
 | During Interaction | Questions, Roles, Objections, Competitor Context, Urgency | Buyer Questions, Proof Gaps, Active Accounts |
-| Post-Interaction | Route, Enable, Nurture, Disqualify, Learn | Owner, SLA, Next Action, Cadence Decision |
+| Post-Interaction | Route, Enable, Nurture, Disqualify, Learn | Owner, Action Timing, Next Action, Cadence Decision |
 
 Operating Point:
 
@@ -528,7 +528,7 @@ The expensive error is treating every signal as buying intent.
 
 | Filter | Routing Question | Common Mistake |
 |---|---|---|
-| Account Fit | Is this account inside the selected ICP focus? | Treating poor-fit activity as demand. |
+| Account Fit | Is this account inside the selected Ideal Customer Profile focus? | Treating poor-fit activity as demand. |
 | Demand State | Is the buyer learning, comparing, or evaluating suppliers? | Treating education as vendor intent. |
 | Buyer Role | Which committee role created the signal? | Treating an unknown contact as committee coverage. |
 | Signal Strength | Is the evidence weak, moderate, or strong? | Escalating one isolated signal. |
@@ -553,7 +553,7 @@ Route by fit, state, role, strength, and false-positive risk before choosing act
 
 | Gate | Decision Question | Routing Implication |
 |---|---|---|
-| 1. Account Fit | Is the account inside the selected ICP focus? | Low fit downgrades or disqualifies the signal. |
+| 1. Account Fit | Is the account inside the selected Ideal Customer Profile focus? | Low fit downgrades or disqualifies the signal. |
 | 2. Demand State | Is this Content, Solution, or Vendor Demand? | Content educates, Solution researches or maps, Vendor activates or reviews. |
 | 3. Buyer Role | Which role created the signal? | Unknown role requires research; known committee role can trigger enablement. |
 | 4. Evidence Strength | Is the signal weak, moderate, or strong? | Weak signals nurture; moderate signals research; strong signals can activate. |
@@ -561,18 +561,18 @@ Route by fit, state, role, strength, and false-positive risk before choosing act
 
 Operating Rule:
 
-- Do not move an account from Cluster ICP to Opportunity because one weak signal appeared.
+- Do not move an account from target-account list to Opportunity because one weak signal appeared.
 
-## Slide 29 - RevOps Signal Object
+## Slide 29 - Revenue Operations Signal Object
 
-Signals become operational only when context, evidence, owner, SLA, next action, and risk are visible.
+Signals become operational only when context, evidence, owner, action timing, next action, and risk are visible.
 
 | Field Group | Minimum Fields |
 |---|---|
 | Account Context | Account, Segment, Fit Status, Progression State |
 | Contact or Role | Contact, Buyer Role, Committee Influence |
 | Signal Evidence | Source, Asset or Context, Demand State, Strength, Evidence Note |
-| Routing Decision | Owner, SLA, Next Action, Missing Evidence, False-Positive Risk |
+| Routing Decision | Owner, Action Timing, Next Action, Missing Evidence, False-Positive Risk |
 | Cadence Visibility | Review Date, Progression Update, Disqualification Reason Where Relevant |
 
 Operating Point:
@@ -594,12 +594,12 @@ Exercise Output:
 - Demand State
 - Signal Strength
 - Progression State
-- Owner and SLA
+- Owner and Action Timing
 - Next Action
 - False-Positive Risk
 - Missing Evidence
 - Opportunity Review Criteria
-- RevOps Fields or Tags to Track
+- Revenue Operations Fields or Tags to Track
 
 Use: Exercise 07 - Signal Routing Table Worksheet
 
