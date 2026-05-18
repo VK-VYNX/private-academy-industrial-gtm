@@ -607,43 +607,37 @@ Use: Exercise 07 - Signal Routing Table Worksheet
 
 Measure movement, committee coverage, signal quality, sales use, and opportunity quality.
 
-Metric Hierarchy:
-
-| Level | What to Measure |
+| Measurement Layer | Strong Measure |
 |---|---|
 | Business Outcome | Qualified Pipeline and Opportunity Quality |
 | Account Movement | Target-Account Progression by Demand State |
 | Committee Coverage | Roles Reached, Proof Gaps Closed, Champion Enablement |
-| Signal Quality | Fit, Role, State, Strength, Source, False-Positive Rate |
+| Signal Quality | Fit, Role, Demand State, Strength, Source, False-Positive Rate |
 | Sales Use | Assets Used, Routed Actions Accepted, Follow-Up Completed |
 | Execution Base | Content Completion, Distribution Cadence, Signal Capture |
 
 Measurement Rule:
 
 - Do not use vanity metrics as primary proof.
+- A 90-day pilot should prove learning quality before it claims revenue scale.
 
 ## Slide 32 - Weekly Revenue Cadence
 
 Cadence is not reporting. It is a decision rhythm.
 
-Weekly Cadence Board:
+| Cadence Area | Weekly Decision |
+|---|---|
+| Account Movement | What moved, stalled, or should be disqualified? |
+| Signal Routing | Which signals need education, research, activation, review, or rejection? |
+| Committee Coverage | Which buying roles are engaged, missing, or blocked? |
+| Content and Proof | What should be built, repaired, reused, or retired? |
+| Distribution | Which trusted paths are working or failing? |
+| Sales Feedback | What is sales hearing that should change the system? |
+| Pilot Risk | What must be stopped, repaired, escalated, or protected? |
 
-| Review Area | Evidence | Decision | Owner | This Week |
-|---|---|---|---|---|
-| Account Progression |  |  |  |  |
-| Routing |  |  |  |  |
-| Proof Gaps |  |  |  |  |
-| Distribution |  |  |  |  |
-| Sales Feedback |  |  |  |  |
-| Pilot Risks |  |  |  |  |
+Operating Point:
 
-Decision Options:
-
-- Build
-- Route
-- Repair
-- Disqualify
-- Escalate
+- Every cadence item must end with an owner, action, and next review point.
 
 ## Slide 33 - 90-Day Pilot Roadmap
 
@@ -653,7 +647,7 @@ A narrow pilot proves learning, movement, signal quality, sales use, and quality
 
 | Phase | Days | Focus | Output |
 |---|---:|---|---|
-| Setup | 1-15 | Focus, Committee, MOIN, Baseline Fields, Cadence Setup | Operating Baseline |
+| Setup | 1-15 | Focus, Committee, Map of Informational Needs, Tracking Fields, Cadence Setup | Operating Baseline |
 | Build and Distribute | 16-45 | First-Five Assets, Trusted Paths, Capture Rules | Asset and Channel System |
 | Route and Learn | 46-75 | Signal Routing, Sales Use, Proof Repair, Account Movement Review | Evidence Loop |
 | Decide | 76-90 | Sponsor Evidence Review | Stop, Repair, or Scale |
@@ -664,48 +658,42 @@ Pilot Rule:
 
 ## Slide 34 - Exercise 8: 90-Day Pilot Plan
 
-Assemble prior artifacts into an executive-ready pilot with stop, repair, and scale criteria.
+Assemble prior exercise outputs into an executive-ready 90-day Industrial Demand Generation pilot.
 
-Pilot Assembly Canvas:
+You are not writing a long strategy document from scratch. You are assembling the workshop artifacts into a pilot leadership can approve, repair, or stop from evidence.
 
-| Field | Decision |
-|---|---|
-| Scope |  |
-| ICP Focus |  |
-| First-Five Assets |  |
-| Distribution Paths |  |
-| Signal Routing |  |
-| RevOps Fields |  |
-| Weekly Cadence |  |
-| Metrics |  |
-| Risks |  |
-| Owners |  |
-| Stop Criteria |  |
-| Repair Criteria |  |
-| Scale Criteria |  |
+Exercise Output:
 
-Required Output:
+- Final Pilot Scope
+- Artifact Readiness Check
+- 90-Day Phase Plan
+- Weekly Revenue Cadence
+- Success Measures
+- Pilot Risks and Repair Actions
+- Stop, Repair, Scale Criteria
+- Executive Summary
+- Next 30-Day Commitment
 
-- 90-Day Industrial Demand Generation Pilot Plan
+Use: Exercise 08 - 90-Day Pilot Plan Worksheet
 
 ## Slide 35 - Sponsor Decision: Stop, Repair, Scale
 
 The final strategy gives leadership a decision from evidence, not campaign optimism.
 
-Sponsor Decision Matrix:
+| Decision | Use When |
+|---|---|
+| Stop | The focus, proof, access path, sales use, or cadence cannot support credible account movement. |
+| Repair | The system shows useful evidence, but one or more operating layers are weak. |
+| Scale | Account movement, signal quality, sales use, proof coverage, and cadence evidence are visible. |
 
-| Sponsor Question | Stop | Repair | Scale |
-|---|---|---|---|
-| Strategy Complete? |  |  |  |
-| Evidence Visible? |  |  |  |
-| Cadence Owned? |  |  |  |
-| Quality Gates Passed? |  |  |  |
+Sponsor Questions:
 
-Decision Rules:
-
-- Stop if the ICP, proof, access path, or cadence cannot support credible movement.
-- Repair if the system shows promise but one operating layer is weak.
-- Scale only when account movement, signal quality, sales use, proof coverage, and cadence evidence are visible.
+- Did the selected focus create useful learning?
+- Did target accounts move by demand state?
+- Did the buying committee become more visible?
+- Did content and proof help sales create better conversations?
+- Did signals route to the right action without false urgency?
+- Can the weekly cadence keep improving the system?
 
 Final Output:
 
