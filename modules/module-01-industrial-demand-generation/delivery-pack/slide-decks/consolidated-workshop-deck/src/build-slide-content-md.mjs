@@ -202,18 +202,19 @@ const details = {
   },
   "exercise-diagnostic": {
     onSlide: [
-      "Score the current demand system by operating layer.",
-      "Name the weakest layer and its commercial consequence.",
-      "Choose one focus repair, one content or distribution repair, and one signal or cadence repair.",
+      "Choose one product or product category.",
+      "Use the Exercise 01 worksheet to select the closest current-reality statement for each operating layer.",
+      "Record six scores, identify the three weakest layers, and choose three priority repairs.",
     ],
     infographic: [
-      "Diagnostic scorecard with six columns: Market focus, ICP, Demand creation, Distribution, Signal routing, Cadence.",
-      "Bottom row: priority repair, owner, first two-week move.",
+      "Simple three-part visual: choose scope, score six layers, select three repairs.",
+      "Show the six layers as a vertical diagnostic ladder: Market focus, ICP, Demand creation, Distribution, Signal routing, Cadence.",
+      "Footer: worksheet output becomes the first section of the final strategy.",
     ],
     notes: [
-      "Timebox the first pass. The point is not perfection; it is to expose the operating gap.",
-      "Pair review should challenge vague repairs such as 'post more content' or 'improve leads'.",
-      "Require every repair to name a business consequence and an owner.",
+      "This exercise should feel easy to start. Participants are selecting from prewritten statements, not inventing expert diagnostic language.",
+      "Ask teams to choose the lower score when they cannot point to current evidence.",
+      "The worksheet converts the scores into three repair priorities that will guide the rest of the workshop.",
     ],
     exercise: "E1",
     transition: "The next block explains why buyer reality is more complex than the visible lead.",
@@ -742,13 +743,17 @@ function detailFor(slide) {
 function exerciseBlock(slide) {
   if (!slide.exerciseId) return [];
   const item = exercise(slide.exerciseId);
+  const guidance =
+    slide.exerciseId === "E1"
+      ? "Use exercise-01-demand-system-diagnostic.md as the primary working document. The participant prompt template may be used after scores are selected, but the scores must come from human judgment and current evidence."
+      : "Use the matching participant drafting template in the separate prompt document. The template is a drafting aid only; the accepted workshop output must pass human correction.";
   return [
     "",
     "### Exercise Setup",
     "",
     `Participant output: ${item.output}`,
     "",
-    "Use the matching participant drafting template in the separate prompt document. The template is a drafting aid only; the accepted workshop output must pass human correction.",
+    guidance,
     "",
     "Human quality control:",
     "",

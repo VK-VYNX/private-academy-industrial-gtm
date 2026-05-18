@@ -174,7 +174,7 @@ export const slidePlan = [
     no: 7,
     type: "exercise-diagnostic",
     title: "Exercise 1: Demand System Diagnostic",
-    subtitle: "Score the current system, name the weakest operating layer, and choose three priority repairs.",
+    subtitle: "Use the participant worksheet to select current-reality statements, score six operating layers, and choose three priority repairs.",
     sourceLessons: ["01"],
     conceptKeys: ["system-diagnostic"],
     exerciseId: "E1",

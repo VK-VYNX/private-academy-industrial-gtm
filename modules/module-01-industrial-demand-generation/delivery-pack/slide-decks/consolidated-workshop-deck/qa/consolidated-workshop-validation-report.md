@@ -1,6 +1,6 @@
 # Consolidated Workshop Markdown Validation Report
 
-Generated: 2026-05-17T16:30:53.001Z
+Generated: 2026-05-18T07:08:49.394Z
 
 Status: PASS
 
@@ -15,7 +15,7 @@ Participant prompts: `modules/module-01-industrial-demand-generation/delivery-pa
 - Source lessons covered: 8/8
 - Required concepts covered: 25/25
 - Interleaved exercises placed: 8/8
-- Markdown slide content bytes: 73435
+- Markdown slide content bytes: 73734
 - Markdown content includes all 35 slide headings and required sections
 - Markdown content has no tool-specific or restricted-name deck language
 - Participant prompts present: 8 exercises plus final synthesis

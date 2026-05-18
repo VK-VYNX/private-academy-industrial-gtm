@@ -129,24 +129,24 @@ Routing Rule:
 
 ## Slide 07 - Exercise 1: Demand System Diagnostic
 
-Score the current system, name the weakest operating layer, and choose three priority repairs.
+Diagnose the current demand system for one chosen product or product category.
 
-Diagnostic Canvas:
+Use the participant worksheet:
 
-| Layer | Current Evidence | Weakness | Commercial Consequence | Repair | Owner |
-|---|---|---|---|---|---|
-| Market Focus |  |  |  |  |  |
-| ICP |  |  |  |  |  |
-| Demand Creation |  |  |  |  |  |
-| Distribution |  |  |  |  |  |
-| Signal Routing |  |  |  |  |  |
-| Cadence |  |  |  |  |  |
+- Exercise 01 - Demand System Diagnostic Worksheet
 
-Required Output:
+Participant Task:
 
-- One Focus Repair
-- One Content or Distribution Repair
-- One Signal, Owner, or Cadence Repair
+- Choose the closest current-reality statement for each operating layer.
+- Record one score per layer.
+- Identify the three weakest layers.
+- Select three priority repairs for the rest of the workshop.
+
+Exercise Output:
+
+- Six Operating-Layer Scores
+- Three Weakest Layers
+- Three Priority Repairs
 
 ## Slide 08 - Industrial Buyer Reality
 

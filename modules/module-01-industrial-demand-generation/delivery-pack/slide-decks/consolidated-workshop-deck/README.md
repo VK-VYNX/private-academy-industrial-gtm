@@ -11,6 +11,8 @@ Approval rule: the Markdown content file is the canonical review artifact. No PP
 | File | Use |
 |---|---|
 | [full-scale-35-slide-content.md](full-scale-35-slide-content.md) | canonical 35-slide content review file |
+| [publish-ready-35-slide-content.md](publish-ready-35-slide-content.md) | user-facing slide content with no instructor notes |
+| [exercise-01-demand-system-diagnostic.md](exercise-01-demand-system-diagnostic.md) | guided participant worksheet for Exercise 1 |
 | [../../industrial-demand-generation-participant-prompts.md](../../industrial-demand-generation-participant-prompts.md) | Participant prompt templates for the interleaved workshop exercises |
 | [src/consolidated-workshop-data.mjs](src/consolidated-workshop-data.mjs) | Canonical slide plan, concept coverage, exercises, and final strategy outputs |
 | [src/build-slide-content-md.mjs](src/build-slide-content-md.mjs) | Regenerates the Markdown slide content review file |
@@ -38,7 +40,7 @@ Exercises are intentionally interleaved, so participants build the strategy as t
 
 | Exercise | Slide | Prompt Document Section |
 |---|---:|---|
-| E1 Demand System Diagnostic | 7 | Prompt 1 |
+| E1 Demand System Diagnostic | 7 | Exercise 01 worksheet and Prompt 1 |
 | E2 Buying Committee Map | 11 | Prompt 2 |
 | E3 ICP And Disqualification Scorecard | 15 | Prompt 3 |
 | E4 MOIN Grid | 19 | Prompt 4 |
