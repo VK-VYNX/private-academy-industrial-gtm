@@ -526,20 +526,20 @@ Use: Exercise 06 - Distribution Plan Worksheet
 
 The expensive error is treating every signal as buying intent.
 
-Signal Filters:
+| Filter | Routing Question | Common Mistake |
+|---|---|---|
+| Account Fit | Is this account inside the selected ICP focus? | Treating poor-fit activity as demand. |
+| Demand State | Is the buyer learning, comparing, or evaluating suppliers? | Treating education as vendor intent. |
+| Buyer Role | Which committee role created the signal? | Treating an unknown contact as committee coverage. |
+| Signal Strength | Is the evidence weak, moderate, or strong? | Escalating one isolated signal. |
+| Source Trust | How credible is the signal source? | Routing vague or unverified signals. |
+| Pattern and Recency | Is the signal recent, repeated, or connected to prior evidence? | Overvaluing old or isolated activity. |
+| False-Positive Risk | What could make the signal misleading? | Acting before the risk is named. |
 
-- Account Fit
-- Demand State
-- Buyer Role
-- Signal Strength
-- Source Trust
-- Recency
-- Pattern over Time
-- False-Positive Risk
-
-Possible Actions:
+Routing Actions:
 
 - Educate
+- Nurture
 - Research
 - Map Committee
 - Enable Champion
@@ -549,45 +549,31 @@ Possible Actions:
 
 ## Slide 28 - Routing Decision Tree
 
-Route by fit, state, role, and strength before choosing action.
+Route by fit, state, role, strength, and false-positive risk before choosing action.
 
-Decision Gates:
+| Gate | Decision Question | Routing Implication |
+|---|---|---|
+| 1. Account Fit | Is the account inside the selected ICP focus? | Low fit downgrades or disqualifies the signal. |
+| 2. Demand State | Is this Content, Solution, or Vendor Demand? | Content educates, Solution researches or maps, Vendor activates or reviews. |
+| 3. Buyer Role | Which role created the signal? | Unknown role requires research; known committee role can trigger enablement. |
+| 4. Evidence Strength | Is the signal weak, moderate, or strong? | Weak signals nurture; moderate signals research; strong signals can activate. |
+| 5. False-Positive Risk | What could make this misleading? | High risk blocks escalation until evidence is repaired. |
 
-1. Is the account in the chosen ICP?
-2. Which demand state does the signal represent?
-3. Which role created the signal?
-4. How strong and recent is the signal?
-5. What is the false-positive risk?
+Operating Rule:
 
-Routing Outcomes:
-
-- Educate
-- Nurture
-- Research
-- Map Committee
-- Enable Champion
-- Activate Sales
-- Disqualify
+- Do not move an account from Cluster ICP to Opportunity because one weak signal appeared.
 
 ## Slide 29 - RevOps Signal Object
 
-Signals become operational only when owner, SLA, next action, and false-positive risk are visible.
+Signals become operational only when context, evidence, owner, SLA, next action, and risk are visible.
 
-Minimum Signal Fields:
-
-- Account
-- Segment
-- Role
-- Demand State
-- Source
-- Asset
-- Strength
-- Owner
-- SLA
-- Next Action
-- Evidence
-- Hypothesis
-- False-Positive Risk
+| Field Group | Minimum Fields |
+|---|---|
+| Account Context | Account, Segment, Fit Status, Progression State |
+| Contact or Role | Contact, Buyer Role, Committee Influence |
+| Signal Evidence | Source, Asset or Context, Demand State, Strength, Evidence Note |
+| Routing Decision | Owner, SLA, Next Action, Missing Evidence, False-Positive Risk |
+| Cadence Visibility | Review Date, Progression Update, Disqualification Reason Where Relevant |
 
 Operating Point:
 
@@ -595,21 +581,27 @@ Operating Point:
 
 ## Slide 30 - Exercise 7: Signal Routing Table
 
-Classify five signals and assign owner, SLA, next action, and escalation risk.
+Classify five signals and route them without confusing learning activity with buying intent.
 
-Signal Routing Table:
+You are not creating sales tasks for every engagement. You are deciding what each signal actually proves, what it does not prove, and what should happen next.
 
-| Signal | Fit | Role | Demand State | Strength | Owner | SLA | Next Action | Risk |
-|---|---|---|---|---|---|---|---|---|
-| 1 |  |  |  |  |  |  |  |  |
-| 2 |  |  |  |  |  |  |  |  |
-| 3 |  |  |  |  |  |  |  |  |
-| 4 |  |  |  |  |  |  |  |  |
-| 5 |  |  |  |  |  |  |  |  |
+Exercise Output:
 
-Routing Discipline:
+- Five Routed Signals
+- Source Class
+- Account Fit
+- Buyer Role
+- Demand State
+- Signal Strength
+- Progression State
+- Owner and SLA
+- Next Action
+- False-Positive Risk
+- Missing Evidence
+- Opportunity Review Criteria
+- RevOps Fields or Tags to Track
 
-- Separate sales activation from education, research, committee mapping, nurture, and disqualification.
+Use: Exercise 07 - Signal Routing Table Worksheet
 
 ## Slide 31 - Measurement That Matters
 
