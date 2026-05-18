@@ -165,21 +165,26 @@ Operating Point:
 
 ## Slide 09 - ICP Scorecard
 
-A 90-day pilot needs fit, trigger, access, value, proof, and feasibility.
+The scorecard does not choose the largest market. It chooses the segment most likely to create learning and account progression in 90 days.
 
-Segment Scorecard:
+Scorecard Logic:
 
-| Candidate Segment | Fit | Trigger | Access | Value | Proof | Feasibility | Decision |
-|---|---:|---:|---:|---:|---:|---:|---|
-| Segment A |  |  |  |  |  |  |  |
-| Segment B |  |  |  |  |  |  |  |
-| Segment C |  |  |  |  |  |  |  |
+| Scoring Lens | Decision Question |
+|---|---|
+| Segment Clarity | Is the focus narrow enough to guide content, distribution, sales action, and exclusion? |
+| Trigger Strength | Why would the account care now? |
+| Technical Fit | Can we credibly solve the operating problem? |
+| Commercial Fit | Is the account worth sales, SME, content, and leadership effort? |
+| Access Path | Can trust reach the right roles through realistic industrial channels? |
+| Committee Visibility | Can the decision roles be identified and enabled? |
+| Proof Availability | Can credible proof be used or built within the pilot window? |
+| Pilot Feasibility | Can the segment create useful learning within 90 days? |
 
-Decision Output:
+Decision Standard:
 
-- Recommended 90-Day ICP Focus
-- Validation Assumptions
-- Rejection Logic
+- Do not average away a critical weakness.
+- A large market with weak trigger, weak proof, or weak access is not a strong 90-day focus.
+- A smaller segment with strong trigger, access, proof, and learning potential is usually the better pilot.
 
 ## Slide 10 - Disqualification Gates
 
