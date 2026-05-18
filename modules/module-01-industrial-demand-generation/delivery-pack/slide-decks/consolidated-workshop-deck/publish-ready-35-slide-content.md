@@ -269,17 +269,21 @@ Core Question:
 
 ## Slide 14 - Committee Proof Matrix
 
-Each critical role needs a current belief, required belief, proof asset, and owner.
+Industrial deals stall when one role is convinced but another role lacks proof.
 
-Proof Matrix:
+Every critical buying role needs a specific belief shift, proof asset, and owner.
 
-| Role | Current Belief | Required Belief | Fear or Blocker | Proof Needed | Asset | Owner |
-|---|---|---|---|---|---|---|
-| Operations |  |  |  |  |  |  |
-| Quality |  |  |  |  |  |  |
-| Maintenance |  |  |  |  |  |  |
-| Finance |  |  |  |  |  |  |
-| Procurement |  |  |  |  |  |  |
+Committee Proof Logic:
+
+| Role Layer | What Must Be Mapped |
+|---|---|
+| Role | Who can advance, influence, slow, block, fund, approve, or validate the decision? |
+| Current Belief | What does this role likely believe today? |
+| Required Belief | What must this role believe before the account can move forward? |
+| Fear or Blocker | What risk could stop movement? |
+| Proof Needed | What evidence would reduce that risk? |
+| Circulatable Asset | What can the champion share internally? |
+| Owner | Who is responsible for creating or delivering the proof? |
 
 Coverage Status:
 
@@ -289,23 +293,20 @@ Coverage Status:
 
 ## Slide 15 - Exercise 3: Buying Committee Map
 
-Map at least five roles, their fears, proof needs, circulatable assets, and owners.
+Build the buying committee and proof map for your selected ICP focus.
 
-Working Matrix:
+You are not inventing perfect persona language. You are selecting the closest-fit options, then adapting them to your product category.
 
-| Role | Current Belief | Required Belief | Blocker | Proof Needed | Circulatable Asset | Owner |
-|---|---|---|---|---|---|---|
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
+Exercise Output:
 
-Required Output:
+- Five to Nine Relevant Buying Roles
+- Role-Specific Concerns and Blockers
+- Required Proof Assets
+- Buyer-Circulatable Enablement Assets
+- Committee Coverage Gaps
+- RevOps Fields to Track
 
-- Hidden Blocker
-- Missing Proof Asset
-- RevOps Field to Track
+Use: Exercise 03 - Buying Committee Map Worksheet
 
 ## Slide 16 - MOIN: Map of Informational Needs
 
