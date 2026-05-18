@@ -17,6 +17,7 @@ Approval rule: the Markdown content file is the canonical review artifact. No PP
 | [exercise-03-buying-committee-map.md](exercise-03-buying-committee-map.md) | guided participant worksheet for Exercise 3 |
 | [exercise-04-moin-grid.md](exercise-04-moin-grid.md) | guided participant worksheet for Exercise 4 |
 | [exercise-05-content-plan.md](exercise-05-content-plan.md) | guided participant worksheet for Exercise 5 |
+| [exercise-05-content-plan-full-scale.md](exercise-05-content-plan-full-scale.md) | full-scale reference document for Exercise 5 |
 | [../../industrial-demand-generation-participant-prompts.md](../../industrial-demand-generation-participant-prompts.md) | Participant prompt templates for the interleaved workshop exercises |
 | [src/consolidated-workshop-data.mjs](src/consolidated-workshop-data.mjs) | Canonical slide plan, concept coverage, exercises, and final strategy outputs |
 | [src/build-slide-content-md.mjs](src/build-slide-content-md.mjs) | Regenerates the Markdown slide content review file |
