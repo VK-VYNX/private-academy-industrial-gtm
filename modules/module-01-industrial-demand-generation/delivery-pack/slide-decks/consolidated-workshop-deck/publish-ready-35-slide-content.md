@@ -451,21 +451,13 @@ Use: Exercise 05 - Content Plan Worksheet
 
 Publishing is not distribution. Industrial insight must circulate through trusted paths.
 
-Publishing-Only Path:
-
-- Company Page
-- Website Post
-- Campaign Send
-- Low Observable Trust
-
-Trusted-Circulation Path:
-
-- Sales Conversation
-- SME Explanation
-- Association or Event
-- Distributor or Partner
-- Target-Account Follow-Up
-- Captured Signal
+| Publishing-Only Motion | Trusted-Circulation Motion |
+|---|---|
+| Company Page | Sales Conversation |
+| Website Post | SME Explanation |
+| Campaign Send | Association or Event |
+| Low Observable Trust | Distributor, Partner, or Advisor Transfer |
+| Activity Count | Captured Account Signal |
 
 Operating Point:
 
@@ -473,17 +465,17 @@ Operating Point:
 
 ## Slide 24 - Trust-Based Channel Ecosystem
 
-Choose channels by buyer trust, decision stage, operational capacity, and observable account evidence.
+Choose channels by buyer trust, demand state, operational capacity, and observable account evidence.
 
-Channel Ecosystem:
-
-- Owned Channel
-- Sales Channel
-- SME Channel
-- Partner Channel
-- Event Channel
-- Distributor Channel
-- Association Channel
+| Channel Type | Best Use |
+|---|---|
+| Sales Channel | Account-specific sharing and follow-up. |
+| SME Channel | Technical credibility and expert explanation. |
+| Event Channel | Access, timing, questions, and role discovery. |
+| Partner or Distributor Channel | Local trust, referral, market sensing, and timing. |
+| Association or Industry Channel | Borrowed trust and education. |
+| Owned or Search Channel | Reference path, proof library, and late-stage discovery. |
+| Paid or Targeted Amplification | Narrow reach after the asset and audience are proven. |
 
 Channel Selection Fields:
 
@@ -494,40 +486,41 @@ Channel Selection Fields:
 - Signal Captured
 - Owner
 
-## Slide 25 - Event, Partner, and Distributor Motions
+## Slide 25 - Field and Ecosystem Motions
 
-Offline and partner activity becomes demand generation only when signals are captured and routed.
+Events, partners, distributors, and advisors become demand generation only when signals are captured and routed.
 
 Motion Flow:
 
 | Stage | Operating Focus | Evidence Captured |
 |---|---|---|
-| Pre-Event | Target Accounts, Proof Assets, Role Hypotheses | Account List, Role Assumptions, Asset Plan |
-| During Event | Questions, Roles, Objections, Competitor Context, Urgency | Buyer Questions, Proof Gaps, Active Accounts |
-| Post-Event | Route, Enable, Nurture, Disqualify, Learn | Owner, SLA, Next Action, Cadence Decision |
+| Pre-Event or Pre-Motion | Target Accounts, Proof Assets, Role Hypotheses | Account List, Role Assumptions, Asset Plan |
+| During Interaction | Questions, Roles, Objections, Competitor Context, Urgency | Buyer Questions, Proof Gaps, Active Accounts |
+| Post-Interaction | Route, Enable, Nurture, Disqualify, Learn | Owner, SLA, Next Action, Cadence Decision |
 
 Operating Point:
 
-- Field signals must not stay trapped in field logs, calls, or memory.
+- Field signals must not stay trapped in field logs, partner calls, event notes, or memory.
 
 ## Slide 26 - Exercise 6: Distribution Plan
 
-Map channels, trust reasons, owners, cadence, account signals, and follow-up rules.
+Turn your first-five content assets into a trust-based distribution and signal-capture plan.
 
-Distribution Planning Board:
+You are not choosing every possible channel. You are choosing the few paths your team can operate, inspect, and follow up.
 
-| Channel | Trust Reason | Asset | Owner | Cadence | Signal | Capture Method | Follow-Up Rule |
-|---|---|---|---|---|---|---|---|
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
+Exercise Output:
 
-Required Output:
+- Distribution Path for Each Priority Asset
+- Trust Reason
+- Demand State and Target Role
+- Owner and Cadence
+- Account Signal
+- Capture Method
+- Follow-Up Rule
+- Channels to Exclude
+- One Field or Ecosystem Motion Where Relevant
 
-- At Least One Sales or SME-Led Path
-- At Least One Ecosystem Path Where Relevant
+Use: Exercise 06 - Distribution Plan Worksheet
 
 ## Slide 27 - Signal Interpretation
 

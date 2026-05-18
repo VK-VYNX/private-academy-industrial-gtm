@@ -17,6 +17,7 @@ Approval rule: the Markdown content file is the canonical review artifact. No PP
 | [exercise-03-buying-committee-map.md](exercise-03-buying-committee-map.md) | guided participant worksheet for Exercise 3 |
 | [exercise-04-moin-grid.md](exercise-04-moin-grid.md) | guided participant worksheet for Exercise 4 |
 | [exercise-05-content-plan.md](exercise-05-content-plan.md) | guided participant worksheet for Exercise 5 |
+| [exercise-06-distribution-plan.md](exercise-06-distribution-plan.md) | guided participant worksheet for Exercise 6 |
 | [exercise-05-content-plan-full-scale.md](exercise-05-content-plan-full-scale.md) | full-scale reference document for Exercise 5 |
 | [../../industrial-demand-generation-participant-prompts.md](../../industrial-demand-generation-participant-prompts.md) | Participant prompt templates for the interleaved workshop exercises |
 | [src/consolidated-workshop-data.mjs](src/consolidated-workshop-data.mjs) | Canonical slide plan, concept coverage, exercises, and final strategy outputs |
@@ -34,6 +35,7 @@ Approval rule: the Markdown content file is the canonical review artifact. No PP
 | Exercise 03 - Buying Committee Map | 15 | [exercise-03-buying-committee-map.md](exercise-03-buying-committee-map.md) |
 | Exercise 04 - MOIN Grid | 19 | [exercise-04-moin-grid.md](exercise-04-moin-grid.md) |
 | Exercise 05 - Content Plan | 22 | [exercise-05-content-plan.md](exercise-05-content-plan.md) |
+| Exercise 06 - Distribution Plan | 26 | [exercise-06-distribution-plan.md](exercise-06-distribution-plan.md) |
 
 ## Workshop Flow
 
@@ -60,7 +62,7 @@ Exercises are intentionally interleaved, so participants build the strategy as t
 | E3 Buying Committee Map | 15 | Exercise 03 worksheet and Prompt 2 |
 | E4 MOIN Grid | 19 | Exercise 04 worksheet and Prompt 4 |
 | E5 Content Plan By Demand State | 22 | Exercise 05 worksheet and Prompt 5 |
-| E6 Distribution And Ecosystem Plan | 26 | Prompt 6 |
+| E6 Distribution And Ecosystem Plan | 26 | Exercise 06 worksheet and Prompt 6 |
 | E7 Signal Routing Table | 30 | Prompt 7 |
 | E8 90-Day Pilot Plan | 34 | Prompt 8 |
 
