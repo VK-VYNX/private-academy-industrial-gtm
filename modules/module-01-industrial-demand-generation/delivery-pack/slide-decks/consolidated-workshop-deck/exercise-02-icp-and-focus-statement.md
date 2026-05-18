@@ -29,7 +29,7 @@ Complete the exercise for one product or product category only.
 
 ## How To Complete This Exercise
 
-1. List two or three candidate segments.
+1. Use the Candidate Segment Builder to assemble two or three candidate segments.
 2. Score each candidate segment using the parameter options.
 3. Choose the segment with the strongest combination of fit, trigger, access, value, proof, and pilot feasibility.
 4. Write one 90-day ICP focus statement.
@@ -37,22 +37,112 @@ Complete the exercise for one product or product category only.
 
 Do not choose the largest market automatically. Choose the segment where the next 90 days can create useful account progression and learning.
 
+## Candidate Segment Builder
+
+Use these option banks before filling the candidate segment table.
+
+You do not need perfect wording. Select the closest option in each category, then combine the selections into a candidate segment.
+
+## Sector Or Application Options
+
+Choose one option per candidate segment.
+
+| Option | Sector Or Application |
+|---|---|
+| S1 | Process Manufacturing with Quality, Compliance, Yield, Or Documentation Risk |
+| S2 | Food Or Beverage Processing with Hygiene, Throughput, Packaging, Or Shelf-Life Constraints |
+| S3 | Export-Oriented Manufacturing with Inspection, Traceability, Certification, Or Documentation Requirements |
+| S4 | OEM Or Machine Builder with Component Quality, Tolerance, Subsystem, Or Supplier-Risk Requirements |
+| S5 | Maintenance-Heavy Plant with Reliability, Replacement, Obsolescence, Or Downtime Risk |
+| S6 | Energy-, Utility-, Or Process-Efficiency Improvement Context |
+| S7 | Distributor-, Partner-, Consultant-, Or Channel-Influenced Industrial Buying Context |
+| S8 | Project-, Tender-, Expansion-, Or New-Line Industrial Account |
+| S9 | Regulated Manufacturing with Validation, Safety, Audit, Or Compliance Requirements |
+| S10 | Custom Sector Or Application: Write A More Specific Version |
+
+## Account Type Options
+
+Choose one option per candidate segment.
+
+| Option | Account Type |
+|---|---|
+| A1 | Mid-Sized Plant with an Active Improvement Need |
+| A2 | Multi-Site Manufacturer with Repeat Use Potential |
+| A3 | Export-Oriented Manufacturer with Quality Documentation Requirements |
+| A4 | OEM Or Machine Builder with Repeat Component, Assembly, Or Subsystem Needs |
+| A5 | Regulated Plant with Validation, Quality, Or Compliance Requirements |
+| A6 | Distributor Or Channel Partner Serving Relevant End Users |
+| A7 | Owner-Led Industrial Business with Technical Decision Influence |
+| A8 | Large Enterprise Account with Multiple Sites, Multiple Roles, Or Formal Procurement |
+| A9 | Replacement-Cycle Buyer with Existing Equipment, Supplier, Or Process Constraints |
+| A10 | Custom Account Type: Write A More Specific Version |
+
+## Trigger Options
+
+Choose one or two options per candidate segment.
+
+| Option | Possible Trigger |
+|---|---|
+| T1 | Capacity Expansion Or New Production Line |
+| T2 | Quality Issue, Defect Reduction, Rework, Or Scrap Pressure |
+| T3 | Audit, Compliance, Documentation, Or Validation Requirement |
+| T4 | Replacement Cycle, Obsolescence, Retrofit, Or Supplier Change |
+| T5 | Downtime, Maintenance, Reliability, Or Service Concern |
+| T6 | Energy Cost, Yield Loss, Throughput, Or Process-Efficiency Pressure |
+| T7 | Export Requirement, Customer Requirement, Certification, Or Inspection Pressure |
+| T8 | Tender, Project, Budget Window, Or Procurement Event |
+| T9 | Vendor Diversification, Supply Risk, Or Locked-Supplier Dissatisfaction |
+| T10 | Custom Trigger: Write A More Specific Version |
+
+## Access Path Options
+
+Choose one or two realistic access paths per candidate segment.
+
+| Option | Access Path |
+|---|---|
+| P1 | Existing Sales Relationship Or Named Account List |
+| P2 | Technical Event, Exhibition, Webinar, Or Conference |
+| P3 | Distributor, Dealer, Channel Partner, Or System Integrator |
+| P4 | Consultant, EPC, Project Advisor, Or Specification Influencer |
+| P5 | Industry Association, Export Body, Cluster, Or Trade Group |
+| P6 | SME, Founder, Technical Leader, Or Expert-Led Content |
+| P7 | Search, Technical Article, Product Page, Or Comparison Content |
+| P8 | Paid Amplification To A Narrow Industrial Audience |
+| P9 | Current Inbound, RFQ, Referral, Or Installed-Base Signal |
+| P10 | Custom Access Path: Write A More Specific Version |
+
+## Reason For Considering This Segment
+
+Choose one or two reasons per candidate segment.
+
+| Option | Reason For Considering It |
+|---|---|
+| R1 | Sales Already Sees Relevant Conversations Or RFQs |
+| R2 | Existing Proof, Case Evidence, Technical Experience, Or SME Confidence Exists |
+| R3 | The Segment Has Higher Deal Value, Margin, Repeat Potential, Or Service Potential |
+| R4 | The Segment Has Stronger Trigger Visibility Than The Broader Market |
+| R5 | The Segment Is Reachable Through Trusted Channels Within 90 Days |
+| R6 | Weak-Fit Demand Is Currently Consuming Sales Or SME Time |
+| R7 | Leadership Has A Strategic Growth Priority In This Segment |
+| R8 | Distribution, Partner, Event, Or Association Access Already Exists |
+| R9 | Buyer Questions In This Segment Can Be Answered With Specific Content And Proof |
+| R10 | Custom Reason: Write A More Specific Version |
+
 ## Candidate Segments
 
-Write two or three candidate segments before scoring.
+Use the option banks to create two or three candidate segments before scoring.
 
-| Candidate Segment | Sector Or Application | Account Type | Possible Trigger | Current Reason For Considering It |
-|---|---|---|---|---|
-| Segment A |  |  |  |  |
-| Segment B |  |  |  |  |
-| Segment C |  |  |  |  |
+| Candidate Segment | Sector Or Application Option | Account Type Option | Trigger Option | Access Path Option | Reason Option | Candidate Segment Phrase |
+|---|---|---|---|---|---|---|
+| Segment A |  |  |  |  |  |  |
+| Segment B |  |  |  |  |  |  |
+| Segment C |  |  |  |  |  |  |
 
-Examples of candidate segment framing:
+Use this phrasing formula:
 
-- Export-Oriented Equipment OEMs with Tolerance, Documentation, and Repeat Production Requirements;
-- Mid-Sized Food Processing Plants Expanding Automated Packaging Capacity;
-- Chemical Processing Plants Facing Filtration, Compliance, or Maintenance Risk;
-- Industrial Distributors Serving Replacement-Cycle Buyers in a Specific Region.
+```text
+[Account Type] in [Sector Or Application] where [Trigger] creates a likely need, and [Access Path / Reason] makes the segment testable in 90 days.
+```
 
 Avoid broad labels such as "all manufacturers," "all OEMs," "all exporters," or "any plant with budget."
 
