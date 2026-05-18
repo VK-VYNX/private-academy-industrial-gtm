@@ -25,7 +25,7 @@ Approval rule: the Markdown content file is the canonical review artifact. No PP
 | Slides | Segment | Participant Output |
 |---:|---|---|
 | 1-3 | Workshop promise and artifact chain | Shared understanding of the final strategy package |
-| 4-7 | Foundations and demand system diagnostic | Current weakness map and priority repairs |
+| 4-7 | Foundations and demand system diagnostic | Six operating-layer scores and current weakness map |
 | 8-11 | Industrial buyer reality | Buying committee and proof map |
 | 12-15 | ICP, segments, and demand focus | 90-day ICP focus and disqualification rules |
 | 16-19 | MOIN: Map of Informational Needs | Buyer question, risk, proof, and asset grid |

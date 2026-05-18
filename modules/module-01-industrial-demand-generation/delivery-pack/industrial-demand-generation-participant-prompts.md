@@ -65,28 +65,26 @@ Known CRM or RevOps fields:
 [write here]
 
 Task:
-Diagnose whether I currently have an industrial demand generation engine or mostly scattered marketing activity, lead capture, and sales heroics.
+Summarize my Exercise 01 demand system diagnostic. Do not choose scores for me. Use only the scores and evidence I provide.
 
-Use these operating layers:
-1. Revenue goal and market focus
-2. ICP and buying committee
-3. Demand creation
-4. MOIN and proof assets
-5. Trusted distribution
-6. Account-level signals
-7. Signal routing and buyer enablement
-8. RevOps visibility
-9. Weekly cadence
+My selected Exercise 01 scores:
+- Market focus: [1-5 plus evidence]
+- ICP and disqualification: [1-5 plus evidence]
+- Demand creation and buyer education: [1-5 plus evidence]
+- Trusted distribution: [1-5 plus evidence]
+- Signal capture and routing: [1-5 plus evidence]
+- Cadence and ownership: [1-5 plus evidence]
 
 Output:
-Create a table with columns: operating layer, current evidence, weakness, commercial consequence, repair, owner, two-week first move.
+Create a table with columns: operating layer, selected score, current evidence, attention needed, and what this score means.
 
 Then produce:
-- one focus repair;
-- one content or distribution repair;
-- one signal, owner, or cadence repair;
-- one account movement signal to track;
+- the lowest-scoring layers;
+- one plain-language diagnostic summary;
+- facts, assumptions, and unknowns;
 - validation questions for sales, RevOps, SME, and leadership.
+
+Do not recommend repairs yet. This prompt is only for summarizing the diagnostic.
 
 Rules:
 - Do not invent named-company examples, customer claims, certifications, metrics, or market facts.
@@ -102,7 +100,7 @@ Diagnose whether the company has a demand generation engine or only scattered ma
 
 Human review before accepting the output:
 
-- Does the output help produce: Current weakness map and three priority repairs?
+- Does the output help produce: Six operating-layer scores and current weakness map?
 - Are facts, assumptions, and unknowns clearly separated?
 - Does the output name owners, proof, signals, and RevOps implications where relevant?
 - What would sales, an SME, RevOps, or leadership reject?

@@ -60,7 +60,7 @@ export const exercisePlan = [
     slide: 7,
     lessonId: "01",
     title: "Demand System Diagnostic",
-    output: "Current weakness map and three priority repairs",
+    output: "Six operating-layer scores and current weakness map",
     promptTitle: "Prompt 1 - Demand System Diagnostic",
   },
   {
@@ -174,7 +174,7 @@ export const slidePlan = [
     no: 7,
     type: "exercise-diagnostic",
     title: "Exercise 1: Demand System Diagnostic",
-    subtitle: "Use the participant worksheet to select current-reality statements, score six operating layers, and choose three priority repairs.",
+    subtitle: "Use the participant worksheet to select current-reality statements and score six operating layers.",
     sourceLessons: ["01"],
     conceptKeys: ["system-diagnostic"],
     exerciseId: "E1",

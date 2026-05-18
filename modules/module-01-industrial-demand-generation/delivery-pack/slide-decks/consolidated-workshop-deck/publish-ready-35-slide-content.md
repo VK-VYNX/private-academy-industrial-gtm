@@ -139,14 +139,12 @@ Participant Task:
 
 - Choose the closest current-reality statement for each operating layer.
 - Record one score per layer.
-- Identify the three weakest layers.
-- Select three priority repairs for the rest of the workshop.
+- Mark the layers that need attention.
 
 Exercise Output:
 
 - Six Operating-Layer Scores
-- Three Weakest Layers
-- Three Priority Repairs
+- Current Weakness Map
 
 ## Slide 08 - Industrial Buyer Reality
 

@@ -9,8 +9,7 @@ This exercise helps you diagnose the current demand generation system for one in
 By the end of this exercise, you will have:
 
 - Six operating-layer scores;
-- A clear view of the weakest parts of the current demand system;
-- Three priority repairs to carry into the rest of the workshop.
+- A clear view of the weakest parts of the current demand system.
 
 The output becomes the first section of your Industrial Demand Generation strategy.
 
@@ -131,7 +130,7 @@ Cadence and Ownership answer: Who reviews movement, makes decisions, and repairs
 
 Copy your selected score for each layer into this table.
 
-| Operating Layer | Selected Score | Evidence You Used | Repair Priority? |
+| Operating Layer | Selected Score | Evidence You Used | Attention Needed? |
 |---|---:|---|---|
 | Market Focus |  |  | Yes / No |
 | ICP And Disqualification |  |  | Yes / No |
@@ -146,103 +145,9 @@ Use the score to understand the current operating condition.
 
 | Score Range | Diagnosis | What It Means |
 |---:|---|---|
-| 1-2 | Repair Required | This layer is likely blocking account movement or wasting commercial effort. |
+| 1-2 | Needs Attention | This layer is likely blocking account movement or wasting commercial effort. |
 | 3 | Operational Gap | This layer exists, but it is not reliable enough for a serious 90-day pilot. |
 | 4 | Usable Foundation | This layer can support the pilot, but should still be reviewed for precision. |
 | 5 | Managed Strength | This layer is likely a strength. Protect it and use it to support weaker layers. |
 
 Do not average away the problem. A single score of 1 or 2 can weaken the full system even if other layers look healthy.
-
-## Selecting Three Repair Priorities
-
-Choose three repair priorities using this rule:
-
-1. Mark every layer scored 1 or 2 as a repair candidate.
-2. If more than three layers are scored 1 or 2, choose the three that most directly block account movement.
-3. If several layers are tied, prioritize in this order:
-   - Market Focus or ICP if weak-fit demand is consuming effort;
-   - Demand Creation or Trusted Distribution if buyers are not being educated or reached through trusted paths;
-   - Signal Capture or Cadence if activity exists but the team does not know what to do next.
-4. Your final repair set should include:
-   - One Focus or ICP repair;
-   - One Demand Creation or Distribution repair;
-   - One Signal, Owner, or Cadence repair.
-
-## Repair Menu
-
-Use this menu to turn low scores into practical repairs.
-
-| Weak Layer | Strong Repair Wording |
-|---|---|
-| Market Focus | Select one 90-day segment, one trigger, one geography or use case, and clear exclusions. |
-| ICP And Disqualification | Define fit criteria and rejection rules before sales or SME time is spent. |
-| Demand Creation And Buyer Education | Build one proof-backed asset that answers a real buyer question for one role and one demand state. |
-| Trusted Distribution | Assign one trusted channel, owner, cadence, target role, expected signal, and follow-up rule. |
-| Signal Capture And Routing | Define how each signal will be classified by fit, demand state, role, source, strength, owner, SLA, and next action. |
-| Cadence And Ownership | Run a weekly movement review that creates decisions, commitments, and system repairs. |
-
-## Repair Priority Table
-
-Complete this table after selecting the three weakest layers.
-
-| Priority | Weak Layer | Selected Score | Repair Decision | Owner | First Two-Week Move | Evidence Of Progress |
-|---:|---|---:|---|---|---|---|
-| 1 |  |  |  |  |  |  |
-| 2 |  |  |  |  |  |  |
-| 3 |  |  |  |  |  |  |
-
-## Worked Example
-
-Composite Example: Industrial Filtration Equipment Supplier
-
-| Operating Layer | Selected Score | Evidence Used | Repair Priority? |
-|---|---:|---|---|
-| Market Focus | 2 | Sales targets several process industries without a 90-day segment focus. | Yes |
-| ICP And Disqualification | 2 | Good fit is known by senior salespeople, but weak-fit RFQs still consume time. | Yes |
-| Demand Creation And Buyer Education | 1 | Most assets are brochures, product pages, and exhibition follow-up material. | Yes |
-| Trusted Distribution | 2 | Content is posted and shared occasionally, but no channel owner or cadence exists. | Maybe |
-| Signal Capture And Routing | 1 | RFQs, downloads, event scans, and conversations are not classified by demand state. | Yes |
-| Cadence And Ownership | 2 | Marketing reports activity monthly, but there is no weekly repair cadence. | Maybe |
-
-Example Repair Priorities:
-
-| Priority | Weak Layer | Repair Decision | First Two-Week Move |
-|---:|---|---|---|
-| 1 | Market Focus | Choose one 90-day segment and reject weak-fit RFQs outside the focus. | Define target segment, trigger, and exclusion rules. |
-| 2 | Demand Creation And Buyer Education | Build one proof-backed problem and criteria asset for the target segment. | Interview sales and SME to capture top buyer questions and proof gaps. |
-| 3 | Signal Capture And Routing | Classify engagement by fit, role, demand state, and strength before sales action. | Create a temporary routing table for event, RFQ, website, and sales-discovered signals. |
-
-## Final Output Statement
-
-Write one final statement that summarizes your diagnosis.
-
-```text
-For [Product Or Product Category], the current demand system is weakest in [Layer 1], [Layer 2], and [Layer 3].
-
-The first three repairs are:
-1. [Repair 1]
-2. [Repair 2]
-3. [Repair 3]
-
-These repairs matter because the current system is preventing [Account Movement Problem].
-```
-
-## Quality Check
-
-Before moving to the next workshop section, confirm:
-
-- You selected one score per layer;
-- Your scores reflect current evidence, not aspiration;
-- You selected three repair priorities;
-- At least one repair improves focus, ICP, or disqualification;
-- At least one repair improves buyer education, proof, or distribution;
-- At least one repair improves signal routing, ownership, or cadence;
-- No repair is written as "make more content," "get more leads," or "run more campaigns."
-
-## Source Lineage
-
-| Source | Coverage |
-|---|---|
-| Module 1 Source Commit | `9e28222` |
-| Lesson 01 | Industrial Demand Generation Foundations |
-| Supporting Lessons | ICP, MOIN, Content Engine, Distribution, Signal Routing, Measurement And Cadence |

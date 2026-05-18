@@ -59,7 +59,7 @@ The 35-slide sequence must cover these Module 1 concept keys:
 
 | Exercise | Slide | Output | Participant Template |
 |---|---:|---|---|
-| E1 Demand System Diagnostic | 7 | Current weakness map and three priority repairs | Prompt 1 - Demand System Diagnostic |
+| E1 Demand System Diagnostic | 7 | Six operating-layer scores and current weakness map | Prompt 1 - Demand System Diagnostic |
 | E2 Buying Committee Map | 11 | Role, belief, fear, proof, asset, and owner matrix | Prompt 2 - Buying Committee Map |
 | E3 ICP And Focus Statement | 15 | 90-day ICP focus and explicit rejection rules | Prompt 3 - ICP And Disqualification Scorecard |
 | E4 MOIN Grid | 19 | Buyer questions by role and demand state | Prompt 4 - MOIN Grid |
@@ -375,17 +375,17 @@ Concept keys: system-diagnostic
 
 ### Slide Promise
 
-Use the participant worksheet to select current-reality statements, score six operating layers, and choose three priority repairs.
+Use the participant worksheet to select current-reality statements and score six operating layers.
 
 ### On-Slide Content
 
 - Choose one product or product category.
 - Use the Exercise 01 worksheet to select the closest current-reality statement for each operating layer.
-- Record six scores, identify the three weakest layers, and choose three priority repairs.
+- Record six scores and mark the layers that need attention.
 
 ### Infographic Direction
 
-- Simple three-part visual: choose scope, score six layers, select three repairs.
+- Simple three-part visual: choose scope, score six layers, mark weak layers.
 - Show the six layers as a vertical diagnostic ladder: Market focus, ICP, Demand creation, Distribution, Signal routing, Cadence.
 - Footer: worksheet output becomes the first section of the final strategy.
 
@@ -393,7 +393,7 @@ Use the participant worksheet to select current-reality statements, score six op
 
 - This exercise should feel easy to start. Participants are selecting from prewritten statements, not inventing expert diagnostic language.
 - Ask teams to choose the lower score when they cannot point to current evidence.
-- The worksheet converts the scores into three repair priorities that will guide the rest of the workshop.
+- Keep this exercise diagnostic only. Repair decisions become clearer after the later concept blocks.
 
 ### Why This Matters In Industrial Markets
 
@@ -404,7 +404,7 @@ Use the participant worksheet to select current-reality statements, score six op
 
 ### Exercise Setup
 
-Participant output: Current weakness map and three priority repairs
+Participant output: Six operating-layer scores and current weakness map
 
 Use exercise-01-demand-system-diagnostic.md as the primary working document. The participant prompt template may be used after scores are selected, but the scores must come from human judgment and current evidence.
 

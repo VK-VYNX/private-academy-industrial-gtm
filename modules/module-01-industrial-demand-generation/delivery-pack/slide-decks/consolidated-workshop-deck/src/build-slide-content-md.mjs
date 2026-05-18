@@ -204,17 +204,17 @@ const details = {
     onSlide: [
       "Choose one product or product category.",
       "Use the Exercise 01 worksheet to select the closest current-reality statement for each operating layer.",
-      "Record six scores, identify the three weakest layers, and choose three priority repairs.",
+      "Record six scores and mark the layers that need attention.",
     ],
     infographic: [
-      "Simple three-part visual: choose scope, score six layers, select three repairs.",
+      "Simple three-part visual: choose scope, score six layers, mark weak layers.",
       "Show the six layers as a vertical diagnostic ladder: Market focus, ICP, Demand creation, Distribution, Signal routing, Cadence.",
       "Footer: worksheet output becomes the first section of the final strategy.",
     ],
     notes: [
       "This exercise should feel easy to start. Participants are selecting from prewritten statements, not inventing expert diagnostic language.",
       "Ask teams to choose the lower score when they cannot point to current evidence.",
-      "The worksheet converts the scores into three repair priorities that will guide the rest of the workshop.",
+      "Keep this exercise diagnostic only. Repair decisions become clearer after the later concept blocks.",
     ],
     exercise: "E1",
     transition: "The next block explains why buyer reality is more complex than the visible lead.",
