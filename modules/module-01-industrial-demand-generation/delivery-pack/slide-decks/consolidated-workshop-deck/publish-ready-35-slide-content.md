@@ -390,19 +390,20 @@ Use: Exercise 04 - MOIN Grid Worksheet
 
 ## Slide 20 - Content Engine for Industrial Demand
 
-Industrial content is not a publishing calendar. Every asset needs a job.
+Industrial content is not a publishing calendar. Every asset needs a buyer movement job.
 
 Asset Job Card:
 
-- Demand State
-- Buyer Role
-- Buyer Question
-- Proof Source
-- Asset Format
-- Sales Use
-- Distribution Path
-- Signal
-- Owner
+| Asset Field | Decision It Forces |
+|---|---|
+| MOIN Priority | Which buyer question does this asset answer? |
+| Demand State | Is this Content, Solution, or Vendor Demand? |
+| Buyer Role | Which role needs this asset? |
+| Proof Source | What evidence makes the asset credible? |
+| Sales Use | How will sales use it in a real account conversation? |
+| Distribution Path | Where can this asset circulate through trust? |
+| Signal Created | What engagement should change account action? |
+| Owner | Who builds, validates, or uses it? |
 
 Operating Rule:
 
@@ -412,40 +413,39 @@ Operating Rule:
 
 Build the minimum asset system that supports buyers, sales, distribution, and signal interpretation.
 
-First-Five Assets:
+First-Five Asset System:
 
-1. Problem-Risk Asset
-2. Selection Criteria Guide
-3. Proof or Application Asset
-4. Champion Internal Pack
-5. Vendor Validation Asset
+| Asset Type | Primary Job |
+|---|---|
+| Problem-Risk Asset | Make the buyer understand why the problem matters now. |
+| Selection Criteria Guide | Help the buyer compare approaches without defaulting to price. |
+| Proof or Application Asset | Reduce technical, operational, quality, or implementation risk. |
+| Champion Internal Pack | Help the internal advocate explain the case when sales is not present. |
+| Vendor Validation Asset | Prove supplier credibility, support, TCO, procurement confidence, or delivery readiness. |
 
-Asset Planning Fields:
+Operating Point:
 
-- Demand State
-- Buyer Role
-- Proof Source
-- Sales Use
-- Channel
-- Signal
+- The first five assets should come from MOIN priorities, not from campaign ideas.
 
-## Slide 22 - Exercise 5: Content Plan
+## Slide 22 - Exercise 5: First-Five Content Asset Plan
 
-Create the first-five asset roadmap by demand state, SME input, sales use, channel, and signal.
+Convert your top five MOIN priorities into a practical build, repair, or later asset plan.
 
-Asset Roadmap:
+You are not creating a content calendar. You are deciding which five assets can help buyers move, help sales act, and create useful signals in the next 90 days.
 
-| Asset | Demand State | Buyer Role | Proof Source | SME Input | Sales Use | Channel | Signal | Owner |
-|---|---|---|---|---|---|---|---|---|
-| Asset 1 |  |  |  |  |  |  |  |  |
-| Asset 2 |  |  |  |  |  |  |  |  |
-| Asset 3 |  |  |  |  |  |  |  |  |
-| Asset 4 |  |  |  |  |  |  |  |  |
-| Asset 5 |  |  |  |  |  |  |  |  |
+Exercise Output:
 
-Quality Rule:
+- Five Priority Assets
+- Demand State for Each Asset
+- Buyer Role and Buyer Question
+- Proof or SME Input Required
+- Sales Use Case
+- Initial Distribution Path
+- Signal Created
+- Build, Repair, or Later Decision
+- Owner
 
-- Reject assets that do not support buyer movement or signal interpretation.
+Use: Exercise 05 - Content Plan Worksheet
 
 ## Slide 23 - Distribution Is the Missing Half
 
