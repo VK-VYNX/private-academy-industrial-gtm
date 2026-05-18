@@ -315,81 +315,78 @@ Use: Exercise 03 - Buying Committee Map Worksheet
 
 ## Slide 16 - MOIN: Map of Informational Needs
 
-Turn buyer uncertainty into a role-specific content and proof roadmap.
+MOIN turns buyer uncertainty into a role-specific content and proof roadmap.
 
-MOIN Grid:
+It is not a topic brainstorm, content pillar list, or product-promotion plan.
 
-| Role | Content Demand | Solution Demand | Vendor Demand |
-|---|---|---|---|
-| Champion |  |  |  |
-| Technical |  |  |  |
-| Operations |  |  |  |
-| Finance |  |  |  |
-| Procurement |  |  |  |
+MOIN Answers:
 
-Core Unit:
+| MOIN Layer | Core Question |
+|---|---|
+| Buyer Role | Who needs to understand something before the account can move? |
+| Demand State | Is the buyer learning the problem, comparing approaches, or evaluating suppliers? |
+| Buyer Question | What does this role need to understand? |
+| Decision Risk | What risk blocks movement if the question remains unanswered? |
+| Proof Required | What evidence would make the answer credible? |
+| Asset Idea | What content or enablement asset could answer the question? |
+| Signal Created | What engagement would indicate account movement? |
 
-- Buyer Question
-- Decision Risk
-- Proof Required
-- Asset Idea
-- Signal Created
+Operating Point:
+
+- MOIN starts from buyer uncertainty, not from what we want to publish.
 
 ## Slide 17 - Buyer Questions by Demand State
 
 Separate problem learning, solution comparison, and supplier evaluation before building assets.
 
-Content Demand Questions:
-
-- What problem, risk, opportunity, or cost of inaction matters?
-
-Solution Demand Questions:
-
-- Which approach, requirement, implementation path, or tradeoff fits?
-
-Vendor Demand Questions:
-
-- Which supplier can prove value, reduce risk, support adoption, and satisfy procurement confidence?
+| Demand State | Buyer Is Asking | Asset Job |
+|---|---|---|
+| Content Demand | What problem, risk, opportunity, or cost of inaction matters? | Educate and Frame Urgency |
+| Solution Demand | Which approach, requirement, implementation path, or tradeoff fits? | Shape Comparison Criteria |
+| Vendor Demand | Which supplier can prove value, reduce risk, support adoption, and satisfy procurement confidence? | Validate Supplier Confidence |
 
 Operating Point:
 
 - Demand state determines the asset job.
+- The same role may have different questions at different demand states.
 
 ## Slide 18 - Question-to-Proof Pipeline
 
-Every serious question becomes an asset, sales use case, signal, and proof requirement.
+Every serious buyer question should become a proof requirement, sales use case, distribution decision, and signal.
 
 Pipeline:
 
-1. Buyer Question
-2. Decision Risk
-3. Proof Source
-4. Asset
-5. Sales Use
-6. Distribution Path
-7. Signal
+1. Buyer Role
+2. Demand State
+3. Buyer Question
+4. Decision Risk
+5. Proof Required
+6. Asset Idea
+7. Sales Use
+8. Signal Created
 
 Priority Rule:
 
-- Prioritize questions that reduce committee risk or reveal account movement.
+- Prioritize questions that reduce buying committee risk or reveal account movement.
 
 ## Slide 19 - Exercise 4: MOIN Grid
 
-Build the role-by-demand-state question map for the chosen ICP.
+Build the role-by-demand-state question map for your selected ICP and buying committee.
 
-Working Grid:
+You are not inventing a content calendar. You are selecting and adapting buyer questions that reveal uncertainty, proof needs, and account movement.
 
-| Role | Demand State | Buyer Question | Decision Risk | Proof Required | Asset Idea | Sales Use | Signal Created |
-|---|---|---|---|---|---|---|---|
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
+Exercise Output:
 
-Required Output:
+- Five to Nine Buyer Roles or Role Layers
+- Buyer Questions by Demand State
+- Decision Risks
+- Proof Requirements
+- Asset Ideas
+- Sales Use Cases
+- Signals Created
+- Top Five MOIN Priorities for the Next 90 Days
 
-- Top Five Buyer Questions for the Next 90 Days
+Use: Exercise 04 - MOIN Grid Worksheet
 
 ## Slide 20 - Content Engine for Industrial Demand
 

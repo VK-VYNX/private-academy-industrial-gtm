@@ -29,6 +29,7 @@ Approval rule: the Markdown content file is the canonical review artifact. No PP
 | Exercise 01 - Demand System Diagnostic | 7 | [exercise-01-demand-system-diagnostic.md](exercise-01-demand-system-diagnostic.md) |
 | Exercise 02 - ICP And Focus Statement | 11 | [exercise-02-icp-and-focus-statement.md](exercise-02-icp-and-focus-statement.md) |
 | Exercise 03 - Buying Committee Map | 15 | [exercise-03-buying-committee-map.md](exercise-03-buying-committee-map.md) |
+| Exercise 04 - MOIN Grid | 19 | [exercise-04-moin-grid.md](exercise-04-moin-grid.md) |
 
 ## Workshop Flow
 
@@ -53,7 +54,7 @@ Exercises are intentionally interleaved, so participants build the strategy as t
 | E1 Demand System Diagnostic | 7 | Exercise 01 worksheet and Prompt 1 |
 | E2 ICP And Focus Statement | 11 | Exercise 02 worksheet |
 | E3 Buying Committee Map | 15 | Exercise 03 worksheet and Prompt 2 |
-| E4 MOIN Grid | 19 | Prompt 4 |
+| E4 MOIN Grid | 19 | Exercise 04 worksheet and Prompt 4 |
 | E5 Content Plan By Demand State | 22 | Prompt 5 |
 | E6 Distribution And Ecosystem Plan | 26 | Prompt 6 |
 | E7 Signal Routing Table | 30 | Prompt 7 |
