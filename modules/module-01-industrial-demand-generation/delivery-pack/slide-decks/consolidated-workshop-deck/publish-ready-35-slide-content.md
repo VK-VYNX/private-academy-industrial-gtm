@@ -143,7 +143,89 @@ Exercise Output:
 
 **Use:** Exercise 01 - Demand System Diagnostic Worksheet
 
-## Slide 08 - Industrial Buyer Reality
+## Slide 08 - ICP Focus
+
+Broad markets make content generic, signals noisy, and sales effort expensive.
+
+90-Day Focus Requires:
+
+- Fit Evidence
+- Trigger Evidence
+- Access Path
+- Commercial Value
+- Committee Feasibility
+- Proof Availability
+- Pilot Feasibility
+- Disqualification Clarity
+
+Operating Point:
+
+- Focus is a resource decision.
+- It determines what not to build, not only what to pursue.
+
+## Slide 09 - ICP Scorecard
+
+A 90-day pilot needs fit, trigger, access, value, proof, and feasibility.
+
+Segment Scorecard:
+
+| Candidate Segment | Fit | Trigger | Access | Value | Proof | Feasibility | Decision |
+|---|---:|---:|---:|---:|---:|---:|---|
+| Segment A |  |  |  |  |  |  |  |
+| Segment B |  |  |  |  |  |  |  |
+| Segment C |  |  |  |  |  |  |  |
+
+Decision Output:
+
+- Recommended 90-Day ICP Focus
+- Validation Assumptions
+- Rejection Logic
+
+## Slide 10 - Disqualification Gates
+
+Weak-fit demand must be downgraded or rejected before it consumes sales and SME effort.
+
+Disqualification Gates:
+
+1. Technical Fit
+2. Trigger Evidence
+3. Role Access
+4. Budget Reality
+5. Proof Feasibility
+6. Timing
+7. Service Feasibility
+
+Routing Outcomes:
+
+- Route
+- Nurture
+- Research
+- Downgrade
+- Reject
+
+## Slide 11 - Exercise 2: ICP and Focus Statement
+
+Choose the 90-day segment and write explicit disqualification rules.
+
+Focus Statement:
+
+- Target Segment:
+- Trigger:
+- Technical Fit:
+- Commercial Fit:
+- Access Path:
+- Buying Committee:
+- Proof Available:
+- Pilot Feasibility:
+
+Disqualification Rules:
+
+- Reject When:
+- Downgrade When:
+- Nurture When:
+- Research When:
+
+## Slide 12 - Industrial Buyer Reality
 
 The visible contact may like the solution while the real committee remains unconvinced.
 
@@ -164,7 +246,7 @@ Operating Point:
 - The buyer is a role network, not a single persona.
 - Each role carries a different fear, proof need, and decision influence.
 
-## Slide 09 - Buyer Enablement Is Not Sales Enablement
+## Slide 13 - Buyer Enablement Is Not Sales Enablement
 
 The champion must sell internally when the supplier is not in the room.
 
@@ -187,7 +269,7 @@ Core Question:
 
 - What would the champion forward to operations, finance, procurement, or leadership?
 
-## Slide 10 - Committee Proof Matrix
+## Slide 14 - Committee Proof Matrix
 
 Each critical role needs a current belief, required belief, proof asset, and owner.
 
@@ -207,7 +289,7 @@ Coverage Status:
 - Partial
 - Ready
 
-## Slide 11 - Exercise 2: Buying Committee Map
+## Slide 15 - Exercise 3: Buying Committee Map
 
 Map at least five roles, their fears, proof needs, circulatable assets, and owners.
 
@@ -226,88 +308,6 @@ Required Output:
 - Hidden Blocker
 - Missing Proof Asset
 - RevOps Field to Track
-
-## Slide 12 - ICP Focus
-
-Broad markets make content generic, signals noisy, and sales effort expensive.
-
-90-Day Focus Requires:
-
-- Fit Evidence
-- Trigger Evidence
-- Access Path
-- Commercial Value
-- Committee Feasibility
-- Proof Availability
-- Pilot Feasibility
-- Disqualification Clarity
-
-Operating Point:
-
-- Focus is a resource decision.
-- It determines what not to build, not only what to pursue.
-
-## Slide 13 - ICP Scorecard
-
-A 90-day pilot needs fit, trigger, access, value, proof, and feasibility.
-
-Segment Scorecard:
-
-| Candidate Segment | Fit | Trigger | Access | Value | Proof | Feasibility | Decision |
-|---|---:|---:|---:|---:|---:|---:|---|
-| Segment A |  |  |  |  |  |  |  |
-| Segment B |  |  |  |  |  |  |  |
-| Segment C |  |  |  |  |  |  |  |
-
-Decision Output:
-
-- Recommended 90-Day ICP Focus
-- Validation Assumptions
-- Rejection Logic
-
-## Slide 14 - Disqualification Gates
-
-Weak-fit demand must be downgraded or rejected before it consumes sales and SME effort.
-
-Disqualification Gates:
-
-1. Technical Fit
-2. Trigger Evidence
-3. Role Access
-4. Budget Reality
-5. Proof Feasibility
-6. Timing
-7. Service Feasibility
-
-Routing Outcomes:
-
-- Route
-- Nurture
-- Research
-- Downgrade
-- Reject
-
-## Slide 15 - Exercise 3: ICP and Focus Statement
-
-Choose the 90-day segment and write explicit disqualification rules.
-
-Focus Statement:
-
-- Target Segment:
-- Trigger:
-- Technical Fit:
-- Commercial Fit:
-- Access Path:
-- Buying Committee:
-- Proof Available:
-- Pilot Feasibility:
-
-Disqualification Rules:
-
-- Reject When:
-- Downgrade When:
-- Nurture When:
-- Research When:
 
 ## Slide 16 - MOIN: Map of Informational Needs
 
