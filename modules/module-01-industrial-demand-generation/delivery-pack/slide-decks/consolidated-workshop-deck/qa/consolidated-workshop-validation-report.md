@@ -1,6 +1,6 @@
 # Consolidated Workshop Markdown Validation Report
 
-Generated: 2026-05-18T07:21:36.801Z
+Generated: 2026-05-19T13:39:17.912Z
 
 Status: PASS
 
@@ -13,9 +13,9 @@ Participant prompts: `modules/module-01-industrial-demand-generation/delivery-pa
 - Approval-first guardrail: no PPTX export present
 - Slide count: 35/35
 - Source lessons covered: 8/8
-- Required concepts covered: 25/25
+- Required concepts covered: 24/24
 - Interleaved exercises placed: 8/8
-- Markdown slide content bytes: 73671
+- Markdown slide content bytes: 74947
 - Markdown content includes all 35 slide headings and required sections
 - Markdown content has no tool-specific or restricted-name deck language
 - Participant prompts present: 8 exercises plus final synthesis
@@ -30,28 +30,27 @@ Participant prompts: `modules/module-01-industrial-demand-generation/delivery-pa
 
 | Concept | Slides |
 |---|---:|
-| industrial-demand-engine | 1, 5 |
-| lead-gen-failure | 4 |
+| industrial-demand-system | 1, 5 |
+| lead-generation-limits | 4 |
 | demand-states | 6, 17 |
 | system-diagnostic | 3, 7 |
-| buying-committee | 8, 11 |
-| buyer-enablement | 9 |
-| committee-proof | 3, 10, 11 |
-| icp-focus | 12, 13, 15 |
-| disqualification | 14, 15 |
-| moin | 3, 16, 17, 19 |
+| ideal-customer-profile-focus | 8, 9, 11 |
+| disqualification-rules | 10, 11 |
+| buying-committee | 12, 15 |
+| buyer-enablement | 13 |
+| committee-proof | 3, 14, 15 |
+| buyer-question-map | 3, 16, 17, 19 |
 | question-to-proof | 18, 19 |
-| content-engine | 20, 21, 22 |
+| content-assets | 20, 21, 22 |
 | first-five-assets | 21, 22 |
 | trusted-distribution | 23, 24, 26 |
-| channel-selection | 24, 26 |
-| event-partner-motion | 25 |
-| signal-interpretation | 27, 30 |
-| routing-rules | 28, 30 |
-| account-progression | 6, 29 |
-| revops-signal-object | 29, 30 |
+| distribution-paths | 24, 26 |
+| field-partner-signals | 25 |
+| signal-meaning | 27, 30 |
+| next-action-rules | 28, 30 |
+| signal-capture-record | 29, 30 |
 | measurement | 31 |
-| weekly-cadence | 32, 34 |
+| weekly-review | 32, 34 |
 | ninety-day-pilot | 2, 3, 33, 34, 35 |
 | human-quality-control | 35 |
 | stop-repair-scale | 2, 34, 35 |
@@ -61,26 +60,26 @@ Participant prompts: `modules/module-01-industrial-demand-generation/delivery-pa
 | Exercise | Output | Slide | Prompt Linkage | Status |
 |---|---|---:|---|---|
 | E1 | Demand System Diagnostic | 7 | Prompt 1 - Demand System Diagnostic | PASS |
-| E2 | Buying Committee Map | 11 | Prompt 2 - Buying Committee Map | PASS |
-| E3 | ICP And Focus Statement | 15 | Prompt 3 - ICP And Disqualification Scorecard | PASS |
-| E4 | MOIN Grid | 19 | Prompt 4 - MOIN Grid | PASS |
-| E5 | Content Plan | 22 | Prompt 5 - Content Plan By Demand State | PASS |
-| E6 | Distribution Plan | 26 | Prompt 6 - Distribution And Ecosystem Plan | PASS |
-| E7 | Signal Routing Table | 30 | Prompt 7 - Signal Routing Table | PASS |
+| E2 | Ideal Customer Profile And Focus Statement | 11 | Prompt 2 - Ideal Customer Profile And Focus Statement | PASS |
+| E3 | Buying Committee Map | 15 | Prompt 3 - Buying Committee Map | PASS |
+| E4 | Buyer Question Map | 19 | Prompt 4 - Buyer Question Map | PASS |
+| E5 | Content Plan | 22 | Prompt 5 - First-Five Content Asset Plan | PASS |
+| E6 | Distribution Plan | 26 | Prompt 6 - Distribution Plan | PASS |
+| E7 | Signal Meaning And Next-Action Table | 30 | Prompt 7 - Signal Meaning And Next-Action Table | PASS |
 | E8 | 90-Day Pilot Plan | 34 | Prompt 8 - 90-Day Pilot Plan | PASS |
 
 ## Final Strategy Outputs
 
 - Demand system diagnostic
+- Ideal Customer Profile focus and disqualification rules
 - Buying committee and proof map
-- ICP and disqualification scorecard
-- MOIN grid
+- Map of Informational Needs buyer-question map
 - First-five content asset plan
-- Distribution and ecosystem plan
-- Signal-routing table
-- RevOps field and cadence plan
+- Distribution plan
+- Signal meaning and next-action table
+- Field sales follow-up plan
 - 90-day Industrial Demand Generation pilot
-- Executive summary with stop, repair, scale criteria
+- Executive summary with stop, repair, or scale criteria
 
 ## Errors
 

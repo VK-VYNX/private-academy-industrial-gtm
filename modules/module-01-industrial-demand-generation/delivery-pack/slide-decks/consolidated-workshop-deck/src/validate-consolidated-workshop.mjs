@@ -195,7 +195,7 @@ async function validateMarkdownContent(errors, checks) {
     "### On-Slide Content",
     "### Infographic Direction",
     "### Instructor Talking Points",
-    "### RevOps Translation",
+    "### Operations Translation",
     "### Transition",
   ];
   for (const section of requiredSections) {

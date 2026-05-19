@@ -595,7 +595,7 @@ const details = {
     ],
     notes: [
       "The routing tree prevents content engagement from becoming automatic sales outreach.",
-      "Every route should have owner, SLA, next action, and evidence to review.",
+      "Every action should have an owner, action timing, next step, and evidence to review.",
       "Tie this to the CRM or RevOps object on the next slide.",
     ],
     transition: "Make the signal operational in RevOps.",
@@ -603,14 +603,14 @@ const details = {
   "revops-signal": {
     onSlide: [
       "A signal becomes operational only when it is captured as a visible object.",
-      "Minimum fields: account, segment, role, demand state, source, asset, strength, owner, SLA, next action, evidence, hypothesis, and false-positive risk.",
+      "Minimum fields: account, segment, role, demand state, source, asset, strength, owner, action timing, next action, evidence, hypothesis, and false-positive risk.",
       "If a signal lives only in chat, memory, event notes, or inboxes, the operating system cannot learn.",
     ],
     infographic: [
       "RevOps signal object card.",
       "Top: account and ICP fit.",
       "Middle: role, state, strength, source, evidence.",
-      "Bottom: owner, SLA, next action, risk, cadence status.",
+      "Bottom: owner, action timing, next action, risk, weekly review status.",
     ],
     notes: [
       "This slide translates demand generation into operations. The work is not done until fields, owners, and decisions are visible.",
@@ -622,12 +622,12 @@ const details = {
   "exercise-routing": {
     onSlide: [
       "Classify five realistic signals from the chosen ICP.",
-      "For each, capture fit, role, demand state, strength, source, owner, SLA, next action, and false-positive risk.",
+      "For each, capture fit, role, demand state, strength, source, owner, action timing, next action, and false-positive risk.",
       "Separate sales activation from education, research, committee mapping, nurture, and disqualification.",
     ],
     infographic: [
       "Signal routing table.",
-      "Columns: signal, fit, role, state, strength, owner, SLA, next action, risk.",
+      "Columns: signal, fit, role, state, strength, owner, action timing, next action, risk.",
     ],
     notes: [
       "The instructor should challenge any automatic handoff to sales.",
@@ -761,7 +761,7 @@ function exerciseBlock(slide) {
       "Mark facts, assumptions, and unknowns separately.",
       "Reject generic SaaS defaults and unsupported market claims.",
       "Replace broad statements with industrial category, buyer role, proof, owner, and next action.",
-      "Translate the output into sales, RevOps, and weekly cadence implications.",
+      "Translate the output into sales actions, tracking needs, and weekly review decisions.",
     ]),
   ];
 }
@@ -809,12 +809,12 @@ function slideSection(slide) {
 
   rows.push(
     "",
-    "### RevOps Translation",
+    "### Operations Translation",
     "",
     ...bullets([
       "Define the account-level evidence this concept should create.",
-      "Name the field, owner, SLA, and next action required to make the evidence operational.",
-      "Bring the evidence into weekly cadence for review, repair, or routing.",
+      "Name the field, owner, action timing, and next action required to make the evidence usable.",
+      "Bring the evidence into the weekly review for learning, repair, or follow-up.",
     ]),
     "",
     "### Transition",

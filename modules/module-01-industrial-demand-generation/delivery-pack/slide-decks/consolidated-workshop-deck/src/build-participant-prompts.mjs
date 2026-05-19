@@ -49,7 +49,7 @@ function sharedInputBlock() {
     "Current channels and events:",
     "[write here]",
     "",
-    "Known CRM or RevOps fields:",
+    "Known Customer Relationship Management (CRM) fields or working boards:",
     "[write here]",
   ].join("\n");
 }
@@ -75,9 +75,18 @@ function strategyRules() {
     "- Do not use generic SaaS demand-generation assumptions.",
     "- Mark facts, assumptions, and unknowns separately.",
     "- Prefer industrial buying committee reality over single-person persona logic.",
-    "- Tie recommendations to trust, proof, signals, RevOps visibility, and account movement.",
+    "- Tie recommendations to trust, proof, signals, tracking visibility, and account movement.",
     "- If information is missing, ask for it or label the assumption clearly.",
   ].join("\n");
+}
+
+function participantSourceStandard(value) {
+  return value
+    .replace(/\bICP\b/gu, "Ideal Customer Profile (ICP)")
+    .replace(/\bMOIN\b/gu, "Map of Informational Needs (MOIN)")
+    .replace(/\bSME\b/gu, "Subject Matter Expert (SME)")
+    .replace(/\bweekly revenue cadence\b/giu, "weekly review rhythm")
+    .replace(/\bRevOps\b/gu, "Revenue Operations (RevOps)");
 }
 
 function prompt1() {
@@ -89,11 +98,11 @@ Summarize my Exercise 01 demand system diagnostic. Do not choose scores for me. 
 
 My selected Exercise 01 scores:
 - Market focus: [1-5 plus evidence]
-- ICP and disqualification: [1-5 plus evidence]
+- Ideal Customer Profile (ICP) and disqualification: [1-5 plus evidence]
 - Demand creation and buyer education: [1-5 plus evidence]
 - Trusted distribution: [1-5 plus evidence]
-- Signal capture and routing: [1-5 plus evidence]
-- Cadence and ownership: [1-5 plus evidence]
+- Signal meaning and next action: [1-5 plus evidence]
+- Weekly review and ownership: [1-5 plus evidence]
 
 Output:
 Create a table with columns: operating layer, selected score, current evidence, attention needed, and what this score means.
@@ -102,7 +111,7 @@ Then produce:
 - the lowest-scoring layers;
 - one plain-language diagnostic summary;
 - facts, assumptions, and unknowns;
-- validation questions for sales, RevOps, SME, and leadership.
+- validation questions for sales, Revenue Operations (RevOps), Subject Matter Experts (SMEs), and leadership.
 
 Do not recommend repairs yet. This prompt is only for summarizing the diagnostic.
 
@@ -110,7 +119,7 @@ Rules:
 ${strategyRules()}
 
 Source standard:
-${l.promise}`;
+${participantSourceStandard(l.promise)}`;
 }
 
 function prompt2() {
@@ -133,19 +142,19 @@ Include at least these role types where relevant:
 - consultant, distributor, or project advisor.
 
 Output:
-Create a table with columns: role, current belief, required belief, fear or blocker, proof needed, circulatable asset, owner, coverage status.
+Create a table with columns: role, what the role cares about, possible blocker, proof needed, next action, owner.
 
 Then summarize:
 - hidden blockers;
 - missing proof assets;
 - what the champion needs to sell internally;
-- what RevOps should track account by account.
+- what should be tracked account by account.
 
 Rules:
 ${strategyRules()}
 
 Source standard:
-${l.promise}`;
+${participantSourceStandard(l.promise)}`;
 }
 
 function prompt3() {
@@ -161,53 +170,50 @@ Task:
 Compare the three candidate industrial segments and recommend one narrow 90-day demand focus.
 
 Score each segment from 1-5 on:
-- fit evidence;
-- trigger evidence;
-- access path;
-- commercial value;
-- committee feasibility;
-- proof availability;
-- pilot feasibility;
-- disqualification clarity.
+- segment clarity;
+- trigger;
+- fit;
+- access;
+- proof.
 
 Output:
-Create a scorecard table, then write:
-- recommended 90-day ICP focus statement;
+Create a simple checklist table, then write:
+- recommended 90-day Ideal Customer Profile (ICP) focus statement;
 - trigger definition;
 - technical fit;
 - commercial fit;
 - access path;
 - likely committee roles;
-- at least five disqualification rules;
+- prioritize, research, nurture, downgrade, or reject rules;
 - risk assumptions requiring validation.
 
 Rules:
 ${strategyRules()}
 
 Source standard:
-${l.promise}`;
+${participantSourceStandard(l.promise)}`;
 }
 
 function prompt4() {
   const l = lesson("04");
   return `${sharedInputBlock()}
 
-Chosen ICP focus:
+Chosen Ideal Customer Profile (ICP) focus:
 [paste from Prompt 3]
 
 Buying committee map:
 [paste from Prompt 2]
 
 Task:
-Create a MOIN grid: Map of Informational Needs.
+Create a Map of Informational Needs (MOIN) buyer-question map.
 
 For each critical buying role, separate buyer questions by:
 - content demand: problem, risk, opportunity, cost of inaction;
 - solution demand: approaches, selection criteria, implementation, comparison;
-- vendor demand: proof, validation, TCO, support, procurement confidence.
+- vendor demand: proof, validation, Total Cost of Ownership (TCO), support, procurement confidence.
 
 Output:
-Create a table with columns: role, demand state, buyer question, decision risk, proof required, asset idea, sales use, signal created.
+Create a table with columns: role, demand state, buyer question, proof needed, sales use, useful signal.
 
 Then prioritize the top five questions that can create account movement in the next 90 days.
 
@@ -215,14 +221,14 @@ Rules:
 ${strategyRules()}
 
 Source standard:
-${l.promise}`;
+${participantSourceStandard(l.promise)}`;
 }
 
 function prompt5() {
   const l = lesson("05");
   return `${sharedInputBlock()}
 
-MOIN grid:
+Buyer question map:
 [paste from Prompt 4]
 
 Task:
@@ -234,7 +240,7 @@ Include:
 - one vendor-demand or buyer-enablement asset.
 
 Output:
-Create a table with columns: asset, demand state, buyer role, buyer question, format, SME input required, proof required, sales use, distribution path, signal design, quality risk, build/repair/later.
+Create a table with columns: asset, buyer question, asset type, Subject Matter Expert (SME) input required, proof required, sales use, distribution path, expected signal, build/repair/later.
 
 Then list:
 - which assets sales can use immediately;
@@ -245,7 +251,7 @@ Rules:
 ${strategyRules()}
 
 Source standard:
-${l.promise}`;
+${participantSourceStandard(l.promise)}`;
 }
 
 function prompt6() {
@@ -260,7 +266,7 @@ Create a trust-based distribution and ecosystem plan.
 
 Consider:
 - sales sharing;
-- SME or expert profiles;
+- Subject Matter Expert (SME) or expert profiles;
 - associations and export bodies;
 - trade shows and technical events;
 - distributors and partners;
@@ -269,7 +275,7 @@ Consider:
 - website, search, and proven paid amplification.
 
 Output:
-Create a table with columns: asset, channel, trust reason, demand state, target role, owner, cadence, account signal, follow-up rule, operational risk.
+Create a table with columns: asset, distribution path, trust reason, target role, expected signal, capture method, follow-up action, owner.
 
 Then create:
 - event before/during/after motion;
@@ -280,7 +286,7 @@ Rules:
 ${strategyRules()}
 
 Source standard:
-${l.promise}`;
+${participantSourceStandard(l.promise)}`;
 }
 
 function prompt7() {
@@ -295,7 +301,7 @@ Known or expected signals:
 5. [signal 5]
 
 Task:
-Classify and route industrial demand signals.
+Interpret industrial demand signals and choose the next action.
 
 Use four filters:
 - account fit;
@@ -304,10 +310,10 @@ Use four filters:
 - evidence strength.
 
 Output:
-Create a table with columns: signal, source, account fit, role, demand state, strength, false-positive risk, progression state, owner, SLA, next action, missing evidence.
+Create a table with columns: signal, source, account fit, role, demand state, strength, misreading risk, owner, action timing, next action, missing evidence.
 
 Allowed progression states:
-- Cluster ICP;
+- Target account list;
 - Future Pipeline;
 - Active Focus;
 - Opportunity;
@@ -319,7 +325,7 @@ Rules:
 ${strategyRules()}
 
 Source standard:
-${l.promise}`;
+${participantSourceStandard(l.promise)}`;
 }
 
 function prompt8() {
@@ -329,11 +335,11 @@ function prompt8() {
 Paste prior artifacts:
 - Demand system diagnostic: [paste]
 - Buying committee map: [paste]
-- ICP scorecard: [paste]
-- MOIN grid: [paste]
+- Ideal Customer Profile focus and action rules: [paste]
+- Buyer question map: [paste]
 - Content plan: [paste]
 - Distribution plan: [paste]
-- Signal-routing table: [paste]
+- Signal meaning and next-action table: [paste]
 
 Task:
 Assemble a 90-day Industrial Demand Generation pilot.
@@ -342,13 +348,13 @@ Output:
 Create:
 1. executive summary;
 2. pilot scope;
-3. target ICP and exclusions;
+3. target Ideal Customer Profile focus and exclusions;
 4. buying committee risks;
 5. content and proof plan;
 6. distribution plan;
-7. signal-routing rules;
-8. RevOps fields or working boards;
-9. weekly cadence agenda;
+7. signal decision rules;
+8. tracking fields or working boards;
+9. weekly review agenda;
 10. success metrics;
 11. stop, repair, scale criteria.
 
@@ -358,7 +364,7 @@ Rules:
 ${strategyRules()}
 
 Source standard:
-${l.promise}`;
+${participantSourceStandard(l.promise)}`;
 }
 
 function synthesisPrompt() {
@@ -376,7 +382,7 @@ ${finalStrategyOutputs.map((item, index) => `${index + 1}. ${item}`).join("\n")}
 Output format:
 - Executive summary
 - Strategy body
-- Tables for ICP, committee, MOIN, assets, distribution, signal routing, RevOps, metrics, cadence
+- Tables for Ideal Customer Profile, committee, buyer questions, assets, distribution, signal meaning, tracking, metrics, and weekly review
 - 90-day implementation plan
 - Stop, repair, scale decision criteria
 - Open assumptions and validation questions
@@ -385,13 +391,13 @@ Rules:
 ${strategyRules()}
 
 Final quality gate:
-Reject or rewrite any section that could be used unchanged by a generic SaaS company. Make the strategy industrial, committee-aware, proof-led, signal-routed, RevOps-visible, and cadence-driven.`;
+Reject or rewrite any section that could be used unchanged by a generic SaaS company. Make the strategy industrial, committee-aware, proof-led, signal-aware, trackable, and weekly-review driven.`;
 }
 
 const promptMap = {
   E1: prompt1,
-  E2: prompt2,
-  E3: prompt3,
+  E2: prompt3,
+  E3: prompt2,
   E4: prompt4,
   E5: prompt5,
   E6: prompt6,
@@ -431,8 +437,8 @@ for (const exercise of exercisePlan) {
   lines.push(
     `- Does the output help produce: ${exercise.output}?`,
     "- Are facts, assumptions, and unknowns clearly separated?",
-    "- Does the output name owners, proof, signals, and RevOps implications where relevant?",
-    "- What would sales, an SME, RevOps, or leadership reject?",
+    "- Does the output name owners, proof, signals, and tracking implications where relevant?",
+    "- What would sales, a Subject Matter Expert, Revenue Operations, or leadership reject?",
     "",
   );
 }
@@ -446,15 +452,15 @@ lines.push(
   "",
   "## Human Quality-Control Checklist",
   "",
-  "- The ICP is narrow enough for a 90-day pilot.",
+  "- The Ideal Customer Profile is narrow enough for a 90-day pilot.",
   "- Disqualification rules are explicit.",
   "- The buying committee includes blockers, not only the visible champion.",
-  "- MOIN questions are separated by role and demand state.",
-  "- Content assets have SME input, sales use, distribution path, and signal design.",
+  "- Map of Informational Needs questions are separated by role and demand state.",
+  "- Content assets have Subject Matter Expert input, sales use, distribution path, and signal design.",
   "- Distribution uses trusted channels, not owned publishing alone.",
-  "- Signals are routed by fit, state, role, and strength.",
-  "- RevOps fields or boards make the strategy inspectable.",
-  "- The weekly cadence makes decisions, not just reports metrics.",
+  "- Signals are interpreted by fit, state, role, and strength.",
+  "- Tracking fields or working boards make the strategy inspectable.",
+  "- The weekly review makes decisions, not just reports metrics.",
   "- The 90-day pilot includes stop, repair, and scale criteria.",
   "",
 );

@@ -2,39 +2,41 @@
 
 ## Slide 01 - Industrial Demand Generation
 
-Build the operating system that creates trust, account progression, and qualified pipeline in industrial markets.
+Build a practical system that helps the right industrial accounts understand the problem, trust the proof, and move toward qualified pipeline.
 
-- Industrial demand generation creates trust and account movement before buyers become visible as leads.
-- Demand often exists before a form, RFQ, or sales call.
-- The system must connect focus, buyer reality, proof, distribution, signals, routing, and cadence.
+- Demand often exists before a form, Request for Quotation (RFQ), or sales call.
+- Industrial buyers need trust, proof, and internal agreement before they are ready to speak with sales.
+- The system connects focus, buyer reality, proof, distribution, signals, next actions, and weekly review.
 
 Diagram Text:
 
-- Account Progression
+- Account Movement
 - Market Focus
 - Buyer Reality
-- Map of Informational Needs
-- Technical Content & Proof Assets
-- Content Distribution
-- Routing & Signals
-- Sales Follow-Up Cadence
+- Buyer Questions
+- Proof Assets
+- Trusted Distribution
+- Buyer Signals
+- Sales Follow-Up
+- Weekly Review
 
 ## Slide 02 - Workshop Outcome
 
-Everyone in this workshop leaves with an executive-ready strategy for one chosen product or product category.
+Everyone leaves with a practical strategy for one chosen product or product category.
 
 Final Strategy Package:
 
 - Demand System Diagnostic
-- ICP and Disqualification Scorecard
+- Ideal Customer Profile (ICP) Focus
+- Disqualification Rules
 - Buying Committee and Proof Map
-- Map of Informational Needs
+- Map of Informational Needs (MOIN): Buyer Question Map
 - First-Five Content Asset Plan
-- Distribution and Ecosystem Plan
-- Signal-Routing Table
-- Field Sales and Sales Follow-Up Plan
+- Distribution Plan
+- Signal Meaning and Next-Action Table
+- Field Sales Follow-Up Plan
 - 90-Day Industrial Demand Generation Pilot
-- Executive Summary with Stop, Repair, Scale Criteria
+- Executive Summary With Stop, Repair, or Scale Criteria
 
 Decision Standard:
 
@@ -42,34 +44,34 @@ Decision Standard:
 - Repair
 - Scale
 
-## Slide 03 - Strategy Components
+## Slide 03 - Strategy Build Sequence
 
-The workshop is a build sequence. Each exercise becomes one component of the final strategy.
+The workshop is a step-by-step build. Each exercise becomes one part of the final strategy.
 
 Build Sequence:
 
-1. Diagnose your existing Demand System
-2. Select the 90-Day ICP Focus
-3. Map the Buying Committee
-4. Build the Map of Informational Needs
-5. Create the First-Five Asset Plan
-6. Design Trusted Distribution
-7. Route Signals by Fit, Demand State, Role, and Strength
-8. Assemble the 90-Day Pilot Strategy
+1. Diagnose the current demand system.
+2. Choose the 90-day Ideal Customer Profile focus.
+3. Map the buying committee.
+4. Identify the buyer questions that must be answered.
+5. Choose the first five content or proof assets.
+6. Decide how each asset will reach buyers through trusted paths.
+7. Decide what buyer signals mean and what action should follow.
+8. Assemble the 90-day pilot plan.
 
 Final Artifact:
 
 - Executive-Ready Industrial Demand Generation Strategy
-- Evidence-Based Stop, Repair, Scale Decision
+- Evidence-Based Stop, Repair, or Scale Decision
 
 ## Slide 04 - Why Lead Generation Fails Industrial Markets
 
-Lead volume can rise while high-fit account progression stays flat.
+Lead volume can rise while the right accounts do not move forward.
 
 Lead Capture Motion:
 
 - Forms
-- RFQs
+- Requests for Quotation
 - Campaign Sends
 - Inquiry Count
 - Generic Follow-Up
@@ -79,53 +81,51 @@ Industrial Demand Generation Motion:
 - Trusted Content Distribution
 - Role-Specific Proof
 - Account-Level Signals
-- Routed Next Actions
-- Weekly Learning Cadence
+- Clear Next Actions
+- Weekly Learning Review
 
 Operating Point:
 
 - Lead capture is one layer.
 - It fails when treated as the whole system.
 
-## Slide 05 - The Industrial DemandGen Engine
+## Slide 05 - The Industrial Demand Generation System
 
-The engine only works when focus, buyer reality, proof, distribution, signals, routing, and cadence connect.
+The system works only when focus, buyers, proof, distribution, signals, actions, and review connect.
 
-**Operating Loop:**
+Operating Loop:
 
-1. Revenue Goal and Market Focus
-2. ICP and Buying Committee
-3. Map of Informational Needs and Proof Assets
-4. Trusted Content Distribution
-5. Account-Level Signals
-6. Signal Routing and Buyer Enablement
-7. Weekly Feedback / Learning Loop
+1. Choose the Market Focus
+2. Understand the Buying Committee
+3. Answer Buyer Questions With Proof
+4. Share Through Trusted Paths
+5. Watch Buyer Signals
+6. Decide the Next Action
+7. Review and Repair Weekly
 
-**Failure Warnings:**
+Failure Warnings:
 
-1. Generic Focus
-2. Invisible Committee
-3. Unsupported Proof
-4. Untrusted Distribution
-5. Misread Signals
-6. Unrouted Next Actions
-7. No Weekly Learning
+1. Too Broad
+2. One-Contact View of the Buyer
+3. Weak Proof
+4. Content Published but Not Distributed
+5. Buyer Signals Misread
+6. No Clear Follow-Up
+7. No Weekly Repair Rhythm
 
-## Slide 06 - Demand States and Account Movement
+## Slide 06 - Three Demand States
 
-Do not treat all engagement as intent. Interpret learning, comparison, and supplier evaluation differently.
+Do not treat all engagement as buying intent. First understand what stage the buyer is in.
 
-Demand States:
+| Demand State | Buyer Is Asking | Our Job | What the Signal Means |
+|---|---|---|---|
+| Content Demand | What problem, risk, or opportunity matters? | Educate and create urgency. | Early learning. |
+| Solution Demand | Which approach, requirement, or implementation path fits? | Help compare options. | Active evaluation. |
+| Vendor Demand | Which supplier can reduce risk and prove value? | Prove fit, Total Cost of Ownership (TCO), support, and buying confidence. | Supplier consideration. |
 
-| Demand State | Buyer Is Asking | Our Job | Signal Meaning |
-| --- | --- | --- | --- |
-| Content Demand | What problem, risk, or opportunity matters? | Educate and Frame Urgency | Early Learning |
-| Solution Demand | What approach, requirement, or implementation path fits? | Compare Options and Clarify Criteria | Active Evaluation |
-| Vendor Demand | Which supplier can reduce risk and prove value? | Validate Proof, TCO, Support, and Procurement Confidence | Supplier Consideration |
+Simple Rule:
 
-Routing Rule:
-
-- Interpret Fit, Demand State, Role, and Strength before action.
+- Understand fit, buyer role, demand state, and signal strength before deciding the action.
 
 ## Slide 07 - Exercise 1: Demand System Diagnostic
 
@@ -141,96 +141,85 @@ Exercise Output:
 - Three Weakest Layers
 - Three Repair Priorities
 
-**Use:** Exercise 01 - Demand System Diagnostic Worksheet
+Use: Exercise 01 - Demand System Diagnostic Worksheet
 
-## Slide 08 - ICP Focus
+## Slide 08 - Ideal Customer Profile Focus
 
-Broad markets make content generic, signals noisy, and sales effort expensive.
+Broad markets make content generic, buyer signals noisy, and sales effort expensive.
 
-90-Day Focus Requires:
+A good 90-day focus answers:
 
-- Fit Evidence
-- Trigger Evidence
-- Access Path
-- Commercial Value
-- Committee Feasibility
-- Proof Availability
-- Pilot Feasibility
-- Disqualification Clarity
+- Who are we targeting?
+- Why would they care now?
+- Can we credibly help them?
+- Can we reach the right people?
+- Is this worth a 90-day pilot?
 
 Operating Point:
 
 - Focus is a resource decision.
-- It determines what not to build, not only what to pursue.
+- It tells the team what to pursue and what to ignore for now.
 
-## Slide 09 - ICP Scorecard
+## Slide 09 - 90-Day Focus Checklist
 
-The scorecard does not choose the largest market. It chooses the segment most likely to create learning and account progression in 90 days.
+Do not choose the largest market. Choose the market where the team can learn and create movement in 90 days.
 
-Scorecard Logic:
-
-| Scoring Lens | Decision Question |
+| Practical Check | Participant Question |
 |---|---|
-| Segment Clarity | Is the focus narrow enough to guide content, distribution, sales action, and exclusion? |
-| Trigger Strength | Why would the account care now? |
-| Technical Fit | Can we credibly solve the operating problem? |
-| Commercial Fit | Is the account worth sales, SME, content, and leadership effort? |
-| Access Path | Can trust reach the right roles through realistic industrial channels? |
-| Committee Visibility | Can the decision roles be identified and enabled? |
-| Proof Availability | Can credible proof be used or built within the pilot window? |
-| Pilot Feasibility | Can the segment create useful learning within 90 days? |
+| Segment Clarity | Is the target specific enough to guide action? |
+| Trigger | Why would this buyer care now? |
+| Fit | Can we solve the problem credibly? |
+| Access | Can we reach the right people through realistic paths? |
+| Proof | Do we have, or can we build, believable proof in 90 days? |
 
 Decision Standard:
 
-- Do not average away a critical weakness.
-- A large market with weak trigger, weak proof, or weak access is not a strong 90-day focus.
-- A smaller segment with strong trigger, access, proof, and learning potential is usually the better pilot.
+- A smaller segment with strong trigger, access, and proof is usually better than a large vague market.
+- Do not approve a focus if one critical weakness would block the pilot.
 
-## Slide 10 - Disqualification Gates
+## Slide 10 - When to Downgrade or Reject
 
-Weak-fit demand must be downgraded or rejected before it consumes sales and SME effort.
+Weak-fit demand must be downgraded, researched, nurtured, or rejected before it consumes sales and technical effort.
 
-Disqualification Gates:
+Downgrade or Reject When:
 
-1. Technical Fit
-2. Trigger Evidence
-3. Role Access
-4. Budget Reality
-5. Proof Feasibility
-6. Timing
-7. Service Feasibility
+1. The application is a poor technical fit.
+2. There is no clear trigger or urgency.
+3. The right buyer roles cannot be reached.
+4. The account is too small, too price-led, or too low value.
+5. Required proof or service support cannot be provided.
 
-Routing Outcomes:
+Possible Outcomes:
 
-- Route
-- Nurture
+- Prioritize
 - Research
+- Nurture
 - Downgrade
 - Reject
 
-## Slide 11 - Exercise 2: ICP and Focus Statement
+## Slide 11 - Exercise 2: Ideal Customer Profile and Focus Statement
 
-Choose one practical 90-day ICP focus for your selected product or product category.
+Choose one practical 90-day Ideal Customer Profile focus for your selected product or product category.
 
 Use the participant worksheet:
 
-- Exercise 02 - ICP And Focus Statement Worksheet
+- Exercise 02 - Ideal Customer Profile and Focus Statement Worksheet
 
 Participant Task:
 
-- Compare two or three candidate segments.
-- Score each segment using the guided ICP parameter options.
-- Select the strongest 90-day ICP focus.
-- Multi-select the disqualification rules that apply.
+- Compare two or three possible segments.
+- Score each segment using five simple checks.
+- Select the strongest 90-day focus.
+- Select all downgrade, nurture, research, or reject rules that apply.
 
 Exercise Output:
 
-- Selected 90-Day ICP Focus Statement
-- Multi-Select Disqualification Logic
+- Selected 90-Day Focus Statement
+- Multi-Select Disqualification Rules
 
 ## Slide 12 - Industrial Buyer Reality
 
-The visible contact may like the solution while the real committee remains unconvinced.
+The visible contact may like the solution while the real buying committee remains unconvinced.
 
 Buying Committee Roles:
 
@@ -247,11 +236,11 @@ Buying Committee Roles:
 Operating Point:
 
 - The buyer is a role network, not a single persona.
-- Each role carries a different fear, proof need, and decision influence.
+- Each role has a different concern, proof need, and level of influence.
 
 ## Slide 13 - Buyer Enablement Is Not Sales Enablement
 
-The champion must sell internally when the supplier is not in the room.
+The champion must explain the case internally when the supplier is not in the room.
 
 Sales Enablement Helps the Seller:
 
@@ -272,68 +261,62 @@ Core Question:
 
 - What would the champion forward to operations, finance, procurement, or leadership?
 
-## Slide 14 - Committee Proof Matrix
+## Slide 14 - What Each Buyer Role Needs
 
-Industrial deals stall when one role is convinced but another role lacks proof.
+Industrial deals stall when one role is convinced but another role still lacks proof.
 
-Every critical buying role needs a specific belief shift, proof asset, and owner.
+For each important role, understand five things:
 
-Committee Proof Logic:
-
-| Role Layer | What Must Be Mapped |
+| What to Map | Plain Question |
 |---|---|
-| Role | Who can advance, influence, slow, block, fund, approve, or validate the decision? |
-| Current Belief | What does this role likely believe today? |
-| Required Belief | What must this role believe before the account can move forward? |
-| Fear or Blocker | What risk could stop movement? |
-| Proof Needed | What evidence would reduce that risk? |
-| Circulatable Asset | What can the champion share internally? |
-| Owner | Who is responsible for creating or delivering the proof? |
+| Role | Who can advance, slow, block, approve, or influence the decision? |
+| Main Concern | What does this role care about most? |
+| Possible Blocker | What risk could stop them from supporting the decision? |
+| Proof Needed | What evidence would make them more confident? |
+| Next Action | What should our team do to help this role move forward? |
 
 Coverage Status:
 
-- Missing
-- Partial
+- Unknown
+- Partly Clear
 - Ready
 
 ## Slide 15 - Exercise 3: Buying Committee Map
 
-Build the buying committee and proof map for your selected ICP focus.
+Build the buying committee and proof map for your selected Ideal Customer Profile focus.
 
 You are not inventing perfect persona language. You are selecting the closest-fit options, then adapting them to your product category.
 
 Exercise Output:
 
-- Five to Nine Relevant Buying Roles
-- Role-Specific Concerns and Blockers
-- Required Proof Assets
-- Buyer-Circulatable Enablement Assets
-- Committee Coverage Gaps
-- RevOps Fields to Track
+- Five to Seven Relevant Buying Roles
+- What Each Role Cares About
+- What Could Block Each Role
+- Proof Needed for Each Role
+- Next Action for Each Role
+- Top Three Committee Gaps
 
 Use: Exercise 03 - Buying Committee Map Worksheet
 
-## Slide 16 - MOIN: Map of Informational Needs
+## Slide 16 - Map of Informational Needs: Buyer Question Map
 
-MOIN turns buyer uncertainty into a role-specific content and proof roadmap.
+Map of Informational Needs means the questions buyers need answered before the account can move.
 
 It is not a topic brainstorm, content pillar list, or product-promotion plan.
 
 MOIN Answers:
 
-| MOIN Layer | Core Question |
+| Simple Layer | Question |
 |---|---|
-| Buyer Role | Who needs to understand something before the account can move? |
-| Demand State | Is the buyer learning the problem, comparing approaches, or evaluating suppliers? |
-| Buyer Question | What does this role need to understand? |
-| Decision Risk | What risk blocks movement if the question remains unanswered? |
-| Proof Required | What evidence would make the answer credible? |
-| Asset Idea | What content or enablement asset could answer the question? |
-| Signal Created | What engagement would indicate account movement? |
+| Buyer Role | Who needs an answer? |
+| Demand State | Are they learning, comparing, or evaluating suppliers? |
+| Buyer Question | What do they need to understand? |
+| Proof Needed | What evidence would make the answer believable? |
+| Useful Signal | What buyer action would show movement? |
 
 Operating Point:
 
-- MOIN starts from buyer uncertainty, not from what we want to publish.
+- Start from buyer uncertainty, not from what we want to publish.
 
 ## Slide 17 - Buyer Questions by Demand State
 
@@ -341,75 +324,68 @@ Separate problem learning, solution comparison, and supplier evaluation before b
 
 | Demand State | Buyer Is Asking | Asset Job |
 |---|---|---|
-| Content Demand | What problem, risk, opportunity, or cost of inaction matters? | Educate and Frame Urgency |
-| Solution Demand | Which approach, requirement, implementation path, or tradeoff fits? | Shape Comparison Criteria |
-| Vendor Demand | Which supplier can prove value, reduce risk, support adoption, and satisfy procurement confidence? | Validate Supplier Confidence |
+| Content Demand | What problem, risk, opportunity, or cost of inaction matters? | Educate and create urgency. |
+| Solution Demand | Which approach, requirement, implementation path, or tradeoff fits? | Help compare options. |
+| Vendor Demand | Which supplier can prove value, reduce risk, support adoption, and satisfy procurement confidence? | Build supplier confidence. |
 
 Operating Point:
 
 - Demand state determines the asset job.
 - The same role may have different questions at different demand states.
 
-## Slide 18 - Question-to-Proof Pipeline
+## Slide 18 - From Buyer Question to Proof
 
-Every serious buyer question should become a proof requirement, sales use case, distribution decision, and signal.
+Every serious buyer question should become a proof requirement, a sales use case, a distribution decision, and a signal.
 
 Pipeline:
 
 1. Buyer Role
-2. Demand State
-3. Buyer Question
-4. Decision Risk
-5. Proof Required
-6. Asset Idea
-7. Sales Use
-8. Signal Created
+2. Buyer Question
+3. Proof Needed
+4. Asset Idea
+5. Sales Use
+6. Distribution Path
+7. Signal to Watch
 
 Priority Rule:
 
-- Prioritize questions that reduce buying committee risk or reveal account movement.
+- Prioritize questions that reduce buying risk or reveal account movement.
 
-## Slide 19 - Exercise 4: MOIN Grid
+## Slide 19 - Exercise 4: Buyer Question Map
 
-Build the role-by-demand-state question map for your selected ICP and buying committee.
+Build the buyer-question map for your selected Ideal Customer Profile focus and buying committee.
 
-You are not inventing a content calendar. You are selecting and adapting buyer questions that reveal uncertainty, proof needs, and account movement.
+You are not inventing a content calendar. You are choosing the questions that buyers need answered before they can move forward.
 
 Exercise Output:
 
-- Five to Nine Buyer Roles or Role Layers
+- Five to Seven Buyer Roles or Role Layers
 - Buyer Questions by Demand State
-- Decision Risks
-- Proof Requirements
+- Proof Needed
 - Asset Ideas
 - Sales Use Cases
-- Signals Created
-- Top Five MOIN Priorities for the Next 90 Days
+- Useful Signals
+- Top Five Buyer Question Priorities for the Next 90 Days
 
-Use: Exercise 04 - MOIN Grid Worksheet
+Use: Exercise 04 - Buyer Question Map Worksheet
 
-## Slide 20 - Content Engine for Industrial Demand
+## Slide 20 - Content Assets That Help Buyers Move
 
 Industrial content is not a list of topics to publish. Each asset must help a buyer understand, compare, trust, or act.
 
-Before creating an asset, define what it is supposed to change in the buyer's thinking or next action.
+Before creating an asset, answer five practical questions.
 
-Content Asset Planning Card:
-
-| Planning Field | Participant Question |
+| Planning Question | Why It Matters |
 |---|---|
-| Buyer Question | What does the buyer need to understand before the account can move? |
-| Demand State | Is the buyer learning the problem, comparing approaches, or evaluating suppliers? |
-| Buyer Role | Which role needs this answer: technical, production, quality, procurement, finance, leadership, or another role? |
-| Proof Needed | What evidence would make the answer believable? |
-| Sales Use | How can sales use this asset in a real account conversation? |
-| Distribution Path | How will this asset reach the buyer through a trusted path? |
-| Signal Created | What buyer action would show that the asset mattered? |
-| Owner | Who will build, check, share, or use the asset? |
+| Which buyer question does this answer? | Keeps the asset tied to a real buying concern. |
+| Which role needs it? | Prevents generic content. |
+| What proof makes it believable? | Keeps claims from sounding unsupported. |
+| How will sales use it? | Makes the asset useful in real conversations. |
+| What buyer action should we watch for? | Helps the team know whether the asset created movement. |
 
 Operating Rule:
 
-- Do not build an asset unless you can explain what buyer question it answers and what useful action it should create.
+- Do not build an asset unless it answers a real buyer question and supports a useful next action.
 
 ## Slide 21 - First-Five Asset Plan
 
@@ -419,32 +395,31 @@ First-Five Asset System:
 
 | Asset Type | Primary Job |
 |---|---|
-| Problem-Risk Asset | Make the buyer understand why the problem matters now. |
+| Problem-Risk Asset | Help the buyer understand why the problem matters now. |
 | Selection Criteria Guide | Help the buyer compare approaches without defaulting to price. |
 | Proof or Application Asset | Reduce technical, operational, quality, or implementation risk. |
 | Champion Internal Pack | Help the internal advocate explain the case when sales is not present. |
-| Vendor Validation Asset | Prove supplier credibility, support, TCO, procurement confidence, or delivery readiness. |
+| Vendor Validation Asset | Prove supplier credibility, support, Total Cost of Ownership, procurement confidence, or delivery readiness. |
 
 Operating Point:
 
-- The first five assets should come from MOIN priorities, not from campaign ideas.
+- The first five assets should come from buyer-question priorities, not from campaign ideas.
 
 ## Slide 22 - Exercise 5: First-Five Content Asset Plan
 
-Convert your top five MOIN priorities into a practical build, repair, or later asset plan.
+Convert your top five buyer-question priorities into a practical build, repair, or later asset plan.
 
 You are not creating a content calendar. You are deciding which five assets can help buyers move, help sales act, and create useful signals in the next 90 days.
 
 Exercise Output:
 
 - Five Priority Assets
-- Demand State for Each Asset
 - Buyer Role and Buyer Question
-- Proof or SME Input Required
+- Proof or Subject Matter Expert (SME) Input Required
 - Sales Use Case
 - Initial Distribution Path
-- Signal Created
-- Build, Repair, or Later Decision
+- Expected Buyer Signal
+- Build, Repair, Use As-Is, or Later Decision
 - Owner
 
 Use: Exercise 05 - Content Plan Worksheet
@@ -461,7 +436,7 @@ Every useful asset needs a planned route to the buyer.
 | Website Post | Technical Expert Explains the Asset |
 | Email Campaign | Event, Association, Partner, or Distributor Shares It |
 | General Activity Count | Named Account Shows Interest |
-| No Clear Follow-Up Path | Signal Is Captured and Routed |
+| No Clear Follow-Up Path | Signal Is Captured and Reviewed |
 
 Operating Point:
 
@@ -501,7 +476,7 @@ Field Signal Flow:
 |---|---|---|
 | Before the Interaction | Choose target accounts, buyer roles, and assets to use. | Account List, Role Assumptions, Asset Plan |
 | During the Interaction | Listen for questions, objections, timing, and project clues. | Buyer Questions, Proof Gaps, Active Accounts |
-| After the Interaction | Decide whether to educate, research, activate, disqualify, or repair. | Owner, Action Timing, Next Action, Follow-Up Cadence |
+| After the Interaction | Decide whether to educate, research, activate, disqualify, or repair. | Owner, Action Timing, Next Action, Follow-Up Rhythm |
 
 Operating Point:
 
@@ -544,7 +519,7 @@ Operating Point:
 
 - A signal is useful only after the team understands what it probably means.
 
-## Slide 28 - Simple Routing Rule
+## Slide 28 - Simple Next-Action Rule
 
 Meaning first. Action second.
 
@@ -560,7 +535,7 @@ Operating Rule:
 
 - Do not create a sales opportunity from one weak signal.
 
-## Slide 29 - Capture What Happened and What Comes Next
+## Slide 29 - Record What Happened and What Comes Next
 
 A signal is useful only when the team can see it, understand it, and act on it.
 
@@ -569,7 +544,6 @@ A signal is useful only when the team can see it, understand it, and act on it.
 | Account | Which company showed the signal? |
 | Buyer Role | Who showed interest or asked the question? |
 | What Happened | What did they read, ask, request, or discuss? |
-| Demand State | Are they learning, comparing, or evaluating suppliers? |
 | Signal Strength | Is the evidence weak, moderate, or strong? |
 | Next Action | What should happen now? |
 | Owner | Who is responsible for the next action? |
@@ -582,7 +556,7 @@ Operating Point:
 
 ## Slide 30 - Exercise 7: Decide What Each Signal Means
 
-Route five signals using the simple pattern: signal, meaning, action, risk.
+Classify five signals using the simple pattern: signal, meaning, action, risk.
 
 You are not creating sales tasks for every engagement. You are deciding what each signal probably means and what should happen next.
 
@@ -593,12 +567,12 @@ Exercise Output:
 - Buyer Role
 - Demand State
 - Signal Strength
-- Routing Decision
+- Next-Action Decision
 - Action Timing
 - Misreading Risk
 - Opportunity Review for Strong Signals
 
-Use: Exercise 07 - Signal Routing Table Worksheet
+Use: Exercise 07 - Signal Meaning and Next-Action Worksheet
 
 ## Slide 31 - What Should We Measure?
 

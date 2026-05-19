@@ -33,12 +33,12 @@ Approval rule: the Markdown content file is the canonical review artifact. No PP
 | Exercise | Slide | File |
 |---|---:|---|
 | Exercise 01 - Demand System Diagnostic | 7 | [exercise-01-demand-system-diagnostic.md](exercise-01-demand-system-diagnostic.md) |
-| Exercise 02 - ICP And Focus Statement | 11 | [exercise-02-icp-and-focus-statement.md](exercise-02-icp-and-focus-statement.md) |
+| Exercise 02 - Ideal Customer Profile And Focus Statement | 11 | [exercise-02-icp-and-focus-statement.md](exercise-02-icp-and-focus-statement.md) |
 | Exercise 03 - Buying Committee Map | 15 | [exercise-03-buying-committee-map.md](exercise-03-buying-committee-map.md) |
-| Exercise 04 - MOIN Grid | 19 | [exercise-04-moin-grid.md](exercise-04-moin-grid.md) |
+| Exercise 04 - Buyer Question Map | 19 | [exercise-04-moin-grid.md](exercise-04-moin-grid.md) |
 | Exercise 05 - Content Plan | 22 | [exercise-05-content-plan.md](exercise-05-content-plan.md) |
 | Exercise 06 - Distribution Plan | 26 | [exercise-06-distribution-plan.md](exercise-06-distribution-plan.md) |
-| Exercise 07 - Signal Routing Table | 30 | [exercise-07-signal-routing-table.md](exercise-07-signal-routing-table.md) |
+| Exercise 07 - Signal Meaning And Next-Action Table | 30 | [exercise-07-signal-routing-table.md](exercise-07-signal-routing-table.md) |
 | Exercise 08 - 90-Day Pilot Plan | 34 | [exercise-08-90-day-pilot-plan.md](exercise-08-90-day-pilot-plan.md) |
 
 ## Workshop Flow
@@ -46,14 +46,14 @@ Approval rule: the Markdown content file is the canonical review artifact. No PP
 | Slides | Segment | Participant Output |
 |---:|---|---|
 | 1-3 | Workshop promise and artifact chain | Shared understanding of the final strategy package |
-| 4-7 | Foundations and demand system diagnostic | Six operating-layer scores and current weakness map |
-| 8-11 | ICP, segments, and demand focus | 90-day ICP focus and disqualification rules |
+| 4-7 | Foundations and demand system diagnostic | Six layer scores and current weakness map |
+| 8-11 | Ideal Customer Profile, segments, and demand focus | 90-day focus and disqualification rules |
 | 12-15 | Industrial buyer reality | Buying committee and proof map |
-| 16-19 | MOIN: Map of Informational Needs | Buyer question, risk, proof, and asset grid |
+| 16-19 | Map of Informational Needs: Buyer Question Map | Buyer questions, proof needs, and useful signals |
 | 20-22 | Content engine for industrial demand | First-five asset plan by demand state |
 | 23-26 | Distribution: the missing half | Channel, partner, event, and sales distribution plan |
-| 27-30 | Signal routing and demand capture | Signal interpretation and routing table |
-| 31-35 | Measurement, cadence, pilot, and sponsor decision | 90-day pilot plan with stop, repair, scale criteria |
+| 27-30 | Signal meaning and next actions | Signal interpretation and next-action table |
+| 31-35 | Measurement, weekly review, pilot, and leadership decision | 90-day pilot plan with stop, repair, scale criteria |
 
 ## Exercise Placement
 
@@ -62,19 +62,19 @@ Exercises are intentionally interleaved, so participants build the strategy as t
 | Exercise | Slide | Participant Resource |
 |---|---:|---|
 | E1 Demand System Diagnostic | 7 | Exercise 01 worksheet and Prompt 1 |
-| E2 ICP And Focus Statement | 11 | Exercise 02 worksheet |
-| E3 Buying Committee Map | 15 | Exercise 03 worksheet and Prompt 2 |
-| E4 MOIN Grid | 19 | Exercise 04 worksheet and Prompt 4 |
+| E2 Ideal Customer Profile And Focus Statement | 11 | Exercise 02 worksheet and Prompt 2 |
+| E3 Buying Committee Map | 15 | Exercise 03 worksheet and Prompt 3 |
+| E4 Buyer Question Map | 19 | Exercise 04 worksheet and Prompt 4 |
 | E5 Content Plan By Demand State | 22 | Exercise 05 worksheet and Prompt 5 |
 | E6 Distribution And Ecosystem Plan | 26 | Exercise 06 worksheet and Prompt 6 |
-| E7 Signal Routing Table | 30 | Exercise 07 worksheet and Prompt 7 |
+| E7 Signal Meaning And Next-Action Table | 30 | Exercise 07 worksheet and Prompt 7 |
 | E8 90-Day Pilot Plan | 34 | Exercise 08 worksheet and Prompt 8 |
 
 ## Instructor Use
 
 Review and approve [full-scale-35-slide-content.md](full-scale-35-slide-content.md) before any presentation export is created. The participant prompt document is separate on purpose: it supports participant drafting in free ChatGPT, Claude, or Perplexity accounts while the slide content remains a human-led instructional system.
 
-Every exercise should end with human correction before the output is treated as workshop evidence. The instructor should push participants to mark facts, assumptions, and unknowns separately; reject generic SaaS defaults; and translate every useful output into sales, RevOps, and weekly cadence decisions.
+Every exercise should end with human correction before the output is treated as workshop evidence. The instructor should push participants to mark facts, assumptions, and unknowns separately; reject generic SaaS defaults; and translate every useful output into sales actions, tracking needs, and weekly review decisions.
 
 ## Build And Validate
 

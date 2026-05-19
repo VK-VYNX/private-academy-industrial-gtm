@@ -10,47 +10,46 @@ The separate participant prompt document supports workshop drafting. This slide 
 
 ## Workshop Outcome
 
-Participants leave with a full-scale Industrial Demand Generation strategy for their chosen product or product category.
+Participants leave with a practical Industrial Demand Generation strategy for their chosen product or product category.
 
 Participants complete the workshop with these strategy artifacts:
 
 - Demand system diagnostic
+- Ideal Customer Profile focus and disqualification rules
 - Buying committee and proof map
-- ICP and disqualification scorecard
-- MOIN grid
+- Map of Informational Needs buyer-question map
 - First-five content asset plan
-- Distribution and ecosystem plan
-- Signal-routing table
-- RevOps field and cadence plan
+- Distribution plan
+- Signal meaning and next-action table
+- Field sales follow-up plan
 - 90-day Industrial Demand Generation pilot
-- Executive summary with stop, repair, scale criteria
+- Executive summary with stop, repair, or scale criteria
 
 ## Coverage Rules
 
 The 35-slide sequence must cover these Module 1 concept keys:
 
-- industrial-demand-engine
-- lead-gen-failure
+- industrial-demand-system
+- lead-generation-limits
 - demand-states
 - system-diagnostic
+- ideal-customer-profile-focus
+- disqualification-rules
 - buying-committee
 - buyer-enablement
 - committee-proof
-- icp-focus
-- disqualification
-- moin
+- buyer-question-map
 - question-to-proof
-- content-engine
+- content-assets
 - first-five-assets
 - trusted-distribution
-- channel-selection
-- event-partner-motion
-- signal-interpretation
-- routing-rules
-- account-progression
-- revops-signal-object
+- distribution-paths
+- field-partner-signals
+- signal-meaning
+- next-action-rules
+- signal-capture-record
 - measurement
-- weekly-cadence
+- weekly-review
 - ninety-day-pilot
 - human-quality-control
 - stop-repair-scale
@@ -59,14 +58,14 @@ The 35-slide sequence must cover these Module 1 concept keys:
 
 | Exercise | Slide | Output | Participant Template |
 |---|---:|---|---|
-| E1 Demand System Diagnostic | 7 | Six operating-layer scores and current weakness map | Prompt 1 - Demand System Diagnostic |
-| E2 Buying Committee Map | 11 | Role, belief, fear, proof, asset, and owner matrix | Prompt 2 - Buying Committee Map |
-| E3 ICP And Focus Statement | 15 | 90-day ICP focus and explicit rejection rules | Prompt 3 - ICP And Disqualification Scorecard |
-| E4 MOIN Grid | 19 | Buyer questions by role and demand state | Prompt 4 - MOIN Grid |
-| E5 Content Plan | 22 | First-five asset roadmap by demand state | Prompt 5 - Content Plan By Demand State |
-| E6 Distribution Plan | 26 | Trust-based channel, owner, cadence, signal, and follow-up plan | Prompt 6 - Distribution And Ecosystem Plan |
-| E7 Signal Routing Table | 30 | Fit, state, role, strength, owner, SLA, next action, and risk table | Prompt 7 - Signal Routing Table |
-| E8 90-Day Pilot Plan | 34 | Weekly cadence and 90-day pilot with stop, repair, scale criteria | Prompt 8 - 90-Day Pilot Plan |
+| E1 Demand System Diagnostic | 7 | Six layer scores and three repair priorities | Prompt 1 - Demand System Diagnostic |
+| E2 Ideal Customer Profile And Focus Statement | 11 | 90-day focus statement and action rules | Prompt 2 - Ideal Customer Profile And Focus Statement |
+| E3 Buying Committee Map | 15 | Buying roles, concerns, blockers, proof needs, and next actions | Prompt 3 - Buying Committee Map |
+| E4 Buyer Question Map | 19 | Top buyer questions by role and demand state | Prompt 4 - Buyer Question Map |
+| E5 Content Plan | 22 | First-five asset plan | Prompt 5 - First-Five Content Asset Plan |
+| E6 Distribution Plan | 26 | Trusted path, expected signal, capture method, follow-up action, and owner | Prompt 6 - Distribution Plan |
+| E7 Signal Meaning And Next-Action Table | 30 | Five interpreted signals with next action, timing, and misreading risk | Prompt 7 - Signal Meaning And Next-Action Table |
+| E8 90-Day Pilot Plan | 34 | 90-day pilot with weekly review and stop, repair, or scale criteria | Prompt 8 - 90-Day Pilot Plan |
 
 ## Common Instructor Questions
 
@@ -83,11 +82,11 @@ The 35-slide sequence must cover these Module 1 concept keys:
 
 Timebox: 3 min
 Source: Lesson 01: Industrial Demand Generation Foundations; Lesson 02: Industrial Buyer Reality; Lesson 03: ICP, Segments, And Demand Focus; Lesson 04: MOIN: Map Of Informational Needs; Lesson 05: Content Engine For Industrial Demand; Lesson 06: Distribution: The Missing Half; Lesson 07: Signal Routing And Demand Capture; Lesson 08: Measurement, Cadence, And 90-Day Pilot
-Concept keys: industrial-demand-engine
+Concept keys: industrial-demand-system
 
 ### Slide Promise
 
-Build the operating system that creates trust, account movement, and qualified pipeline in industrial markets.
+Build a practical system that helps the right industrial accounts understand the problem, trust the proof, and move toward qualified pipeline.
 
 ### On-Slide Content
 
@@ -118,11 +117,11 @@ Composite equipment supplier with strong inquiry volume but weak target-account 
 - Lead volume can rise while high-fit account movement stays flat.
 - The operating system must connect trust, education, distribution, signal interpretation, buyer enablement, and weekly cadence.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
@@ -136,7 +135,7 @@ Concept keys: ninety-day-pilot, stop-repair-scale
 
 ### Slide Promise
 
-Every participant leaves with an executive-ready strategy for one chosen product or product category.
+Every participant leaves with a practical strategy for one chosen product or product category.
 
 ### On-Slide Content
 
@@ -162,38 +161,38 @@ Every participant leaves with an executive-ready strategy for one chosen product
 - Lead volume can rise while high-fit account movement stays flat.
 - The operating system must connect trust, education, distribution, signal interpretation, buyer enablement, and weekly cadence.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 Show how the artifacts build in sequence.
 
-## Slide 03 - Artifact Chain
+## Slide 03 - Strategy Build Sequence
 
 Timebox: 4 min
 Source: Lesson 01: Industrial Demand Generation Foundations; Lesson 02: Industrial Buyer Reality; Lesson 03: ICP, Segments, And Demand Focus; Lesson 04: MOIN: Map Of Informational Needs; Lesson 05: Content Engine For Industrial Demand; Lesson 06: Distribution: The Missing Half; Lesson 07: Signal Routing And Demand Capture; Lesson 08: Measurement, Cadence, And 90-Day Pilot
-Concept keys: system-diagnostic, committee-proof, moin, ninety-day-pilot
+Concept keys: system-diagnostic, committee-proof, buyer-question-map, ninety-day-pilot
 
 ### Slide Promise
 
-The workshop is a build sequence. Each exercise becomes one section of the final strategy.
+The workshop is a step-by-step build. Each exercise becomes one part of the final strategy.
 
 ### On-Slide Content
 
 - Demand system diagnostic
+- Ideal Customer Profile focus and disqualification rules
 - Buying committee and proof map
-- ICP and disqualification scorecard
-- MOIN grid
+- Map of Informational Needs buyer-question map
 - First-five content asset plan
-- Distribution and ecosystem plan
-- Signal-routing table
-- RevOps field and cadence plan
+- Distribution plan
+- Signal meaning and next-action table
+- Field sales follow-up plan
 - 90-day Industrial Demand Generation pilot
-- Executive summary with stop, repair, scale criteria
+- Executive summary with stop, repair, or scale criteria
 
 ### Infographic Direction
 
@@ -214,11 +213,11 @@ The workshop is a build sequence. Each exercise becomes one section of the final
 - Lead volume can rise while high-fit account movement stays flat.
 - The operating system must connect trust, education, distribution, signal interpretation, buyer enablement, and weekly cadence.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
@@ -228,11 +227,11 @@ Start with why the common lead-generation model breaks in industrial markets.
 
 Timebox: 5 min
 Source: Lesson 01: Industrial Demand Generation Foundations
-Concept keys: lead-gen-failure
+Concept keys: lead-generation-limits
 
 ### Slide Promise
 
-Lead volume can rise while high-fit account movement stays flat.
+Lead volume can rise while the right accounts do not move forward.
 
 ### On-Slide Content
 
@@ -265,25 +264,25 @@ Lead volume can rise while high-fit account movement stays flat.
 - Can sales explain why a target account should be acted on now?
 - Do we know which role, if any, created the signal?
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 Replace lead volume thinking with the industrial demand engine.
 
-## Slide 05 - The Industrial Demand Engine
+## Slide 05 - The Industrial Demand Generation System
 
 Timebox: 6 min
 Source: Lesson 01: Industrial Demand Generation Foundations
-Concept keys: industrial-demand-engine
+Concept keys: industrial-demand-system
 
 ### Slide Promise
 
-The engine only works when focus, buyer reality, proof, circulation, signals, routing, and cadence connect.
+The system works only when focus, buyers, proof, distribution, signals, actions, and review connect.
 
 ### On-Slide Content
 
@@ -311,25 +310,25 @@ The engine only works when focus, buyer reality, proof, circulation, signals, ro
 - Lead volume can rise while high-fit account movement stays flat.
 - The operating system must connect trust, education, distribution, signal interpretation, buyer enablement, and weekly cadence.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 Before routing anything, classify the demand state correctly.
 
-## Slide 06 - Demand States And Account Movement
+## Slide 06 - Three Demand States
 
 Timebox: 5 min
 Source: Lesson 01: Industrial Demand Generation Foundations; Lesson 04: MOIN: Map Of Informational Needs; Lesson 05: Content Engine For Industrial Demand; Lesson 07: Signal Routing And Demand Capture
-Concept keys: demand-states, account-progression
+Concept keys: demand-states
 
 ### Slide Promise
 
-Do not treat all engagement as intent. Interpret learning, comparison, and supplier evaluation differently.
+Do not treat all engagement as buying intent. First understand what stage the buyer is in.
 
 ### On-Slide Content
 
@@ -357,11 +356,11 @@ Do not treat all engagement as intent. Interpret learning, comparison, and suppl
 - Lead volume can rise while high-fit account movement stays flat.
 - The operating system must connect trust, education, distribution, signal interpretation, buyer enablement, and weekly cadence.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
@@ -375,7 +374,7 @@ Concept keys: system-diagnostic
 
 ### Slide Promise
 
-Use the participant worksheet to select current-reality statements and score six operating layers.
+Use the participant worksheet to choose current-reality statements and score six layers.
 
 ### On-Slide Content
 
@@ -404,7 +403,7 @@ Use the participant worksheet to select current-reality statements and score six
 
 ### Exercise Setup
 
-Participant output: Six operating-layer scores and current weakness map
+Participant output: Six layer scores and three repair priorities
 
 Use exercise-01-demand-system-diagnostic.md as the primary working document. The participant prompt template may be used after scores are selected, but the scores must come from human judgment and current evidence.
 
@@ -413,221 +412,27 @@ Human quality control:
 - Mark facts, assumptions, and unknowns separately.
 - Reject generic SaaS defaults and unsupported market claims.
 - Replace broad statements with industrial category, buyer role, proof, owner, and next action.
-- Translate the output into sales, RevOps, and weekly cadence implications.
+- Translate the output into sales actions, tracking needs, and weekly review decisions.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 The next block explains why buyer reality is more complex than the visible lead.
 
-## Slide 08 - Industrial Buyer Reality
-
-Timebox: 5 min
-Source: Lesson 02: Industrial Buyer Reality
-Concept keys: buying-committee
-
-### Slide Promise
-
-The visible contact may like the solution while the real committee remains unconvinced.
-
-### On-Slide Content
-
-- Industrial buying is committee-shaped even when only one person is visible.
-- The visible champion may understand the value while technical, operations, finance, quality, maintenance, procurement, or leadership remain unconvinced.
-- External advisors, consultants, distributors, and project partners can shape trust before sales appears.
-
-### Infographic Direction
-
-- Committee constellation around the champion.
-- Nodes: technical evaluator, operations, quality, maintenance, procurement, finance, leadership, external advisor.
-- Each node has a fear, proof need, and influence path.
-
-### Instructor Talking Points
-
-- This is the antidote to persona simplification. The buyer is a role network, not a single avatar.
-- Ask participants which hidden role most often blocks late-stage deals in their category.
-- Make proof circulation the main idea: the champion needs assets that travel internally.
-
-### Why This Matters In Industrial Markets
-
-- Industrial buyers rarely buy alone.
-- The visible contact may like the solution while quality, finance, procurement, maintenance, or leadership remains unconvinced.
-- Most deal stalls are missing internal proof, not missing follow-up.
-- Buyer enablement matters because the champion sells internally when the supplier is absent.
-
-### RevOps Translation
-
-- Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
-
-### Transition
-
-Clarify why buyer enablement is different from sales enablement.
-
-## Slide 09 - Buyer Enablement Is Not Sales Enablement
-
-Timebox: 5 min
-Source: Lesson 02: Industrial Buyer Reality
-Concept keys: buyer-enablement
-
-### Slide Promise
-
-The champion must sell internally when the supplier is not in the room.
-
-### On-Slide Content
-
-- Sales enablement helps the seller communicate.
-- Buyer enablement helps the buyer create internal confidence when the seller is absent.
-- Industrial demand generation must help champions reduce perceived risk across the committee.
-
-### Infographic Direction
-
-- Split lane diagram.
-- Seller lane: talk track, objection handling, qualification.
-- Buyer lane: proof pack, technical comparison, risk memo, implementation path, internal business case.
-- Intersection: sales uses buyer assets to create account movement.
-
-### Instructor Talking Points
-
-- Do not allow the group to treat content as only top-of-funnel publishing.
-- Buyer enablement assets should be circulatable, specific, and defensible in internal meetings.
-- Use the question: What would the champion forward to operations, finance, or procurement?
-
-### Why This Matters In Industrial Markets
-
-- Industrial buyers rarely buy alone.
-- The visible contact may like the solution while quality, finance, procurement, maintenance, or leadership remains unconvinced.
-- Most deal stalls are missing internal proof, not missing follow-up.
-- Buyer enablement matters because the champion sells internally when the supplier is absent.
-
-### RevOps Translation
-
-- Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
-
-### Transition
-
-Turn roles and enablement needs into a proof matrix.
-
-## Slide 10 - Committee Proof Matrix
-
-Timebox: 6 min
-Source: Lesson 02: Industrial Buyer Reality
-Concept keys: committee-proof
-
-### Slide Promise
-
-Each critical role needs a current belief, required belief, proof asset, and owner.
-
-### On-Slide Content
-
-- For each role, document current belief, required belief, fear or blocker, proof needed, asset, owner, and coverage status.
-- The matrix exposes unsupported assumptions before they damage pipeline quality.
-- Missing proof is a demand generation problem, not only a sales objection.
-
-### Infographic Direction
-
-- Role-by-proof matrix.
-- Rows: operations, quality, maintenance, finance, procurement.
-- Columns: current belief, required belief, fear, proof, asset, owner.
-- Color code gaps as missing, partial, or ready.
-
-### Instructor Talking Points
-
-- Keep the group specific. 'Trust us' is not proof. 'We are reliable' is not a circulatable asset.
-- A good proof asset reduces one role's risk in language that role can defend.
-- The matrix becomes a direct input to MOIN and content planning.
-
-### Why This Matters In Industrial Markets
-
-- Industrial buyers rarely buy alone.
-- The visible contact may like the solution while quality, finance, procurement, maintenance, or leadership remains unconvinced.
-- Most deal stalls are missing internal proof, not missing follow-up.
-- Buyer enablement matters because the champion sells internally when the supplier is absent.
-
-### RevOps Translation
-
-- Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
-
-### Transition
-
-Participants now map their own committee and proof gaps.
-
-## Slide 11 - Exercise 2: Buying Committee Map
-
-Timebox: 9 min
-Source: Lesson 02: Industrial Buyer Reality
-Concept keys: buying-committee, committee-proof
-
-### Slide Promise
-
-Map at least five roles, their fears, proof needs, circulatable assets, and owners.
-
-### On-Slide Content
-
-- Map at least five buying roles.
-- For each role, name the belief shift, blocker, required proof, asset, and owner.
-- Flag roles where the company currently has no credible proof.
-
-### Infographic Direction
-
-- Working matrix: role, current belief, required belief, blocker, proof, asset, owner.
-- Bottom strip: hidden blocker, missing asset, RevOps field to track.
-
-### Instructor Talking Points
-
-- Push teams to include procurement and finance even when sales rarely speaks to them.
-- Ask for at least one external influence path where relevant: distributor, consultant, association, event, project advisor.
-- Human correction should remove generic role stereotypes and replace them with category-specific risks.
-
-### Why This Matters In Industrial Markets
-
-- Industrial buyers rarely buy alone.
-- The visible contact may like the solution while quality, finance, procurement, maintenance, or leadership remains unconvinced.
-- Most deal stalls are missing internal proof, not missing follow-up.
-- Buyer enablement matters because the champion sells internally when the supplier is absent.
-
-### Exercise Setup
-
-Participant output: Role, belief, fear, proof, asset, and owner matrix
-
-Use the matching participant drafting template in the separate prompt document. The template is a drafting aid only; the accepted workshop output must pass human correction.
-
-Human quality control:
-
-- Mark facts, assumptions, and unknowns separately.
-- Reject generic SaaS defaults and unsupported market claims.
-- Replace broad statements with industrial category, buyer role, proof, owner, and next action.
-- Translate the output into sales, RevOps, and weekly cadence implications.
-
-### RevOps Translation
-
-- Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
-
-### Transition
-
-With buyer reality mapped, narrow the market focus.
-
-## Slide 12 - ICP Focus
+## Slide 08 - Ideal Customer Profile Focus
 
 Timebox: 5 min
 Source: Lesson 03: ICP, Segments, And Demand Focus
-Concept keys: icp-focus
+Concept keys: ideal-customer-profile-focus
 
 ### Slide Promise
 
-Broad markets make content generic, signals noisy, and sales effort expensive.
+Broad markets make content generic, buyer signals noisy, and sales effort expensive.
 
 ### On-Slide Content
 
@@ -653,25 +458,25 @@ Broad markets make content generic, signals noisy, and sales effort expensive.
 - A pilot learns faster when the segment is narrow enough to produce specific questions, proof, access paths, and disqualification.
 - Focus is revenue discipline, not positioning theater.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 Score candidate segments before choosing the focus.
 
-## Slide 13 - ICP Scorecard
+## Slide 09 - 90-Day Focus Checklist
 
 Timebox: 5 min
 Source: Lesson 03: ICP, Segments, And Demand Focus
-Concept keys: icp-focus
+Concept keys: ideal-customer-profile-focus
 
 ### Slide Promise
 
-A 90-day pilot needs fit, trigger, access, value, proof, and feasibility.
+Choose the market where the team can learn and create movement in 90 days.
 
 ### On-Slide Content
 
@@ -699,25 +504,25 @@ A 90-day pilot needs fit, trigger, access, value, proof, and feasibility.
 - A pilot learns faster when the segment is narrow enough to produce specific questions, proof, access paths, and disqualification.
 - Focus is revenue discipline, not positioning theater.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 A good ICP also says no clearly.
 
-## Slide 14 - Disqualification Gates
+## Slide 10 - When To Downgrade Or Reject
 
-Timebox: 5 min
+Timebox: 6 min
 Source: Lesson 03: ICP, Segments, And Demand Focus; Lesson 07: Signal Routing And Demand Capture
-Concept keys: disqualification
+Concept keys: disqualification-rules
 
 ### Slide Promise
 
-Weak-fit demand must be downgraded or rejected before it consumes sales and SME effort.
+Weak-fit demand must be downgraded, researched, nurtured, or rejected before it consumes sales and technical effort.
 
 ### On-Slide Content
 
@@ -743,25 +548,25 @@ Weak-fit demand must be downgraded or rejected before it consumes sales and SME 
 - A pilot learns faster when the segment is narrow enough to produce specific questions, proof, access paths, and disqualification.
 - Focus is revenue discipline, not positioning theater.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 Participants now choose the 90-day segment and rejection rules.
 
-## Slide 15 - Exercise 3: ICP And Focus Statement
+## Slide 11 - Exercise 2: Ideal Customer Profile And Focus Statement
 
-Timebox: 10 min
+Timebox: 9 min
 Source: Lesson 03: ICP, Segments, And Demand Focus
-Concept keys: icp-focus, disqualification
+Concept keys: ideal-customer-profile-focus, disqualification-rules
 
 ### Slide Promise
 
-Choose the 90-day segment and write explicit disqualification rules.
+Choose one practical 90-day focus and select the action rules for weak-fit accounts.
 
 ### On-Slide Content
 
@@ -789,7 +594,7 @@ Choose the 90-day segment and write explicit disqualification rules.
 
 ### Exercise Setup
 
-Participant output: 90-day ICP focus and explicit rejection rules
+Participant output: 90-day focus statement and action rules
 
 Use the matching participant drafting template in the separate prompt document. The template is a drafting aid only; the accepted workshop output must pass human correction.
 
@@ -798,27 +603,221 @@ Human quality control:
 - Mark facts, assumptions, and unknowns separately.
 - Reject generic SaaS defaults and unsupported market claims.
 - Replace broad statements with industrial category, buyer role, proof, owner, and next action.
-- Translate the output into sales, RevOps, and weekly cadence implications.
+- Translate the output into sales actions, tracking needs, and weekly review decisions.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 With a focused ICP, map the buyer's informational needs.
 
-## Slide 16 - MOIN: Map Of Informational Needs
+## Slide 12 - Industrial Buyer Reality
 
 Timebox: 5 min
-Source: Lesson 04: MOIN: Map Of Informational Needs
-Concept keys: moin
+Source: Lesson 02: Industrial Buyer Reality
+Concept keys: buying-committee
 
 ### Slide Promise
 
-Turn buyer uncertainty into a role-specific content and proof roadmap.
+The visible contact may like the solution while the real buying committee remains unconvinced.
+
+### On-Slide Content
+
+- Industrial buying is committee-shaped even when only one person is visible.
+- The visible champion may understand the value while technical, operations, finance, quality, maintenance, procurement, or leadership remain unconvinced.
+- External advisors, consultants, distributors, and project partners can shape trust before sales appears.
+
+### Infographic Direction
+
+- Committee constellation around the champion.
+- Nodes: technical evaluator, operations, quality, maintenance, procurement, finance, leadership, external advisor.
+- Each node has a fear, proof need, and influence path.
+
+### Instructor Talking Points
+
+- This is the antidote to persona simplification. The buyer is a role network, not a single avatar.
+- Ask participants which hidden role most often blocks late-stage deals in their category.
+- Make proof circulation the main idea: the champion needs assets that travel internally.
+
+### Why This Matters In Industrial Markets
+
+- Industrial buyers rarely buy alone.
+- The visible contact may like the solution while quality, finance, procurement, maintenance, or leadership remains unconvinced.
+- Most deal stalls are missing internal proof, not missing follow-up.
+- Buyer enablement matters because the champion sells internally when the supplier is absent.
+
+### Operations Translation
+
+- Define the account-level evidence this concept should create.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
+
+### Transition
+
+Clarify why buyer enablement is different from sales enablement.
+
+## Slide 13 - Buyer Enablement Is Not Sales Enablement
+
+Timebox: 5 min
+Source: Lesson 02: Industrial Buyer Reality
+Concept keys: buyer-enablement
+
+### Slide Promise
+
+The champion must explain the case internally when the supplier is not in the room.
+
+### On-Slide Content
+
+- Sales enablement helps the seller communicate.
+- Buyer enablement helps the buyer create internal confidence when the seller is absent.
+- Industrial demand generation must help champions reduce perceived risk across the committee.
+
+### Infographic Direction
+
+- Split lane diagram.
+- Seller lane: talk track, objection handling, qualification.
+- Buyer lane: proof pack, technical comparison, risk memo, implementation path, internal business case.
+- Intersection: sales uses buyer assets to create account movement.
+
+### Instructor Talking Points
+
+- Do not allow the group to treat content as only top-of-funnel publishing.
+- Buyer enablement assets should be circulatable, specific, and defensible in internal meetings.
+- Use the question: What would the champion forward to operations, finance, or procurement?
+
+### Why This Matters In Industrial Markets
+
+- Industrial buyers rarely buy alone.
+- The visible contact may like the solution while quality, finance, procurement, maintenance, or leadership remains unconvinced.
+- Most deal stalls are missing internal proof, not missing follow-up.
+- Buyer enablement matters because the champion sells internally when the supplier is absent.
+
+### Operations Translation
+
+- Define the account-level evidence this concept should create.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
+
+### Transition
+
+Turn roles and enablement needs into a proof matrix.
+
+## Slide 14 - What Each Buyer Role Needs
+
+Timebox: 5 min
+Source: Lesson 02: Industrial Buyer Reality
+Concept keys: committee-proof
+
+### Slide Promise
+
+Industrial deals stall when one role is convinced but another role still lacks proof.
+
+### On-Slide Content
+
+- For each role, document current belief, required belief, fear or blocker, proof needed, asset, owner, and coverage status.
+- The matrix exposes unsupported assumptions before they damage pipeline quality.
+- Missing proof is a demand generation problem, not only a sales objection.
+
+### Infographic Direction
+
+- Role-by-proof matrix.
+- Rows: operations, quality, maintenance, finance, procurement.
+- Columns: current belief, required belief, fear, proof, asset, owner.
+- Color code gaps as missing, partial, or ready.
+
+### Instructor Talking Points
+
+- Keep the group specific. 'Trust us' is not proof. 'We are reliable' is not a circulatable asset.
+- A good proof asset reduces one role's risk in language that role can defend.
+- The matrix becomes a direct input to MOIN and content planning.
+
+### Why This Matters In Industrial Markets
+
+- Industrial buyers rarely buy alone.
+- The visible contact may like the solution while quality, finance, procurement, maintenance, or leadership remains unconvinced.
+- Most deal stalls are missing internal proof, not missing follow-up.
+- Buyer enablement matters because the champion sells internally when the supplier is absent.
+
+### Operations Translation
+
+- Define the account-level evidence this concept should create.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
+
+### Transition
+
+Participants now map their own committee and proof gaps.
+
+## Slide 15 - Exercise 3: Buying Committee Map
+
+Timebox: 10 min
+Source: Lesson 02: Industrial Buyer Reality
+Concept keys: buying-committee, committee-proof
+
+### Slide Promise
+
+Map the roles, concerns, blockers, proof needs, and next actions for the selected focus.
+
+### On-Slide Content
+
+- Map at least five buying roles.
+- For each role, name the belief shift, blocker, required proof, asset, and owner.
+- Flag roles where the company currently has no credible proof.
+
+### Infographic Direction
+
+- Working matrix: role, current belief, required belief, blocker, proof, asset, owner.
+- Bottom strip: hidden blocker, missing asset, RevOps field to track.
+
+### Instructor Talking Points
+
+- Push teams to include procurement and finance even when sales rarely speaks to them.
+- Ask for at least one external influence path where relevant: distributor, consultant, association, event, project advisor.
+- Human correction should remove generic role stereotypes and replace them with category-specific risks.
+
+### Why This Matters In Industrial Markets
+
+- Industrial buyers rarely buy alone.
+- The visible contact may like the solution while quality, finance, procurement, maintenance, or leadership remains unconvinced.
+- Most deal stalls are missing internal proof, not missing follow-up.
+- Buyer enablement matters because the champion sells internally when the supplier is absent.
+
+### Exercise Setup
+
+Participant output: Buying roles, concerns, blockers, proof needs, and next actions
+
+Use the matching participant drafting template in the separate prompt document. The template is a drafting aid only; the accepted workshop output must pass human correction.
+
+Human quality control:
+
+- Mark facts, assumptions, and unknowns separately.
+- Reject generic SaaS defaults and unsupported market claims.
+- Replace broad statements with industrial category, buyer role, proof, owner, and next action.
+- Translate the output into sales actions, tracking needs, and weekly review decisions.
+
+### Operations Translation
+
+- Define the account-level evidence this concept should create.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
+
+### Transition
+
+With buyer reality mapped, narrow the market focus.
+
+## Slide 16 - Map Of Informational Needs: Buyer Question Map
+
+Timebox: 5 min
+Source: Lesson 04: MOIN: Map Of Informational Needs
+Concept keys: buyer-question-map
+
+### Slide Promise
+
+Map of Informational Needs means the questions buyers need answered before the account can move.
 
 ### On-Slide Content
 
@@ -846,11 +845,11 @@ Turn buyer uncertainty into a role-specific content and proof roadmap.
 - MOIN prevents product-first content and premature vendor claims.
 - The map tells marketing what to build, sales how to use it, and RevOps what engagement means.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
@@ -860,7 +859,7 @@ Separate buyer questions by demand state.
 
 Timebox: 5 min
 Source: Lesson 04: MOIN: Map Of Informational Needs
-Concept keys: moin, demand-states
+Concept keys: buyer-question-map, demand-states
 
 ### Slide Promise
 
@@ -890,17 +889,17 @@ Separate problem learning, solution comparison, and supplier evaluation before b
 - MOIN prevents product-first content and premature vendor claims.
 - The map tells marketing what to build, sales how to use it, and RevOps what engagement means.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 Turn questions into proof, assets, and signals.
 
-## Slide 18 - Question-To-Proof Pipeline
+## Slide 18 - From Buyer Question To Proof
 
 Timebox: 5 min
 Source: Lesson 04: MOIN: Map Of Informational Needs; Lesson 05: Content Engine For Industrial Demand
@@ -908,7 +907,7 @@ Concept keys: question-to-proof
 
 ### Slide Promise
 
-Every serious question becomes an asset, sales use case, signal, and proof requirement.
+Every serious buyer question should become proof, a sales use case, a distribution decision, and a signal.
 
 ### On-Slide Content
 
@@ -934,25 +933,25 @@ Every serious question becomes an asset, sales use case, signal, and proof requi
 - MOIN prevents product-first content and premature vendor claims.
 - The map tells marketing what to build, sales how to use it, and RevOps what engagement means.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 Participants now build their MOIN grid.
 
-## Slide 19 - Exercise 4: MOIN Grid
+## Slide 19 - Exercise 4: Buyer Question Map
 
 Timebox: 10 min
 Source: Lesson 04: MOIN: Map Of Informational Needs
-Concept keys: moin, question-to-proof
+Concept keys: buyer-question-map, question-to-proof
 
 ### Slide Promise
 
-Build the role-by-demand-state question map for the chosen ICP.
+Build the buyer-question map for the chosen focus and buying committee.
 
 ### On-Slide Content
 
@@ -980,7 +979,7 @@ Build the role-by-demand-state question map for the chosen ICP.
 
 ### Exercise Setup
 
-Participant output: Buyer questions by role and demand state
+Participant output: Top buyer questions by role and demand state
 
 Use the matching participant drafting template in the separate prompt document. The template is a drafting aid only; the accepted workshop output must pass human correction.
 
@@ -989,27 +988,27 @@ Human quality control:
 - Mark facts, assumptions, and unknowns separately.
 - Reject generic SaaS defaults and unsupported market claims.
 - Replace broad statements with industrial category, buyer role, proof, owner, and next action.
-- Translate the output into sales, RevOps, and weekly cadence implications.
+- Translate the output into sales actions, tracking needs, and weekly review decisions.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 Use MOIN to design the content engine.
 
-## Slide 20 - Content Engine For Industrial Demand
+## Slide 20 - Content Assets That Help Buyers Move
 
 Timebox: 5 min
 Source: Lesson 05: Content Engine For Industrial Demand
-Concept keys: content-engine
+Concept keys: content-assets
 
 ### Slide Promise
 
-Industrial content is not a publishing calendar. Every asset needs a job.
+Industrial content is not a list of topics to publish. Each asset must help a buyer understand, compare, trust, or act.
 
 ### On-Slide Content
 
@@ -1036,11 +1035,11 @@ Industrial content is not a publishing calendar. Every asset needs a job.
 - The same assets help sales warm accounts, interpret demand state, support champions, and identify proof gaps.
 - Content without sales use, distribution, or signal design becomes volume.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
@@ -1050,7 +1049,7 @@ Define the minimum useful asset system.
 
 Timebox: 6 min
 Source: Lesson 05: Content Engine For Industrial Demand
-Concept keys: first-five-assets, content-engine
+Concept keys: first-five-assets, content-assets
 
 ### Slide Promise
 
@@ -1081,25 +1080,25 @@ Build the minimum asset system that supports buyers, sales, distribution, and si
 - The same assets help sales warm accounts, interpret demand state, support champions, and identify proof gaps.
 - Content without sales use, distribution, or signal design becomes volume.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 Participants now create the first-five roadmap.
 
-## Slide 22 - Exercise 5: Content Plan
+## Slide 22 - Exercise 5: First-Five Content Asset Plan
 
 Timebox: 10 min
 Source: Lesson 05: Content Engine For Industrial Demand
-Concept keys: content-engine, first-five-assets
+Concept keys: content-assets, first-five-assets
 
 ### Slide Promise
 
-Create the first-five asset roadmap by demand state, SME input, sales use, channel, and signal.
+Convert the top five buyer-question priorities into five practical build, repair, or later asset decisions.
 
 ### On-Slide Content
 
@@ -1127,7 +1126,7 @@ Create the first-five asset roadmap by demand state, SME input, sales use, chann
 
 ### Exercise Setup
 
-Participant output: First-five asset roadmap by demand state
+Participant output: First-five asset plan
 
 Use the matching participant drafting template in the separate prompt document. The template is a drafting aid only; the accepted workshop output must pass human correction.
 
@@ -1136,13 +1135,13 @@ Human quality control:
 - Mark facts, assumptions, and unknowns separately.
 - Reject generic SaaS defaults and unsupported market claims.
 - Replace broad statements with industrial category, buyer role, proof, owner, and next action.
-- Translate the output into sales, RevOps, and weekly cadence implications.
+- Translate the output into sales actions, tracking needs, and weekly review decisions.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
@@ -1156,7 +1155,7 @@ Concept keys: trusted-distribution
 
 ### Slide Promise
 
-Publishing is not distribution. Industrial insight must circulate through trusted paths.
+Publishing is not the same as getting the asset into a trusted buyer conversation.
 
 ### On-Slide Content
 
@@ -1183,25 +1182,25 @@ Publishing is not distribution. Industrial insight must circulate through truste
 - Buyers trust field expertise and borrowed credibility more than generic company-page claims.
 - Distribution must create account evidence, not just reach.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 Choose channels as an ecosystem, not as isolated tactics.
 
-## Slide 24 - Trust-Based Channel Ecosystem
+## Slide 24 - Choosing The Right Distribution Path
 
 Timebox: 5 min
 Source: Lesson 06: Distribution: The Missing Half
-Concept keys: channel-selection, trusted-distribution
+Concept keys: distribution-paths, trusted-distribution
 
 ### Slide Promise
 
-Choose channels by buyer trust, decision stage, operational capacity, and observable account evidence.
+Choose the path where the buyer is most likely to trust, read, and act on the asset.
 
 ### On-Slide Content
 
@@ -1228,25 +1227,25 @@ Choose channels by buyer trust, decision stage, operational capacity, and observ
 - Buyers trust field expertise and borrowed credibility more than generic company-page claims.
 - Distribution must create account evidence, not just reach.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 Events, partners, and distributors need explicit operating rules.
 
-## Slide 25 - Event, Partner, And Distributor Motions
+## Slide 25 - Field And Partner Signals
 
 Timebox: 5 min
 Source: Lesson 06: Distribution: The Missing Half
-Concept keys: event-partner-motion
+Concept keys: field-partner-signals
 
 ### Slide Promise
 
-Offline and partner activity becomes demand generation only when signals are captured and routed.
+Events, partners, distributors, and advisors create demand only when conversations are captured and followed up.
 
 ### On-Slide Content
 
@@ -1274,11 +1273,11 @@ Offline and partner activity becomes demand generation only when signals are cap
 - Buyers trust field expertise and borrowed credibility more than generic company-page claims.
 - Distribution must create account evidence, not just reach.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
@@ -1288,11 +1287,11 @@ Participants now design distribution and capture rules.
 
 Timebox: 10 min
 Source: Lesson 06: Distribution: The Missing Half
-Concept keys: trusted-distribution, channel-selection
+Concept keys: trusted-distribution, distribution-paths
 
 ### Slide Promise
 
-Map channels, trust reasons, owners, cadence, account signals, and follow-up rules.
+Choose a practical distribution path for each first-five content asset.
 
 ### On-Slide Content
 
@@ -1321,7 +1320,7 @@ Map channels, trust reasons, owners, cadence, account signals, and follow-up rul
 
 ### Exercise Setup
 
-Participant output: Trust-based channel, owner, cadence, signal, and follow-up plan
+Participant output: Trusted path, expected signal, capture method, follow-up action, and owner
 
 Use the matching participant drafting template in the separate prompt document. The template is a drafting aid only; the accepted workshop output must pass human correction.
 
@@ -1330,27 +1329,27 @@ Human quality control:
 - Mark facts, assumptions, and unknowns separately.
 - Reject generic SaaS defaults and unsupported market claims.
 - Replace broad statements with industrial category, buyer role, proof, owner, and next action.
-- Translate the output into sales, RevOps, and weekly cadence implications.
+- Translate the output into sales actions, tracking needs, and weekly review decisions.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 Once signals appear, interpret them carefully.
 
-## Slide 27 - Signal Interpretation
+## Slide 27 - What Does The Signal Mean?
 
 Timebox: 5 min
 Source: Lesson 07: Signal Routing And Demand Capture
-Concept keys: signal-interpretation
+Concept keys: signal-meaning
 
 ### Slide Promise
 
-The expensive error is treating every signal as buying intent.
+Not every buyer action means the buyer is ready for sales.
 
 ### On-Slide Content
 
@@ -1377,25 +1376,25 @@ The expensive error is treating every signal as buying intent.
 - Signals are useful only after interpretation.
 - Routing protects sales from noise while ensuring strong vendor-demand evidence gets acted on quickly.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 Use the routing tree to turn interpreted signals into next actions.
 
-## Slide 28 - Routing Decision Tree
+## Slide 28 - Simple Next-Action Rule
 
 Timebox: 6 min
 Source: Lesson 07: Signal Routing And Demand Capture
-Concept keys: routing-rules
+Concept keys: next-action-rules
 
 ### Slide Promise
 
-Route by fit, state, role, and strength before choosing action.
+Meaning first. Action second.
 
 ### On-Slide Content
 
@@ -1413,7 +1412,7 @@ Route by fit, state, role, and strength before choosing action.
 ### Instructor Talking Points
 
 - The routing tree prevents content engagement from becoming automatic sales outreach.
-- Every route should have owner, SLA, next action, and evidence to review.
+- Every action should have an owner, action timing, next step, and evidence to review.
 - Tie this to the CRM or RevOps object on the next slide.
 
 ### Why This Matters In Industrial Markets
@@ -1423,30 +1422,30 @@ Route by fit, state, role, and strength before choosing action.
 - Signals are useful only after interpretation.
 - Routing protects sales from noise while ensuring strong vendor-demand evidence gets acted on quickly.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 Make the signal operational in RevOps.
 
-## Slide 29 - RevOps Signal Object
+## Slide 29 - Record What Happened And What Comes Next
 
 Timebox: 5 min
 Source: Lesson 07: Signal Routing And Demand Capture
-Concept keys: revops-signal-object, account-progression
+Concept keys: signal-capture-record
 
 ### Slide Promise
 
-Signals become operational only when owner, SLA, next action, and false-positive risk are visible.
+A signal is useful only when the team can see it, understand it, and act on it.
 
 ### On-Slide Content
 
 - A signal becomes operational only when it is captured as a visible object.
-- Minimum fields: account, segment, role, demand state, source, asset, strength, owner, SLA, next action, evidence, hypothesis, and false-positive risk.
+- Minimum fields: account, segment, role, demand state, source, asset, strength, owner, action timing, next action, evidence, hypothesis, and false-positive risk.
 - If a signal lives only in chat, memory, event notes, or inboxes, the operating system cannot learn.
 
 ### Infographic Direction
@@ -1454,7 +1453,7 @@ Signals become operational only when owner, SLA, next action, and false-positive
 - RevOps signal object card.
 - Top: account and ICP fit.
 - Middle: role, state, strength, source, evidence.
-- Bottom: owner, SLA, next action, risk, cadence status.
+- Bottom: owner, action timing, next action, risk, weekly review status.
 
 ### Instructor Talking Points
 
@@ -1469,36 +1468,36 @@ Signals become operational only when owner, SLA, next action, and false-positive
 - Signals are useful only after interpretation.
 - Routing protects sales from noise while ensuring strong vendor-demand evidence gets acted on quickly.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 Participants now classify signals and assign routing.
 
-## Slide 30 - Exercise 7: Signal Routing Table
+## Slide 30 - Exercise 7: Decide What Each Signal Means
 
 Timebox: 10 min
 Source: Lesson 07: Signal Routing And Demand Capture
-Concept keys: signal-interpretation, routing-rules, revops-signal-object
+Concept keys: signal-meaning, next-action-rules, signal-capture-record
 
 ### Slide Promise
 
-Classify five signals and assign owner, SLA, next action, and escalation risk.
+Classify five signals using the simple pattern: signal, meaning, action, risk.
 
 ### On-Slide Content
 
 - Classify five realistic signals from the chosen ICP.
-- For each, capture fit, role, demand state, strength, source, owner, SLA, next action, and false-positive risk.
+- For each, capture fit, role, demand state, strength, source, owner, action timing, next action, and false-positive risk.
 - Separate sales activation from education, research, committee mapping, nurture, and disqualification.
 
 ### Infographic Direction
 
 - Signal routing table.
-- Columns: signal, fit, role, state, strength, owner, SLA, next action, risk.
+- Columns: signal, fit, role, state, strength, owner, action timing, next action, risk.
 
 ### Instructor Talking Points
 
@@ -1515,7 +1514,7 @@ Classify five signals and assign owner, SLA, next action, and escalation risk.
 
 ### Exercise Setup
 
-Participant output: Fit, state, role, strength, owner, SLA, next action, and risk table
+Participant output: Five interpreted signals with next action, timing, and misreading risk
 
 Use the matching participant drafting template in the separate prompt document. The template is a drafting aid only; the accepted workshop output must pass human correction.
 
@@ -1524,19 +1523,19 @@ Human quality control:
 - Mark facts, assumptions, and unknowns separately.
 - Reject generic SaaS defaults and unsupported market claims.
 - Replace broad statements with industrial category, buyer role, proof, owner, and next action.
-- Translate the output into sales, RevOps, and weekly cadence implications.
+- Translate the output into sales actions, tracking needs, and weekly review decisions.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 Measurement now needs to track movement and learning, not just activity.
 
-## Slide 31 - Measurement That Matters
+## Slide 31 - What Should We Measure?
 
 Timebox: 5 min
 Source: Lesson 08: Measurement, Cadence, And 90-Day Pilot
@@ -1544,7 +1543,7 @@ Concept keys: measurement
 
 ### Slide Promise
 
-Measure movement, committee coverage, signal quality, sales use, and opportunity quality.
+Do not judge the pilot by activity alone. Judge whether the right accounts are moving and whether the team is learning.
 
 ### On-Slide Content
 
@@ -1572,25 +1571,25 @@ Measure movement, committee coverage, signal quality, sales use, and opportunity
 - Cadence is not reporting. It is a decision rhythm.
 - The pilot must be narrow enough to learn before leadership decides to stop, repair, or scale.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 Those metrics need a weekly decision rhythm.
 
-## Slide 32 - Weekly Revenue Cadence
+## Slide 32 - Weekly Review Meeting
 
 Timebox: 5 min
 Source: Lesson 08: Measurement, Cadence, And 90-Day Pilot
-Concept keys: weekly-cadence
+Concept keys: weekly-review
 
 ### Slide Promise
 
-Cadence is not reporting. It is a decision rhythm.
+The weekly meeting is not for reporting numbers. It is for deciding what to do next.
 
 ### On-Slide Content
 
@@ -1617,17 +1616,17 @@ Cadence is not reporting. It is a decision rhythm.
 - Cadence is not reporting. It is a decision rhythm.
 - The pilot must be narrow enough to learn before leadership decides to stop, repair, or scale.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 Convert the operating system into a 90-day pilot.
 
-## Slide 33 - 90-Day Pilot Roadmap
+## Slide 33 - 90-Day Pilot In Four Steps
 
 Timebox: 6 min
 Source: Lesson 08: Measurement, Cadence, And 90-Day Pilot
@@ -1635,7 +1634,7 @@ Concept keys: ninety-day-pilot
 
 ### Slide Promise
 
-A narrow pilot proves learning, movement, signal quality, sales use, and quality pipeline before scale.
+Run a focused 90-day test before trying to scale the full demand generation system.
 
 ### On-Slide Content
 
@@ -1664,25 +1663,25 @@ A narrow pilot proves learning, movement, signal quality, sales use, and quality
 - Cadence is not reporting. It is a decision rhythm.
 - The pilot must be narrow enough to learn before leadership decides to stop, repair, or scale.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 Participants assemble the full pilot plan.
 
-## Slide 34 - Exercise 8: 90-Day Pilot Plan
+## Slide 34 - Exercise 8: Build The 90-Day Pilot Plan
 
 Timebox: 11 min
 Source: Lesson 08: Measurement, Cadence, And 90-Day Pilot
-Concept keys: ninety-day-pilot, weekly-cadence, stop-repair-scale
+Concept keys: ninety-day-pilot, weekly-review, stop-repair-scale
 
 ### Slide Promise
 
-Assemble prior artifacts into an executive-ready pilot with stop, repair, and scale criteria.
+Bring together the outputs from Exercises 1 to 7 into one practical pilot plan.
 
 ### On-Slide Content
 
@@ -1710,7 +1709,7 @@ Assemble prior artifacts into an executive-ready pilot with stop, repair, and sc
 
 ### Exercise Setup
 
-Participant output: Weekly cadence and 90-day pilot with stop, repair, scale criteria
+Participant output: 90-day pilot with weekly review and stop, repair, or scale criteria
 
 Use the matching participant drafting template in the separate prompt document. The template is a drafting aid only; the accepted workshop output must pass human correction.
 
@@ -1719,19 +1718,19 @@ Human quality control:
 - Mark facts, assumptions, and unknowns separately.
 - Reject generic SaaS defaults and unsupported market claims.
 - Replace broad statements with industrial category, buyer role, proof, owner, and next action.
-- Translate the output into sales, RevOps, and weekly cadence implications.
+- Translate the output into sales actions, tracking needs, and weekly review decisions.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
 Close with the sponsor decision standard.
 
-## Slide 35 - Sponsor Decision: Stop, Repair, Scale
+## Slide 35 - Final Decision: Stop, Repair, Scale
 
 Timebox: 5 min
 Source: Lesson 01: Industrial Demand Generation Foundations; Lesson 02: Industrial Buyer Reality; Lesson 03: ICP, Segments, And Demand Focus; Lesson 04: MOIN: Map Of Informational Needs; Lesson 05: Content Engine For Industrial Demand; Lesson 06: Distribution: The Missing Half; Lesson 07: Signal Routing And Demand Capture; Lesson 08: Measurement, Cadence, And 90-Day Pilot
@@ -1739,7 +1738,7 @@ Concept keys: human-quality-control, stop-repair-scale, ninety-day-pilot
 
 ### Slide Promise
 
-The final strategy gives leadership a decision from evidence, not campaign optimism.
+The final output should help leadership make a clear decision from evidence.
 
 ### On-Slide Content
 
@@ -1768,11 +1767,11 @@ The final strategy gives leadership a decision from evidence, not campaign optim
 - Lead volume can rise while high-fit account movement stays flat.
 - The operating system must connect trust, education, distribution, signal interpretation, buyer enablement, and weekly cadence.
 
-### RevOps Translation
+### Operations Translation
 
 - Define the account-level evidence this concept should create.
-- Name the field, owner, SLA, and next action required to make the evidence operational.
-- Bring the evidence into weekly cadence for review, repair, or routing.
+- Name the field, owner, action timing, and next action required to make the evidence usable.
+- Bring the evidence into the weekly review for learning, repair, or follow-up.
 
 ### Transition
 
