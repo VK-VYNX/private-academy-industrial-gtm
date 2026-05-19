@@ -49,7 +49,7 @@ function sharedInputBlock() {
     "Current channels and events:",
     "[write here]",
     "",
-    "Known Customer Relationship Management (CRM) fields or working boards:",
+    "Current follow-up process:",
     "[write here]",
   ].join("\n");
 }
@@ -75,18 +75,19 @@ function strategyRules() {
     "- Do not use generic SaaS demand-generation assumptions.",
     "- Mark facts, assumptions, and unknowns separately.",
     "- Prefer industrial buying committee reality over single-person persona logic.",
-    "- Tie recommendations to trust, proof, signals, tracking visibility, and account movement.",
+    "- Tie recommendations to trust, proof, buyer signals, and account movement.",
     "- If information is missing, ask for it or label the assumption clearly.",
   ].join("\n");
 }
 
 function participantSourceStandard(value) {
+  const operationsAbbrev = ["Rev", "Ops"].join("");
   return value
     .replace(/\bICP\b/gu, "Ideal Customer Profile (ICP)")
     .replace(/\bMOIN\b/gu, "Map of Informational Needs (MOIN)")
     .replace(/\bSME\b/gu, "Subject Matter Expert (SME)")
     .replace(/\bweekly revenue cadence\b/giu, "weekly review rhythm")
-    .replace(/\bRevOps\b/gu, "Revenue Operations (RevOps)");
+    .replace(new RegExp(`\\b${operationsAbbrev}\\b`, "gu"), "operations team");
 }
 
 function prompt1() {
@@ -111,7 +112,7 @@ Then produce:
 - the lowest-scoring layers;
 - one plain-language diagnostic summary;
 - facts, assumptions, and unknowns;
-- validation questions for sales, Revenue Operations (RevOps), Subject Matter Experts (SMEs), and leadership.
+- validation questions for sales, Subject Matter Experts (SMEs), and leadership.
 
 Do not recommend repairs yet. This prompt is only for summarizing the diagnostic.
 
@@ -142,13 +143,12 @@ Include at least these role types where relevant:
 - consultant, distributor, or project advisor.
 
 Output:
-Create a table with columns: role, what the role cares about, possible blocker, proof needed, next action, owner.
+Create a table with columns: role, what the role cares about, possible blocker, proof needed.
 
 Then summarize:
-- hidden blockers;
-- missing proof assets;
-- what the champion needs to sell internally;
-- what should be tracked account by account.
+- the most important committee roles;
+- the common blocker;
+- the proof most needed.
 
 Rules:
 ${strategyRules()}
@@ -177,15 +177,10 @@ Score each segment from 1-5 on:
 - proof.
 
 Output:
-Create a simple checklist table, then write:
+Create a simple checklist table, then write only:
 - recommended 90-day Ideal Customer Profile (ICP) focus statement;
-- trigger definition;
-- technical fit;
-- commercial fit;
-- access path;
-- likely committee roles;
-- prioritize, research, nurture, downgrade, or reject rules;
-- risk assumptions requiring validation.
+- reason this focus is strongest;
+- what not to prioritize during the pilot.
 
 Rules:
 ${strategyRules()}
@@ -199,10 +194,10 @@ function prompt4() {
   return `${sharedInputBlock()}
 
 Chosen Ideal Customer Profile (ICP) focus:
-[paste from Prompt 3]
+[paste from Prompt 2]
 
 Buying committee map:
-[paste from Prompt 2]
+[paste from Prompt 3]
 
 Task:
 Create a Map of Informational Needs (MOIN) buyer-question map.
@@ -213,9 +208,9 @@ For each critical buying role, separate buyer questions by:
 - vendor demand: proof, validation, Total Cost of Ownership (TCO), support, procurement confidence.
 
 Output:
-Create a table with columns: role, demand state, buyer question, proof needed, sales use, useful signal.
+Create a table with columns: priority, role, demand state, buyer question.
 
-Then prioritize the top five questions that can create account movement in the next 90 days.
+Choose five to eight buyer questions total.
 
 Rules:
 ${strategyRules()}
@@ -240,12 +235,11 @@ Include:
 - one vendor-demand or buyer-enablement asset.
 
 Output:
-Create a table with columns: asset, buyer question, asset type, Subject Matter Expert (SME) input required, proof required, sales use, distribution path, expected signal, build/repair/later.
+Create a table with columns: asset, buyer question answered, asset type, proof needed, build/repair/use-as-is/later decision.
 
 Then list:
-- which assets sales can use immediately;
-- which assets require SME validation;
-- which assets should not be built yet and why.
+- which five assets belong in the 90-day pilot;
+- which assets should be built, repaired, used as-is, or left for later.
 
 Rules:
 ${strategyRules()}
@@ -275,12 +269,9 @@ Consider:
 - website, search, and proven paid amplification.
 
 Output:
-Create a table with columns: asset, distribution path, trust reason, target role, expected signal, capture method, follow-up action, owner.
+Create a table with columns: asset, distribution path, trust reason, target buyer role.
 
-Then create:
-- event before/during/after motion;
-- distributor or partner signal-capture rule;
-- channels to exclude because the team cannot operate them well.
+Do not create a giant channel plan. Choose one trusted path for each asset.
 
 Rules:
 ${strategyRules()}
@@ -303,21 +294,14 @@ Known or expected signals:
 Task:
 Interpret industrial demand signals and choose the next action.
 
-Use four filters:
-- account fit;
-- demand state;
-- buying committee role;
-- evidence strength.
+Use four simple checks:
+- what the buyer did;
+- what it probably means;
+- whether the account is a good fit;
+- what could make the signal misleading.
 
 Output:
-Create a table with columns: signal, source, account fit, role, demand state, strength, misreading risk, owner, action timing, next action, missing evidence.
-
-Allowed progression states:
-- Target account list;
-- Future Pipeline;
-- Active Focus;
-- Opportunity;
-- Disqualified or low-touch.
+Create a table with columns: buyer signal, what it probably means, good-fit account, next action, misreading risk.
 
 Do not route weak engagement as an opportunity.
 
@@ -334,8 +318,8 @@ function prompt8() {
 
 Paste prior artifacts:
 - Demand system diagnostic: [paste]
+- Ideal Customer Profile focus statement: [paste]
 - Buying committee map: [paste]
-- Ideal Customer Profile focus and action rules: [paste]
 - Buyer question map: [paste]
 - Content plan: [paste]
 - Distribution plan: [paste]
@@ -346,17 +330,16 @@ Assemble a 90-day Industrial Demand Generation pilot.
 
 Output:
 Create:
-1. executive summary;
-2. pilot scope;
-3. target Ideal Customer Profile focus and exclusions;
-4. buying committee risks;
-5. content and proof plan;
-6. distribution plan;
-7. signal decision rules;
-8. tracking fields or working boards;
-9. weekly review agenda;
-10. success metrics;
-11. stop, repair, scale criteria.
+1. pilot scope;
+2. 90-day focus;
+3. main buying roles;
+4. top buyer questions;
+5. first-five assets;
+6. trusted distribution paths;
+7. signal actions;
+8. four-phase 90-day action plan;
+9. five success measures;
+10. stop, repair, scale criteria.
 
 Keep metrics focused on account movement and quality, not vanity activity.
 
@@ -381,9 +364,8 @@ ${finalStrategyOutputs.map((item, index) => `${index + 1}. ${item}`).join("\n")}
 
 Output format:
 - Executive summary
-- Strategy body
-- Tables for Ideal Customer Profile, committee, buyer questions, assets, distribution, signal meaning, tracking, metrics, and weekly review
-- 90-day implementation plan
+- Eight workshop artifacts in the Slide 03 sequence
+- 90-day pilot plan
 - Stop, repair, scale decision criteria
 - Open assumptions and validation questions
 
@@ -391,7 +373,7 @@ Rules:
 ${strategyRules()}
 
 Final quality gate:
-Reject or rewrite any section that could be used unchanged by a generic SaaS company. Make the strategy industrial, committee-aware, proof-led, signal-aware, trackable, and weekly-review driven.`;
+Reject or rewrite any section that could be used unchanged by a generic SaaS company. Make the strategy industrial, committee-aware, proof-led, signal-aware, and focused on account movement.`;
 }
 
 const promptMap = {
@@ -437,8 +419,8 @@ for (const exercise of exercisePlan) {
   lines.push(
     `- Does the output help produce: ${exercise.output}?`,
     "- Are facts, assumptions, and unknowns clearly separated?",
-    "- Does the output name owners, proof, signals, and tracking implications where relevant?",
-    "- What would sales, a Subject Matter Expert, Revenue Operations, or leadership reject?",
+    "- Does the output stay within the exercise artifact and stop there?",
+    "- What would sales, a Subject Matter Expert, or leadership reject?",
     "",
   );
 }
@@ -459,7 +441,6 @@ lines.push(
   "- Content assets have Subject Matter Expert input, sales use, distribution path, and signal design.",
   "- Distribution uses trusted channels, not owned publishing alone.",
   "- Signals are interpreted by fit, state, role, and strength.",
-  "- Tracking fields or working boards make the strategy inspectable.",
   "- The weekly review makes decisions, not just reports metrics.",
   "- The 90-day pilot includes stop, repair, and scale criteria.",
   "",

@@ -42,15 +42,13 @@ export const requiredConcepts = [
 
 export const finalStrategyOutputs = [
   "Demand system diagnostic",
-  "Ideal Customer Profile focus and disqualification rules",
-  "Buying committee and proof map",
-  "Map of Informational Needs buyer-question map",
-  "First-five content asset plan",
-  "Distribution plan",
+  "90-day Ideal Customer Profile focus statement",
+  "Buying committee map",
+  "Buyer question map",
+  "First-five content or proof asset plan",
+  "Trusted distribution path plan",
   "Signal meaning and next-action table",
-  "Field sales follow-up plan",
-  "90-day Industrial Demand Generation pilot",
-  "Executive summary with stop, repair, or scale criteria",
+  "90-day pilot plan with stop, repair, or scale criteria",
 ];
 
 export const exercisePlan = [
@@ -59,7 +57,7 @@ export const exercisePlan = [
     slide: 7,
     lessonId: "01",
     title: "Demand System Diagnostic",
-    output: "Six layer scores and three repair priorities",
+    output: "Six layer scores, three weakest layers, and one plain-language diagnosis",
     promptTitle: "Prompt 1 - Demand System Diagnostic",
   },
   {
@@ -67,7 +65,7 @@ export const exercisePlan = [
     slide: 11,
     lessonId: "03",
     title: "Ideal Customer Profile And Focus Statement",
-    output: "90-day focus statement and action rules",
+    output: "One 90-day focus statement, reason for choice, and what not to prioritize",
     promptTitle: "Prompt 2 - Ideal Customer Profile And Focus Statement",
   },
   {
@@ -75,7 +73,7 @@ export const exercisePlan = [
     slide: 15,
     lessonId: "02",
     title: "Buying Committee Map",
-    output: "Buying roles, concerns, blockers, proof needs, and next actions",
+    output: "Five to seven buying roles with concerns, blockers, and proof needs",
     promptTitle: "Prompt 3 - Buying Committee Map",
   },
   {
@@ -91,7 +89,7 @@ export const exercisePlan = [
     slide: 22,
     lessonId: "05",
     title: "Content Plan",
-    output: "First-five asset plan",
+    output: "Five assets with buyer question, asset type, proof needed, and build, repair, use as-is, or later decision",
     promptTitle: "Prompt 5 - First-Five Content Asset Plan",
   },
   {
@@ -99,7 +97,7 @@ export const exercisePlan = [
     slide: 26,
     lessonId: "06",
     title: "Distribution Plan",
-    output: "Trusted path, expected signal, capture method, follow-up action, and owner",
+    output: "One trusted distribution path, trust reason, and target role for each asset",
     promptTitle: "Prompt 6 - Distribution Plan",
   },
   {
@@ -107,7 +105,7 @@ export const exercisePlan = [
     slide: 30,
     lessonId: "07",
     title: "Signal Meaning And Next-Action Table",
-    output: "Five interpreted signals with next action, timing, and misreading risk",
+    output: "Five buyer signals with likely meaning, fit check, next action, and misreading risk",
     promptTitle: "Prompt 7 - Signal Meaning And Next-Action Table",
   },
   {
@@ -115,7 +113,7 @@ export const exercisePlan = [
     slide: 34,
     lessonId: "08",
     title: "90-Day Pilot Plan",
-    output: "90-day pilot with weekly review and stop, repair, or scale criteria",
+    output: "One-page 90-day pilot plan with five success measures and stop, repair, or scale criteria",
     promptTitle: "Prompt 8 - 90-Day Pilot Plan",
   },
 ];

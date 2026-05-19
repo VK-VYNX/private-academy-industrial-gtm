@@ -23,6 +23,17 @@ const CONTENT_PATH = path.join(PACKAGE_ROOT, deckMeta.contentFile);
 const PROMPT_PATH = path.resolve(PACKAGE_ROOT, deckMeta.participantPromptFile);
 const REPORT_PATH = path.join(QA_ROOT, "consolidated-workshop-validation-report.md");
 
+const activeWorksheetFiles = [
+  "exercise-01-demand-system-diagnostic.md",
+  "exercise-02-icp-and-focus-statement.md",
+  "exercise-03-buying-committee-map.md",
+  "exercise-04-moin-grid.md",
+  "exercise-05-content-plan.md",
+  "exercise-06-distribution-plan.md",
+  "exercise-07-signal-routing-table.md",
+  "exercise-08-90-day-pilot-plan.md",
+];
+
 const bannedCompanyNames = [
   "ABB",
   "Amazon",
@@ -61,6 +72,17 @@ const forbiddenDeckPhrases = [
   "Claude",
   "Perplexity",
   ["L", "LM"].join(""),
+];
+
+const forbiddenWorksheetPhrases = [
+  "Quality Check",
+  "What to Track",
+  "RevOps",
+  "Revenue Operations",
+  "SLA",
+  "Strong Signal Check",
+  "Readiness Check",
+  "Final Pilot Assembly",
 ];
 
 function pad(value) {
@@ -271,6 +293,45 @@ async function validatePromptDocument(errors, checks) {
   checks.push(`Final strategy outputs present: ${finalStrategyOutputs.length}/${finalStrategyOutputs.length}`);
 }
 
+async function validateParticipantWorksheets(errors, checks) {
+  const requiredHeadings = [
+    "## What You Are Building",
+    "## Inputs You Need",
+    "## Choose From These Options",
+    "## Fill This Table",
+    "## Final Output: Stop Here",
+  ];
+
+  for (const file of activeWorksheetFiles) {
+    const worksheetPath = path.join(PACKAGE_ROOT, file);
+    const text = await readIfExists(worksheetPath);
+    if (!text) {
+      errors.push(`Participant worksheet is missing: ${rel(worksheetPath)}`);
+      continue;
+    }
+
+    await statNonEmpty(worksheetPath, "Participant worksheet", errors, 1_500);
+
+    for (const heading of requiredHeadings) {
+      if (!text.includes(heading)) errors.push(`${file} missing required heading: ${heading}`);
+    }
+
+    const finalOutputCount = (text.match(/^## Final Output: Stop Here$/gm) || []).length;
+    if (finalOutputCount !== 1) errors.push(`${file} must contain exactly one Final Output heading, found ${finalOutputCount}`);
+
+    const forbiddenHits = forbiddenWorksheetPhrases.filter((phrase) => text.includes(phrase));
+    if (forbiddenHits.length) errors.push(`${file} contains removed complexity language: ${forbiddenHits.join(", ")}`);
+  }
+
+  const fullScaleExercise = path.join(PACKAGE_ROOT, "exercise-05-content-plan-full-scale.md");
+  if (fsSync.existsSync(fullScaleExercise)) {
+    errors.push("Full-scale Exercise 05 reference still exists in active package");
+  }
+
+  checks.push(`Participant worksheets checked: ${activeWorksheetFiles.length}`);
+  checks.push("Participant worksheets use the to-the-point five-section structure");
+}
+
 async function validateModuleSource(errors, checks) {
   const sourceFiles = [
     "README.md",
@@ -360,6 +421,7 @@ async function main() {
   validateSlidePlan(errors, checks);
   await validateMarkdownContent(errors, checks);
   await validatePromptDocument(errors, checks);
+  await validateParticipantWorksheets(errors, checks);
   await validateModuleSource(errors, checks);
   await writeReport(errors, checks);
 

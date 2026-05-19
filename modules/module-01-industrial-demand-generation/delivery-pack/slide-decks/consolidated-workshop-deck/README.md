@@ -20,7 +20,6 @@ Approval rule: the Markdown content file is the canonical review artifact. No PP
 | [exercise-06-distribution-plan.md](exercise-06-distribution-plan.md) | guided participant worksheet for Exercise 6 |
 | [exercise-07-signal-routing-table.md](exercise-07-signal-routing-table.md) | guided participant worksheet for Exercise 7 |
 | [exercise-08-90-day-pilot-plan.md](exercise-08-90-day-pilot-plan.md) | guided participant worksheet for Exercise 8 |
-| [exercise-05-content-plan-full-scale.md](exercise-05-content-plan-full-scale.md) | full-scale reference document for Exercise 5 |
 | [../../industrial-demand-generation-participant-prompts.md](../../industrial-demand-generation-participant-prompts.md) | Participant prompt templates for the interleaved workshop exercises |
 | [src/consolidated-workshop-data.mjs](src/consolidated-workshop-data.mjs) | Canonical slide plan, concept coverage, exercises, and final strategy outputs |
 | [src/build-slide-content-md.mjs](src/build-slide-content-md.mjs) | Regenerates the Markdown slide content review file |
@@ -46,14 +45,14 @@ Approval rule: the Markdown content file is the canonical review artifact. No PP
 | Slides | Segment | Participant Output |
 |---:|---|---|
 | 1-3 | Workshop promise and artifact chain | Shared understanding of the final strategy package |
-| 4-7 | Foundations and demand system diagnostic | Six layer scores and current weakness map |
-| 8-11 | Ideal Customer Profile, segments, and demand focus | 90-day focus and disqualification rules |
-| 12-15 | Industrial buyer reality | Buying committee and proof map |
-| 16-19 | Map of Informational Needs: Buyer Question Map | Buyer questions, proof needs, and useful signals |
-| 20-22 | Content engine for industrial demand | First-five asset plan by demand state |
-| 23-26 | Distribution: the missing half | Channel, partner, event, and sales distribution plan |
-| 27-30 | Signal meaning and next actions | Signal interpretation and next-action table |
-| 31-35 | Measurement, weekly review, pilot, and leadership decision | 90-day pilot plan with stop, repair, scale criteria |
+| 4-7 | Foundations and demand system diagnostic | Six layer scores, three weakest layers, and one diagnosis |
+| 8-11 | Ideal Customer Profile, segments, and demand focus | One 90-day focus statement |
+| 12-15 | Industrial buyer reality | Buying committee map |
+| 16-19 | Map of Informational Needs: Buyer Question Map | Buyer questions by role and demand state |
+| 20-22 | Content engine for industrial demand | First-five content or proof asset plan |
+| 23-26 | Distribution: the missing half | One trusted path for each asset |
+| 27-30 | Signal meaning and next actions | Five signals with meaning, action, and risk |
+| 31-35 | Measurement, weekly review, pilot, and leadership decision | One-page 90-day pilot plan |
 
 ## Exercise Placement
 

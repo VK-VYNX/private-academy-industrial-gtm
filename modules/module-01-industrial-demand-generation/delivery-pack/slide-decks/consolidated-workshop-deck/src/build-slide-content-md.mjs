@@ -84,6 +84,18 @@ function numbered(items = []) {
   return items.map((item, index) => `${index + 1}. ${item}`);
 }
 
+function cleanGeneratedText(value) {
+  return value
+    .replace(/\bRevOps\b/gu, "operations team")
+    .replace(/\bSMEs\b/gu, "Subject Matter Experts")
+    .replace(/\bSME\b/gu, "Subject Matter Expert")
+    .replace(/\bCRM\b/gu, "Customer Relationship Management")
+    .replace(/\bMOIN\b/gu, "Map of Informational Needs")
+    .replace(/\bICP\b/gu, "Ideal Customer Profile")
+    .replace(/\bTCO\b/gu, "Total Cost of Ownership")
+    .replace(/\bRFQ\b/gu, "Request for Quotation");
+}
+
 function compactLessonWhy(ids) {
   return ids.flatMap((id) => lesson(id).why || []).slice(0, 4);
 }
@@ -111,7 +123,7 @@ const details = {
   outcome: {
     onSlide: [
       "Final output: one executive-ready Industrial Demand Generation strategy for a chosen product or product category.",
-      "The strategy must show focus, buyer reality, proof, distribution, signals, RevOps visibility, cadence, and pilot governance.",
+      "The strategy must show focus, buyer reality, proof, distribution, signals, weekly review, and pilot governance.",
       "Leadership should be able to stop, repair, or scale the pilot from evidence.",
     ],
     infographic: [
@@ -254,43 +266,43 @@ const details = {
       "Buyer enablement assets should be circulatable, specific, and defensible in internal meetings.",
       "Use the question: What would the champion forward to operations, finance, or procurement?",
     ],
-    transition: "Turn roles and enablement needs into a proof matrix.",
+    transition: "Turn roles and enablement needs into a simple proof map.",
   },
   "proof-matrix": {
     onSlide: [
-      "For each role, document current belief, required belief, fear or blocker, proof needed, asset, owner, and coverage status.",
-      "The matrix exposes unsupported assumptions before they damage pipeline quality.",
+      "For each role, document what the role cares about, what could block them, and what proof they need.",
+      "The map exposes unsupported assumptions before they damage pipeline quality.",
       "Missing proof is a demand generation problem, not only a sales objection.",
     ],
     infographic: [
-      "Role-by-proof matrix.",
+      "Role-by-proof map.",
       "Rows: operations, quality, maintenance, finance, procurement.",
-      "Columns: current belief, required belief, fear, proof, asset, owner.",
-      "Color code gaps as missing, partial, or ready.",
+      "Columns: concern, blocker, proof needed.",
+      "Keep the visual simple enough to complete during the workshop.",
     ],
     notes: [
       "Keep the group specific. 'Trust us' is not proof. 'We are reliable' is not a circulatable asset.",
       "A good proof asset reduces one role's risk in language that role can defend.",
-      "The matrix becomes a direct input to MOIN and content planning.",
+      "The map becomes a direct input to buyer-question and content planning.",
     ],
     transition: "Participants now map their own committee and proof gaps.",
   },
   "exercise-committee": {
     onSlide: [
-      "Map at least five buying roles.",
-      "For each role, name the belief shift, blocker, required proof, asset, and owner.",
-      "Flag roles where the company currently has no credible proof.",
+      "Map five to seven buying roles.",
+      "For each role, name what they care about, what could block them, and what proof they need.",
+      "Stop once the buying committee map is complete.",
     ],
     infographic: [
-      "Working matrix: role, current belief, required belief, blocker, proof, asset, owner.",
-      "Bottom strip: hidden blocker, missing asset, RevOps field to track.",
+      "Working table: role, concern, blocker, proof needed.",
+      "Bottom strip: one plain-language committee summary.",
     ],
     notes: [
       "Push teams to include procurement and finance even when sales rarely speaks to them.",
-      "Ask for at least one external influence path where relevant: distributor, consultant, association, event, project advisor.",
+      "Ask for external influence roles only when they truly shape the buying decision.",
       "Human correction should remove generic role stereotypes and replace them with category-specific risks.",
     ],
-    exercise: "E2",
+    exercise: "E3",
     transition: "With buyer reality mapped, narrow the market focus.",
   },
   "icp-focus": {
@@ -342,26 +354,26 @@ const details = {
     notes: [
       "Industrial teams often over-serve poor-fit demand because every inquiry feels valuable.",
       "Disqualification improves sales trust in demand generation. It shows that marketing is protecting attention, not flooding the system.",
-      "Rules should be explicit enough for RevOps and sales to apply consistently.",
+      "Rules should be explicit enough for sales and marketing to apply consistently.",
     ],
-    transition: "Participants now choose the 90-day segment and rejection rules.",
+    transition: "Participants now choose the 90-day focus.",
   },
   "exercise-icp": {
     onSlide: [
       "Compare three candidate segments.",
       "Select one 90-day ICP focus.",
-      "Write technical fit, commercial fit, trigger, access path, committee roles, and disqualification rules.",
+      "Write the reason for choice and what not to prioritize during the pilot.",
     ],
     infographic: [
-      "Candidate scorecard plus focus statement box.",
-      "Rejection gate panel: reject, downgrade, nurture, or research.",
+      "Candidate checklist plus focus statement box.",
+      "Decision footer: selected focus and do-not-prioritize line.",
     ],
     notes: [
       "Do not let teams write a broad category such as 'manufacturers'. The focus must be specific enough to drive asset and channel choices.",
       "The best answer includes what the company will not pursue during the pilot.",
-      "Ask sales to validate whether the chosen focus would improve opportunity quality.",
+      "Keep the output to one focus statement.",
     ],
-    exercise: "E3",
+    exercise: "E2",
     transition: "With a focused ICP, map the buyer's informational needs.",
   },
   "moin-grid": {
@@ -402,54 +414,54 @@ const details = {
   },
   "question-proof": {
     onSlide: [
-      "Every serious buyer question should create a chain: question -> risk -> proof -> asset -> sales use -> distribution path -> signal.",
+      "Every serious buyer question should create a simple chain: question -> proof -> asset.",
       "If the chain breaks, the content engine produces activity without operational value.",
       "Prioritize questions that reduce committee risk or reveal account movement.",
     ],
     infographic: [
-      "Pipeline diagram from buyer question to signal.",
-      "Checkpoints: proof source, SME owner, asset format, sales use, channel, CRM signal.",
+      "Pipeline diagram from buyer question to proof to asset.",
+      "Checkpoints: buyer question, proof source, asset format, and buyer movement.",
     ],
     notes: [
       "This is the bridge from MOIN to content. Content is not approved because it is interesting; it is approved because it performs a job.",
       "Use a composite example: operations asks about downtime during installation; the chain produces an implementation-risk asset and a routing signal.",
-      "Make teams name the signal each asset should create.",
+      "Make teams name the buyer question each asset should answer.",
     ],
-    transition: "Participants now build their MOIN grid.",
+    transition: "Participants now build their buyer-question map.",
   },
   "exercise-moin": {
     onSlide: [
-      "Build the role-by-demand-state question map for the chosen ICP.",
-      "For each priority question, name decision risk, proof required, asset idea, sales use, and signal created.",
-      "Prioritize the top five questions for the next 90 days.",
+      "Build the buyer-question map for the chosen focus.",
+      "For each priority question, name the buying role and demand state.",
+      "Stop once the priority buyer questions are clear.",
     ],
     infographic: [
-      "MOIN working grid.",
-      "Rows by role; columns by demand state; cells capture question, risk, proof, asset, signal.",
+      "Buyer-question working table.",
+      "Rows capture priority, role, demand state, and buyer question.",
     ],
     notes: [
       "Keep participants out of generic educational topics. Every entry must connect to a real buying uncertainty.",
-      "The instructor should ask: What proof would make this believable inside the buyer's organization?",
+      "The instructor should ask: Does this question belong to a real buying role?",
       "The output becomes the direct input to the first-five asset plan.",
     ],
     exercise: "E4",
-    transition: "Use MOIN to design the content engine.",
+    transition: "Use the buyer-question map to design the content engine.",
   },
   "content-engine": {
     onSlide: [
       "Industrial content is not a publishing calendar. Every asset needs a job.",
-      "A useful asset has buyer question, proof source, sales use, distribution path, signal, and owner.",
+      "A useful asset answers a buyer question and has believable proof.",
       "Content must support demand creation, buyer enablement, demand capture, and sales learning.",
     ],
     infographic: [
       "Asset job card.",
-      "Fields: demand state, buyer role, question, proof, asset format, sales use, channel, signal, owner.",
+      "Fields: buyer question, proof, asset format, and buyer movement job.",
       "Warning stripe: no asset without a job.",
     ],
     notes: [
       "This is where many teams drift into content volume. Pull them back to asset purpose.",
       "SME input matters because industrial buyers need technical credibility, implementation realism, and proof specificity.",
-      "Content must be usable by sales and observable by RevOps.",
+      "Content must be useful to buyers and believable to sales.",
     ],
     transition: "Define the minimum useful asset system.",
   },
@@ -457,12 +469,12 @@ const details = {
     onSlide: [
       "Build a minimum asset system before building a large library.",
       "Recommended starting set: problem-risk asset, selection criteria guide, proof or application note, champion internal pack, vendor validation asset.",
-      "Each asset must map to one buyer role, one demand state, one distribution path, and one signal.",
+      "Each asset must map to one important buyer question.",
     ],
     infographic: [
       "Five-asset portfolio grid.",
       "Rows: five assets.",
-      "Columns: demand state, buyer role, proof source, sales use, channel, signal.",
+      "Columns: buyer question, asset type, proof needed, decision.",
     ],
     notes: [
       "The first five assets should cover the biggest movement blockers from MOIN, not the easiest topics to write.",
@@ -473,16 +485,16 @@ const details = {
   },
   "exercise-content": {
     onSlide: [
-      "Choose five priority assets from the MOIN grid.",
-      "For each asset, specify demand state, role, proof source, sales use, channel, signal, SME owner, and due date.",
-      "Reject assets that do not support buyer movement or signal interpretation.",
+      "Choose five priority assets from the buyer-question map.",
+      "For each asset, specify buyer question, asset type, proof needed, and build, repair, use as-is, or later decision.",
+      "Stop once the first-five asset table is complete.",
     ],
     infographic: [
-      "Five-asset roadmap matrix.",
-      "Fields: asset, demand state, role, proof, SME input, sales use, channel, signal, owner.",
+      "Five-asset table.",
+      "Fields: asset, buyer question, asset type, proof needed, decision.",
     ],
     notes: [
-      "Have participants explicitly mark missing proof or SME input.",
+      "Have participants mark missing proof without turning the exercise into an implementation plan.",
       "The best plans are small, sharp, and usable. More assets are not automatically better.",
       "Use peer critique to catch generic content titles and unsupported claims.",
     ],
@@ -498,12 +510,12 @@ const details = {
     infographic: [
       "Publishing-only path vs trusted-circulation path.",
       "Publishing-only: company page, website post, campaign send, low observable trust.",
-      "Trusted circulation: SME, sales, association, event, distributor, account follow-up, captured signals.",
+      "Trusted circulation: expert, sales, association, event, distributor, and advisor paths.",
     ],
     notes: [
       "Make this a hard reset for teams that equate posting with distribution.",
       "Industrial markets often rely on trust transfer. The path matters as much as the asset.",
-      "Distribution planning should include signal capture and follow-up rules from the beginning.",
+      "Distribution planning should stay focused on how the asset reaches a trusted buyer.",
     ],
     transition: "Choose channels as an ecosystem, not as isolated tactics.",
   },
@@ -516,49 +528,48 @@ const details = {
     infographic: [
       "Channel ecosystem map around the chosen ICP.",
       "Rings: owned, sales, SME, partner, event, distributor, association.",
-      "Each channel includes trust reason, asset fit, signal captured, and owner.",
+      "Each channel includes asset fit, trust reason, and buyer role.",
     ],
     notes: [
       "Ask where the buyer already pays attention before asking where the company wants to post.",
-      "Do not approve a channel without an owner and capture method.",
+      "Do not approve a path if there is no reason the buyer would trust it.",
       "Distribution should be prioritized for the 90-day ICP, not the entire market.",
     ],
     transition: "Events, partners, and distributors need explicit operating rules.",
   },
   "event-partner": {
     onSlide: [
-      "Offline and partner activity becomes demand generation only when it is planned, captured, routed, and learned from.",
-      "Events need pre-event account focus, live role and question capture, post-event routing, and cadence review.",
-      "Partners and distributors need proof assets, signal definitions, feedback loops, and escalation rules.",
+      "Offline and partner activity matters when it helps the right asset reach the right buyer.",
+      "Events, partners, and distributors are useful only when they create trusted access.",
+      "Keep distribution choices realistic for the team.",
     ],
     infographic: [
-      "Event and partner motion flow.",
-      "Pre: target accounts, proof assets, role hypotheses.",
-      "During: questions, roles, objections, competitor context, urgency.",
-      "Post: route, enable, nurture, disqualify, learn.",
+      "Trusted path flow.",
+      "Asset -> path -> trust reason -> target role.",
+      "Show events, partners, distributors, associations, and sales as possible paths.",
     ],
     notes: [
-      "Industrial companies often have rich offline signals that never become operational evidence.",
-      "The facilitator should ask what field or sales observations are currently trapped in notebooks, calls, or memory.",
-      "A partner channel needs enablement and feedback, not just collateral forwarding.",
+      "Industrial companies often have useful trusted paths that are not owned media.",
+      "The facilitator should ask where the buyer already pays attention.",
+      "A partner channel is useful only if the buyer trusts that partner.",
     ],
-    transition: "Participants now design distribution and capture rules.",
+    transition: "Participants now choose one trusted path per asset.",
   },
   "exercise-distribution": {
     onSlide: [
-      "Map channels for the chosen ICP and first-five assets.",
-      "For each channel, name trust reason, owner, cadence, account signal, capture method, and follow-up rule.",
-      "Include at least one sales or SME-led path and one ecosystem path where relevant.",
+      "Choose one practical distribution path for each first-five asset.",
+      "For each asset, name the trust reason and target buyer role.",
+      "Stop once each asset has one trusted path.",
     ],
     infographic: [
-      "Distribution planning board.",
-      "Rows: channels.",
-      "Columns: trust reason, asset, owner, cadence, signal, capture method, follow-up rule.",
+      "Distribution planning table.",
+      "Rows: five assets.",
+      "Columns: distribution path, trust reason, target buyer role.",
     ],
     notes: [
       "Reject plans that are only a posting schedule.",
-      "Force the group to connect distribution to account-level evidence and routing.",
-      "The output should make clear who does what next week.",
+      "Force the group to choose the few paths that buyers are likely to trust.",
+      "The output should stay at distribution choice, not follow-up operations.",
     ],
     exercise: "E6",
     transition: "Once signals appear, interpret them carefully.",
@@ -567,12 +578,12 @@ const details = {
     onSlide: [
       "The expensive error is treating every signal as buying intent.",
       "Interpret signals by account fit, demand state, role, strength, recency, source trust, and pattern over time.",
-      "The same signal can mean educate, research, map committee, enable champion, activate sales, or disqualify.",
+      "The same signal can mean educate, research, support the champion, share proof, take sales action, or do not prioritize.",
     ],
     infographic: [
       "Signal filter stack.",
       "Filters: fit, state, role, strength, source, recency, pattern, risk.",
-      "Output actions: educate, nurture, research, route, enable, activate, disqualify.",
+      "Output actions: educate, research, support champion, share proof, sales action, do not prioritize.",
     ],
     notes: [
       "Use examples: a procurement visit to vendor validation content differs from a student download or a low-fit RFQ.",
@@ -583,63 +594,63 @@ const details = {
   },
   "routing-tree": {
     onSlide: [
-      "Route by fit, state, role, and strength before choosing action.",
-      "Weak content-demand signal: educate or observe.",
-      "Moderate solution-demand signal: research, map committee, or enable sales conversation.",
-      "Strong vendor-demand signal from a high-fit account: activate sales or opportunity review.",
-      "Weak-fit or misleading signal: downgrade or disqualify.",
+      "Decide meaning before action.",
+      "Weak learning signal: educate or observe.",
+      "Unclear fit or role: research.",
+      "Specific high-fit signal: share proof or take sales action.",
+      "Weak-fit or misleading signal: do not prioritize.",
     ],
     infographic: [
       "Decision tree with four gates: fit -> demand state -> role -> strength.",
-      "Leaf actions: educate, research, map committee, enable champion, sales activation, disqualify.",
+      "Leaf actions: educate, research, support champion, share proof, sales action, do not prioritize.",
     ],
     notes: [
       "The routing tree prevents content engagement from becoming automatic sales outreach.",
-      "Every action should have an owner, action timing, next step, and evidence to review.",
-      "Tie this to the CRM or RevOps object on the next slide.",
+      "Every action should be simple enough for the team to understand immediately.",
+      "Tie this to the simple record on the next slide.",
     ],
-    transition: "Make the signal operational in RevOps.",
+    transition: "Make the signal visible enough for the team to learn.",
   },
   "revops-signal": {
     onSlide: [
-      "A signal becomes operational only when it is captured as a visible object.",
-      "Minimum fields: account, segment, role, demand state, source, asset, strength, owner, action timing, next action, evidence, hypothesis, and false-positive risk.",
+      "A signal becomes useful only when the team records what happened and what should happen next.",
+      "Minimum note: account, buyer role, what happened, likely meaning, next action, and misreading risk.",
       "If a signal lives only in chat, memory, event notes, or inboxes, the operating system cannot learn.",
     ],
     infographic: [
-      "RevOps signal object card.",
-      "Top: account and ICP fit.",
-      "Middle: role, state, strength, source, evidence.",
-      "Bottom: owner, action timing, next action, risk, weekly review status.",
+      "Simple signal note card.",
+      "Top: account and buyer role.",
+      "Middle: what happened and likely meaning.",
+      "Bottom: next action and misreading risk.",
     ],
     notes: [
-      "This slide translates demand generation into operations. The work is not done until fields, owners, and decisions are visible.",
-      "RevOps does not need every possible behavior. It needs fields that support routing and learning.",
+      "This slide translates signal interpretation into a visible team habit.",
+      "The team does not need every possible field. It needs enough context to avoid overreacting.",
       "The object should help sales understand why the next action is justified.",
     ],
-    transition: "Participants now classify signals and assign routing.",
+    transition: "Participants now decide what five signals mean.",
   },
   "exercise-routing": {
     onSlide: [
-      "Classify five realistic signals from the chosen ICP.",
-      "For each, capture fit, role, demand state, strength, source, owner, action timing, next action, and false-positive risk.",
-      "Separate sales activation from education, research, committee mapping, nurture, and disqualification.",
+      "Classify five realistic signals from the chosen focus.",
+      "For each, name what it probably means, whether it is a good-fit account, the next action, and the misreading risk.",
+      "Stop once the five-signal table is complete.",
     ],
     infographic: [
-      "Signal routing table.",
-      "Columns: signal, fit, role, state, strength, owner, action timing, next action, risk.",
+      "Signal meaning table.",
+      "Columns: buyer signal, likely meaning, good-fit account, next action, misreading risk.",
     ],
     notes: [
       "The instructor should challenge any automatic handoff to sales.",
       "Ask what would make the team wrong about each signal.",
-      "The best output makes the next action obvious and auditable.",
+      "The best output makes the next action obvious without pretending every signal is buying intent.",
     ],
     exercise: "E7",
     transition: "Measurement now needs to track movement and learning, not just activity.",
   },
   measurement: {
     onSlide: [
-      "Measure movement, committee coverage, signal quality, sales use, opportunity quality, and learning velocity.",
+      "Measure account movement, buyer visibility, useful signals, sales conversations, and learning quality.",
       "Do not use vanity metrics as primary proof.",
       "The pilot should show whether target accounts are moving and whether the system is improving decisions.",
     ],
@@ -647,7 +658,7 @@ const details = {
       "Metric hierarchy.",
       "Top: business outcome and quality pipeline.",
       "Middle: target-account movement, committee coverage, vendor-demand signals, sales-accepted actions.",
-      "Base: content completion, distribution execution, signal capture, cadence decisions.",
+      "Base: content completion, distribution execution, signal review, weekly decisions.",
     ],
     notes: [
       "This slide protects the workshop from campaign optimism.",
@@ -660,7 +671,7 @@ const details = {
     onSlide: [
       "Cadence is not reporting. It is a decision rhythm.",
       "Weekly review should decide what to build, route, repair, disqualify, or escalate.",
-      "Cadence owners should include demand generation, sales, RevOps, SME input, and leadership when needed.",
+      "The right people should attend when their decision or expertise is needed.",
     ],
     infographic: [
       "Weekly cadence board.",
@@ -677,9 +688,9 @@ const details = {
   "pilot-roadmap": {
     onSlide: [
       "A 90-day pilot should prove learning quality before scale.",
-      "Days 1-15: focus, committee, MOIN, baseline fields, cadence setup.",
-      "Days 16-45: first-five assets, distribution paths, capture rules.",
-      "Days 46-75: signal routing, sales enablement, proof repair, account movement review.",
+      "Days 1-15: confirm focus, committee, buyer questions, and first-five assets.",
+      "Days 16-45: build or repair assets and share them through trusted paths.",
+      "Days 46-75: review buyer signals and take next actions.",
       "Days 76-90: evidence review and sponsor decision.",
     ],
     infographic: [
@@ -697,16 +708,16 @@ const details = {
   "exercise-pilot": {
     onSlide: [
       "Assemble all prior artifacts into one 90-day pilot plan.",
-      "Define scope, assets, distribution, signal routing, cadence, metrics, risks, owners, and sponsor decision criteria.",
-      "Write stop, repair, and scale criteria before claiming success.",
+      "Define scope, focus, buying roles, buyer questions, assets, distribution paths, signal actions, success measures, and decision criteria.",
+      "Stop once the one-page pilot plan is complete.",
     ],
     infographic: [
       "Pilot assembly canvas.",
-      "Fields: scope, assets, distribution, signals, cadence, metrics, risks, decision criteria.",
+      "Fields: scope, focus, roles, questions, assets, paths, signal actions, measures, decision criteria.",
     ],
     notes: [
       "This is the capstone build moment. Participants should use the previous seven outputs, not start from scratch.",
-      "Human correction should remove unsupported claims, generic tactics, and missing ownership.",
+      "Human correction should remove unsupported claims and generic tactics.",
       "The pilot should be narrow enough to run and evidence-rich enough for leadership to decide.",
     ],
     exercise: "E8",
@@ -760,8 +771,8 @@ function exerciseBlock(slide) {
     ...bullets([
       "Mark facts, assumptions, and unknowns separately.",
       "Reject generic SaaS defaults and unsupported market claims.",
-      "Replace broad statements with industrial category, buyer role, proof, owner, and next action.",
-      "Translate the output into sales actions, tracking needs, and weekly review decisions.",
+      "Replace broad statements with industrial category, buyer role, proof, and account movement.",
+      "Keep the exercise output inside the artifact named on Slide 03.",
     ]),
   ];
 }
@@ -813,8 +824,8 @@ function slideSection(slide) {
     "",
     ...bullets([
       "Define the account-level evidence this concept should create.",
-      "Name the field, owner, action timing, and next action required to make the evidence usable.",
-      "Bring the evidence into the weekly review for learning, repair, or follow-up.",
+      "Name the simple team decision this concept should support.",
+      "Bring the evidence into the weekly review for learning and next action.",
     ]),
     "",
     "### Transition",
@@ -867,7 +878,7 @@ async function main() {
     ...slidePlan.flatMap(slideSection),
   ];
 
-  await fs.writeFile(OUTPUT_PATH, `${lines.join("\n").trimEnd()}\n`, "utf8");
+  await fs.writeFile(OUTPUT_PATH, `${cleanGeneratedText(lines.join("\n")).trimEnd()}\n`, "utf8");
   console.log(`Wrote ${path.relative(process.cwd(), OUTPUT_PATH)}`);
 }
 

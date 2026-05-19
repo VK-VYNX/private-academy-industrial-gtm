@@ -16,15 +16,13 @@ Source commit: `9e28222`
 ## Final Workshop Output
 
 - Demand system diagnostic
-- Ideal Customer Profile focus and disqualification rules
-- Buying committee and proof map
-- Map of Informational Needs buyer-question map
-- First-five content asset plan
-- Distribution plan
+- 90-day Ideal Customer Profile focus statement
+- Buying committee map
+- Buyer question map
+- First-five content or proof asset plan
+- Trusted distribution path plan
 - Signal meaning and next-action table
-- Field sales follow-up plan
-- 90-day Industrial Demand Generation pilot
-- Executive summary with stop, repair, or scale criteria
+- 90-day pilot plan with stop, repair, or scale criteria
 
 ## Shared Quality Rules
 
@@ -32,7 +30,7 @@ Source commit: `9e28222`
 - Do not use generic SaaS demand-generation assumptions.
 - Mark facts, assumptions, and unknowns separately.
 - Prefer industrial buying committee reality over single-person persona logic.
-- Tie recommendations to trust, proof, signals, tracking visibility, and account movement.
+- Tie recommendations to trust, proof, buyer signals, and account movement.
 - If information is missing, ask for it or label the assumption clearly.
 
 ## Prompt 1 - Demand System Diagnostic
@@ -61,7 +59,7 @@ Current content or proof assets:
 Current channels and events:
 [write here]
 
-Known Customer Relationship Management (CRM) fields or working boards:
+Current follow-up process:
 [write here]
 
 Task:
@@ -82,7 +80,7 @@ Then produce:
 - the lowest-scoring layers;
 - one plain-language diagnostic summary;
 - facts, assumptions, and unknowns;
-- validation questions for sales, Revenue Operations (RevOps), Subject Matter Experts (SMEs), and leadership.
+- validation questions for sales, Subject Matter Experts (SMEs), and leadership.
 
 Do not recommend repairs yet. This prompt is only for summarizing the diagnostic.
 
@@ -91,7 +89,7 @@ Rules:
 - Do not use generic SaaS demand-generation assumptions.
 - Mark facts, assumptions, and unknowns separately.
 - Prefer industrial buying committee reality over single-person persona logic.
-- Tie recommendations to trust, proof, signals, tracking visibility, and account movement.
+- Tie recommendations to trust, proof, buyer signals, and account movement.
 - If information is missing, ask for it or label the assumption clearly.
 
 Source standard:
@@ -100,10 +98,10 @@ Diagnose whether the company has a demand generation engine or only scattered ma
 
 Human review before accepting the output:
 
-- Does the output help produce: Six layer scores and three repair priorities?
+- Does the output help produce: Six layer scores, three weakest layers, and one plain-language diagnosis?
 - Are facts, assumptions, and unknowns clearly separated?
-- Does the output name owners, proof, signals, and tracking implications where relevant?
-- What would sales, a Subject Matter Expert, Revenue Operations, or leadership reject?
+- Does the output stay within the exercise artifact and stop there?
+- What would sales, a Subject Matter Expert, or leadership reject?
 
 ## Prompt 2 - Ideal Customer Profile And Focus Statement
 
@@ -131,7 +129,7 @@ Current content or proof assets:
 Current channels and events:
 [write here]
 
-Known Customer Relationship Management (CRM) fields or working boards:
+Current follow-up process:
 [write here]
 
 Candidate segments:
@@ -150,22 +148,17 @@ Score each segment from 1-5 on:
 - proof.
 
 Output:
-Create a simple checklist table, then write:
+Create a simple checklist table, then write only:
 - recommended 90-day Ideal Customer Profile (ICP) focus statement;
-- trigger definition;
-- technical fit;
-- commercial fit;
-- access path;
-- likely committee roles;
-- prioritize, research, nurture, downgrade, or reject rules;
-- risk assumptions requiring validation.
+- reason this focus is strongest;
+- what not to prioritize during the pilot.
 
 Rules:
 - Do not invent named-company examples, customer claims, certifications, metrics, or market facts.
 - Do not use generic SaaS demand-generation assumptions.
 - Mark facts, assumptions, and unknowns separately.
 - Prefer industrial buying committee reality over single-person persona logic.
-- Tie recommendations to trust, proof, signals, tracking visibility, and account movement.
+- Tie recommendations to trust, proof, buyer signals, and account movement.
 - If information is missing, ask for it or label the assumption clearly.
 
 Source standard:
@@ -174,10 +167,10 @@ Choose a narrow industrial demand focus for a 90-day pilot, define Ideal Custome
 
 Human review before accepting the output:
 
-- Does the output help produce: 90-day focus statement and action rules?
+- Does the output help produce: One 90-day focus statement, reason for choice, and what not to prioritize?
 - Are facts, assumptions, and unknowns clearly separated?
-- Does the output name owners, proof, signals, and tracking implications where relevant?
-- What would sales, a Subject Matter Expert, Revenue Operations, or leadership reject?
+- Does the output stay within the exercise artifact and stop there?
+- What would sales, a Subject Matter Expert, or leadership reject?
 
 ## Prompt 3 - Buying Committee Map
 
@@ -205,7 +198,7 @@ Current content or proof assets:
 Current channels and events:
 [write here]
 
-Known Customer Relationship Management (CRM) fields or working boards:
+Current follow-up process:
 [write here]
 
 Task:
@@ -224,20 +217,19 @@ Include at least these role types where relevant:
 - consultant, distributor, or project advisor.
 
 Output:
-Create a table with columns: role, what the role cares about, possible blocker, proof needed, next action, owner.
+Create a table with columns: role, what the role cares about, possible blocker, proof needed.
 
 Then summarize:
-- hidden blockers;
-- missing proof assets;
-- what the champion needs to sell internally;
-- what should be tracked account by account.
+- the most important committee roles;
+- the common blocker;
+- the proof most needed.
 
 Rules:
 - Do not invent named-company examples, customer claims, certifications, metrics, or market facts.
 - Do not use generic SaaS demand-generation assumptions.
 - Mark facts, assumptions, and unknowns separately.
 - Prefer industrial buying committee reality over single-person persona logic.
-- Tie recommendations to trust, proof, signals, tracking visibility, and account movement.
+- Tie recommendations to trust, proof, buyer signals, and account movement.
 - If information is missing, ask for it or label the assumption clearly.
 
 Source standard:
@@ -246,10 +238,10 @@ Map the real industrial buying committee, identify what each role needs to belie
 
 Human review before accepting the output:
 
-- Does the output help produce: Buying roles, concerns, blockers, proof needs, and next actions?
+- Does the output help produce: Five to seven buying roles with concerns, blockers, and proof needs?
 - Are facts, assumptions, and unknowns clearly separated?
-- Does the output name owners, proof, signals, and tracking implications where relevant?
-- What would sales, a Subject Matter Expert, Revenue Operations, or leadership reject?
+- Does the output stay within the exercise artifact and stop there?
+- What would sales, a Subject Matter Expert, or leadership reject?
 
 ## Prompt 4 - Buyer Question Map
 
@@ -277,14 +269,14 @@ Current content or proof assets:
 Current channels and events:
 [write here]
 
-Known Customer Relationship Management (CRM) fields or working boards:
+Current follow-up process:
 [write here]
 
 Chosen Ideal Customer Profile (ICP) focus:
-[paste from Prompt 3]
+[paste from Prompt 2]
 
 Buying committee map:
-[paste from Prompt 2]
+[paste from Prompt 3]
 
 Task:
 Create a Map of Informational Needs (MOIN) buyer-question map.
@@ -295,16 +287,16 @@ For each critical buying role, separate buyer questions by:
 - vendor demand: proof, validation, Total Cost of Ownership (TCO), support, procurement confidence.
 
 Output:
-Create a table with columns: role, demand state, buyer question, proof needed, sales use, useful signal.
+Create a table with columns: priority, role, demand state, buyer question.
 
-Then prioritize the top five questions that can create account movement in the next 90 days.
+Choose five to eight buyer questions total.
 
 Rules:
 - Do not invent named-company examples, customer claims, certifications, metrics, or market facts.
 - Do not use generic SaaS demand-generation assumptions.
 - Mark facts, assumptions, and unknowns separately.
 - Prefer industrial buying committee reality over single-person persona logic.
-- Tie recommendations to trust, proof, signals, tracking visibility, and account movement.
+- Tie recommendations to trust, proof, buyer signals, and account movement.
 - If information is missing, ask for it or label the assumption clearly.
 
 Source standard:
@@ -315,8 +307,8 @@ Human review before accepting the output:
 
 - Does the output help produce: Top buyer questions by role and demand state?
 - Are facts, assumptions, and unknowns clearly separated?
-- Does the output name owners, proof, signals, and tracking implications where relevant?
-- What would sales, a Subject Matter Expert, Revenue Operations, or leadership reject?
+- Does the output stay within the exercise artifact and stop there?
+- What would sales, a Subject Matter Expert, or leadership reject?
 
 ## Prompt 5 - First-Five Content Asset Plan
 
@@ -344,7 +336,7 @@ Current content or proof assets:
 Current channels and events:
 [write here]
 
-Known Customer Relationship Management (CRM) fields or working boards:
+Current follow-up process:
 [write here]
 
 Buyer question map:
@@ -359,19 +351,18 @@ Include:
 - one vendor-demand or buyer-enablement asset.
 
 Output:
-Create a table with columns: asset, buyer question, asset type, Subject Matter Expert (SME) input required, proof required, sales use, distribution path, expected signal, build/repair/later.
+Create a table with columns: asset, buyer question answered, asset type, proof needed, build/repair/use-as-is/later decision.
 
 Then list:
-- which assets sales can use immediately;
-- which assets require SME validation;
-- which assets should not be built yet and why.
+- which five assets belong in the 90-day pilot;
+- which assets should be built, repaired, used as-is, or left for later.
 
 Rules:
 - Do not invent named-company examples, customer claims, certifications, metrics, or market facts.
 - Do not use generic SaaS demand-generation assumptions.
 - Mark facts, assumptions, and unknowns separately.
 - Prefer industrial buying committee reality over single-person persona logic.
-- Tie recommendations to trust, proof, signals, tracking visibility, and account movement.
+- Tie recommendations to trust, proof, buyer signals, and account movement.
 - If information is missing, ask for it or label the assumption clearly.
 
 Source standard:
@@ -380,10 +371,10 @@ Turn Map of Informational Needs (MOIN) into an industrial content engine that cr
 
 Human review before accepting the output:
 
-- Does the output help produce: First-five asset plan?
+- Does the output help produce: Five assets with buyer question, asset type, proof needed, and build, repair, use as-is, or later decision?
 - Are facts, assumptions, and unknowns clearly separated?
-- Does the output name owners, proof, signals, and tracking implications where relevant?
-- What would sales, a Subject Matter Expert, Revenue Operations, or leadership reject?
+- Does the output stay within the exercise artifact and stop there?
+- What would sales, a Subject Matter Expert, or leadership reject?
 
 ## Prompt 6 - Distribution Plan
 
@@ -411,7 +402,7 @@ Current content or proof assets:
 Current channels and events:
 [write here]
 
-Known Customer Relationship Management (CRM) fields or working boards:
+Current follow-up process:
 [write here]
 
 First-five asset plan:
@@ -431,19 +422,16 @@ Consider:
 - website, search, and proven paid amplification.
 
 Output:
-Create a table with columns: asset, distribution path, trust reason, target role, expected signal, capture method, follow-up action, owner.
+Create a table with columns: asset, distribution path, trust reason, target buyer role.
 
-Then create:
-- event before/during/after motion;
-- distributor or partner signal-capture rule;
-- channels to exclude because the team cannot operate them well.
+Do not create a giant channel plan. Choose one trusted path for each asset.
 
 Rules:
 - Do not invent named-company examples, customer claims, certifications, metrics, or market facts.
 - Do not use generic SaaS demand-generation assumptions.
 - Mark facts, assumptions, and unknowns separately.
 - Prefer industrial buying committee reality over single-person persona logic.
-- Tie recommendations to trust, proof, signals, tracking visibility, and account movement.
+- Tie recommendations to trust, proof, buyer signals, and account movement.
 - If information is missing, ask for it or label the assumption clearly.
 
 Source standard:
@@ -452,10 +440,10 @@ Design an industrial distribution system that gets useful insight in front of th
 
 Human review before accepting the output:
 
-- Does the output help produce: Trusted path, expected signal, capture method, follow-up action, and owner?
+- Does the output help produce: One trusted distribution path, trust reason, and target role for each asset?
 - Are facts, assumptions, and unknowns clearly separated?
-- Does the output name owners, proof, signals, and tracking implications where relevant?
-- What would sales, a Subject Matter Expert, Revenue Operations, or leadership reject?
+- Does the output stay within the exercise artifact and stop there?
+- What would sales, a Subject Matter Expert, or leadership reject?
 
 ## Prompt 7 - Signal Meaning And Next-Action Table
 
@@ -483,7 +471,7 @@ Current content or proof assets:
 Current channels and events:
 [write here]
 
-Known Customer Relationship Management (CRM) fields or working boards:
+Current follow-up process:
 [write here]
 
 Known or expected signals:
@@ -496,21 +484,14 @@ Known or expected signals:
 Task:
 Interpret industrial demand signals and choose the next action.
 
-Use four filters:
-- account fit;
-- demand state;
-- buying committee role;
-- evidence strength.
+Use four simple checks:
+- what the buyer did;
+- what it probably means;
+- whether the account is a good fit;
+- what could make the signal misleading.
 
 Output:
-Create a table with columns: signal, source, account fit, role, demand state, strength, misreading risk, owner, action timing, next action, missing evidence.
-
-Allowed progression states:
-- Target account list;
-- Future Pipeline;
-- Active Focus;
-- Opportunity;
-- Disqualified or low-touch.
+Create a table with columns: buyer signal, what it probably means, good-fit account, next action, misreading risk.
 
 Do not route weak engagement as an opportunity.
 
@@ -519,7 +500,7 @@ Rules:
 - Do not use generic SaaS demand-generation assumptions.
 - Mark facts, assumptions, and unknowns separately.
 - Prefer industrial buying committee reality over single-person persona logic.
-- Tie recommendations to trust, proof, signals, tracking visibility, and account movement.
+- Tie recommendations to trust, proof, buyer signals, and account movement.
 - If information is missing, ask for it or label the assumption clearly.
 
 Source standard:
@@ -528,10 +509,10 @@ Classify industrial demand signals by account fit, demand state, buying role, an
 
 Human review before accepting the output:
 
-- Does the output help produce: Five interpreted signals with next action, timing, and misreading risk?
+- Does the output help produce: Five buyer signals with likely meaning, fit check, next action, and misreading risk?
 - Are facts, assumptions, and unknowns clearly separated?
-- Does the output name owners, proof, signals, and tracking implications where relevant?
-- What would sales, a Subject Matter Expert, Revenue Operations, or leadership reject?
+- Does the output stay within the exercise artifact and stop there?
+- What would sales, a Subject Matter Expert, or leadership reject?
 
 ## Prompt 8 - 90-Day Pilot Plan
 
@@ -559,13 +540,13 @@ Current content or proof assets:
 Current channels and events:
 [write here]
 
-Known Customer Relationship Management (CRM) fields or working boards:
+Current follow-up process:
 [write here]
 
 Paste prior artifacts:
 - Demand system diagnostic: [paste]
+- Ideal Customer Profile focus statement: [paste]
 - Buying committee map: [paste]
-- Ideal Customer Profile focus and action rules: [paste]
 - Buyer question map: [paste]
 - Content plan: [paste]
 - Distribution plan: [paste]
@@ -576,17 +557,16 @@ Assemble a 90-day Industrial Demand Generation pilot.
 
 Output:
 Create:
-1. executive summary;
-2. pilot scope;
-3. target Ideal Customer Profile focus and exclusions;
-4. buying committee risks;
-5. content and proof plan;
-6. distribution plan;
-7. signal decision rules;
-8. tracking fields or working boards;
-9. weekly review agenda;
-10. success metrics;
-11. stop, repair, scale criteria.
+1. pilot scope;
+2. 90-day focus;
+3. main buying roles;
+4. top buyer questions;
+5. first-five assets;
+6. trusted distribution paths;
+7. signal actions;
+8. four-phase 90-day action plan;
+9. five success measures;
+10. stop, repair, scale criteria.
 
 Keep metrics focused on account movement and quality, not vanity activity.
 
@@ -595,19 +575,19 @@ Rules:
 - Do not use generic SaaS demand-generation assumptions.
 - Mark facts, assumptions, and unknowns separately.
 - Prefer industrial buying committee reality over single-person persona logic.
-- Tie recommendations to trust, proof, signals, tracking visibility, and account movement.
+- Tie recommendations to trust, proof, buyer signals, and account movement.
 - If information is missing, ask for it or label the assumption clearly.
 
 Source standard:
-Assemble prior artifacts into a 90-day Industrial Demand Generation Pilot and define the weekly review rhythm that keeps sales, marketing, Revenue Operations (RevOps), leadership, and technical teams aligned.
+Assemble prior artifacts into a 90-day Industrial Demand Generation Pilot and define the weekly review rhythm that keeps sales, marketing, operations team, leadership, and technical teams aligned.
 ```
 
 Human review before accepting the output:
 
-- Does the output help produce: 90-day pilot with weekly review and stop, repair, or scale criteria?
+- Does the output help produce: One-page 90-day pilot plan with five success measures and stop, repair, or scale criteria?
 - Are facts, assumptions, and unknowns clearly separated?
-- Does the output name owners, proof, signals, and tracking implications where relevant?
-- What would sales, a Subject Matter Expert, Revenue Operations, or leadership reject?
+- Does the output stay within the exercise artifact and stop there?
+- What would sales, a Subject Matter Expert, or leadership reject?
 
 ## Final Synthesis Prompt - Full Industrial Demand Generation Strategy
 
@@ -635,7 +615,7 @@ Current content or proof assets:
 Current channels and events:
 [write here]
 
-Known Customer Relationship Management (CRM) fields or working boards:
+Current follow-up process:
 [write here]
 
 Paste all completed exercise outputs:
@@ -646,21 +626,18 @@ Turn the eight workshop outputs into a full-scale Industrial Demand Generation s
 
 Required sections:
 1. Demand system diagnostic
-2. Ideal Customer Profile focus and disqualification rules
-3. Buying committee and proof map
-4. Map of Informational Needs buyer-question map
-5. First-five content asset plan
-6. Distribution plan
+2. 90-day Ideal Customer Profile focus statement
+3. Buying committee map
+4. Buyer question map
+5. First-five content or proof asset plan
+6. Trusted distribution path plan
 7. Signal meaning and next-action table
-8. Field sales follow-up plan
-9. 90-day Industrial Demand Generation pilot
-10. Executive summary with stop, repair, or scale criteria
+8. 90-day pilot plan with stop, repair, or scale criteria
 
 Output format:
 - Executive summary
-- Strategy body
-- Tables for Ideal Customer Profile, committee, buyer questions, assets, distribution, signal meaning, tracking, metrics, and weekly review
-- 90-day implementation plan
+- Eight workshop artifacts in the Slide 03 sequence
+- 90-day pilot plan
 - Stop, repair, scale decision criteria
 - Open assumptions and validation questions
 
@@ -669,11 +646,11 @@ Rules:
 - Do not use generic SaaS demand-generation assumptions.
 - Mark facts, assumptions, and unknowns separately.
 - Prefer industrial buying committee reality over single-person persona logic.
-- Tie recommendations to trust, proof, signals, tracking visibility, and account movement.
+- Tie recommendations to trust, proof, buyer signals, and account movement.
 - If information is missing, ask for it or label the assumption clearly.
 
 Final quality gate:
-Reject or rewrite any section that could be used unchanged by a generic SaaS company. Make the strategy industrial, committee-aware, proof-led, signal-aware, trackable, and weekly-review driven.
+Reject or rewrite any section that could be used unchanged by a generic SaaS company. Make the strategy industrial, committee-aware, proof-led, signal-aware, and focused on account movement.
 ```
 
 Human review before accepting the output:
@@ -692,6 +669,5 @@ Human review before accepting the output:
 - Content assets have Subject Matter Expert input, sales use, distribution path, and signal design.
 - Distribution uses trusted channels, not owned publishing alone.
 - Signals are interpreted by fit, state, role, and strength.
-- Tracking fields or working boards make the strategy inspectable.
 - The weekly review makes decisions, not just reports metrics.
 - The 90-day pilot includes stop, repair, and scale criteria.

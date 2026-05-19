@@ -139,7 +139,7 @@ Exercise Output:
 
 - Six Layer Scores
 - Three Weakest Layers
-- Three Repair Priorities
+- One Plain-Language Diagnosis
 
 Use: Exercise 01 - Demand System Diagnostic Worksheet
 
@@ -210,12 +210,13 @@ Participant Task:
 - Compare two or three possible segments.
 - Score each segment using five simple checks.
 - Select the strongest 90-day focus.
-- Select all downgrade, nurture, research, or reject rules that apply.
+- Write what not to prioritize during the pilot.
 
 Exercise Output:
 
 - Selected 90-Day Focus Statement
-- Multi-Select Disqualification Rules
+- Reason This Focus Is Strongest
+- What Not To Prioritize
 
 ## Slide 12 - Industrial Buyer Reality
 
@@ -359,13 +360,10 @@ You are not inventing a content calendar. You are choosing the questions that bu
 
 Exercise Output:
 
-- Five to Seven Buyer Roles or Role Layers
-- Buyer Questions by Demand State
-- Proof Needed
-- Asset Ideas
-- Sales Use Cases
-- Useful Signals
-- Top Five Buyer Question Priorities for the Next 90 Days
+- Five to Eight Priority Buyer Questions
+- Buying Role for Each Question
+- Demand State for Each Question
+- Plain-Language Buyer Question Summary
 
 Use: Exercise 04 - Buyer Question Map Worksheet
 
@@ -414,13 +412,10 @@ You are not creating a content calendar. You are deciding which five assets can 
 Exercise Output:
 
 - Five Priority Assets
-- Buyer Role and Buyer Question
-- Proof or Subject Matter Expert (SME) Input Required
-- Sales Use Case
-- Initial Distribution Path
-- Expected Buyer Signal
+- Buyer Question Answered
+- Asset Type
+- Proof Needed
 - Build, Repair, Use As-Is, or Later Decision
-- Owner
 
 Use: Exercise 05 - Content Plan Worksheet
 
@@ -486,18 +481,13 @@ Operating Point:
 
 Choose a practical distribution path for each of your first-five content assets.
 
-You are not building a giant channel plan. You are deciding how each asset will reach a trusted buyer and what your team will do if the buyer responds.
+You are not building a giant channel plan. You are deciding how each asset will reach a trusted buyer.
 
 Exercise Output:
 
 - One Distribution Path for Each Asset
 - Why the Buyer Would Trust That Path
 - Target Buyer Role
-- Expected Buyer Signal
-- Where the Signal Will Be Captured
-- Follow-Up Action
-- Owner
-- Channels to Avoid for Now
 
 Use: Exercise 06 - Distribution Plan Worksheet
 
@@ -563,14 +553,10 @@ You are not creating sales tasks for every engagement. You are deciding what eac
 Exercise Output:
 
 - Five Buyer Signals
-- Account Fit
-- Buyer Role
-- Demand State
-- Signal Strength
-- Next-Action Decision
-- Action Timing
+- What Each Signal Probably Means
+- Good-Fit Account Check
+- Next Action
 - Misreading Risk
-- Opportunity Review for Strong Signals
 
 Use: Exercise 07 - Signal Meaning and Next-Action Worksheet
 
@@ -633,14 +619,15 @@ You are not starting from a blank page. You are packaging the work already compl
 Exercise Output:
 
 - Pilot Scope
-- Readiness Check
+- 90-Day Focus
+- Main Buying Roles
+- Top Buyer Questions
+- First-Five Assets
+- Trusted Distribution Paths
+- Signal Actions
 - 90-Day Action Plan
-- Weekly Review Plan
-- Success Measures
-- Risks and Repair Actions
+- Five Success Measures
 - Stop, Repair, or Scale Criteria
-- Leadership Summary
-- Next 30-Day Commitment
 
 Use: Exercise 08 - 90-Day Pilot Plan Worksheet
 

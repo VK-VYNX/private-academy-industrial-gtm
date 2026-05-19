@@ -1,6 +1,6 @@
 # Consolidated Workshop Markdown Validation Report
 
-Generated: 2026-05-19T13:39:17.912Z
+Generated: 2026-05-19T14:50:09.103Z
 
 Status: PASS
 
@@ -15,11 +15,13 @@ Participant prompts: `modules/module-01-industrial-demand-generation/delivery-pa
 - Source lessons covered: 8/8
 - Required concepts covered: 24/24
 - Interleaved exercises placed: 8/8
-- Markdown slide content bytes: 74947
+- Markdown slide content bytes: 73796
 - Markdown content includes all 35 slide headings and required sections
 - Markdown content has no tool-specific or restricted-name deck language
 - Participant prompts present: 8 exercises plus final synthesis
-- Final strategy outputs present: 10/10
+- Final strategy outputs present: 8/8
+- Participant worksheets checked: 8
+- Participant worksheets use the to-the-point five-section structure
 - Module source files checked: 16
 - Slide plan mapped to all eight Module 1 lessons
 - Exercises are interleaved after relevant concepts
@@ -71,15 +73,13 @@ Participant prompts: `modules/module-01-industrial-demand-generation/delivery-pa
 ## Final Strategy Outputs
 
 - Demand system diagnostic
-- Ideal Customer Profile focus and disqualification rules
-- Buying committee and proof map
-- Map of Informational Needs buyer-question map
-- First-five content asset plan
-- Distribution plan
+- 90-day Ideal Customer Profile focus statement
+- Buying committee map
+- Buyer question map
+- First-five content or proof asset plan
+- Trusted distribution path plan
 - Signal meaning and next-action table
-- Field sales follow-up plan
-- 90-day Industrial Demand Generation pilot
-- Executive summary with stop, repair, or scale criteria
+- 90-day pilot plan with stop, repair, or scale criteria
 
 ## Errors
 
