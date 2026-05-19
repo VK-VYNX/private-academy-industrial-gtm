@@ -54,4 +54,4 @@ Use exactly five rows.
 
 Write one first-five asset summary:
 
-`Our first five assets will answer [main buyer questions]. We will build [assets], repair [assets], and use as-is [assets].`
+`Our first five assets will answer [main buyer questions]. We will build [assets], repair [assets], use as-is [assets], and leave [assets] for later.`

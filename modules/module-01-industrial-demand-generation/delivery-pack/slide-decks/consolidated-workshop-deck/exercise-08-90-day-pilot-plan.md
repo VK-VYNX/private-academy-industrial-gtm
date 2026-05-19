@@ -63,8 +63,16 @@ Now outline the 90-day pilot.
 | Watch and Act | 46-75 | Review buyer signals and take the next action. | Learning and Account Movement |
 | Decide | 76-90 | Review evidence and choose Stop, Repair, or Scale. | Final Decision |
 
+Define the decision evidence before the pilot starts.
+
+| Decision | Evidence Required |
+|---|---|
+| Stop |  |
+| Repair |  |
+| Scale |  |
+
 ## Final Output: Stop Here
 
 Write the pilot summary:
 
-`For the next 90 days, we will focus on [focus], support [buying roles], answer [buyer questions], build or repair [assets], distribute through [trusted paths], measure [five measures], and decide whether to Stop, Repair, or Scale based on [evidence].`
+`For the next 90 days, we will focus on [focus], support [buying roles], answer [buyer questions], build or repair [assets], distribute through [trusted paths], measure [five measures], and decide whether to Stop, Repair, or Scale based on [decision evidence].`
