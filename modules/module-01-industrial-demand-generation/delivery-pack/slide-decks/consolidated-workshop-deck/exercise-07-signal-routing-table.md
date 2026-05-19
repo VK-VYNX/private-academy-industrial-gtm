@@ -2,22 +2,22 @@
 
 Use this worksheet with Slide 30 of the Industrial Demand Generation workshop.
 
-This exercise turns five demand signals into clear routing decisions. The goal is not to create a sales task for every engagement. The goal is to decide what the signal actually proves, what it does not prove, and what should happen next.
+This exercise helps you decide what five buyer signals probably mean and what your team should do next. The goal is not to create a sales task for every engagement. The goal is to avoid two expensive mistakes:
 
-Service-Level Agreement (SLA) means an agreed action deadline. In this worksheet, we use the simpler term **Action Timing**.
+- Treating weak learning activity as buying intent;
+- Ignoring strong signals that deserve action.
 
 ## Exercise Outcome
 
 By the end of this exercise, you will have:
 
-- Five routed industrial demand signals;
-- Fit, role, demand state, and signal strength for each signal;
+- Five buyer signals interpreted;
+- Fit, role, demand state, and strength for each signal;
 - Routing decision and action timing for each signal;
-- One clear false-positive risk for each signal;
-- Opportunity review check for strong signals;
-- Revenue Operations fields or tags required for tracking.
+- One misreading risk for each signal;
+- A short opportunity review for strong signals.
 
-The output becomes the Signal-Routing Table section of your Industrial Demand Generation strategy.
+The output becomes the Signal Routing Table section of your Industrial Demand Generation strategy.
 
 ## Working Scope
 
@@ -33,40 +33,29 @@ Use outputs from prior exercises as the input.
 
 1. Choose exactly five signals.
 2. Use the Signal Starter Menu if you do not have real signals ready.
-3. For each signal, select the closest option for fit, role, demand state, strength, routing decision, action timing, and false-positive risk.
-4. Complete the Opportunity Review Check only for signals that look strong enough for sales activation or opportunity review.
+3. For each signal, choose the closest option for fit, role, demand state, strength, routing decision, action timing, and misreading risk.
+4. Complete the Strong Signal Check only when the signal may deserve sales action or opportunity review.
 
-Do not route weak engagement as an opportunity. A signal must have fit, role relevance, demand state, strength, and a useful next action before it deserves escalation.
-
-## Signal Set Requirement
-
-Route exactly five signals.
-
-| Required Signal Type | Purpose |
-|---|---|
-| Weak Content Signal | Prevent premature sales activation. |
-| Moderate Content or Solution Signal | Practice research or committee mapping. |
-| Strong Vendor Signal | Practice sales activation or opportunity review. |
-| Field, Event, Partner, or Distributor Signal | Capture ecosystem evidence properly. |
-| False-Positive or Low-Fit Signal | Practice downgrade, disqualification, or low-touch nurture. |
+Do not route weak engagement as an opportunity. First decide what the signal probably means.
 
 ## Signal Starter Menu
 
-| Signal | Typical Interpretation |
+Choose five signals. Include at least one weak signal and one strong signal.
+
+| Signal | Typical Meaning |
 |---|---|
-| One Educational Asset View | Weak Content Demand unless repeated or role-specific. |
-| Repeat Engagement With Problem-Risk Asset | Moderate Content Demand if account fit is strong. |
-| Selection Criteria Guide Visit | Moderate Solution Demand. |
-| Technical Application Note Requested | Solution Demand, possibly strong if role and account fit are clear. |
-| Validation or Compliance Checklist Requested | Solution or Vendor Demand depending on role and timing. |
-| Supplier Documents Requested | Vendor Demand if account fit and need are credible. |
-| Technical Consultation Requested | Strong Vendor Demand if role, fit, and need are credible. |
-| Request for Quotation, Sample, Audit, or Plant Visit | Strong Vendor Demand and possible opportunity review. |
-| Distributor Flags Specific Project Need | Strong ecosystem signal if details are specific. |
-| Event Conversation With Named Project Detail | Moderate to strong signal depending on role and evidence. |
-| Plant Expansion or Capacity Signal | Moderate third-party signal until validated. |
-| Generic Post Like or Badge Scan | Weak signal and high false-positive risk. |
-| Poor-Fit Account Downloads Asset | Low-touch nurture or disqualification. |
+| One Educational Asset View | The buyer may only be learning. |
+| Repeat Engagement With a Problem-Risk Asset | Interest may be building. |
+| Selection Criteria Guide Visit | The buyer may be comparing approaches. |
+| Technical Application Note Requested | A technical role may be checking fit or requirements. |
+| Validation or Compliance Checklist Requested | Quality, audit, or compliance risk may be active. |
+| Supplier Documents Requested | The buyer may be evaluating suppliers. |
+| Technical Consultation Requested | Strong supplier evaluation may be starting. |
+| Request for Quotation, Sample, Audit, or Plant Visit | Strong buying or validation signal. |
+| Distributor Flags a Specific Project Need | Strong only if account, role, need, and timing are clear. |
+| Event Conversation With Named Project Detail | Moderate to strong, depending on role and timing. |
+| Generic Post Like or Badge Scan | Weak and easy to misread. |
+| Poor-Fit Account Downloads Asset | Usually low-touch nurture or disqualification. |
 
 ## Fit Menu
 
@@ -101,9 +90,9 @@ Route exactly five signals.
 
 | Strength | Use When |
 |---|---|
-| Weak | Single, broad, anonymous, old, generic, or low-context engagement. |
-| Moderate | Repeated, role-relevant, high-fit, solution-focused, or research-worthy engagement. |
-| Strong | Named role, clear need, timing, project, technical request, commercial request, or procurement action. |
+| Weak | Single, broad, anonymous, generic, old, or low-context activity. |
+| Moderate | Repeated, role-relevant, high-fit, solution-focused, or research-worthy activity. |
+| Strong | Named role, clear need, timing, project detail, technical request, commercial request, or procurement action. |
 
 ## Routing Decision Menu
 
@@ -113,7 +102,7 @@ Route exactly five signals.
 | Research Account | Fit, role, trigger, or timing is unclear. |
 | Map Committee | One role is visible, but the wider buying committee is incomplete. |
 | Enable Champion | Visible contact needs proof to share internally. |
-| Sales or Technical Expert Action | Fit, role, state, and strength justify direct action. |
+| Sales or Technical Expert Action | Fit, role, demand state, and strength justify direct action. |
 | Opportunity Review | Requirement, value, timing, stakeholder, and next step may exist. |
 | Disqualify or Low-Touch | Fit is weak, timing is poor, or the signal is misleading. |
 
@@ -127,24 +116,24 @@ Route exactly five signals.
 | Same Day | Request for quotation, consultation request, audit request, plant visit, project detail, or procurement action appears. |
 | Hold or Disqualify | Account is poor-fit, unclear, or violates disqualification rules. |
 
-## False-Positive Risk Menu
+## Misreading Risk Menu
 
-| Risk | Use When |
+| Misreading Risk | Use When |
 |---|---|
 | Generic Engagement | Signal is broad, anonymous, or not role-specific. |
 | Poor Fit | Account does not match the selected 90-day focus. |
 | Unknown Role | Signal cannot be tied to a buying committee role. |
 | Weak Source | Source is vague, unverified, or secondhand. |
-| Event Noise | Signal may be a badge scan, casual booth visit, or low-context meeting. |
+| Event Noise | Signal may be a badge scan, casual visit, or low-context meeting. |
 | Partner Ambiguity | Partner or distributor signal lacks account, role, project, timing, or need detail. |
 | Old or Isolated Signal | Signal is not recent or repeated. |
-| No Clear Next Action | Team cannot define a relevant next step. |
+| No Clear Next Action | Team cannot define a useful next step. |
 
 ## Signal Routing Table
 
 Use exactly five rows.
 
-| Signal | Fit | Role | Demand State | Strength | Routing Decision | Action Timing | False-Positive Risk |
+| Signal | Fit | Role | Demand State | Strength | Routing Decision | Action Timing | Misreading Risk |
 |---|---|---|---|---|---|---|---|
 |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |
@@ -152,7 +141,7 @@ Use exactly five rows.
 |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |
 
-## Opportunity Review Check
+## Strong Signal Check
 
 Use this only for signals marked as Sales or Technical Expert Action or Opportunity Review.
 
@@ -162,8 +151,8 @@ Use this only for signals marked as Sales or Technical Expert Action or Opportun
 | Role | A relevant buying role is visible. |  |
 | Need or Trigger | Problem, project, audit, timing, expansion, or requirement is visible. |  |
 | Demand State | Signal is strong Solution Demand or Vendor Demand. |  |
-| Next Step | Sales or a technical expert can define a relevant next action. |  |
-| False-Positive Risk | Major false-positive risk is named and acceptable. |  |
+| Next Step | Sales or a technical expert can define a useful next action. |  |
+| Misreading Risk | Major misreading risk is named and acceptable. |  |
 
 If three or more checks are marked No, do not treat the signal as an opportunity.
 
@@ -177,31 +166,28 @@ If three or more checks are marked No, do not treat the signal as an opportunity
 | Strength Discipline | Weak signals are not escalated as opportunities. |
 | Routing Decision | The next step is specific and useful. |
 | Action Timing | Strong signals get faster action; weak signals do not create false urgency. |
-| False-Positive Risk | Each signal names what could make it misleading. |
+| Misreading Risk | Each signal names what could make it misleading. |
 
-## Revenue Operations Translation
+## What to Record
 
-| Field | What to Track |
+| Field | What to Capture |
 |---|---|
-| Account | Account connected to the signal. |
-| Fit | High, Medium, Low, or Disqualified. |
-| Buyer Role | Buying committee role or Unknown. |
-| Signal Source | Website, sales, event, partner, distributor, advisor, or third-party source. |
-| Asset or Context | What created or revealed the signal. |
-| Demand State | Content, Solution, or Vendor Demand. |
-| Signal Strength | Weak, Moderate, or Strong. |
-| Routing Decision | Continue Education, Research, Map Committee, Enable Champion, Activate, Review, or Disqualify. |
-| Action Timing | No Immediate Action, Weekly Review, 48 Hours, Same Day, or Hold. |
-| False-Positive Risk | Why the signal might mislead. |
-| Review Date | When the signal is inspected in weekly cadence. |
+| Account | Which company showed the signal. |
+| Buyer Role | Which role created the signal, or Unknown. |
+| What Happened | What the buyer read, asked, requested, or discussed. |
+| Demand State | Content Demand, Solution Demand, or Vendor Demand. |
+| Strength | Weak, Moderate, or Strong. |
+| Routing Decision | What the team should do next. |
+| Action Timing | When the team should act or review. |
+| Misreading Risk | What could make the signal misleading. |
+| Review Date | When the signal will be reviewed again. |
 
 ## Final Output
 
 At the end of this exercise, you should have:
 
-1. Five routed industrial demand signals;
+1. Five interpreted buyer signals;
 2. Fit, role, demand state, and strength for each signal;
 3. Routing decision and action timing for each signal;
-4. False-positive risk for each signal;
-5. Opportunity review check for strong signals;
-6. Revenue Operations fields or tags required for tracking.
+4. Misreading risk for each signal;
+5. Strong signal check where relevant.

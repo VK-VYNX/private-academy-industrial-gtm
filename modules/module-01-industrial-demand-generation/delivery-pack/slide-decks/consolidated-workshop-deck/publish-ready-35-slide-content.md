@@ -526,84 +526,77 @@ Exercise Output:
 
 Use: Exercise 06 - Distribution Plan Worksheet
 
-## Slide 27 - Signal Interpretation
+## Slide 27 - What Does the Signal Mean?
 
-The expensive error is treating every signal as buying intent.
+Not every buyer action means the buyer is ready for sales.
 
-| Filter | Routing Question | Common Mistake |
+First decide what the signal probably means.
+
+| Buyer Action | What It May Mean | Sensible Response |
 |---|---|---|
-| Account Fit | Is this account inside the selected Ideal Customer Profile focus? | Treating poor-fit activity as demand. |
-| Demand State | Is the buyer learning, comparing, or evaluating suppliers? | Treating education as vendor intent. |
-| Buyer Role | Which committee role created the signal? | Treating an unknown contact as committee coverage. |
-| Signal Strength | Is the evidence weak, moderate, or strong? | Escalating one isolated signal. |
-| Source Trust | How credible is the signal source? | Routing vague or unverified signals. |
-| Pattern and Recency | Is the signal recent, repeated, or connected to prior evidence? | Overvaluing old or isolated activity. |
-| False-Positive Risk | What could make the signal misleading? | Acting before the risk is named. |
-
-Routing Actions:
-
-- Educate
-- Nurture
-- Research
-- Map Committee
-- Enable Champion
-- Activate Sales
-- Review Opportunity
-- Disqualify
-
-## Slide 28 - Routing Decision Tree
-
-Route by fit, state, role, strength, and false-positive risk before choosing action.
-
-| Gate | Decision Question | Routing Implication |
-|---|---|---|
-| 1. Account Fit | Is the account inside the selected Ideal Customer Profile focus? | Low fit downgrades or disqualifies the signal. |
-| 2. Demand State | Is this Content, Solution, or Vendor Demand? | Content educates, Solution researches or maps, Vendor activates or reviews. |
-| 3. Buyer Role | Which role created the signal? | Unknown role requires research; known committee role can trigger enablement. |
-| 4. Evidence Strength | Is the signal weak, moderate, or strong? | Weak signals nurture; moderate signals research; strong signals can activate. |
-| 5. False-Positive Risk | What could make this misleading? | High risk blocks escalation until evidence is repaired. |
-
-Operating Rule:
-
-- Do not move an account from target-account list to Opportunity because one weak signal appeared.
-
-## Slide 29 - Revenue Operations Signal Object
-
-Signals become operational only when context, evidence, owner, action timing, next action, and risk are visible.
-
-| Field Group | Minimum Fields |
-|---|---|
-| Account Context | Account, Segment, Fit Status, Progression State |
-| Contact or Role | Contact, Buyer Role, Committee Influence |
-| Signal Evidence | Source, Asset or Context, Demand State, Strength, Evidence Note |
-| Routing Decision | Owner, Action Timing, Next Action, Missing Evidence, False-Positive Risk |
-| Cadence Visibility | Review Date, Progression Update, Disqualification Reason Where Relevant |
+| One person reads an educational asset | The buyer may only be learning. | Continue education or light nurture. |
+| A target account engages more than once | Interest may be building. | Research the account and watch the pattern. |
+| A known role asks a technical question | The account may be comparing approaches. | Share proof or involve a technical expert. |
+| A buyer requests supplier documents or a quotation | The account may be evaluating suppliers. | Activate sales or review the opportunity. |
+| A poor-fit or unknown account engages | The signal may be misleading. | Low-touch nurture or disqualify. |
 
 Operating Point:
 
-- If a signal lives only in chat, memory, event records, or inboxes, the operating system cannot learn.
+- A signal is useful only after the team understands what it probably means.
 
-## Slide 30 - Exercise 7: Signal Routing Table
+## Slide 28 - Simple Routing Rule
 
-Classify five signals and route them without confusing learning activity with buying intent.
+Meaning first. Action second.
 
-You are not creating sales tasks for every engagement. You are deciding what each signal actually proves, what it does not prove, and what should happen next.
+| Question | If the Answer Is Weak or Unclear | If the Answer Is Strong or Clear |
+|---|---|---|
+| Is the account a good fit? | Low-touch nurture or disqualify. | Continue evaluation. |
+| Do we know the buyer role? | Research the role. | Match the action to that role. |
+| Is the buyer learning, comparing, or evaluating suppliers? | Educate or research. | Share proof, enable the buyer, or activate sales. |
+| Is the signal strong enough? | Wait, nurture, or gather more evidence. | Assign a clear next action. |
+| What could make us wrong? | Slow down and check the signal. | Move forward with confidence. |
+
+Operating Rule:
+
+- Do not create a sales opportunity from one weak signal.
+
+## Slide 29 - Capture What Happened and What Comes Next
+
+A signal is useful only when the team can see it, understand it, and act on it.
+
+| What to Record | Simple Question |
+|---|---|
+| Account | Which company showed the signal? |
+| Buyer Role | Who showed interest or asked the question? |
+| What Happened | What did they read, ask, request, or discuss? |
+| Demand State | Are they learning, comparing, or evaluating suppliers? |
+| Signal Strength | Is the evidence weak, moderate, or strong? |
+| Next Action | What should happen now? |
+| Owner | Who is responsible for the next action? |
+| Action Timing | How quickly should the team act? |
+| Misreading Risk | What could make this signal misleading? |
+
+Operating Point:
+
+- If a signal stays in memory, chat, event notes, or inboxes, the team cannot use it or learn from it.
+
+## Slide 30 - Exercise 7: Decide What Each Signal Means
+
+Route five signals using the simple pattern: signal, meaning, action, risk.
+
+You are not creating sales tasks for every engagement. You are deciding what each signal probably means and what should happen next.
 
 Exercise Output:
 
-- Five Routed Signals
-- Source Class
+- Five Buyer Signals
 - Account Fit
 - Buyer Role
 - Demand State
 - Signal Strength
-- Progression State
-- Owner and Action Timing
-- Next Action
-- False-Positive Risk
-- Missing Evidence
-- Opportunity Review Criteria
-- Revenue Operations Fields or Tags to Track
+- Routing Decision
+- Action Timing
+- Misreading Risk
+- Opportunity Review for Strong Signals
 
 Use: Exercise 07 - Signal Routing Table Worksheet
 
