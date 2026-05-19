@@ -451,76 +451,78 @@ Use: Exercise 05 - Content Plan Worksheet
 
 ## Slide 23 - Distribution Is the Missing Half
 
-Publishing is not distribution. Industrial insight must circulate through trusted paths.
+Publishing is not the same as getting the asset into a trusted buyer conversation.
 
-| Publishing-Only Motion | Trusted-Circulation Motion |
+Every useful asset needs a planned route to the buyer.
+
+| If We Only Publish | If We Distribute Through Trust |
 |---|---|
-| Company Page | Sales Conversation |
-| Website Post | SME Explanation |
-| Campaign Send | Association or Event |
-| Low Observable Trust | Distributor, Partner, or Advisor Transfer |
-| Activity Count | Captured Account Signal |
+| Company Social Page | Salesperson Shares With Target Account |
+| Website Post | Technical Expert Explains the Asset |
+| Email Campaign | Event, Association, Partner, or Distributor Shares It |
+| General Activity Count | Named Account Shows Interest |
+| No Clear Follow-Up Path | Signal Is Captured and Routed |
 
 Operating Point:
 
-- A content asset without a distribution path is unfinished.
+- Every asset needs a planned path to the buyer and a clear follow-up signal.
 
-## Slide 24 - Trust-Based Channel Ecosystem
+## Slide 24 - Choosing the Right Distribution Path
 
-Choose channels by buyer trust, demand state, operational capacity, and observable account evidence.
+Choose the path where the buyer is most likely to trust, read, and act on the asset.
 
-| Channel Type | Best Use |
+Do not choose channels only because they are available.
+
+| Distribution Path | Use When |
 |---|---|
-| Sales Channel | Account-specific sharing and follow-up. |
-| SME Channel | Technical credibility and expert explanation. |
-| Event Channel | Access, timing, questions, and role discovery. |
-| Partner or Distributor Channel | Local trust, referral, market sensing, and timing. |
-| Association or Industry Channel | Borrowed trust and education. |
-| Owned or Search Channel | Reference path, proof library, and late-stage discovery. |
-| Paid or Targeted Amplification | Narrow reach after the asset and audience are proven. |
+| Sales Conversation | The asset should support a specific account conversation. |
+| Technical Expert Explanation | The buyer needs credibility, proof, or technical confidence. |
+| Event or Webinar | Buyers are asking questions live or showing timing signals. |
+| Partner or Distributor Share | The buyer trusts a local or ecosystem relationship. |
+| Association or Industry Group | The buyer trusts the industry context more than supplier promotion. |
+| Website or Search Page | The buyer needs a stable reference path while researching. |
+| Targeted Promotion | The audience is narrow and the asset has already been proven useful. |
 
-Channel Selection Fields:
+Distribution Questions:
 
-- Trust Reason
-- Demand State
-- Buyer Role
-- Asset Fit
-- Signal Captured
-- Owner
+- Who needs this asset?
+- Why would they trust this path?
+- Which demand state does this support?
+- What signal should we watch for?
+- Who owns the follow-up?
 
-## Slide 25 - Field and Ecosystem Motions
+## Slide 25 - Field and Partner Signals
 
-Events, partners, distributors, and advisors become demand generation only when signals are captured and routed.
+Events, partners, distributors, and advisors create demand only when conversations are captured and followed up.
 
-Motion Flow:
+Field Signal Flow:
 
-| Stage | Operating Focus | Evidence Captured |
+| Stage | What the Team Does | What the Team Captures |
 |---|---|---|
-| Pre-Event or Pre-Motion | Target Accounts, Proof Assets, Role Hypotheses | Account List, Role Assumptions, Asset Plan |
-| During Interaction | Questions, Roles, Objections, Competitor Context, Urgency | Buyer Questions, Proof Gaps, Active Accounts |
-| Post-Interaction | Route, Enable, Nurture, Disqualify, Learn | Owner, Action Timing, Next Action, Cadence Decision |
+| Before the Interaction | Choose target accounts, buyer roles, and assets to use. | Account List, Role Assumptions, Asset Plan |
+| During the Interaction | Listen for questions, objections, timing, and project clues. | Buyer Questions, Proof Gaps, Active Accounts |
+| After the Interaction | Decide whether to educate, research, activate, disqualify, or repair. | Owner, Action Timing, Next Action, Follow-Up Cadence |
 
 Operating Point:
 
-- Field signals must not stay trapped in field logs, partner calls, event notes, or memory.
+- Field signals must not stay trapped in event notes, partner calls, field logs, or memory.
 
 ## Slide 26 - Exercise 6: Distribution Plan
 
-Turn your first-five content assets into a trust-based distribution and signal-capture plan.
+Choose a practical distribution path for each of your first-five content assets.
 
-You are not choosing every possible channel. You are choosing the few paths your team can operate, inspect, and follow up.
+You are not building a giant channel plan. You are deciding how each asset will reach a trusted buyer and what your team will do if the buyer responds.
 
 Exercise Output:
 
-- Distribution Path for Each Priority Asset
-- Trust Reason
-- Demand State and Target Role
-- Owner and Cadence
-- Account Signal
-- Capture Method
-- Follow-Up Rule
-- Channels to Exclude
-- One Field or Ecosystem Motion Where Relevant
+- One Distribution Path for Each Asset
+- Why the Buyer Would Trust That Path
+- Target Buyer Role
+- Expected Buyer Signal
+- Where the Signal Will Be Captured
+- Follow-Up Action
+- Owner
+- Channels to Avoid for Now
 
 Use: Exercise 06 - Distribution Plan Worksheet
 
