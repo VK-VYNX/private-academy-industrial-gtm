@@ -600,97 +600,94 @@ Exercise Output:
 
 Use: Exercise 07 - Signal Routing Table Worksheet
 
-## Slide 31 - Measurement That Matters
+## Slide 31 - What Should We Measure?
 
-Measure movement, committee coverage, signal quality, sales use, and opportunity quality.
+Do not judge the pilot by activity alone. Judge whether the right accounts are moving and whether the team is learning.
 
-| Measurement Layer | Strong Measure |
+| Do Not Rely on This Alone | Better Evidence |
 |---|---|
-| Business Outcome | Qualified Pipeline and Opportunity Quality |
-| Account Movement | Target-Account Progression by Demand State |
-| Committee Coverage | Roles Reached, Proof Gaps Closed, Champion Enablement |
-| Signal Quality | Fit, Role, Demand State, Strength, Source, False-Positive Rate |
-| Sales Use | Assets Used, Routed Actions Accepted, Follow-Up Completed |
-| Execution Base | Content Completion, Distribution Cadence, Signal Capture |
+| Impressions, Likes, or Traffic | Target accounts reached and engaged. |
+| Number of Assets Published | Assets used by sales or buyers. |
+| Raw Form Fills | Signals from good-fit accounts and relevant buyer roles. |
+| Lead Volume | Better conversations and qualified opportunity reviews. |
+| Campaign Activity | Account movement, proof gaps closed, and useful learning. |
 
 Measurement Rule:
 
-- Do not use vanity metrics as primary proof.
-- A 90-day pilot should prove learning quality before it claims revenue scale.
+- A 90-day pilot may not close revenue immediately.
+- It should prove whether the system is creating useful buyer movement.
 
-## Slide 32 - Weekly Revenue Cadence
+## Slide 32 - Weekly Review Meeting
 
-Cadence is not reporting. It is a decision rhythm.
+The weekly meeting is not for reporting numbers. It is for deciding what to do next.
 
-| Cadence Area | Weekly Decision |
+| What to Review | Decision to Make |
 |---|---|
-| Account Movement | What moved, stalled, or should be disqualified? |
-| Signal Routing | Which signals need education, research, activation, review, or rejection? |
-| Committee Coverage | Which buying roles are engaged, missing, or blocked? |
-| Content and Proof | What should be built, repaired, reused, or retired? |
-| Distribution | Which trusted paths are working or failing? |
-| Sales Feedback | What is sales hearing that should change the system? |
-| Pilot Risk | What must be stopped, repaired, escalated, or protected? |
+| Target Accounts | Which accounts moved, stalled, or should be removed? |
+| Buyer Signals | Which signals need education, research, sales action, or rejection? |
+| Buying Roles | Which roles are visible, missing, or blocking progress? |
+| Content and Proof | What should be built, repaired, reused, or stopped? |
+| Distribution Paths | Which trusted paths are working or failing? |
+| Sales Feedback | What is sales hearing that should change the plan? |
+| Pilot Risks | What could break the pilot if we do not act now? |
 
 Operating Point:
 
-- Every cadence item must end with an owner, action, and next review point.
+- Every discussion must end with a clear owner and next action.
 
-## Slide 33 - 90-Day Pilot Roadmap
+## Slide 33 - 90-Day Pilot in Four Steps
 
-A narrow pilot proves learning, movement, signal quality, sales use, and quality pipeline before scale.
+Run a focused 90-day test before trying to scale the full demand generation system.
 
-90-Day Roadmap:
-
-| Phase | Days | Focus | Output |
+| Step | Days | What Happens | Output |
 |---|---:|---|---|
-| Setup | 1-15 | Focus, Committee, Map of Informational Needs, Tracking Fields, Cadence Setup | Operating Baseline |
-| Build and Distribute | 16-45 | First-Five Assets, Trusted Paths, Capture Rules | Asset and Channel System |
-| Route and Learn | 46-75 | Signal Routing, Sales Use, Proof Repair, Account Movement Review | Evidence Loop |
-| Decide | 76-90 | Sponsor Evidence Review | Stop, Repair, or Scale |
+| Set Up | 1-15 | Choose the focus, buyer roles, buyer questions, tracking fields, and weekly meeting rhythm. | Pilot Starting Point |
+| Build and Share | 16-45 | Build or repair the first five assets and distribute them through trusted paths. | Asset and Distribution System |
+| Watch and Act | 46-75 | Review signals, support sales, repair weak proof, and track account movement. | Learning and Action Loop |
+| Decide | 76-90 | Review evidence and decide whether to stop, repair, or scale. | Leadership Decision |
 
 Pilot Rule:
 
-- Prove learning quality before scale.
+- Keep the pilot narrow enough to learn from it.
 
-## Slide 34 - Exercise 8: 90-Day Pilot Plan
+## Slide 34 - Exercise 8: Build the 90-Day Pilot Plan
 
-Assemble prior exercise outputs into an executive-ready 90-day Industrial Demand Generation pilot.
+Bring together the outputs from Exercises 1 to 7 into one practical pilot plan.
 
-You are not writing a long strategy document from scratch. You are assembling the workshop artifacts into a pilot leadership can approve, repair, or stop from evidence.
+You are not starting from a blank page. You are packaging the work already completed into a plan leadership can approve, repair, or stop.
 
 Exercise Output:
 
-- Final Pilot Scope
-- Artifact Readiness Check
-- 90-Day Phase Plan
-- Weekly Revenue Cadence
+- Pilot Scope
+- Readiness Check
+- 90-Day Action Plan
+- Weekly Review Plan
 - Success Measures
-- Pilot Risks and Repair Actions
-- Stop, Repair, Scale Criteria
-- Executive Summary
+- Risks and Repair Actions
+- Stop, Repair, or Scale Criteria
+- Leadership Summary
 - Next 30-Day Commitment
 
 Use: Exercise 08 - 90-Day Pilot Plan Worksheet
 
-## Slide 35 - Sponsor Decision: Stop, Repair, Scale
+## Slide 35 - Final Decision: Stop, Repair, Scale
 
-The final strategy gives leadership a decision from evidence, not campaign optimism.
+The final output should help leadership make a clear decision from evidence.
 
 | Decision | Use When |
 |---|---|
-| Stop | The focus, proof, access path, sales use, or cadence cannot support credible account movement. |
-| Repair | The system shows useful evidence, but one or more operating layers are weak. |
-| Scale | Account movement, signal quality, sales use, proof coverage, and cadence evidence are visible. |
+| Stop | The focus is weak, proof is missing, buyers are not reachable, or sales cannot act. |
+| Repair | There is useful evidence, but part of the system is weak and needs fixing. |
+| Scale | Target accounts are moving, sales is using the system, and the weekly review is working. |
 
-Sponsor Questions:
+Leadership Questions:
 
-- Did the selected focus create useful learning?
-- Did target accounts move by demand state?
-- Did the buying committee become more visible?
-- Did content and proof help sales create better conversations?
-- Did signals route to the right action without false urgency?
-- Can the weekly cadence keep improving the system?
+- Did we learn something useful?
+- Did the right accounts move forward?
+- Did more buyer roles become visible?
+- Did content and proof help sales have better conversations?
+- Did signals lead to the right actions?
+- Do we know what to do in the next 30 days?
 
 Final Output:
 
