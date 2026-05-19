@@ -390,24 +390,26 @@ Use: Exercise 04 - MOIN Grid Worksheet
 
 ## Slide 20 - Content Engine for Industrial Demand
 
-Industrial content is not a publishing calendar. Every asset needs a buyer movement job.
+Industrial content is not a list of topics to publish. Each asset must help a buyer understand, compare, trust, or act.
 
-Asset Job Card:
+Before creating an asset, define what it is supposed to change in the buyer's thinking or next action.
 
-| Asset Field | Decision It Forces |
+Content Asset Planning Card:
+
+| Planning Field | Participant Question |
 |---|---|
-| MOIN Priority | Which buyer question does this asset answer? |
-| Demand State | Is this Content, Solution, or Vendor Demand? |
-| Buyer Role | Which role needs this asset? |
-| Proof Source | What evidence makes the asset credible? |
-| Sales Use | How will sales use it in a real account conversation? |
-| Distribution Path | Where can this asset circulate through trust? |
-| Signal Created | What engagement should change account action? |
-| Owner | Who builds, validates, or uses it? |
+| Buyer Question | What does the buyer need to understand before the account can move? |
+| Demand State | Is the buyer learning the problem, comparing approaches, or evaluating suppliers? |
+| Buyer Role | Which role needs this answer: technical, production, quality, procurement, finance, leadership, or another role? |
+| Proof Needed | What evidence would make the answer believable? |
+| Sales Use | How can sales use this asset in a real account conversation? |
+| Distribution Path | How will this asset reach the buyer through a trusted path? |
+| Signal Created | What buyer action would show that the asset mattered? |
+| Owner | Who will build, check, share, or use the asset? |
 
 Operating Rule:
 
-- No asset without a buyer movement job.
+- Do not build an asset unless you can explain what buyer question it answers and what useful action it should create.
 
 ## Slide 21 - First-Five Asset Plan
 
